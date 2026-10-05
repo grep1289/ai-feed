@@ -1,0 +1,136 @@
+{
+ "days": {
+  "2026-10-05": [
+   "https://aaif.io/blog/a2a-joins-aaif",
+   "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+   "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
+   "https://www.youtube.com/watch?v=950byF7njfw",
+   "https://www.youtube.com/watch?v=3LwylP2as8A"
+  ]
+ },
+ "rollup": {
+  "date": "2026-10-05",
+  "items": [
+   {
+    "count": 1,
+    "name": "aaif-goose/goose",
+    "title": "v1.53.0",
+    "url": "https://github.com/aaif-goose/goose/releases/tag/v1.53.0"
+   },
+   {
+    "count": 1,
+    "name": "agentgateway/agentgateway",
+    "title": "v1.6.0",
+    "url": "https://github.com/agentgateway/agentgateway/releases/tag/v1.6.0"
+   },
+   {
+    "count": 3,
+    "name": "anthropics/claude-agent-sdk-python",
+    "title": "v0.2.163",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.163"
+   },
+   {
+    "count": 1,
+    "name": "anthropics/skills",
+    "title": "Update claude-api skill: Claude Opus 5.5 default, Claude Sonnet 5.5, …",
+    "url": "https://github.com/anthropics/skills/commit/8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4"
+   },
+   {
+    "count": 10,
+    "name": "Arize-ai/phoenix",
+    "title": "arize-phoenix: v20.19.0",
+    "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.19.0"
+   },
+   {
+    "count": 1,
+    "name": "Claude Code Changelog",
+    "title": "2.1.289",
+    "url": "https://code.claude.com/docs/en/changelog"
+   },
+   {
+    "count": 1,
+    "name": "crewAIInc/crewAI",
+    "title": "1.15.23",
+    "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23"
+   },
+   {
+    "count": 3,
+    "name": "github/github-mcp-server",
+    "title": "GitHub MCP Server 1.14.0",
+    "url": "https://github.com/github/github-mcp-server/releases/tag/v1.14.0"
+   },
+   {
+    "count": 1,
+    "name": "google/adk-python",
+    "title": "v2.11.0",
+    "url": "https://github.com/google/adk-python/releases/tag/v2.11.0"
+   },
+   {
+    "count": 1,
+    "name": "kagent-dev/kagent",
+    "title": "v0.10.3",
+    "url": "https://github.com/kagent-dev/kagent/releases/tag/v0.10.3"
+   },
+   {
+    "count": 1,
+    "name": "kubernetes-sigs/agent-sandbox",
+    "title": "v1.0.5",
+    "url": "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.5"
+   },
+   {
+    "count": 7,
+    "name": "langchain-ai/deepagents",
+    "title": "deepagents-talon==0.0.9",
+    "url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9"
+   },
+   {
+    "count": 4,
+    "name": "langfuse/langfuse",
+    "title": "v4.50.0",
+    "url": "https://github.com/langfuse/langfuse/releases/tag/v4.50.0"
+   },
+   {
+    "count": 2,
+    "name": "microsoft/agent-framework",
+    "title": "python-1.20.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.20.0"
+   },
+   {
+    "count": 1,
+    "name": "modelcontextprotocol/python-sdk",
+    "title": "v2.3.0",
+    "url": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v2.3.0"
+   },
+   {
+    "count": 10,
+    "name": "modelcontextprotocol/typescript-sdk",
+    "title": "2.3.1",
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.3.1"
+   },
+   {
+    "count": 2,
+    "name": "openai/openai-agents-python",
+    "title": "v0.23.1",
+    "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.1"
+   },
+   {
+    "count": 4,
+    "name": "pydantic/pydantic-ai",
+    "title": "v2.54.0 (2026-10-02)",
+    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0"
+   },
+   {
+    "count": 1,
+    "name": "strands-agents/sdk-python",
+    "title": "python/v1.57.2",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.57.2"
+   },
+   {
+    "count": 4,
+    "name": "UKGovernmentBEIS/inspect_ai",
+    "title": "0.3.276",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.276"
+   }
+  ]
+ }
+}

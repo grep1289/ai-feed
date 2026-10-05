@@ -1,0 +1,426 @@
+[
+ {
+  "error": null,
+  "fetched": 25,
+  "id": "anthropic-engineering",
+  "name": "Anthropic Engineering",
+  "new": 25,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 30,
+  "id": "openai-developer",
+  "name": "OpenAI Developer Blog",
+  "new": 30,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 20,
+  "id": "openai-engineering",
+  "name": "OpenAI Engineering",
+  "new": 20,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 257,
+  "id": "claude-blog",
+  "name": "Claude Blog",
+  "new": 257,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "google-developers-ai",
+  "name": "Google Developers Blog (AI)",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 26,
+  "id": "mcp-blog",
+  "name": "Model Context Protocol Blog",
+  "new": 26,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 4,
+  "id": "aaif-blog",
+  "name": "Agentic AI Foundation Blog",
+  "new": 4,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 99,
+  "id": "langchain-blog",
+  "name": "LangChain Blog",
+  "new": 99,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "claude-code-changelog",
+  "name": "Claude Code Changelog",
+  "new": 1,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "cncf-blog",
+  "name": "CNCF Blog",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 50,
+  "id": "kubernetes-blog",
+  "name": "Kubernetes Blog",
+  "new": 50,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 873,
+  "id": "huggingface-blog",
+  "name": "Hugging Face Blog",
+  "new": 873,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "github-blog-ai",
+  "name": "GitHub Blog (AI and ML)",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "yt-aaif",
+  "name": "Agentic AI Foundation",
+  "new": 15,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "yt-cncf",
+  "name": "CNCF",
+  "new": 15,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "yt-anthropic",
+  "name": "Anthropic",
+  "new": 15,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "yt-langchain",
+  "name": "LangChain",
+  "new": 15,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "yt-openai",
+  "name": "OpenAI",
+  "new": 15,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 15,
+  "id": "yt-ai-engineer",
+  "name": "AI Engineer",
+  "new": 15,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 9,
+  "id": "gh-modelcontextprotocol-modelcontextprotocol",
+  "name": "modelcontextprotocol/modelcontextprotocol",
+  "new": 9,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-modelcontextprotocol-python-sdk",
+  "name": "modelcontextprotocol/python-sdk",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-modelcontextprotocol-typescript-sdk",
+  "name": "modelcontextprotocol/typescript-sdk",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-modelcontextprotocol-registry",
+  "name": "modelcontextprotocol/registry",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-a2aproject-a2a",
+  "name": "a2aproject/A2A",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 20,
+  "id": "gh-agentsmd-agents.md",
+  "name": "agentsmd/agents.md",
+  "new": 20,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-agentgateway-agentgateway",
+  "name": "agentgateway/agentgateway",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-aaif-goose-goose",
+  "name": "aaif-goose/goose",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-anthropics-claude-agent-sdk-python",
+  "name": "anthropics/claude-agent-sdk-python",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 20,
+  "id": "gh-anthropics-skills",
+  "name": "anthropics/skills",
+  "new": 20,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-openai-openai-agents-python",
+  "name": "openai/openai-agents-python",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-openai-codex",
+  "name": "openai/codex",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-langchain-ai-langgraph",
+  "name": "langchain-ai/langgraph",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-langchain-ai-deepagents",
+  "name": "langchain-ai/deepagents",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-google-adk-python",
+  "name": "google/adk-python",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-microsoft-agent-framework",
+  "name": "microsoft/agent-framework",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-strands-agents-sdk-python",
+  "name": "strands-agents/sdk-python",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-pydantic-pydantic-ai",
+  "name": "pydantic/pydantic-ai",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-crewaiinc-crewai",
+  "name": "crewAIInc/crewAI",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-kagent-dev-kagent",
+  "name": "kagent-dev/kagent",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-kubernetes-sigs-agent-sandbox",
+  "name": "kubernetes-sigs/agent-sandbox",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-containers-kubernetes-mcp-server",
+  "name": "containers/kubernetes-mcp-server",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-github-github-mcp-server",
+  "name": "github/github-mcp-server",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-hashicorp-terraform-mcp-server",
+  "name": "hashicorp/terraform-mcp-server",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-k8sgpt-ai-k8sgpt",
+  "name": "k8sgpt-ai/k8sgpt",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-open-telemetry-semantic-conventions",
+  "name": "open-telemetry/semantic-conventions",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-langfuse-langfuse",
+  "name": "langfuse/langfuse",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-arize-ai-phoenix",
+  "name": "Arize-ai/phoenix",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-promptfoo-promptfoo",
+  "name": "promptfoo/promptfoo",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 10,
+  "id": "gh-ukgovernmentbeis-inspect_ai",
+  "name": "UKGovernmentBEIS/inspect_ai",
+  "new": 10,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 173,
+  "id": "anthropic-research",
+  "name": "Anthropic Research",
+  "new": 173,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 199,
+  "id": "openai-research",
+  "name": "OpenAI Research",
+  "new": 199,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 20,
+  "id": "hamel",
+  "name": "Hamel Husain (evals practice)",
+  "new": 13,
+  "ok": true
+ },
+ {
+  "error": null,
+  "fetched": 30,
+  "id": "martinfowler",
+  "name": "martinfowler.com",
+  "new": 30,
+  "ok": true
+ }
+]
