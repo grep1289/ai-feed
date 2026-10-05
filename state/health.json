@@ -28,7 +28,7 @@
   "fetched": 258,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 874,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -228,7 +228,7 @@
   "fetched": 20,
   "id": "gh-anthropics-skills",
   "name": "anthropics/skills",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -308,7 +308,7 @@
   "fetched": 10,
   "id": "gh-kagent-dev-kagent",
   "name": "kagent-dev/kagent",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {

@@ -1,11 +1,11 @@
 {
  "days": {
   "2026-10-05": [
-   "https://aaif.io/blog/a2a-joins-aaif",
    "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-   "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
-   "https://www.youtube.com/watch?v=950byF7njfw",
-   "https://www.youtube.com/watch?v=3LwylP2as8A"
+   "https://developers.openai.com/blog/bringing-my-led-display-to-life",
+   "https://aaif.io/blog/a2a-joins-aaif",
+   "https://www.youtube.com/watch?v=3oHLjC3wZNE",
+   "https://www.youtube.com/watch?v=-mWWsvv19jE"
   ]
  },
  "rollup": {
@@ -132,5 +132,12 @@
     "url": "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.276"
    }
   ]
+ },
+ "scoring": {
+  "calls": 30,
+  "date": "2026-10-05",
+  "error": "reply has no scores",
+  "failed": 9,
+  "rejected": 12
  }
 }

@@ -12,29 +12,48 @@
  "https://aaif.io/blog/aaif-sandbox-phase": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": null,
+  "score": 0,
   "snippet": "",
   "source": "aaif-blog",
-  "status": "passed",
-  "title": "Catch Them Early"
+  "status": "rejected",
+  "tags": [],
+  "title": "Catch Them Early",
+  "what": "",
+  "why": ""
  },
  "https://aaif.io/blog/mcp-usage-surged-as-the-protocol-went-stateless": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": null,
+  "score": 5,
   "snippet": "",
   "source": "aaif-blog",
-  "status": "passed",
-  "title": "MCP Usage Surged as the Protocol Went Stateless"
+  "status": "rejected",
+  "tags": [],
+  "title": "MCP Usage Surged as the Protocol Went Stateless",
+  "what": "Announcement of MCP protocol becoming stateless",
+  "why": "Not enough technical detail for actionable use"
  },
  "https://aaif.io/blog/the-eu-ai-act-and-the-new-rules-for-building-ai-agents": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 2,
   "published": null,
+  "score": 1,
   "snippet": "",
   "source": "aaif-blog",
-  "status": "passed",
-  "title": "The EU AI Act and the New Rules for Building AI Agents"
+  "status": "rejected",
+  "tags": [
+   "policy",
+   "regulation",
+   "AI governance"
+  ],
+  "title": "The EU AI Act and the New Rules for Building AI Agents",
+  "what": "A policy overview of the EU AI Act and its implications for AI agent development",
+  "why": "It offers high‑level regulatory context but no actionable engineering guidance"
  },
  "https://blog.modelcontextprotocol.io/posts/2025-07-29-prompts-for-automation": {
   "first_seen": "2026-10-05",
@@ -2540,11 +2559,23 @@
  "https://developers.openai.com/blog/bringing-my-led-display-to-life": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 8,
   "published": "2026-09-23",
+  "score": 11,
+  "shown": "2026-10-05",
   "snippet": "How I used Codex, GPT-Live-1, and a Raspberry Pi to turn an LED display into a voice-controlled assistant.",
   "source": "openai-developer",
   "status": "passed",
-  "title": "Bringing my LED display to life with GPT-Live-1 and Codex"
+  "tags": [
+   "agentic AI",
+   "hardware",
+   "Raspberry Pi",
+   "voice control",
+   "LED display"
+  ],
+  "title": "Bringing my LED display to life with GPT-Live-1 and Codex",
+  "what": "A hobbyist project that uses Codex, GPT‑Live‑1, and a Raspberry Pi to create a voice‑controlled LED display.",
+  "why": "Engineers can learn how to wire up Raspberry Pi peripherals, use OpenAI APIs, and prototype a voice‑controlled agent for hardware projects."
  },
  "https://developers.openai.com/blog/build-week-winners": {
   "first_seen": "2026-10-05",
@@ -13507,7 +13538,6 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-09-30",
-  "shown": "2026-10-05",
   "snippet": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principles that follow from that idea — control over the rate of knowledge exposition, tight coupling between slides and speaker, minimalism by default, visuals that say more than words can, and never sending…",
   "source": "martinfowler",
   "status": "passed",
@@ -17659,11 +17689,21 @@
  "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-09-28",
+  "score": 15,
   "snippet": "See how LangGraph orchestrates Jev, TypeSafe AI's decision model, to build faster, cheaper production agents.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Building Production Agents with Jev and LangGraph"
+  "tags": [
+   "open-source frameworks",
+   "agent orchestration",
+   "production agents",
+   "cost optimization"
+  ],
+  "title": "Building Production Agents with Jev and LangGraph",
+  "what": "A LangGraph blog post detailing how to use Jev and LangGraph to build production agents.",
+  "why": "Readers can adopt the showcased architecture, patterns, and open-source tools to create their own cost‑efficient production agents this month."
  },
  "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents": {
   "first_seen": "2026-10-05",
@@ -17811,12 +17851,23 @@
  "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-10-02",
+  "score": 15,
   "shown": "2026-10-05",
   "snippet": "How we built a model router into Open SWE's harness that cut median cost per coding task by 64% with no measurable drop in quality, and how to build your own.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "How to Build a Model Router in the Harness"
+  "tags": [
+   "model router",
+   "cost optimization",
+   "LangChain",
+   "agent routing",
+   "open-source"
+  ],
+  "title": "How to Build a Model Router in the Harness",
+  "what": "A LangChain blog post showing how to implement a model routing layer in the Harness platform to cut coding task costs by 64%",
+  "why": "It gives a concrete, open‑source guided implementation that engineers can adapt to reduce costs and improve routing in their own agent workflows"
  },
  "https://www.langchain.com/blog/how-to-design-an-agent-for-production": {
   "first_seen": "2026-10-05",
@@ -18008,29 +18059,54 @@
  "https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-28",
+  "score": 0,
   "snippet": "LangChain announced new updates to LangSmith. Updates include Engine v2 with red teaming and automatic testing, a new version of Managed Deep Agents, trajectories and more.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "New in LangSmith: Engine v2, Managed Deep Agents, Fine-Tuning, and more"
+  "status": "rejected",
+  "tags": [],
+  "title": "New in LangSmith: Engine v2, Managed Deep Agents, Fine-Tuning, and more",
+  "what": "LangChain’s blog announcing updates to LangSmith’s Engine v2, Managed Deep Agents, and fine‑tuning features",
+  "why": "None – this is a product announcement with no actionable technical content"
  },
  "https://www.langchain.com/blog/langsmith-engine-v2-redteam": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-24",
+  "score": 3,
   "snippet": "LangSmith Engine now includes Red Teaming to proactively detect agent issues and automated agent testing. Learn more about the Engine v2 release.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "New in LangSmith Engine: red teaming and automated testing"
+  "status": "rejected",
+  "tags": [
+   "product launch",
+   "LangSmith",
+   "LangChain"
+  ],
+  "title": "New in LangSmith Engine: red teaming and automated testing",
+  "what": "Announcement of new red‑teaming and automated testing features in LangSmith Engine v2",
+  "why": "It mainly describes a product update without actionable open‑source guidance for engineers."
  },
  "https://www.langchain.com/blog/langsmith-fine-tuning": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-09-24",
+  "score": 14,
   "snippet": "LangChain introduces LangSmith Fine-Tuning and SmithTune, a CLI built for post-training models. Train specialized models without building data pipelines by hand.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Introducing LangSmith Fine-Tuning"
+  "tags": [
+   "langchain",
+   "fine-tuning",
+   "open-source",
+   "agents",
+   "mlops"
+  ],
+  "title": "Introducing LangSmith Fine-Tuning",
+  "what": "LangSmith Fine-Tuning introduces a CLI for post‑training model customization without manual data pipelines",
+  "why": "Engineers can quickly prototype and deploy specialized models using LangSmith’s open‑source tools, saving time on data engineering and enabling rapid iteration in agent‑centric workflows"
  },
  "https://www.langchain.com/blog/langsmith-homepage-redesign-and-resource-tags": {
   "first_seen": "2026-10-05",
@@ -18062,11 +18138,21 @@
  "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-09-24",
+  "score": 9,
   "snippet": "Managed Deep Agents is the simplest way to build, deploy, and run agents in production. The 0.8 release adds support for user-owned credentials, user-level memory, HTTP channels, file transfer in Slack and a pre-built tool for web search.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Managed Deep Agents delivers a better user experience for agents in production"
+  "status": "rejected",
+  "tags": [
+   "open-source",
+   "agent deployment",
+   "LangChain",
+   "production agents"
+  ],
+  "title": "Managed Deep Agents delivers a better user experience for agents in production",
+  "what": "LangChain Blog post introducing Managed Deep Agents 0.8 release with new features for production use",
+  "why": "Provides insights into the latest agent deployment capabilities that an engineering lead can evaluate and experiment with in their own projects"
  },
  "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production": {
   "first_seen": "2026-10-05",
@@ -18080,11 +18166,22 @@
  "https://www.langchain.com/blog/langsmith-trajectories-tracing": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 8,
   "published": "2026-09-24",
+  "score": 7,
   "snippet": "Trajectories in LangSmith provide a conversational view of an agent session. Trajectories make trace data easy to navigate and speed up debugging for long-running agents.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Trajectories now in LangSmith: A readable view of every agent session"
+  "status": "rejected",
+  "tags": [
+   "agent debugging",
+   "tracing",
+   "LangSmith",
+   "LangChain",
+   "developer tools"
+  ],
+  "title": "Trajectories now in LangSmith: A readable view of every agent session",
+  "what": "A blog post detailing LangSmith’s new Trajectories feature, which visualizes and traces agent sessions for easier debugging.",
+  "why": "Engineers can use the conversational view to inspect and debug their agents, applying similar trace visualizations to their own systems."
  },
  "https://www.langchain.com/blog/llms-and-sql": {
   "first_seen": "2026-10-05",
@@ -18394,11 +18491,23 @@
  "https://www.youtube.com/watch?v=-mWWsvv19jE": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 20,
   "published": "2026-09-23",
+  "score": 14,
+  "shown": "2026-10-05",
   "snippet": "Nathan Drezner from LangChain's product team shows how to add schedules to a Managed Deep Agent, so it can run on a cron and deliver results without anyone asking. He sets up a weekly Salesforce pipeline summary that posts to Slack every Monday, then shows the same agent still answering ad hoc questions the rest of the week. Schedules for Managed Deep Agents: Cron jobs, prompts, and Slack…",
   "source": "yt-langchain",
   "status": "passed",
-  "title": "Schedules for Managed Deep Agents: Cron jobs, prompts, and Slack delivery"
+  "tags": [
+   "agent automation",
+   "cron scheduling",
+   "Slack integration",
+   "managed agents",
+   "LangChain"
+  ],
+  "title": "Schedules for Managed Deep Agents: Cron jobs, prompts, and Slack delivery",
+  "what": "A tutorial video by LangChain showing how to schedule a Managed Deep Agent with cron jobs and Slack delivery",
+  "why": "It teaches a concrete technique for automating agent tasks and integrating with Slack that you can implement this month"
  },
  "https://www.youtube.com/watch?v=-w6RDNBAI0E": {
   "first_seen": "2026-10-05",
@@ -18412,11 +18521,19 @@
  "https://www.youtube.com/watch?v=1akSvsjd_oI": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-24",
+  "score": 8,
   "snippet": "We’re launching Trajectories in LangSmith, a chronological, conversational view of an agent session. A Trajectory aggregates messages from humans, AI, and tools across the main agent and any subagents, then shows them in the order they first appeared. You can now view threads as trajectories, score trajectories with online evaluators, and route them to annotation queues or datasets. ✅ Find the…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "Introducing LangSmith Trajectories: A readable view of every agent session"
+  "status": "rejected",
+  "tags": [
+   "launch",
+   "feature announcement"
+  ],
+  "title": "Introducing LangSmith Trajectories: A readable view of every agent session",
+  "what": "Launch announcement of LangSmith Trajectories feature",
+  "why": "This is a product feature introduction with no actionable technical content for immediate implementation."
  },
  "https://www.youtube.com/watch?v=33Oct2hqGnk": {
   "first_seen": "2026-10-05",
@@ -18431,7 +18548,6 @@
   "first_seen": "2026-10-05",
   "kind": "watch",
   "published": "2026-10-04",
-  "shown": "2026-10-05",
   "snippet": "Join us at AGNTCon + MCPCon NA 2026 https://hubs.la/Q04gbXLb0 David Soria Parra, co-creator of MCP at Anthropic, opens the conference with a case for where agentic AI is heading in 2026. This talk is for people building agents for knowledge workers rather than developers, and his argument is that the constraint has moved: model capability is compounding on its own, and what is left is…",
   "source": "yt-aaif",
   "status": "passed",
@@ -18448,11 +18564,23 @@
  "https://www.youtube.com/watch?v=3oHLjC3wZNE": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-09-28",
+  "score": 14,
+  "shown": "2026-10-05",
   "snippet": "Ola Hungerford, principal engineer at Nordstrom and an MCP maintainer, explains the new Skills extension for the Model Context Protocol and how it went from an open question to an accepted spec change. This talk is for MCP server authors who want to ship agent skills alongside their tools, and for anyone who wants to know how a change actually gets into MCP. Tool descriptions tell an agent what…",
   "source": "yt-aaif",
   "status": "passed",
-  "title": "Skills over MCP - Ola Hungerford, Principal Engineer Nordstrom"
+  "tags": [
+   "MCP",
+   "Skills",
+   "Agent skills",
+   "Open standards",
+   "Spec change"
+  ],
+  "title": "Skills over MCP - Ola Hungerford, Principal Engineer Nordstrom",
+  "what": "A talk by Ola Hungerford on the new Skills extension to the Model Context Protocol (MCP) and its spec change process.",
+  "why": "Provides a concrete example of extending MCP with agent skills, including design considerations and practical steps for MCP server authors to ship skills in production."
  },
  "https://www.youtube.com/watch?v=4-oA1BJeyr4": {
   "first_seen": "2026-10-05",
@@ -18483,11 +18611,22 @@
  "https://www.youtube.com/watch?v=6v0Fmsi4Ldk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-09-30",
+  "score": 10,
   "snippet": "Nathan Drezner, a product manager at LangChain, shows how to build a custom HTTP channel for a Managed Deep Agent so it can receive inbound requests from any service you don't control, like HubSpot, Salesforce, or a texting provider. He builds Reflex, an expense-reporting agent that receives receipt photos over iMessage through Photon, extracts the data, and stores it in durable memory backed by…",
   "source": "yt-langchain",
   "status": "passed",
-  "title": "HTTP Channels for Managed Deep Agents"
+  "tags": [
+   "agents",
+   "LangChain",
+   "HTTP channels",
+   "open-source",
+   "integration"
+  ],
+  "title": "HTTP Channels for Managed Deep Agents",
+  "what": "A tutorial on building an HTTP channel for a Managed Deep Agent in LangChain to receive external requests, exemplified with a receipt‑processing agent called Reflex.",
+  "why": "Readers can learn to extend LangChain agents with custom HTTP endpoints and integrate third‑party services like HubSpot or iMessage into their own agent workflows."
  },
  "https://www.youtube.com/watch?v=6wNqpZdHE_s": {
   "first_seen": "2026-10-05",
@@ -18536,12 +18675,16 @@
  "https://www.youtube.com/watch?v=950byF7njfw": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-05",
-  "shown": "2026-10-05",
+  "score": 0,
   "snippet": "Harrison Chase, Co-Founder and CEO of LangChain, uses examples from Rogo, Harvey, and JPMorgan Chase to explain owning your intelligence, which means building domain-specific pieces in and around the model, and the three pillars it takes: an open, model-neutral harness such as LangGraph or Deep Agents, a loop that compounds what you learn from how people use your agents, and governance for…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "Interrupt NYC: Opening Keynote"
+  "status": "rejected",
+  "tags": [],
+  "title": "Interrupt NYC: Opening Keynote",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=96ogPwN9ykM": {
   "first_seen": "2026-10-05",
@@ -18590,11 +18733,20 @@
  "https://www.youtube.com/watch?v=GNO9XFE4PKM": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 12,
   "published": "2026-09-24",
+  "score": 3,
   "snippet": "We built LangSmith Engine as an in-platform agent that automates work at each step of the agent development lifecycle. Since launching in May, Engine has already helped engineers analyze more than 60M traces to diagnose tens of thousands of issues. Engine v2 introduces major advancements for issue detection, testing and validation. ✅ Proactively troubleshoot with Red Teaming: New Red Team…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "Introducing LangSmith Engine v2: Detect and ship fixes to agents faster"
+  "status": "rejected",
+  "tags": [
+   "product announcement",
+   "langsmith",
+   "agent debugging"
+  ],
+  "title": "Introducing LangSmith Engine v2: Detect and ship fixes to agents faster",
+  "what": "A LangChain video announcing and outlining the new LangSmith Engine v2 for agent debugging",
+  "why": "It gives a high‑level view of the tool but offers little actionable detail for a developer to replicate or use outside the product"
  },
  "https://www.youtube.com/watch?v=HHUsHkYhkcM": {
   "first_seen": "2026-10-05",
@@ -18626,11 +18778,19 @@
  "https://www.youtube.com/watch?v=IO6CFh_lRGw": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-30",
+  "score": 0,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026, the premier event for people building, operating, researching, or supporting agent systems. Where developers, architects, and AI practitioners come together to explore the latest in agentic AI, tool protocols, and production-ready MCP architectures. Learn more here: https://events.linuxfoundation.org/agntcon-mcpcon-north-america/ Designing Trust Boundaries for…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Agent-to-Agent Systems"
+  "status": "rejected",
+  "tags": [
+   "event",
+   "promo"
+  ],
+  "title": "Agent-to-Agent Systems",
+  "what": "Promotional video for an upcoming AGNTCon + MCPCon event",
+  "why": "No actionable technical content for building or operating agents"
  },
  "https://www.youtube.com/watch?v=KPcEhLoh-Wc": {
   "first_seen": "2026-10-05",
@@ -18644,11 +18804,20 @@
  "https://www.youtube.com/watch?v=LJ2MTGvVHm8": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 45,
   "published": "2026-09-26",
+  "score": 6,
   "snippet": "Join us at AGNTCon + MCPCon NA October 22nd & 23rd in San Jose, California. https://hubs.la/Q04gbXLb0 Floris Fok A staff AI engineer at Prosus gave AI agents control of six real vending machines in Amsterdam and let them run the business for four months. This talk is for engineers building autonomous agents who want to know what actually breaks when an agent leaves software and touches the…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Everything wrong with AI agents running your business"
+  "status": "rejected",
+  "tags": [
+   "agents",
+   "operational challenges",
+   "real-world deployment"
+  ],
+  "title": "Everything wrong with AI agents running your business",
+  "what": "A conference talk about the challenges of deploying AI agents in real-world vending machines",
+  "why": "Engineers can learn practical pitfalls and design considerations for production agent systems"
  },
  "https://www.youtube.com/watch?v=LfsbC9CayA8": {
   "first_seen": "2026-10-05",
@@ -19033,11 +19202,22 @@
  "https://www.youtube.com/watch?v=kRaJtEXAOxU": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 20,
   "published": "2026-09-28",
+  "score": 11,
   "snippet": "Kartik Arora, AI Engineer at Wonder, explains how his team builds a generative AI application that takes every aspect of your life into account and plans all 21 of your meals for the week, then gets them delivered. He walks through what changed when they moved off manual log debugging to LangSmith traces, evaluators, and LLM-as-judge scoring of how their agent responds to different users, and how…",
   "source": "yt-langchain",
   "status": "passed",
-  "title": "Evaluating Agents in Production: Traces, LLM-as-Judge, and Prompt Management at Wonder"
+  "tags": [
+   "agent observability",
+   "evaluation",
+   "prompt management",
+   "LangSmith",
+   "open-source tools"
+  ],
+  "title": "Evaluating Agents in Production: Traces, LLM-as-Judge, and Prompt Management at Wonder",
+  "what": "A LangChain engineer explains how Wonder uses LangSmith traces, evaluators, and LLM-as-Judge to monitor and improve their meal-planning agent, including prompt management techniques.",
+  "why": "The reader can learn practical observability patterns, evaluation workflows, and prompt tuning strategies to apply to their own agent-based production systems."
  },
  "https://www.youtube.com/watch?v=m8VkCbkFAKA": {
   "first_seen": "2026-10-05",
@@ -19086,11 +19266,22 @@
  "https://www.youtube.com/watch?v=pb-AAvvQZ-U": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 12,
   "published": "2026-09-24",
+  "score": 11,
   "snippet": "Introducing LangSmith Fine-Tuning and smithtune, a CLI that helps teams turn LangSmith trajectories into custom fine-tuned models for their agents. It handles the entire fine-tuning process from one CLI: dataset creation and preparation from LangSmith trajectories, training with Fireworks or Baseten, and evaluation with LangSmith. You can run smithtune directly or work with your coding agent to…",
   "source": "yt-langchain",
   "status": "passed",
-  "title": "How to go from your agent's traces to a fine-tuned model in one workflow"
+  "tags": [
+   "fine-tuning",
+   "LangSmith",
+   "smithtune",
+   "agent traces",
+   "model training"
+  ],
+  "title": "How to go from your agent's traces to a fine-tuned model in one workflow",
+  "what": "LangChain introduces a CLI tool that converts LangSmith agent traces into fine-tuned models via a single workflow.",
+  "why": "Engineers can quickly build and evaluate custom models from agent logs, integrating the process into their own pipelines."
  },
  "https://www.youtube.com/watch?v=pyvRID_CZZU": {
   "first_seen": "2026-10-05",
