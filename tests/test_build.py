@@ -305,14 +305,28 @@ def test_call_model_openai_request_shape():
     assert call["headers"]["Authorization"] == "Bearer secret"
     assert call["body"]["model"] == RUBRIC["model"]
     assert call["body"]["messages"] == [{"role": "user", "content": "Return JSON"}]
-    assert call["body"]["response_format"] == {"type": "json_object"}
+    fmt = call["body"]["response_format"]
+    assert fmt["type"] == "json_schema" and fmt["json_schema"]["strict"] is True
+    schema = fmt["json_schema"]["schema"]
+    assert set(schema["required"]) == set(schema["properties"]) and schema["additionalProperties"] is False
+    assert schema["properties"]["scores"]["required"] == build.CRITERIA
+    assert call["body"]["reasoning_effort"] == "low"
 
 
-def test_call_model_drops_optional_settings_after_a_400():
-    post = FakePost(FakeResponse(status=400), FakeResponse("ok"))
+def test_call_model_steps_down_through_output_formats_after_400s():
+    bad = FakeResponse(status=400)
+    post = FakePost(bad, bad, bad, FakeResponse("ok"))
     assert build.call_model("p", RUBRIC, "k", post) == "ok"
-    assert "response_format" in post.calls[0]["body"]
-    assert set(post.calls[1]["body"]) == {"model", "messages"}
+    formats = [c["body"].get("response_format", {}).get("type") for c in post.calls]
+    assert formats == ["json_schema", "json_object", None, None]
+    assert "reasoning_effort" in post.calls[2]["body"]
+    assert set(post.calls[3]["body"]) == {"model", "messages"}
+
+
+def test_call_model_honours_a_looser_configured_format():
+    post = FakePost(FakeResponse("ok"))
+    build.call_model("p", {**RUBRIC, "output": "json_object"}, "k", post)
+    assert post.calls[0]["body"]["response_format"] == {"type": "json_object"}
 
 
 def test_call_model_waits_and_retries_when_rate_limited(no_sleep):
@@ -351,12 +365,34 @@ def test_score_item_keeps_and_rejects():
     assert r["status"] == "rejected", "the model's keep=false wins even with a passing score"
 
 
-@pytest.mark.parametrize("reply", ["", "I cannot help with that.", '{"keep": true}', '{"scores": []}'])
+@pytest.mark.parametrize("reply", ["", "I cannot help with that.", '{"keep": true}', '{"scores": []}', "[1]"])
 def test_score_item_leaves_the_item_alone_on_an_unusable_reply(reply):
     r = rec("a")
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError) as err:
         build.score_item("u", r, {"id": "a", "name": "A", "tier": 1}, CFG, "k", FakePost(FakeResponse(reply)))
     assert r["status"] == "passed" and "score" not in r
+    assert "the model said" in str(err.value), "the log must show what the model replied"
+
+
+def test_score_item_reads_scores_written_at_the_top_level():
+    flat = '{"keep": true, "primary": 4, "buildable": 4, "substance": 3, "open": 2, "what": "W", "why": "Y"}'
+    r = rec("a")
+    build.score_item("u", r, {"id": "a", "name": "A", "tier": 1}, CFG, "k", FakePost(FakeResponse(flat)))
+    assert r["score"] == 13 and r["status"] == "passed"
+
+
+def test_score_item_treats_a_bare_rejection_as_a_rejection():
+    r = rec("a")
+    build.score_item("u", r, {"id": "a", "name": "A", "tier": 1}, CFG, "k",
+                     FakePost(FakeResponse('{"keep": false, "reason": "event promotion"}')))
+    assert r["status"] == "rejected" and r["score"] == 0
+
+
+def test_unreadable_replies_do_not_stop_the_run():
+    items = {f"u{i}": rec(s) for i, s in enumerate("abecd")}
+    post = FakePost(*[FakeResponse("nonsense")] * 4, FakeResponse(GOOD))
+    stats = build.score_candidates(items, SOURCES, CFG, TODAY, "k", post)
+    assert stats["calls"] == 5 and stats["failed"] == 4 and len(stats["error"]) <= 200
 
 
 def test_score_item_tolerates_sloppy_values_from_small_models():
