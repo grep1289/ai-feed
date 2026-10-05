@@ -90,11 +90,13 @@ filters:
     api: openai                # "openai" = any OpenAI-compatible service; "anthropic" = Anthropic Messages API
     base_url: https://api.groq.com/openai/v1
     model: openai/gpt-oss-20b
+    output: json_schema        # json_schema = reply shape enforced by the service (needs a model that
+                               # supports strict structured output); json_object = valid JSON, shape not
+                               # enforced; text = no constraint. Steps down automatically on a 400 error.
     request_extra:             # optional settings; dropped automatically if the service rejects them
       max_completion_tokens: 1000
       reasoning_effort: low
       include_reasoning: false
-      response_format: { type: json_object }
     pause_seconds: 8           # Groq's free tier allows 8,000 tokens a minute; a call uses about 1,000
     max_calls_per_run: 40
     keep_if_score_at_least: { tier_1: 10, tier_2: 12, wildcard: 12 }   # out of 16

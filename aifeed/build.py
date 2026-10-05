@@ -14,6 +14,7 @@ import random
 import re
 import sys
 import time
+import warnings
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
@@ -22,9 +23,12 @@ from zoneinfo import ZoneInfo
 import feedparser
 import requests
 import yaml
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 
 from . import page
+
+# Titles and summaries are short strings, and some look like file names or URLs to BeautifulSoup.
+warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 ROOT = Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (compatible; ai-feed/1.0; +https://github.com/grep1289/ai-feed)"
@@ -223,6 +227,36 @@ def extract_json(text: str) -> dict:
     return json.loads(text[start:end + 1])
 
 
+CRITERIA = ["primary", "buildable", "substance", "open"]
+REPLY_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["keep", "scores", "kind", "minutes", "what", "why", "tags"],
+    "properties": {
+        "keep": {"type": "boolean"},
+        "scores": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": CRITERIA,
+            "properties": {c: {"type": "integer"} for c in CRITERIA},
+        },
+        "kind": {"type": "string", "enum": ["read", "watch", "release"]},
+        "minutes": {"type": "integer"},
+        "what": {"type": "string"},
+        "why": {"type": "string"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+    },
+}
+OUTPUT_FORMATS = {
+    # The service constrains the reply to the schema, so the shape cannot be wrong.
+    "json_schema": {"type": "json_schema",
+                    "json_schema": {"name": "item_score", "strict": True, "schema": REPLY_SCHEMA}},
+    # Valid JSON, but the model chooses the shape.
+    "json_object": {"type": "json_object"},
+    "text": None,
+}
+
+
 def call_model(prompt: str, rubric: dict, api_key: str, post=requests.post) -> str:
     """Send one prompt to the configured model and return its reply text.
 
@@ -240,8 +274,14 @@ def call_model(prompt: str, rubric: dict, api_key: str, post=requests.post) -> s
         headers = {"Authorization": f"Bearer {api_key}"}
         base = {"model": rubric["model"], "messages": messages}
         extra = rubric.get("request_extra") or {}
-        # If the service rejects the optional settings, fall back to the bare request.
-        bodies = [{**base, **extra}, base] if extra else [base]
+        # Try the configured output format first. If the service answers 400, step down to a
+        # looser format, and finally to the bare request without any optional settings.
+        formats = list(OUTPUT_FORMATS)
+        formats = formats[formats.index(rubric.get("output", "json_schema")):]
+        bodies = [{**base, **extra, **({"response_format": OUTPUT_FORMATS[f]} if OUTPUT_FORMATS[f] else {})}
+                  for f in formats]
+        if extra:
+            bodies.append(base)
         read = lambda data: data["choices"][0]["message"]["content"] or ""
     headers["content-type"] = "application/json"
 
@@ -267,11 +307,13 @@ def score_item(url: str, rec: dict, src: dict, cfg: dict, api_key: str, post=req
         f"Item\nSource: {src['name']}\nTitle: {rec['title']}\nURL: {url}\n"
         f"Description: {rec.get('snippet') or '(none provided)'}"
     )
-    out = extract_json(call_model(prompt, rubric, api_key, post))
-    scores = out.get("scores")
-    if not isinstance(scores, dict) or not scores:
-        raise ValueError("reply has no scores")
-    total = sum(clamp_score(v) for v in scores.values())
+    reply = call_model(prompt, rubric, api_key, post)
+    try:
+        out = extract_json(reply)
+        scores = read_scores(out)
+    except ValueError as e:
+        raise ValueError(f"{e}; the model said: {reply[:300]!r}") from None
+    total = sum(scores.values())
     tier_key = "wildcard" if src["tier"] == "wildcard" else f"tier_{src['tier']}"
     threshold = rubric["keep_if_score_at_least"][tier_key]
     minutes = out.get("minutes")
@@ -284,6 +326,20 @@ def score_item(url: str, rec: dict, src: dict, cfg: dict, api_key: str, post=req
     })
     if out.get("keep") not in (True, "true", "True") or total < threshold:
         rec["status"] = "rejected"
+
+
+def read_scores(out: dict) -> dict[str, int]:
+    """Find the four scores in a reply, allowing for the shapes small models produce."""
+    if not isinstance(out, dict):
+        raise ValueError("reply is not a JSON object")
+    scores = out.get("scores")
+    if not isinstance(scores, dict) or not scores:
+        scores = {c: out[c] for c in CRITERIA if c in out}   # scores written at the top level
+    if not scores:
+        if out.get("keep") in (False, "false", "False"):
+            return {c: 0 for c in CRITERIA}                  # an outright rejection with no scores
+        raise ValueError("reply has no scores")
+    return {c: clamp_score(scores.get(c)) for c in CRITERIA}
 
 
 def clamp_score(value) -> int:
@@ -531,7 +587,7 @@ def score_candidates(items: dict, sources: dict, cfg: dict, today: dt.date,
     streak = 0
     for i, c in enumerate(queue):
         if streak >= 3:
-            break   # the service is down or the key is wrong; stop spending time on it
+            break   # three refused requests in a row: the service is down or the key is wrong
         if i and pause:
             _sleep(pause)
         rec = items[c["url"]]
@@ -541,10 +597,11 @@ def score_candidates(items: dict, sources: dict, cfg: dict, today: dt.date,
             streak = 0
             stats["rejected"] += rec["status"] == "rejected"
         except (FetchError, ValueError, KeyError, IndexError, TypeError, requests.RequestException) as e:
-            streak += 1
+            # A reply that cannot be read is one item's problem; a refused or failed request is not.
+            streak = streak + 1 if isinstance(e, (FetchError, requests.RequestException)) else 0
             stats["failed"] += 1
-            stats["error"] = str(e) or type(e).__name__
-            print(f"scoring failed for {c['url']}: {stats['error']}", file=sys.stderr)
+            stats["error"] = (str(e) or type(e).__name__)[:200]
+            print(f"scoring failed for {c['url']}: {e}", file=sys.stderr)
     return stats
 
 
