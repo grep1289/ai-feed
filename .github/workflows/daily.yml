@@ -1,0 +1,57 @@
+name: Daily digest
+
+on:
+  schedule:
+    - cron: "17 1 * * *"   # 06:47 India time; GitHub may start scheduled runs late
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild today's digest even if it already exists
+        type: boolean
+        default: false
+
+permissions:
+  contents: write    # commit the state files
+  pages: write       # publish the page
+  id-token: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Build the digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional; scoring is skipped without it
+        run: python -m aifeed.build ${{ inputs.force && '--force' || '' }}
+      - name: Save state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || git commit -m "Digest state for $(TZ=Asia/Kolkata date +%F)"
+          git push
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
