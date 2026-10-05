@@ -1,3 +1,4 @@
+import copy
 import datetime as dt
 import json
 import re
@@ -256,31 +257,153 @@ def test_rollup_keeps_newest_per_source():
 
 
 # -------------------------------------------------------------------- scoring
+GOOD = ('{"keep": true, "scores": {"primary": 4, "buildable": 3, "substance": 3, "open": 3},'
+        ' "kind": "read", "minutes": 12, "what": "A guide.", "why": "Apply it.", "tags": ["mcp"]}')
+BAD = GOOD.replace('"keep": true', '"keep": false')
+
+
 class FakeResponse:
-    def __init__(self, payload, status=200):
-        self.status_code, self._payload = status, payload
+    def __init__(self, text="", status=200, headers=None, api="openai"):
+        self.status_code, self.headers = status, headers or {}
+        self._data = ({"choices": [{"message": {"role": "assistant", "content": text}}]}
+                      if api == "openai" else {"content": [{"type": "text", "text": text}]})
 
     def json(self):
-        return {"content": [{"type": "text", "text": self._payload}]}
+        return self._data
+
+
+class FakePost:
+    """Records requests and replays a list of responses (the last one repeats)."""
+
+    def __init__(self, *responses):
+        self.responses, self.calls = list(responses), []
+
+    def __call__(self, url, headers=None, json=None, timeout=None):
+        self.calls.append({"url": url, "headers": headers, "body": json})
+        return self.responses.pop(0) if len(self.responses) > 1 else self.responses[0]
+
+
+@pytest.fixture(autouse=True)
+def no_sleep(monkeypatch):
+    naps = []
+    monkeypatch.setattr(build, "_sleep", naps.append)
+    return naps
+
+
+RUBRIC = CFG["filters"]["rubric"]
+
+
+def test_config_points_at_an_openai_compatible_service():
+    assert RUBRIC["api"] == "openai" and RUBRIC["base_url"].startswith("https://") and RUBRIC["model"]
+
+
+def test_call_model_openai_request_shape():
+    post = FakePost(FakeResponse("hello"))
+    assert build.call_model("Return JSON", RUBRIC, "secret", post) == "hello"
+    call = post.calls[0]
+    assert call["url"] == "https://api.groq.com/openai/v1/chat/completions"
+    assert call["headers"]["Authorization"] == "Bearer secret"
+    assert call["body"]["model"] == RUBRIC["model"]
+    assert call["body"]["messages"] == [{"role": "user", "content": "Return JSON"}]
+    assert call["body"]["response_format"] == {"type": "json_object"}
+
+
+def test_call_model_drops_optional_settings_after_a_400():
+    post = FakePost(FakeResponse(status=400), FakeResponse("ok"))
+    assert build.call_model("p", RUBRIC, "k", post) == "ok"
+    assert "response_format" in post.calls[0]["body"]
+    assert set(post.calls[1]["body"]) == {"model", "messages"}
+
+
+def test_call_model_waits_and_retries_when_rate_limited(no_sleep):
+    post = FakePost(FakeResponse(status=429, headers={"retry-after": "7"}), FakeResponse("ok"))
+    assert build.call_model("p", RUBRIC, "k", post) == "ok"
+    assert no_sleep == [7.0] and len(post.calls) == 2
+
+
+def test_call_model_reports_a_bad_key():
+    with pytest.raises(build.FetchError, match="401"):
+        build.call_model("p", RUBRIC, "k", FakePost(FakeResponse(status=401)))
+
+
+def test_call_model_anthropic_request_shape():
+    rubric = {**RUBRIC, "api": "anthropic", "model": "some-model"}
+    post = FakePost(FakeResponse("hi", api="anthropic"))
+    assert build.call_model("p", rubric, "secret", post) == "hi"
+    call = post.calls[0]
+    assert call["url"] == "https://api.anthropic.com/v1/messages"
+    assert call["headers"]["x-api-key"] == "secret" and "response_format" not in call["body"]
 
 
 def test_score_item_keeps_and_rejects():
     src = {"id": "a", "name": "A", "tier": 2}
-    reply = ('Here you go:\n{"keep": true, "scores": {"primary": 4, "buildable": 3, "substance": 3, "open": 3},'
-             ' "kind": "read", "minutes": 12, "what": "A guide.", "why": "Apply it.", "tags": ["mcp"]}')
     r = rec("a")
-    build.score_item("https://ex.com/1", r, src, CFG, "key", post=lambda *a, **k: FakeResponse(reply))
+    build.score_item("https://ex.com/1", r, src, CFG, "key", FakePost(FakeResponse("Sure:\n" + GOOD)))
     assert r["status"] == "passed" and r["score"] == 13 and r["minutes"] == 12 and r["what"] == "A guide."
 
-    low = reply.replace('"primary": 4', '"primary": 1')   # 10, below the tier-2 threshold of 12
+    low = GOOD.replace('"primary": 4', '"primary": 1')   # 10, below the tier-2 threshold of 12
     r = rec("a")
-    build.score_item("https://ex.com/1", r, src, CFG, "key", post=lambda *a, **k: FakeResponse(low))
+    build.score_item("https://ex.com/1", r, src, CFG, "key", FakePost(FakeResponse(low)))
     assert r["status"] == "rejected"
 
     r = rec("a")
-    with pytest.raises(build.FetchError):
-        build.score_item("https://ex.com/1", r, src, CFG, "key", post=lambda *a, **k: FakeResponse("", 401))
-    assert r["status"] == "passed", "a failed call leaves the item as the rules left it"
+    build.score_item("https://ex.com/1", r, src, CFG, "key", FakePost(FakeResponse(BAD)))
+    assert r["status"] == "rejected", "the model's keep=false wins even with a passing score"
+
+
+@pytest.mark.parametrize("reply", ["", "I cannot help with that.", '{"keep": true}', '{"scores": []}'])
+def test_score_item_leaves_the_item_alone_on_an_unusable_reply(reply):
+    r = rec("a")
+    with pytest.raises(ValueError):
+        build.score_item("u", r, {"id": "a", "name": "A", "tier": 1}, CFG, "k", FakePost(FakeResponse(reply)))
+    assert r["status"] == "passed" and "score" not in r
+
+
+def test_score_item_tolerates_sloppy_values_from_small_models():
+    sloppy = ('{"keep": "true", "scores": {"primary": "4", "buildable": 9, "substance": 3.0, "open": null},'
+              ' "minutes": "soon", "what": null, "tags": null}')
+    r = rec("a")
+    build.score_item("u", r, {"id": "a", "name": "A", "tier": 1}, CFG, "k", FakePost(FakeResponse(sloppy)))
+    assert r["score"] == 4 + 4 + 3 + 0 and r["minutes"] is None and r["what"] == "" and r["status"] == "passed"
+
+
+def test_scoring_paces_calls_and_stops_after_repeated_failures(no_sleep):
+    items = {f"u{i}": rec(s) for i, s in enumerate("abe")}
+    stats = build.score_candidates(items, SOURCES, CFG, TODAY, "k", FakePost(FakeResponse(GOOD)))
+    assert stats == {"calls": 3, "failed": 0, "rejected": 0, "error": None}
+    assert no_sleep == [RUBRIC["pause_seconds"]] * 2, "a pause between calls, none before the first"
+
+    items = {f"u{i}": rec(s) for i, s in enumerate("abecd")}
+    post = FakePost(FakeResponse(status=401))
+    stats = build.score_candidates(items, SOURCES, CFG, TODAY, "k", post)
+    assert stats["calls"] == 3 and stats["failed"] == 3 and stats["error"] == "model HTTP 401"
+    assert all(r["status"] == "passed" for r in items.values()), "a dead key changes nothing"
+
+
+def test_scoring_order_and_budget():
+    items = {"t2": rec("c"), "t1": rec("a"), "old": rec("b", published="2026-01-01"), "wild": rec("w")}
+    post = FakePost(FakeResponse(GOOD))
+    build.score_candidates(items, SOURCES, CFG, TODAY, "k", post)
+    order = [c["body"]["messages"][0]["content"].split("URL: ")[1].split("\n")[0] for c in post.calls]
+    assert order == ["t1", "old", "wild", "t2"]
+
+
+def test_scoring_budget_keeps_room_for_back_catalogue_and_wildcard():
+    cfg = copy.deepcopy(CFG)
+    cfg["filters"]["rubric"]["max_calls_per_run"] = 4
+    items = {f"t{i}": rec("a") for i in range(6)}
+    items.update({"old": rec("b", published="2026-01-01"), "wild": rec("w")})
+    post = FakePost(FakeResponse(GOOD))
+    build.score_candidates(items, SOURCES, cfg, TODAY, "k", post)
+    assert len(post.calls) == 4
+    assert "score" in items["old"] and "score" in items["wild"]
+
+
+def test_unscored_wildcards_are_skipped_once_scoring_is_in_use():
+    items = {"a1": rec("a", score=14), "w1": rec("w")}
+    assert build.select(items, SOURCES, CFG, TODAY) == ["a1"]
+    items["w1"]["score"] = 13
+    assert set(build.select(items, SOURCES, CFG, TODAY)) == {"a1", "w1"}
 
 
 # ----------------------------------------------------------------- end to end
@@ -345,3 +468,31 @@ def test_empty_day_renders(root):
     build.run(root, TODAY, get=lambda url: (_ for _ in ()).throw(build.FetchError("HTTP 403")))
     index = (root / "_site/index.html").read_text()
     assert "Nothing new passed the filter today." in index and "That's all for today." not in index
+
+
+def test_run_with_scoring(root, monkeypatch):
+    replies = FakePost(FakeResponse(GOOD), FakeResponse(BAD), FakeResponse(GOOD))
+    summary = build.run(root, TODAY, get=fake_get, post=replies, api_key="k")
+    items = json.loads((root / "state/items.json").read_text())
+    digests = json.loads((root / "state/digests.json").read_text())
+    assert summary["scoring"]["calls"] == len(replies.calls) >= 3
+    assert summary["scoring"]["rejected"] == 1 and summary["scoring"]["failed"] == 0
+    rejected = [u for u, r in items.items() if r["status"] == "rejected"]
+    assert len(rejected) == 1 and rejected[0] not in digests["days"]["2026-10-05"]
+    index = (root / "_site/index.html").read_text()
+    assert "A guide." in index and "Apply it." in index and "about 12 min" in index
+    assert "scored, 1 rejected" in index
+
+
+def test_run_shows_when_scoring_fails(root):
+    build.run(root, TODAY, get=fake_get, post=FakePost(FakeResponse(status=401)), api_key="bad")
+    index = (root / "_site/index.html").read_text()
+    assert "Scoring failed for 3 of 3 items" in index and "model HTTP 401" in index
+    assert "That\'s all for today." in index or "That's all for today." in index
+
+
+def test_run_reads_the_key_from_the_environment(root, monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "from-env")
+    post = FakePost(FakeResponse(GOOD))
+    build.run(root, TODAY, get=fake_get, post=post)
+    assert post.calls and post.calls[0]["headers"]["Authorization"] == "Bearer from-env"

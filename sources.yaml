@@ -83,9 +83,19 @@ filters:
     # YouTube feeds fail intermittently: retry, and treat a failed fetch as "no new items", not as an error.
 
   # Step 2. Model rubric, applied to whatever survives step 1.
-  # Runs only when the repository has an ANTHROPIC_API_KEY secret; without it, step 1 decides alone.
+  # Runs only when the workflow passes an LLM_API_KEY (set from the GROQ_LLM_API_KEY repository
+  # secret in .github/workflows/daily.yml); without it, step 1 decides alone.
+  # To change provider: edit base_url and model here, and point the workflow at that provider's secret.
   rubric:
-    model: claude-haiku-4-5-20251001
+    api: openai                # "openai" = any OpenAI-compatible service; "anthropic" = Anthropic Messages API
+    base_url: https://api.groq.com/openai/v1
+    model: openai/gpt-oss-20b
+    request_extra:             # optional settings; dropped automatically if the service rejects them
+      max_completion_tokens: 1000
+      reasoning_effort: low
+      include_reasoning: false
+      response_format: { type: json_object }
+    pause_seconds: 8           # Groq's free tier allows 8,000 tokens a minute; a call uses about 1,000
     max_calls_per_run: 40
     keep_if_score_at_least: { tier_1: 10, tier_2: 12, wildcard: 12 }   # out of 16
     prompt: |

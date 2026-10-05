@@ -33,6 +33,7 @@ PRERELEASE = re.compile(
 )
 VERSION = re.compile(r"(\d+)\.(\d+)\.(\d+)")
 BACKFILL, WILD = 1, 3   # candidate groups; see candidates()
+_sleep = time.sleep      # replaced in tests
 WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
 
@@ -222,6 +223,41 @@ def extract_json(text: str) -> dict:
     return json.loads(text[start:end + 1])
 
 
+def call_model(prompt: str, rubric: dict, api_key: str, post=requests.post) -> str:
+    """Send one prompt to the configured model and return its reply text.
+
+    api "openai" works with any OpenAI-compatible service (Groq, OpenRouter, Gemini, a local server);
+    api "anthropic" uses the Anthropic Messages API.
+    """
+    messages = [{"role": "user", "content": prompt}]
+    if rubric.get("api", "openai") == "anthropic":
+        url = "https://api.anthropic.com/v1/messages"
+        headers = {"x-api-key": api_key, "anthropic-version": "2023-06-01"}
+        bodies = [{"model": rubric["model"], "max_tokens": 400, "messages": messages}]
+        read = lambda data: data["content"][0]["text"]
+    else:
+        url = rubric["base_url"].rstrip("/") + "/chat/completions"
+        headers = {"Authorization": f"Bearer {api_key}"}
+        base = {"model": rubric["model"], "messages": messages}
+        extra = rubric.get("request_extra") or {}
+        # If the service rejects the optional settings, fall back to the bare request.
+        bodies = [{**base, **extra}, base] if extra else [base]
+        read = lambda data: data["choices"][0]["message"]["content"] or ""
+    headers["content-type"] = "application/json"
+
+    r = None
+    for body in bodies:
+        r = post(url, headers=headers, json=body, timeout=90)
+        if r.status_code == 429:   # rate limited: wait as told, then try once more
+            _sleep(min(float(r.headers.get("retry-after") or 20), 60))
+            r = post(url, headers=headers, json=body, timeout=90)
+        if r.status_code != 400:
+            break
+    if r.status_code != 200:
+        raise FetchError(f"model HTTP {r.status_code}")
+    return read(r.json())
+
+
 def score_item(url: str, rec: dict, src: dict, cfg: dict, api_key: str, post=requests.post) -> None:
     """Step 2 of filtering: ask the model to score one item against the rubric."""
     rubric = cfg["filters"]["rubric"]
@@ -231,29 +267,30 @@ def score_item(url: str, rec: dict, src: dict, cfg: dict, api_key: str, post=req
         f"Item\nSource: {src['name']}\nTitle: {rec['title']}\nURL: {url}\n"
         f"Description: {rec.get('snippet') or '(none provided)'}"
     )
-    r = post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
-        json={"model": rubric.get("model", "claude-haiku-4-5-20251001"), "max_tokens": 400,
-              "messages": [{"role": "user", "content": prompt}]},
-        timeout=60,
-    )
-    if r.status_code != 200:
-        raise FetchError(f"model HTTP {r.status_code}")
-    out = extract_json(r.json()["content"][0]["text"])
-    total = sum(int(v) for v in out.get("scores", {}).values())
+    out = extract_json(call_model(prompt, rubric, api_key, post))
+    scores = out.get("scores")
+    if not isinstance(scores, dict) or not scores:
+        raise ValueError("reply has no scores")
+    total = sum(clamp_score(v) for v in scores.values())
     tier_key = "wildcard" if src["tier"] == "wildcard" else f"tier_{src['tier']}"
     threshold = rubric["keep_if_score_at_least"][tier_key]
+    minutes = out.get("minutes")
     rec.update({
         "score": total,
-        "what": str(out.get("what", ""))[:300],
-        "why": str(out.get("why", ""))[:300],
-        "minutes": out.get("minutes") if isinstance(out.get("minutes"), int) else None,
-        "tags": [str(t) for t in out.get("tags", [])][:5],
+        "what": str(out.get("what") or "")[:300],
+        "why": str(out.get("why") or "")[:300],
+        "minutes": int(minutes) if isinstance(minutes, (int, float)) and 0 < minutes < 600 else None,
+        "tags": [str(t) for t in (out.get("tags") or [])][:5],
     })
-    if not out.get("keep") or total < threshold:
+    if out.get("keep") not in (True, "true", "True") or total < threshold:
         rec["status"] = "rejected"
+
+
+def clamp_score(value) -> int:
+    try:
+        return max(0, min(4, int(float(value))))
+    except (TypeError, ValueError):
+        return 0
 
 
 # --------------------------------------------------------------------- select
@@ -291,6 +328,13 @@ def candidates(items: dict, sources: dict, cfg: dict, today: dt.date) -> list[di
     return out
 
 
+def wildcard_order(cands: list[dict], today: dt.date) -> list[dict]:
+    """Wildcard candidates in a random order that is fixed for the day."""
+    wild = [c for c in cands if c["group"] == WILD]
+    random.Random(today.isoformat()).shuffle(wild)
+    return wild
+
+
 def select(items: dict, sources: dict, cfg: dict, today: dt.date) -> list[str]:
     """Apply the digest caps. Returns the chosen URLs in display order."""
     d = cfg["digest"]
@@ -304,8 +348,11 @@ def select(items: dict, sources: dict, cfg: dict, today: dt.date) -> list[str]:
             shown_week[rec["source"]] = shown_week.get(rec["source"], 0) + 1
 
     cands = candidates(items, sources, cfg, today)
-    wild = [c for c in cands if c["group"] == WILD]
     core = [c for c in cands if c["group"] != WILD]
+    wild = wildcard_order(cands, today)
+    if any("score" in c for c in cands):
+        # Once the scoring model is in use, a wildcard must have been judged relevant by it.
+        wild = [c for c in wild if "score" in c]
     picks: list[dict] = []
     per_source: dict[str, int] = {}
 
@@ -336,8 +383,6 @@ def select(items: dict, sources: dict, cfg: dict, today: dt.date) -> list[str]:
                 take(c)
 
     fill_core(reserve=min(wildcard_left, 1 if wild else 0))
-    rng = random.Random(today.isoformat())
-    rng.shuffle(wild)
     for c in wild:
         if wildcard_left > 0 and allowed(c):
             wildcard_left -= 1
@@ -421,11 +466,12 @@ def run(root: Path = ROOT, today: dt.date | None = None, force: bool = False,
     if force and key in digests["days"]:
         for url in digests["days"].pop(key):
             items.get(url, {}).pop("shown", None)
-    scored = 0
     if key not in digests["days"]:
-        api_key = api_key or os.environ.get("ANTHROPIC_API_KEY")
+        api_key = api_key or os.environ.get("LLM_API_KEY")
         if api_key:
-            scored = score_candidates(items, sources, cfg, today, api_key, post)
+            digests["scoring"] = {"date": key, **score_candidates(items, sources, cfg, today, api_key, post)}
+        else:
+            digests.pop("scoring", None)
         picks = select(items, sources, cfg, today)
         for url in picks:
             items[url]["shown"] = key
@@ -449,37 +495,57 @@ def run(root: Path = ROOT, today: dt.date | None = None, force: bool = False,
                    for u in digests["days"][key] if u in items]
     library = [{**r, "url": u, "source_name": name(r["source"])}
                for u, r in items.items() if r["status"] == "passed" and r["kind"] != "release"]
-    (site / "index.html").write_text(page.render_index(today, today_items, digests["rollup"], health))
+    scoring = digests.get("scoring") if digests.get("scoring", {}).get("date") == key else None
+    (site / "index.html").write_text(
+        page.render_index(today, today_items, digests["rollup"], health, scoring))
     (site / "library.html").write_text(page.render_library(library, today))
     (site / ".nojekyll").write_text("")
-    return {"date": key, "picked": len(today_items), "scored": scored,
+    return {"date": key, "picked": len(today_items), "scoring": scoring,
             "sources_ok": sum(h["ok"] for h in health), "sources": len(health),
             "items_known": len(items)}
 
 
 def score_candidates(items: dict, sources: dict, cfg: dict, today: dt.date,
-                     api_key: str, post) -> int:
-    """Score unscored candidates, fresh ones first, within a per-run call budget."""
-    budget = cfg["filters"]["rubric"].get("max_calls_per_run", 40)
-    backfill_budget = cfg["digest"].get("backfill", {}).get("per_day", 0) * 3
-    calls = failures = 0
-    for c in candidates(items, sources, cfg, today):
-        if calls >= budget or failures >= 3:
-            break
-        if "score" in c:
-            continue
-        if c["group"] == BACKFILL:
-            if backfill_budget <= 0:
-                continue
-            backfill_budget -= 1
+                     api_key: str, post) -> dict:
+    """Score unscored candidates within a per-run call budget.
+
+    Order: fresh core items, a few back-catalogue items, a few wildcards (in the order selection
+    will consider them), then fresh items from broad sources until the budget runs out.
+    """
+    rubric = cfg["filters"]["rubric"]
+    budget = rubric.get("max_calls_per_run", 40)
+    pause = rubric.get("pause_seconds", 0)
+    backfill_n = cfg["digest"].get("backfill", {}).get("per_day", 0) * 3
+    wildcard_n = cfg["digest"].get("wildcard_slots", 0) * 6
+
+    cands = [c for c in candidates(items, sources, cfg, today) if "score" not in c]
+    core = [c for c in cands if c["group"] == 0]
+    backfill = [c for c in cands if c["group"] == BACKFILL][:backfill_n]
+    wild = wildcard_order(cands, today)[:wildcard_n]
+    # A backlog of fresh core items must not starve the back catalogue and the wildcard.
+    first = max(budget - len(backfill) - len(wild), 0)
+    queue = (core[:first] + backfill + wild + core[first:]
+             + [c for c in cands if c["group"] == 2])[:budget]
+
+    stats = {"calls": 0, "failed": 0, "rejected": 0, "error": None}
+    streak = 0
+    for i, c in enumerate(queue):
+        if streak >= 3:
+            break   # the service is down or the key is wrong; stop spending time on it
+        if i and pause:
+            _sleep(pause)
+        rec = items[c["url"]]
+        stats["calls"] += 1
         try:
-            score_item(c["url"], items[c["url"]], sources[c["source"]], cfg, api_key, post)
-            failures = 0
-        except (FetchError, ValueError, requests.RequestException) as e:
-            failures += 1
-            print(f"scoring failed for {c['url']}: {e}", file=sys.stderr)
-        calls += 1
-    return calls
+            score_item(c["url"], rec, sources[c["source"]], cfg, api_key, post)
+            streak = 0
+            stats["rejected"] += rec["status"] == "rejected"
+        except (FetchError, ValueError, KeyError, IndexError, TypeError, requests.RequestException) as e:
+            streak += 1
+            stats["failed"] += 1
+            stats["error"] = str(e) or type(e).__name__
+            print(f"scoring failed for {c['url']}: {stats['error']}", file=sys.stderr)
+    return stats
 
 
 def check(root: Path = ROOT) -> int:
