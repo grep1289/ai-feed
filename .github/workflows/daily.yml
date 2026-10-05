@@ -22,7 +22,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -33,7 +33,7 @@ jobs:
       - run: python -m pytest -q
       - name: Build the digest
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional; scoring is skipped without it
+          LLM_API_KEY: ${{ secrets.GROQ_LLM_API_KEY }}   # optional; scoring is skipped without it
         run: python -m aifeed.build ${{ inputs.force && '--force' || '' }}
       - name: Save state
         run: |

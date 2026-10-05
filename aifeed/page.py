@@ -121,7 +121,8 @@ def render_item(item: dict) -> str:
     )
 
 
-def render_index(today: dt.date, items: list[dict], rollup: dict | None, health: list[dict]) -> str:
+def render_index(today: dt.date, items: list[dict], rollup: dict | None, health: list[dict],
+                 scoring: dict | None = None) -> str:
     out = [HEAD.format(title=f"Feed, {long_date(today)}", css=CSS)]
     out.append(f"<h1>{long_date(today)}</h1>\n")
     if items:
@@ -152,9 +153,18 @@ def render_index(today: dt.date, items: list[dict], rollup: dict | None, health:
         for h in failing:
             out.append(f'<li>{escape(h["name"])} <span class="sub">{escape(str(h["error"]))}</span></li>\n')
         out.append("</ul>\n</details>\n")
+    if scoring and scoring.get("failed"):
+        n, calls = scoring["failed"], scoring["calls"]
+        out.append(f"<details><summary>Scoring failed for {n} of {calls} items</summary>\n<ul>\n"
+                   f'<li>Last error <span class="sub">{escape(str(scoring.get("error")))}</span></li>\n'
+                   "<li>Those items were kept or dropped by the keyword and title rules alone.</li>\n"
+                   "</ul>\n</details>\n")
     out.append('<footer><a href="library.html">Library</a>')
     if not failing:
         out.append(f", all {len(health)} sources fetched")
+    if scoring and scoring["calls"] > scoring["failed"]:
+        judged = scoring["calls"] - scoring["failed"]
+        out.append(f", {judged} item{'s' if judged != 1 else ''} scored, {scoring['rejected']} rejected")
     out.append("</footer>\n")
     out.append(FOOT)
     return "".join(out)
