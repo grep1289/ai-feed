@@ -1536,6 +1536,14 @@
   "status": "passed",
   "title": "How CodeRabbit used Claude to build an agent orchestration system"
  },
+ "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
+  "first_seen": "2026-10-05",
+  "kind": "read",
+  "published": "2026-10-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK"
+ },
  "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -3676,6 +3684,15 @@
   "status": "passed",
   "title": "Update claude-api skill: Claude Fable 5 and Claude Mythos 5 (#1294)"
  },
+ "https://github.com/anthropics/skills/commit/683bc88e56f3e09ba94f7055977f3d3aa499f202": {
+  "first_seen": "2026-10-05",
+  "kind": "release",
+  "published": "2026-10-05",
+  "snippet": "Update claude-api skill: managed-agents-onboard from a quickstart name or a URL (#1962) Co-authored-by: Claude Fable 5.1 <noreply@anthropic.com>",
+  "source": "gh-anthropics-skills",
+  "status": "passed",
+  "title": "Update claude-api skill: managed-agents-onboard from a quickstart nam…"
+ },
  "https://github.com/anthropics/skills/commit/89dcaa3a283f79ed84fd8fe53e2208b9442a6427": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4381,6 +4398,14 @@
   "status": "dropped:prerelease",
   "title": "v1.0.0-alpha7"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha8": {
+  "first_seen": "2026-10-05",
+  "kind": "release",
+  "published": "2026-10-05",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-alpha8"
+ },
  "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v0.5.3": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4498,6 +4523,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents==0.7.21"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.22": {
+  "first_seen": "2026-10-05",
+  "kind": "release",
+  "published": "2026-10-05",
+  "snippet": "Features Load a skill’s tools only when the skill is read. ( #6552 ) Bug Fixes Reset stale encoding when overwriting text. ( #6737 ) Special thanks to everyone who reported the issues addressed in this release: quifox (@quifox) ( #6734 ) Internal maintainers: ccurme (@ccurme) , Richard Scarrott (@richardscarrott) Released by: ccurme (@ccurme) Git log since deepagents==0.7.21 This commit history…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.22"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.76": {
   "first_seen": "2026-10-05",
@@ -11254,6 +11288,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Democratizing AI Safety with RiskRubric.ai"
+ },
+ "https://huggingface.co/blog/rl-environments": {
+  "first_seen": "2026-10-05",
+  "kind": "read",
+  "published": "2026-09-28",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Welcome RL Environments to the hub"
  },
  "https://huggingface.co/blog/rlhf": {
   "first_seen": "2026-10-05",
@@ -18508,6 +18550,15 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "Get Stuff Done with ChatGPT Voice"
+ },
+ "https://www.youtube.com/watch?v=9_oy4owGtPI": {
+  "first_seen": "2026-10-05",
+  "kind": "watch",
+  "published": "2026-10-05",
+  "snippet": "One agent can remember. A team of agents still can't learn together. Karthik Ranganathan, co-founder and co-CEO of Yugabyte, explains why per-agent memory is a solved problem but shared learning across agents isn't. When one agent hands work to another, it passes on the output but loses the reasoning, the dead ends and the context, so the next agent burns tokens re-deriving it all. He covers five…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "Agent Memory Is Solved. Agent Learning Isn't. — Karthik Ranganathan, Yugabyte"
  },
  "https://www.youtube.com/watch?v=Bdrs3uAX0_M": {
   "first_seen": "2026-10-05",
