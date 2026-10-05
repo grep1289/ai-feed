@@ -1,0 +1,352 @@
+# Personal agentic-AI feed: sources and filtering
+# Edit freely: aifeed/build.py reads this file on every run.
+#
+# status values
+#   checked   = fetched and parsed on 2026-10-05, or (for GitHub) repo and tags confirmed that day
+#   id_confirmed = YouTube channel ID read from the channel page on 2026-10-05; the page advertises
+#               its feed, but the feed itself could not be fetched by the checking tool
+#   page_watch = no feed exists; watch the listing page for new post links
+#
+# tier values
+#   1        = core primary source, always considered
+#   2        = broad source, only items matching `include_any` reach the rubric
+#   wildcard = wider pool for the single "randomness" slot
+
+version: 1
+updated: 2026-10-05
+
+# ---------------------------------------------------------------- digest shape
+digest:
+  timezone: Asia/Kolkata
+  max_items: 5                 # hard stop, no "more" link
+  mix: { read: 3, watch: 2 }   # if one kind is short, do not fill with the other
+  max_per_source_per_day: 1
+  wildcard_slots: 1            # counted inside max_items
+  pad_when_short: false        # 2 good items beats 5 mediocre ones
+  max_age_days: 14             # for fresh items from tier 2 and wildcard
+  backfill:                    # tier-1 blogs publish rarely, so use their back catalogue
+    enabled: true
+    from_tier: 1
+    per_day: 1                 # newest unread first, until exhausted
+  releases:
+    mode: weekly_rollup        # one block of one-liners, outside the 5 items
+    day: monday
+    promote_to_daily: major_only   # x.0.0, or sources marked `promote: always`
+  overflow: library            # everything that passed but did not fit; searchable, never pushed
+
+# ------------------------------------------------------------- keyword gates
+topics:
+  agentic: &agentic
+    - agent
+    - agentic
+    - MCP
+    - model context protocol
+    - A2A
+    - LLM
+    - tool calling
+    - tool use
+    - context engineering
+    - harness
+    - skills
+    - eval
+    - guardrail
+    - sandbox
+    - inference gateway
+  priority:                    # used by the rubric to break ties, not to exclude
+    - building and operating agents in production
+    - open standards and protocols (MCP, A2A, AGENTS.md)
+    - open-source frameworks, SDKs and gateways
+    - agents for platform engineering (CI/CD, IaC, Kubernetes operations, security triage)
+    - evaluation, observability and cost control for agents
+
+# ------------------------------------------------------- filtering, in order
+filters:
+  # Step 1. Mechanical rules. No model call, applied to every item.
+  dedupe_by: url               # never by date: generated feeds carry unreliable dates
+  drop_prereleases: true       # rc, alpha, beta, dev, nightly, canary
+  drop_title_regex:            # case-insensitive
+    - '\b(webinar|register now|join us|save the date|call for (papers|proposals)|cfp)\b'
+    - '\b(customer story|case study|success story)\b'
+    - '\bhow (?!we\b).{2,40} (uses|scales|built .* with|rebuilt .* with)\b'   # "How <company> uses <product>", but not "How we built"
+    - '\b(scales|builds|transforms|accelerates|modernizes) .{0,60}\bwith (claude|openai|chatgpt|gemini|copilot)\b'
+    - '\bscales (claude|chatgpt|openai|gemini|copilot)\b'
+    - '\b(partnership|partnering with|partners with|collaboration with)\b'
+    - '\b(funding|series [a-f]\b|valuation|acquires|acquisition)\b'
+    - '\b(now generally available|is now available|pricing|new plan)\b'
+    - '\b(we.?re hiring|appoints|joins as|welcomes)\b'
+    - '\b(recap|highlights|sizzle|trailer|teaser|keynote highlights)\b'
+    - '#shorts'
+  youtube:
+    feed_template: 'https://www.youtube.com/feeds/videos.xml?playlist_id={uploads_playlist}'
+    fallback_template: 'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'
+    # uploads_playlist = channel_id with the leading "UC" replaced by "UULF" (long-form only, no Shorts).
+    # YouTube feeds fail intermittently: retry, and treat a failed fetch as "no new items", not as an error.
+
+  # Step 2. Model rubric, applied to whatever survives step 1.
+  # Runs only when the repository has an ANTHROPIC_API_KEY secret; without it, step 1 decides alone.
+  rubric:
+    model: claude-haiku-4-5-20251001
+    max_calls_per_run: 40
+    keep_if_score_at_least: { tier_1: 10, tier_2: 12, wildcard: 12 }   # out of 16
+    prompt: |
+      You are screening one item for a personal learning feed on agentic AI.
+      The reader is an experienced engineering lead who wants to build things himself
+      and to know which open-source tools are worth using. He reads the original, not a summary.
+
+      Score each criterion 0 to 4.
+        primary    Written or presented by the people who built the thing, describing their own work.
+                   0 = commentary on someone else's announcement.
+        buildable  Teaches a technique, pattern or design the reader could apply this month.
+                   0 = nothing to do after reading.
+        substance  Contains code, architecture, measurements, trade-offs or failure modes.
+                   0 = claims without detail.
+        open       Concerns open-source software, an open standard, or a method that works
+                   regardless of vendor. 0 = only usable by buying one product.
+
+      Reject outright, whatever the score, if the item is mainly any of these:
+        - a product launch, pricing change or feature list with no explanation of how it works
+        - a customer story or testimonial
+        - an event promotion, recap or highlights reel
+        - a funding, partnership, hiring or policy announcement
+        - a benchmark or leaderboard claim with no method
+        - a panel or interview with no technical content
+
+      Prefer items matching the priority topics when scores are equal.
+
+      Return JSON only:
+        {"keep": true|false, "scores": {"primary": n, "buildable": n, "substance": n, "open": n},
+         "kind": "read"|"watch"|"release", "minutes": n,
+         "what": "<one sentence: what this is>",
+         "why": "<one sentence: what the reader can do with it>",
+         "tags": ["..."]}
+
+  # Step 3. Feedback. Each digest item gets keep/skip; review the skips monthly and edit this file.
+
+# ----------------------------------------------------- blogs and changelogs
+feeds:
+  - id: anthropic-engineering
+    name: Anthropic Engineering
+    tier: 1
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml
+    home: https://www.anthropic.com/engineering
+    note: >
+      Anthropic publishes no feed; this one is generated by a community repo.
+      25 posts in the catalogue, none in the last 90 days, so this source feeds mostly through backfill.
+      Alternative generator (taobojlen/anthropic-rss-feed) stamped the newest post with the wrong date.
+
+  - id: openai-developer
+    name: OpenAI Developer Blog
+    tier: 1
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_developer.xml
+    home: https://developers.openai.com/blog
+    note: About 13 posts in 90 days. Use this, not the combined OpenAI news feed (1,276 items, mostly product and customer news).
+
+  - id: openai-engineering
+    name: OpenAI Engineering
+    tier: 1
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_engineering.xml
+    home: https://openai.com/news/engineering/
+
+  - id: claude-blog
+    name: Claude Blog
+    tier: 2
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml
+    home: https://claude.com/blog
+    keep_categories: [Agents, Claude Code]
+    note: 80 posts in 90 days, 54 of them enterprise stories or product announcements. Category gate is essential.
+
+  - id: google-developers-ai
+    name: Google Developers Blog (AI)
+    tier: 2
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_google_ai.xml
+    home: https://developers.googleblog.com/
+    include_any: *agentic
+
+  - id: mcp-blog
+    name: Model Context Protocol Blog
+    tier: 1
+    status: checked
+    url: https://blog.modelcontextprotocol.io/index.xml
+    home: https://blog.modelcontextprotocol.io/
+
+  - id: aaif-blog
+    name: Agentic AI Foundation Blog
+    tier: 1
+    status: page_watch
+    url: https://aaif.io/blog
+    link_pattern: '^https://aaif\.io/blog/[a-z0-9-]+$'
+    note: No feed (aaif.io/feed/ and aaif.io/rss.xml both return 404). Roughly 2 to 4 posts a month.
+
+  - id: langchain-blog
+    name: LangChain Blog
+    tier: 1
+    status: checked
+    url: https://www.langchain.com/blog/rss.xml
+    home: https://www.langchain.com/blog
+    note: The old blog.langchain.com/rss/ address now redirects to the blog page, not to a feed. Mixes engineering posts with LangSmith product news.
+
+  - id: claude-code-changelog
+    name: Claude Code Changelog
+    tier: 1
+    status: checked
+    url: https://code.claude.com/docs/en/changelog/rss.xml
+    treat_as: release          # goes to the weekly roll-up
+
+  - id: cncf-blog
+    name: CNCF Blog
+    tier: 2
+    status: checked
+    url: https://www.cncf.io/feed/
+    include_any: *agentic
+    note: Many posts are event promotion or written by member vendors. Keyword gate plus the higher tier-2 threshold.
+
+  - id: kubernetes-blog
+    name: Kubernetes Blog
+    tier: 2
+    status: checked
+    url: https://kubernetes.io/feed.xml
+    include_any: *agentic
+
+  - id: huggingface-blog
+    name: Hugging Face Blog
+    tier: 2
+    status: checked
+    url: https://huggingface.co/blog/feed.xml
+    include_any: *agentic
+    note: Feed is valid (300+ entries) but its ordering was unclear when checked; sort by date after fetching.
+
+  - id: github-blog-ai
+    name: GitHub Blog (AI and ML)
+    tier: 2
+    status: checked
+    url: https://github.blog/ai-and-ml/feed/
+    include_any: *agentic
+
+# ------------------------------------------------------------------ YouTube
+youtube:
+  - id: yt-aaif
+    name: Agentic AI Foundation
+    handle: '@AgenticAI-Foundation'
+    channel_id: UCgkApalw5crKXOtr_mqtPQg
+    tier: 1
+    status: id_confirmed
+    note: Conference recordings (AGNTCon + MCPCon) are published here.
+
+  - id: yt-cncf
+    name: CNCF
+    handle: '@cncf'
+    channel_id: UCvqbFHwN-nwalWPjPUKpvTA
+    tier: 2
+    status: id_confirmed
+    include_any: *agentic
+    max_per_week: 3            # KubeCon uploads arrive in the hundreds
+
+  - id: yt-anthropic
+    name: Anthropic
+    handle: '@anthropic-ai'
+    channel_id: UCrDwWp7EBBv4NwvScIpBDOA
+    tier: 1
+    status: id_confirmed
+
+  - id: yt-langchain
+    name: LangChain
+    handle: '@LangChain'
+    channel_id: UCC-lyoTfSrcJzA1ab3APAgw
+    tier: 1
+    status: id_confirmed
+
+  - id: yt-openai
+    name: OpenAI
+    handle: '@OpenAI'
+    channel_id: UCXZCJLdBC09xxGZ6gcdrc6A
+    tier: 2
+    status: id_confirmed
+    include_any: [agent, agents sdk, codex, build hour, devday, MCP, eval]
+
+  - id: yt-ai-engineer
+    name: AI Engineer
+    handle: '@aiDotEngineer'
+    channel_id: UCLKPca3kwwd-B59HNr-_lvA
+    tier: 2
+    status: id_confirmed
+    include_any: *agentic
+    note: Conference talks by practitioners from many companies. Not a single primary source; kept for talks given by the builders themselves.
+
+# ------------------------------------------------- open-source tooling (GitHub)
+# Release feed:  https://github.com/{repo}/releases.atom
+# Commit feed:   https://github.com/{repo}/commits/{branch}.atom
+# All repos below were confirmed to exist on 2026-10-05; feed contents were not fetched.
+# `noisy: true` = very frequent or multi-package tags; roll-up shows only the newest tag per week.
+github:
+  standards_and_protocols:
+    - { repo: modelcontextprotocol/modelcontextprotocol, promote: always }   # spec revisions, 9 tags in total
+    - { repo: modelcontextprotocol/python-sdk }
+    - { repo: modelcontextprotocol/typescript-sdk, noisy: true }
+    - { repo: modelcontextprotocol/registry }
+    - { repo: a2aproject/A2A, promote: always }
+    - { repo: agentsmd/agents.md, feed: commits, branch: main }              # no tagged releases
+    - { repo: agentgateway/agentgateway }
+    - { repo: aaif-goose/goose }                                             # formerly block/goose
+
+  frameworks_and_sdks:
+    - { repo: anthropics/claude-agent-sdk-python }
+    - { repo: anthropics/skills, feed: commits, branch: main }               # no tagged releases
+    - { repo: openai/openai-agents-python }
+    - { repo: openai/codex, noisy: true }
+    - { repo: langchain-ai/langgraph, noisy: true }
+    - { repo: langchain-ai/deepagents, noisy: true }
+    - { repo: google/adk-python }
+    - { repo: microsoft/agent-framework, noisy: true }
+    - { repo: strands-agents/sdk-python }
+    - { repo: pydantic/pydantic-ai }
+    - { repo: crewAIInc/crewAI }
+
+  cloud_native_and_devops:
+    - { repo: kagent-dev/kagent }
+    - { repo: kubernetes-sigs/agent-sandbox }
+    - { repo: containers/kubernetes-mcp-server }
+    - { repo: github/github-mcp-server }
+    - { repo: hashicorp/terraform-mcp-server }
+    - { repo: k8sgpt-ai/k8sgpt }
+    - { repo: open-telemetry/semantic-conventions, include_any: [gen-ai, gen_ai, genai, agent, mcp] }
+
+  evals_and_observability:
+    - { repo: langfuse/langfuse, noisy: true }
+    - { repo: Arize-ai/phoenix, noisy: true }
+    - { repo: promptfoo/promptfoo }
+    - { repo: UKGovernmentBEIS/inspect_ai }
+
+# ------------------------------------------------------------------ wildcard
+# One slot a day at most. This is the controlled randomness.
+wildcard:
+  - id: anthropic-research
+    name: Anthropic Research
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml
+
+  - id: openai-research
+    name: OpenAI Research
+    status: checked
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_openai_research.xml
+
+  - id: hamel
+    name: Hamel Husain (evals practice)
+    status: checked
+    url: https://hamel.dev/index.xml
+
+  - id: martinfowler
+    name: martinfowler.com
+    status: checked
+    url: https://martinfowler.com/feed.atom
+
+# ------------------------------------------------------------ left out on purpose
+excluded:
+  - { source: Instagram, reason: No feed; bridge tools break often; primary sources rarely publish there first. }
+  - { source: OpenAI combined news feed, reason: Mostly product, advertising and customer news. }
+  - { source: Anthropic news feed, reason: Corporate announcements; the engineering feed carries the technical posts. }
+  - { source: Newsletters and explainer channels, reason: Third-party distillation, which this feed exists to avoid. }
