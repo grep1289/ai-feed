@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -84,15 +84,15 @@
   "fetched": 50,
   "id": "kubernetes-blog",
   "name": "Kubernetes Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 874,
+  "fetched": 875,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -100,7 +100,7 @@
   "fetched": 10,
   "id": "github-blog-ai",
   "name": "GitHub Blog (AI and ML)",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -116,7 +116,7 @@
   "fetched": 15,
   "id": "yt-cncf",
   "name": "CNCF",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -132,7 +132,7 @@
   "fetched": 15,
   "id": "yt-langchain",
   "name": "LangChain",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 0,
+  "new": 15,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -284,7 +284,7 @@
   "fetched": 10,
   "id": "gh-strands-agents-sdk-python",
   "name": "strands-agents/sdk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -380,7 +380,7 @@
   "fetched": 10,
   "id": "gh-promptfoo-promptfoo",
   "name": "promptfoo/promptfoo",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {

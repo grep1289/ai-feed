@@ -2724,11 +2724,22 @@
  "https://developers.openai.com/blog/responses-api": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-09-22",
+  "score": 10,
+  "shown": "2026-10-06",
   "snippet": "How the Responses API unlocks persistent reasoning, hosted tools, and multimodal workflows for GPT-5.",
   "source": "openai-developer",
   "status": "passed",
-  "title": "Why we built the Responses API"
+  "tags": [
+   "agent-design",
+   "persistent-reasoning",
+   "multimodal",
+   "open-source-API"
+  ],
+  "title": "Why we built the Responses API",
+  "what": "OpenAI’s blog post explaining the design and use‑cases of its new Responses API for GPT‑5",
+  "why": "It shows how to structure persistent reasoning and multimodal workflows that an engineering lead can prototype in their own agent stack"
  },
  "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": {
   "first_seen": "2026-10-05",
@@ -2863,6 +2874,20 @@
   "source": "github-blog-ai",
   "status": "passed",
   "title": "Project HydraFusion: Frontier quality via multi-model orchestration"
+ },
+ "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review": {
+  "first_seen": "2026-10-06",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-05",
+  "score": 0,
+  "snippet": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog .",
+  "source": "github-blog-ai",
+  "status": "rejected",
+  "tags": [],
+  "title": "ReviewBench: An open benchmark for AI code review",
+  "what": "Launch announcement of ReviewBench benchmark for AI code review.",
+  "why": "No actionable content for building or operating agents."
  },
  "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui": {
   "first_seen": "2026-10-05",
@@ -4645,6 +4670,15 @@
   "status": "passed",
   "title": "langgraph==1.2.12"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-05",
+  "snippet": "Changes since 1.2.12 fix(langgraph): fork before replaying an update checkpoint the thread moved past ( #9170 ) fix(langgraph): keep an update_state on an older checkpoint out of its other branches ( #9165 ) fix(langgraph): keep DeltaChannel counters on every update_state path ( #9142 ) release(langgraph): 1.2.13 ( #9205 ) fix(langgraph): don't walk history for a DeltaChannel that was never…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.13"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4805,6 +4839,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.50.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.51.0": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-05",
+  "snippet": "What's Changed Features feat(mcp): support decision-model evaluators by @wochinge in #18166 feat(experiments): annotate directly from comparison grid by @marliessophie in #17990 feat(audit-logs): log actor info for audited actions and deletions by @pratimapatel2008 in #18107 feat(web): pin evaluator actions during table scrolling by @wochinge in #18163 feat(ai-gateway): correlate requests with a…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.51.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -5335,6 +5378,23 @@
   "status": "dropped:keyword",
   "title": "v1.44.0"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.160.1": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-05",
+  "snippet": "Bug Fixes Preserve SYSTEMROOT , TEMP , and TMP when launching remote stdio MCP servers with explicitly configured remote environment variables, allowing Unix hosts to retain the Windows executor's startup environment. Changelog #51121 : Backport Windows remote MCP environment preservation to 0.160.",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.160.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13.1": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-06",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.161.0-alpha.13.1"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.10": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5382,6 +5442,14 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.162.0-alpha.15"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.16": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.162.0-alpha.16"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.6": {
   "first_seen": "2026-10-05",
@@ -5586,6 +5654,15 @@
   "status": "passed",
   "title": "0.123.1"
  },
+ "https://github.com/promptfoo/promptfoo/releases/tag/0.124.0": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "0.124.0 (2026-10-06) ⚠ BREAKING CHANGES providers: remove hosted ChatKit provider ( #11434 ) providers: make WatsonX SDKs opt-in ( #11359 ) deps: make Langfuse SDK opt-in ( #11351 ) deps: make Slack SDK opt-in ( #11349 ) providers: make OpenAI Agents an explicit install ( #11177 ) providers: make Codex Security SDK opt-in ( #11325 ) providers: make browser SDKs explicit installs ( #11163 ) deps:…",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "0.124.0"
+ },
  "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5594,6 +5671,24 @@
   "source": "gh-promptfoo-promptfoo",
   "status": "passed",
   "title": "code-scan-action: 0.2.0"
+ },
+ "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.1": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "0.2.1 (2026-10-06) Bug Fixes deps: update type definitions ( #11010 ) ( 8174e60 )",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "code-scan-action: 0.2.1"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Sdists rebuilt from main for /update on the CLAI bleeding channel. Not a release.",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "CLAI2 bleeding"
  },
  "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7": {
   "first_seen": "2026-10-05",
@@ -5765,6 +5860,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "python/v1.57.2"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.58.0": {
+  "first_seen": "2026-10-06",
+  "kind": "release",
+  "published": "2026-10-05",
+  "snippet": "python/v1.58.0 Auto-drafted from commits in python/v1.57.2..python/v1.58.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(ts): port mcp_router vended tool to TypeScript ( #4448 ) ( ec86d61 ) feat(bidi): normalize token usage events ( #4886 ) ( 3973d1c ) feat(multiagent):…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.58.0"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
@@ -12240,6 +12344,26 @@
   "status": "dropped:keyword",
   "title": "Falcon-Edge: A series of powerful, universal, fine-tunable 1.58bit language models."
  },
+ "https://huggingface.co/blog/tiiuae/falcon-emirati": {
+  "first_seen": "2026-10-06",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-06",
+  "score": 14,
+  "shown": "2026-10-06",
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "evaluation",
+   "agentic AI",
+   "open standards"
+  ],
+  "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+  "what": "A blog post announcing the Falcon‑Emirati fine‑tuned model, its training process, and evaluation results",
+  "why": "It gives engineers concrete steps and metrics to replicate a domain‑specific LLM fine‑tuning for their own language and culture"
+ },
  "https://huggingface.co/blog/tiiuae/falcon-h1": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -13435,6 +13559,26 @@
   "status": "dropped:keyword",
   "title": "Spotlight on SIG Apps"
  },
+ "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap": {
+  "first_seen": "2026-10-06",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-05",
+  "score": 12,
+  "snippet": "Memory is often the first hard limit a Kubernetes cluster hits. Nodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse. These workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt. That idle but resident memory is expensive, and it caps how many pods a node can hold. This is…",
+  "source": "kubernetes-blog",
+  "status": "passed",
+  "tags": [
+   "kubernetes",
+   "node-swap",
+   "memory-management",
+   "scaling",
+   "cost-control"
+  ],
+  "title": "Scaling Kubernetes Workloads with Node Swap",
+  "what": "A Kubernetes blog post explaining how enabling node swap can help scale workloads that are memory‑heavy and idle, such as agentic AI pods.",
+  "why": "Engineers can apply node swap to increase pod density on existing nodes and reduce memory pressure, improving cost efficiency for AI services."
+ },
  "https://martinfowler.com/articles/2026-dont-like-llms.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -13537,11 +13681,16 @@
  "https://martinfowler.com/articles/never-send-slides/slide-principles.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-30",
+  "score": 0,
   "snippet": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principles that follow from that idea — control over the rate of knowledge exposition, tight coupling between slides and speaker, minimalism by default, visuals that say more than words can, and never sending…",
   "source": "martinfowler",
-  "status": "passed",
-  "title": "Principles for effective slides"
+  "status": "rejected",
+  "tags": [],
+  "title": "Principles for effective slides",
+  "what": "Article about principles for effective presentation slides.",
+  "why": "Does not provide technical content or tools for agentic AI."
  },
  "https://martinfowler.com/articles/orchestrator-tax.html": {
   "first_seen": "2026-10-05",
@@ -13645,20 +13794,33 @@
  "https://martinfowler.com/fragments/2026-09-24.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-09-24",
+  "score": 0,
   "snippet": "Rob Bowley is “flipping tables in his head” with anger at the current media coverage of the danger of AI killing us all The risk I’m worried about isn’t a future machine deciding to wipe us out. It’s today’s AI, being wired into everything, carelessly and fast. Cyber attacks have already cost millions of dollars in lost economic output, often without AI being involved at all. Bowley feels the…",
   "source": "martinfowler",
-  "status": "passed",
-  "title": "Fragments: September 24"
+  "status": "rejected",
+  "tags": [
+   "AI risks",
+   "commentary"
+  ],
+  "title": "Fragments: September 24",
+  "what": "Opinion piece on AI risks by Rob Bowley",
+  "why": "No actionable technical content for building agents"
  },
  "https://martinfowler.com/fragments/2026-09-29.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-29",
+  "score": 0,
   "snippet": "Simon Willison: The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge This has been a constant impression I get from following Willison’s writing. While things like vibe coding get a lot of attention, the real…",
   "source": "martinfowler",
-  "status": "passed",
-  "title": "Fragments: September 29"
+  "status": "rejected",
+  "tags": [],
+  "title": "Fragments: September 29",
+  "what": "Opinion piece by Simon Willison on the challenges of coding agents",
+  "why": "Not actionable content for engineers"
  },
  "https://martinfowler.com/fragments/2026-10-04.html": {
   "first_seen": "2026-10-05",
@@ -16332,11 +16494,20 @@
  "https://www.anthropic.com/research/claude-shaped-science": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-10-01",
+  "score": 4,
   "snippet": "Claude-shaped science",
   "source": "anthropic-research",
-  "status": "passed",
-  "title": "Claude-shaped science"
+  "status": "rejected",
+  "tags": [
+   "research",
+   "Claude",
+   "science"
+  ],
+  "title": "Claude-shaped science",
+  "what": "Claude-shaped science is an academic article describing Anthropic’s research into using Claude models for scientific tasks.",
+  "why": "It offers insights into how Claude can be applied to scientific problems, but it does not provide actionable code or open‑source resources for engineering leads."
  },
  "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": {
   "first_seen": "2026-10-05",
@@ -16736,11 +16907,16 @@
  "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-29",
+  "score": 0,
   "snippet": "GLM-5.3 and the spread of advanced cyber capabilities",
   "source": "anthropic-research",
-  "status": "passed",
-  "title": "GLM-5.3 and the spread of advanced cyber capabilities"
+  "status": "rejected",
+  "tags": [],
+  "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+  "what": "N/A",
+  "why": "N/A"
  },
  "https://www.anthropic.com/research/global-workspace": {
   "first_seen": "2026-10-05",
@@ -17427,11 +17603,21 @@
  "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-09-25",
+  "score": 10,
   "snippet": "Yes, Claude can do Nine Loops",
   "source": "anthropic-research",
-  "status": "passed",
-  "title": "Yes, Claude can do Nine Loops"
+  "status": "rejected",
+  "tags": [
+   "looping",
+   "Claude",
+   "LLM",
+   "research"
+  ],
+  "title": "Yes, Claude can do Nine Loops",
+  "what": "A technical deep dive by Anthropic into how Claude can perform nine nested loop iterations in a single prompt.",
+  "why": "Readers can learn how to structure complex iterative prompts and apply similar looping patterns in their own LLM‑driven agent workflows."
  },
  "https://www.anthropic.com/research/your-thoughts-on-ai": {
   "first_seen": "2026-10-05",
@@ -17532,6 +17718,14 @@
   "source": "cncf-blog",
   "status": "dropped:keyword",
   "title": "KubeCon + CloudNativeCon North America 2026: Join the cloud native community at OpenTofu Day"
+ },
+ "https://www.cncf.io/blog/2026/10/05/kubelet-watches-inodes-just-not-until-its-an-emergency": {
+  "first_seen": "2026-10-06",
+  "kind": "read",
+  "published": "2026-10-05",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Kubelet watches inodes. Just not until it’s an emergency."
  },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
@@ -17671,11 +17865,20 @@
  "https://www.langchain.com/blog/building-a-harness-with-jev": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-10-01",
+  "score": 4,
   "snippet": "What is Jev? Learn how TypeSafe AI’s System One model makes fast, structured decisions, where it fits in the agent loop, and how to use Jev with LangChain",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model"
+  "status": "rejected",
+  "tags": [
+   "product-intro",
+   "agent-loop",
+   "language-models"
+  ],
+  "title": "What Is Jev? A Guide to TypeSafe AI’s System One Model",
+  "what": "A LangChain blog post introducing Jev, a proprietary System One model from TypeSafe AI for fast, structured decision making",
+  "why": "It offers insights into how Jev fits into an agent loop but provides limited actionable guidance for an engineering lead looking to build with open-source tools"
  },
  "https://www.langchain.com/blog/building-agent-environments-and-tasks": {
   "first_seen": "2026-10-05",
@@ -17692,6 +17895,7 @@
   "minutes": 12,
   "published": "2026-09-28",
   "score": 15,
+  "shown": "2026-10-06",
   "snippet": "See how LangGraph orchestrates Jev, TypeSafe AI's decision model, to build faster, cheaper production agents.",
   "source": "langchain-blog",
   "status": "passed",
@@ -17953,11 +18157,21 @@
  "https://www.langchain.com/blog/jev-agent-evals-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-09-21",
+  "score": 12,
   "snippet": "We tested using Jev-as-a-Judge against LLM judges on accuracy, repeatability, latency, and cost to see whether System One models could offer a new approach to agent evaluation.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Can Jev Be a Better Agent Evaluator?"
+  "tags": [
+   "agent-evaluation",
+   "jeva-judge",
+   "langchain",
+   "open-source"
+  ],
+  "title": "Can Jev Be a Better Agent Evaluator?",
+  "what": "A LangChain blog post presenting Jev-as-a-Judge for evaluating agents, comparing it to LLM judges on accuracy, repeatability, latency, and cost.",
+  "why": "Readers can adopt the Jev evaluation framework, integrate it into their own agent testing pipelines, and benchmark performance against LLM judges."
  },
  "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals": {
   "first_seen": "2026-10-05",
@@ -18050,11 +18264,16 @@
  "https://www.langchain.com/blog/langsmith-custom-apps": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-28",
+  "score": 0,
   "snippet": "LangSmith Custom Apps lets you build the interface you want with your LangSmith data, publish it into your workspace, and skip the hosting, auth, and permissions work. Learn more.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangSmith Custom Apps: Build custom interfaces around your agent data"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangSmith Custom Apps: Build custom interfaces around your agent data",
+  "what": "LangSmith Custom Apps is a product feature announcement for building custom interfaces around LangSmith data.",
+  "why": "It does not provide technical detail, code, or open-source guidance, so the reader cannot apply it."
  },
  "https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories": {
   "first_seen": "2026-10-05",
@@ -18338,11 +18557,16 @@
  "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-22",
+  "score": 0,
   "snippet": "See how LangSmith helps healthcare AI teams turn clinical review into reusable evaluators, datasets, and release gates for safer AI in production.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "The Reliability Layer for Healthcare AI: Common LangSmith Use Cases"
+  "status": "rejected",
+  "tags": [],
+  "title": "The Reliability Layer for Healthcare AI: Common LangSmith Use Cases",
+  "what": "LangChain blog article on LangSmith reliability layer for healthcare AI",
+  "why": "No actionable technical content for building or operating agents in an open‑source context"
  },
  "https://www.langchain.com/blog/retrieval": {
   "first_seen": "2026-10-05",
@@ -18512,11 +18736,16 @@
  "https://www.youtube.com/watch?v=-w6RDNBAI0E": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-21",
+  "score": 0,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026, https://hubs.la/Q04gbXLb0 0:00 Waiting room before the stream starts 0:55 Angie Jones opens day two: upcoming events, chapters, London and San Francisco 3:25 Manik, AAIF cofounder and CTO: what a young foundation got wrong and fixed 15:48 Sean Smith, Hugging Face: the stateless transport and the biggest MCP spec change yet 27:03 Dominic Farrellino (Google…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "AGNTCon + MCPCon EU Livestream Day 2 - Dexter Horthy, Deepmind, Hugging Face and More"
+  "status": "rejected",
+  "tags": [],
+  "title": "AGNTCon + MCPCon EU Livestream Day 2 - Dexter Horthy, Deepmind, Hugging Face and More",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=1akSvsjd_oI": {
   "first_seen": "2026-10-05",
@@ -18538,20 +18767,42 @@
  "https://www.youtube.com/watch?v=33Oct2hqGnk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 20,
   "published": "2026-10-04",
+  "score": 11,
   "snippet": "This agent starts with zero tools. Ask it for something it can't do, and it writes the tool and uses it without restarting. Sandhya Subramani, senior developer advocate for GenAI at AWS, demos meta-tooling with the open-source Strands Agents SDK. That means agents that write, load and use their own tools at runtime, and even spin up their own sub-agents. All it takes is a system prompt describing…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "Agents That Write Their Own Tools at Runtime — Sandhya Subramani, AWS"
+  "status": "rejected",
+  "tags": [
+   "meta‑tooling",
+   "runtime agents",
+   "Strands Agents SDK",
+   "open source",
+   "tool generation"
+  ],
+  "title": "Agents That Write Their Own Tools at Runtime — Sandhya Subramani, AWS",
+  "what": "A demo of agents that dynamically generate, load, and use their own tools at runtime using the open‑source Strands Agents SDK.",
+  "why": "Readers can apply the meta‑tooling pattern to create agents that self‑extend, reducing boilerplate and speeding prototyping of new capabilities."
  },
  "https://www.youtube.com/watch?v=3LwylP2as8A": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 60,
   "published": "2026-10-04",
+  "score": 8,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026 https://hubs.la/Q04gbXLb0 David Soria Parra, co-creator of MCP at Anthropic, opens the conference with a case for where agentic AI is heading in 2026. This talk is for people building agents for knowledge workers rather than developers, and his argument is that the constraint has moved: model capability is compounding on its own, and what is left is…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Why Agents Need Connectivity, Not Better Models - David Soria Parra, Co-creator of MCP, Anthropic"
+  "status": "rejected",
+  "tags": [
+   "agentic AI",
+   "MCP",
+   "agent connectivity",
+   "open standards",
+   "conference"
+  ],
+  "title": "Why Agents Need Connectivity, Not Better Models - David Soria Parra, Co-creator of MCP, Anthropic",
+  "what": "A conference opening talk by David Soria Parra on the importance of agent connectivity over model improvements, introducing the MCP framework.",
+  "why": "It gives a high-level perspective and rationale for building agent ecosystems that can be applied to design and evaluate agent architectures."
  },
  "https://www.youtube.com/watch?v=3jDhHA9JGUE": {
   "first_seen": "2026-10-05",
@@ -18585,11 +18836,37 @@
  "https://www.youtube.com/watch?v=4-oA1BJeyr4": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-09-22",
+  "score": 14,
+  "shown": "2026-10-06",
   "snippet": "Ishaan from the LangChain team built Patch, an agent that turns a Slack message into a working GitHub PR, using Managed Deep Agents. In this walkthrough he uses Patch to ship two real features for a Tetris side project, then breaks down the agent.py, instructions.md, Slack channel, GitHub MCP, and sandbox setup that took only a few lines of code to wire together. Chapters: 0:00 Meet Patch, the…",
   "source": "yt-langchain",
   "status": "passed",
-  "title": "Ship a GitHub PR From a Slack Message with Managed Deep Agents"
+  "tags": [
+   "agentic AI",
+   "LangChain",
+   "Slack",
+   "GitHub",
+   "Managed Deep Agents"
+  ],
+  "title": "Ship a GitHub PR From a Slack Message with Managed Deep Agents",
+  "what": "A LangChain engineer walks through building a Slack‑to‑GitHub PR agent called Patch using Managed Deep Agents.",
+  "why": "Readers can learn to wire together Slack, GitHub MCP, and LangChain components to ship code directly from chat and apply the same pattern to their own CI/CD workflows."
+ },
+ "https://www.youtube.com/watch?v=42Bz0TUfeOQ": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-05",
+  "score": 0,
+  "snippet": "The transcript says the agent corrected itself. The audio says it refunded the wrong order. Fuad Ali, senior product manager at Arize AI, shows why voice agents are one of the hardest categories to debug: latency, turn-taking and transcription errors are invisible in a text log. Using a refund call that looks fine in the transcript but had 2.4 seconds of dead air, an interruption and a refund on…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "The Transcript Looked Fine. The Call Wasn't. — Debugging Voice Agents, Arize",
+  "what": "A product‑centric talk on debugging voice agents at Arize AI.",
+  "why": "Not suitable for building or learning concrete techniques."
  },
  "https://www.youtube.com/watch?v=4swQ0YknTLs": {
   "first_seen": "2026-10-05",
@@ -18697,20 +18974,33 @@
  "https://www.youtube.com/watch?v=9_oy4owGtPI": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-10-05",
+  "score": 5,
   "snippet": "One agent can remember. A team of agents still can't learn together. Karthik Ranganathan, co-founder and co-CEO of Yugabyte, explains why per-agent memory is a solved problem but shared learning across agents isn't. When one agent hands work to another, it passes on the output but loses the reasoning, the dead ends and the context, so the next agent burns tokens re-deriving it all. He covers five…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "Agent Memory Is Solved. Agent Learning Isn't. — Karthik Ranganathan, Yugabyte"
+  "status": "rejected",
+  "tags": [
+   "agent architecture",
+   "memory"
+  ],
+  "title": "Agent Memory Is Solved. Agent Learning Isn't. — Karthik Ranganathan, Yugabyte",
+  "what": "A keynote discussing shared learning challenges among agents.",
+  "why": "Provides high‑level insights but no actionable code or open‑source guidance."
  },
  "https://www.youtube.com/watch?v=Bdrs3uAX0_M": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-04",
+  "score": 0,
   "snippet": "Claude Code can make the change. But what if you have 90,000 repositories to make it in? Dan Adler, CEO of Sourcegraph, makes the case for the people who own the huge, decades-old codebases that run banks, cars and airlines. Coding agents are producing a tidal wave of code, and those codebases are starting to decay through duplicated code, drifting standards, brittle dependencies and new…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph"
+  "status": "rejected",
+  "tags": [],
+  "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph",
+  "what": "Video by Sourcegraph CEO about AI coding agents and large codebases",
+  "why": "Not suitable technical content for engineering leads"
  },
  "https://www.youtube.com/watch?v=D4XTefP3Lsc": {
   "first_seen": "2026-10-05",
@@ -18721,14 +19011,54 @@
   "status": "passed",
   "title": "When AIs act emotional"
  },
+ "https://www.youtube.com/watch?v=DWzGgEvpX1I": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-05",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Norwin Schnyder - Speaker at KubeCon + CloudNativeCon North America"
+ },
  "https://www.youtube.com/watch?v=DdCEmlAydcw": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-23",
+  "score": 0,
   "snippet": "Some of the biggest discoveries in biology started with someone noticing something strange in one of the many molecular machines found in nature. We’re introducing a new molecular biology research group and lab at Anthropic to see if Claude can help scientists notice more of them. The team has spent their careers hunting for unusual proteins, from tracing how CRISPR systems evolved to finding new…",
   "source": "yt-anthropic",
-  "status": "passed",
-  "title": "Inside Anthropic's molecular biology lab"
+  "status": "rejected",
+  "tags": [],
+  "title": "Inside Anthropic's molecular biology lab",
+  "what": "Anthropic’s announcement of a new molecular biology research group using Claude to aid protein discovery.",
+  "why": "No actionable technical content for engineering leads."
+ },
+ "https://www.youtube.com/watch?v=F0TNSmbo5hE": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-05",
+  "score": 8,
+  "snippet": "A toy store agent fails a request for toys under $6 because its search tool has no price filter. Laurie Voss turns that missing feature into a live demonstration of an improvement loop: add observability, inspect what happened, find the problem, and ask a coding agent to fix it. The Wonder Toys application starts without traces flowing into Arize AX. Skills installed in the workshop repository…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "observability",
+   "debugging",
+   "AI agents",
+   "automation"
+  ],
+  "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
+  "what": "A walkthrough of troubleshooting an AI agent in production, showing how to add observability, identify bugs, and use a coding agent to patch the issue.",
+  "why": "The reader can adopt the improvement loop and observability tactics to ship more reliable AI agents."
+ },
+ "https://www.youtube.com/watch?v=FwiS44-xyYw": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-06",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Cooking with Codex — Charlie Guo & Gabriel Chua, OpenAI"
  },
  "https://www.youtube.com/watch?v=GNO9XFE4PKM": {
   "first_seen": "2026-10-05",
@@ -18751,11 +19081,16 @@
  "https://www.youtube.com/watch?v=HHUsHkYhkcM": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-22",
+  "score": 0,
   "snippet": "Hear from Sydney Runkle, Product Manager, OSS at LangChain, Allie Laabs, Founding Developer Advocate at TypeSafe AI, and Hunter Lovell, Technical Lead at LangChain, for a live conversation on building an agent harness with Jev, a new System One model from TypeSafe AI. How To Build A Harness With Jev | A LangChain x TypeSafe Conversation 0:00 Cold open: why agents need a new kind of model 1:44…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "How To Build A Harness With Jev | A LangChain x TypeSafe Conversation"
+  "status": "rejected",
+  "tags": [],
+  "title": "How To Build A Harness With Jev | A LangChain x TypeSafe Conversation",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=I2LL_wd89-A": {
   "first_seen": "2026-10-05",
@@ -18795,11 +19130,16 @@
  "https://www.youtube.com/watch?v=KPcEhLoh-Wc": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 5,
   "published": "2026-09-22",
+  "score": 0,
   "snippet": "LangSmith is LangChain's platform for building, testing, deploying, and monitoring agents across every stage of the agent development lifecycle (ADLC). New to LangSmith? Enroll in our free LangSmith Essentials course: https://academy.langchain.com/courses/quickstart-langsmith-essentials 0:00 What is LangSmith? 0:35 Why agents are a black box 0:57 Tracing: runs, traces, and threads 1:55 Reading a…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "LangSmith explained in 5 minutes"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangSmith explained in 5 minutes",
+  "what": "A brief introduction to LangSmith, LangChain's monitoring and deployment platform.",
+  "why": "Not enough technical depth or actionable guidance for building or operating agents."
  },
  "https://www.youtube.com/watch?v=LJ2MTGvVHm8": {
   "first_seen": "2026-10-05",
@@ -18846,6 +19186,25 @@
   "status": "passed",
   "title": "AI on campus"
  },
+ "https://www.youtube.com/watch?v=NdrSPm6NCdk": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-05",
+  "score": 12,
+  "snippet": "A customer support answer passes a test because it contains the word “cannot,” even though it approves a return outside the store's policy. Tejas Kumar builds that failure live to show where ordinary assertions and fuzzy matching stop being useful. The example grows into an LLM judge, then a dataset of customer scenarios, agent responses, and human verdicts. Along the way, the judge starts…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "evaluation",
+   "observability",
+   "open-source",
+   "LLM"
+  ],
+  "title": "Evals in AI: A Deep Dive — Tejas Kumar, IBM",
+  "what": "A deep dive into building an LLM judge for evaluating agent responses, including live demos, dataset creation, and analysis of failure modes.",
+  "why": "It provides concrete patterns for creating evaluation pipelines, measuring agent performance, and iterating on test cases, which the reader can apply to their own agentic systems."
+ },
  "https://www.youtube.com/watch?v=OAe8pB6VVBE": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -18872,6 +19231,20 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "AI models can now help run physical science experiments"
+ },
+ "https://www.youtube.com/watch?v=PUBc2G0Tj5E": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-05",
+  "score": 0,
+  "snippet": "Take a look at the latest Codex CLI updates and the refreshed terminal experience. Follow a walkthrough of the new interface and ways to work with Codex.",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Meet the New Codex CLI",
+  "what": "Codex CLI product launch video",
+  "why": "No actionable technical content for building or operating agents"
  },
  "https://www.youtube.com/watch?v=PmsvVjXow4M": {
   "first_seen": "2026-10-05",
@@ -18981,11 +19354,18 @@
  "https://www.youtube.com/watch?v=VE5dsWll06M": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 10,
   "published": "2026-09-21",
+  "score": 0,
   "snippet": "Learn all about Jev, a new System One model from TypeSafe AI, and how you can use it in your agent harness. Jev is up to 200x faster and 400x cheaper than LLMs on classification style tasks, which makes it great for applications like model routing and \"jev as a judge\" online evals. Chapters: 0:00 Building a harness with a new model called Jev 0:12 The agent loop everyone already knows 1:02 Why…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "Building a Harness with Jev"
+  "status": "rejected",
+  "tags": [
+   "product launch"
+  ],
+  "title": "Building a Harness with Jev",
+  "what": "Video about using Jev in an agent harness",
+  "why": "Not useful for actionable learning or open-source use."
  },
  "https://www.youtube.com/watch?v=W5QAf2YrVg0": {
   "first_seen": "2026-10-05",
@@ -19008,20 +19388,58 @@
  "https://www.youtube.com/watch?v=YXb2Wx1r_Pk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-04",
+  "score": 0,
   "snippet": "Shoppers are moving from typing keywords to describing what they need, and agents are doing the searching. Nixon Dinh, director of product for agentic commerce at PayPal, explains how shopping is moving from the search era to the intent era and then the delegation era, and why product catalogs built for keyword SEO aren't ready for AI agents. He breaks down keyword vs semantic search and shares…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal"
+  "status": "rejected",
+  "tags": [
+   "product launch",
+   "marketing"
+  ],
+  "title": "Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal",
+  "what": "PayPal discussion on future of search in commerce.",
+  "why": "No actionable open-source content for engineering lead."
  },
  "https://www.youtube.com/watch?v=YiFqcu9YA38": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 28,
   "published": "2026-10-04",
+  "score": 11,
   "snippet": "Sarah used Datadog every day for six months without ever opening the dashboard. Sarah Simionescu, member of technical staff at Composio and on the team behind the Composio dashboard, makes the case that the dashboard is dead. She traces how we got here: five tools and five query languages, then the AI 'sparkle button', then MCP. She explains why MCP alone is still a mess (agents don't learn, too…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "Dashboards Are Dead — Sarah Simionescu, Composio"
+  "status": "rejected",
+  "tags": [
+   "dashboard",
+   "MCP",
+   "AI",
+   "monitoring",
+   "composio"
+  ],
+  "title": "Dashboards Are Dead — Sarah Simionescu, Composio",
+  "what": "A critique of traditional dashboards and a look at MCP as a future alternative.",
+  "why": "Engineers can learn why dashboards are falling out of favor, what MCP offers, and how to start experimenting with AI-driven monitoring."
+ },
+ "https://www.youtube.com/watch?v=ZUZVNKFSmTM": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-06",
+  "score": 7,
+  "snippet": "Agents now run long enough that you stop watching them. So what are they allowed to touch? Jim Clark, principal software engineer at Docker, uses MCP gateways as a way into agent safety. Harnesses are simple loops. Safety comes from what context and tools flow into them, so the boundary to manage is the sandbox. Through two examples, a newsroom split into researcher, fact-checker and publisher…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "open-standards",
+   "agent-sandboxing",
+   "MCP",
+   "agent-safety"
+  ],
+  "title": "How Many Credentials Should Your AI Agent Have? Zero. — Jim Clark, Docker",
+  "what": "Jim Clark explains how to design AI agents with zero credentials using MCP gateways and sandboxing.",
+  "why": "Engineers can adopt MCP gateways to enforce agent boundaries and build safer, production‑ready agents."
  },
  "https://www.youtube.com/watch?v=ZnrMyEE4RcQ": {
   "first_seen": "2026-10-05",
@@ -19030,6 +19448,20 @@
   "source": "yt-aaif",
   "status": "dropped:title_rule",
   "title": "AGNTCon + MCPCon Japan 2026 Highlights | Tokyo’s First Production Agentic AI Summit"
+ },
+ "https://www.youtube.com/watch?v=_fHTqOs5wQA": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-05",
+  "score": 0,
+  "snippet": "The line of attendees waiting outside becomes the workshop's live product idea: an app called Just Get In the Workshop. Kent C. Dodds uses that immediate frustration to practice deciding whether a problem deserves a software solution. Before the exercise, he explains why faster implementation changes the value of an engineer's work. Agents can help hit more targets, but choosing the useful target…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Build the Right Thing: Product Engineering (Part 1) — Kent C. Dodds, EpicProduct.engineer",
+  "what": "Product engineering workshop by Kent C. Dodds",
+  "why": "No actionable content on building or operating AI agents or open-source tools"
  },
  "https://www.youtube.com/watch?v=a5Yie-Bgx7A": {
   "first_seen": "2026-10-05",
@@ -19051,11 +19483,16 @@
  "https://www.youtube.com/watch?v=aMqBsTRD2XA": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-24",
+  "score": 0,
   "snippet": "We're launching Custom Apps in LangSmith, which lets you build, publish, and run custom UIs on top of LangSmith data and run them directly inside LangSmith. ✅ Create custom interfaces without starting from scratch: Use templates and coding-agent guidance to build on LangSmith data, then publish and share inside LangSmith. ✅ Review agent behavior your way. Build focused UIs for feedback,…",
   "source": "yt-langchain",
-  "status": "passed",
-  "title": "Introducing LangSmith Custom Apps: Build custom interfaces around your agent data"
+  "status": "rejected",
+  "tags": [],
+  "title": "Introducing LangSmith Custom Apps: Build custom interfaces around your agent data",
+  "what": "Announcement of LangSmith Custom Apps for building custom UIs over agent data",
+  "why": "Not a technical how-to or open-source tool to build with"
  },
  "https://www.youtube.com/watch?v=bRGyYaE0lxI": {
   "first_seen": "2026-10-05",
@@ -19073,6 +19510,20 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "Your tools are now interactive in Claude"
+ },
+ "https://www.youtube.com/watch?v=c5U-XbbEN-g": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-06",
+  "score": 0,
+  "snippet": "Your next customer might check out without ever visiting your site. Here's how the payment actually works. Sam Parsons, senior staff engineer at PayPal working on PayPal Enterprise Payments (formerly Braintree), walks through three ways merchants can accept payments initiated by AI agents. First, Instant Checkout in ChatGPT with the Agentic Commerce Protocol and a merchant-built MCP app. Second,…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "How AI Agents Pay: Checkout in ChatGPT and Google AI Mode — Sam Parsons, PayPal",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=cLMAqEqW3U4": {
   "first_seen": "2026-10-05",
@@ -19145,14 +19596,55 @@
   "status": "passed",
   "title": "The dots demo, take two | OpenAI DevDay 2026"
  },
+ "https://www.youtube.com/watch?v=fz6-NS7qpZc": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 45,
+  "published": "2026-10-05",
+  "score": 12,
+  "snippet": "A runaway process consumes 99.7% of a sandbox's CPU, and killing it unlocks the next level of a capture the flag lab. Matt Brockman walks the room through deliberately broken environments to make sandbox operations concrete. Participants identify their sandbox, find memory pressure, locate a file filling the disk, and clean up background processes. Each challenge runs in its own environment, so a…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "sandbox",
+   "process-management",
+   "security",
+   "ci/cd",
+   "observability"
+  ],
+  "title": "How I Learned to Stop Worrying and Love the Sandbox — Matt Brockman, E2B",
+  "what": "A YouTube walkthrough of diagnosing and fixing runaway processes in sandboxed environments.",
+  "why": "Engineers can apply the debugging patterns to improve sandbox reliability in their own CI/CD pipelines."
+ },
  "https://www.youtube.com/watch?v=hbH2RbUBZQ0": {
   "first_seen": "2026-10-05",
   "kind": "watch",
   "published": "2026-09-21",
+  "shown": "2026-10-06",
   "snippet": "Join us at AGNTCon + MCPCon NA https://hubs.la/Q04gbXLb0 Find all slides here: https://agntconmcpconeu26.sched.com/list/simple?iframe=no Timestamps 00:00:00 Pre-show and sponsor reels 00:13:00 Welcome to AgentCon and MCP Con Europe 00:20:00 Keynote: the five layer agentic stack and why open standards matter 00:32:00 Keynote: how far models have come and the MCP roadmap 00:40:00 Agentic messaging…",
   "source": "yt-aaif",
   "status": "passed",
   "title": "8+ Hour Livestream of AGNTCon + MCPCon EU Day 1 - Anthropic, OpenAI, AWS and More"
+ },
+ "https://www.youtube.com/watch?v=hfEczxdNyvU": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 60,
+  "published": "2026-10-06",
+  "score": 16,
+  "snippet": "A batch of 968 sample support traces exposes order lookup failures and broken escalation calls. Doug Guthrie uses those cases to connect Braintrust observability with the work of improving an agent. The workshop starts with a Python support agent built on the OpenAI Agents SDK, adds tracing, establishes an offline evaluation baseline, and publishes custom scorers. Online automations grade…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "observability",
+   "agents",
+   "openai agents sdk",
+   "offline evaluation",
+   "scoring"
+  ],
+  "title": "Advanced Workshop: Mastering AI Observability — Doug Guthrie, Braintrust",
+  "what": "Workshop on building observability for AI agents using the OpenAI Agents SDK and custom tracers",
+  "why": "Readers can apply the tracing, offline evaluation, and scoring techniques to monitor and improve their own production agents this month"
  },
  "https://www.youtube.com/watch?v=iF5IWjOWcA4": {
   "first_seen": "2026-10-05",
@@ -19175,11 +19667,19 @@
  "https://www.youtube.com/watch?v=iVCDIOf7vXw": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 15,
   "published": "2026-09-28",
+  "score": 3,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026 https://hubs.la/Q04gbXLb0 MCP-Powered Crash Investigation: How 11 MCP Servers Help an AI Agent Debug Production Issues at Uber - Kriti Dangi, Uber Debugging eats 42% of developer time — $300B lost globally every year. On an average, fixing an issue takes 15 days. Debug Assist does it in 30 minutes — issue alert to validated, reviewable PR. Most AI debugging…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Building a Debugging Agent Harness at Uber - Kriti Dangi"
+  "status": "rejected",
+  "tags": [
+   "event",
+   "presentation"
+  ],
+  "title": "Building a Debugging Agent Harness at Uber - Kriti Dangi",
+  "what": "A video presentation on Uber's debugging agent harness",
+  "why": "Provides a high‑level overview of an internal solution but offers limited actionable detail"
  },
  "https://www.youtube.com/watch?v=j2knrqAzYVY": {
   "first_seen": "2026-10-05",
@@ -19193,11 +19693,22 @@
  "https://www.youtube.com/watch?v=jc3kbZkuHTo": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-10-04",
+  "score": 11,
   "snippet": "Humans don't respond in 200 milliseconds. Your agent shouldn't fall over waiting for one. Melanie Warrick from developer relations at Temporal shows how to build human-in-the-loop agents that don't block or lose state. Using a live multi-agent ice cream delivery demo with fleet, customer and dispatch agents on Google ADK and LangGraph, she explains why durability belongs in the agent harness and…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "The Human Is an Async API — Melanie Warrick, Temporal"
+  "status": "rejected",
+  "tags": [
+   "human-in-the-loop",
+   "agent persistence",
+   "Temporal",
+   "LangGraph",
+   "durable agents"
+  ],
+  "title": "The Human Is an Async API — Melanie Warrick, Temporal",
+  "what": "A video on building non-blocking, durable human-in-the-loop agents using Temporal and LangGraph",
+  "why": "It shows how to design agent harnesses that tolerate human delays and persist state, which you can apply in your own agent pipelines"
  },
  "https://www.youtube.com/watch?v=kRaJtEXAOxU": {
   "first_seen": "2026-10-05",
@@ -19292,6 +19803,25 @@
   "status": "passed",
   "title": "We Built an AI Support Agent That Resolves 80% of Tickets — AssemblyAI"
  },
+ "https://www.youtube.com/watch?v=qZj7sqmidqA": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-05",
+  "score": 11,
+  "snippet": "An LLM correctness judge rejects all 13 reports from a financial analysis agent. Laurie Voss examines why: the agent used live web research, while the judge graded from its own knowledge without that research context. Supplying the collected sources to a faithfulness evaluator produces a more useful split of six faithful reports and seven unfaithful ones. The notebook builds the agent with the…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "evaluation",
+   "observability",
+   "agent correctness",
+   "open-source notebook"
+  ],
+  "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 101 — Laurie Voss, Arize AI",
+  "what": "A video demo on evaluating and shipping AI agents by Arize AI’s Laurie Voss.",
+  "why": "It teaches how to use a faithfulness evaluator and live web research to improve agent correctness, offering a concrete technique to apply this month."
+ },
  "https://www.youtube.com/watch?v=qflLT3SoVbw": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -19325,6 +19855,22 @@
   "source": "yt-ai-engineer",
   "status": "passed",
   "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog"
+ },
+ "https://www.youtube.com/watch?v=s0hFne6EeOI": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-05",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Build the Right Thing: Product Engineering (Part 2) — Kent C. Dodds, EpicProduct.engineer"
+ },
+ "https://www.youtube.com/watch?v=sGrD9a8dh_0": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-05",
+  "source": "yt-langchain",
+  "status": "dropped:title_rule",
+  "title": "How Zip Uses LangSmith and LangGraph to Ship New Features Faster"
  },
  "https://www.youtube.com/watch?v=sKltfHvsDQM": {
   "first_seen": "2026-10-05",
@@ -19371,6 +19917,42 @@
   "status": "passed",
   "title": "Stop Letting Your Context Get Out of Control"
  },
+ "https://www.youtube.com/watch?v=woIYJYd_etI": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-06",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "What Is an Inference Engine, Anyway? — Charles Frye, Modal"
+ },
+ "https://www.youtube.com/watch?v=wzWNYDY7toc": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-05",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "From Raw Documents to AI-Ready Data — Leo Platzer & Jeff Koss"
+ },
+ "https://www.youtube.com/watch?v=xLxhT2ZI7UM": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-05",
+  "score": 9,
+  "snippet": "The official judge said the agent succeeded 74% of the time. A better verifier said 38%. Miguel González Fernández, tech lead for Browserbase's agent platform, and Corby Rosset, researcher at Microsoft Research, present their research on verifiers for computer-use and web agents. Deterministic evals stopped scaling as agents improved, and the LLM judges bundled with popular web benchmarks turned…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "verifier",
+   "LLM agents",
+   "web agents",
+   "agent reliability",
+   "Browserbase"
+  ],
+  "title": "Your LLM Judge Is a Confident Liar: Building Better Verifiers — Browserbase",
+  "what": "A research presentation on improving verifier accuracy for web‑using LLM agents by Miguel González Fernández and Corby Rosset.",
+  "why": "Readers can adopt the described verifier techniques to build more reliable agent check‑mechanisms in their own projects."
+ },
  "https://www.youtube.com/watch?v=y-OVWZD4j6U": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -19379,6 +19961,14 @@
   "source": "yt-ai-engineer",
   "status": "passed",
   "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal"
+ },
+ "https://www.youtube.com/watch?v=zQZiHOpkq_s": {
+  "first_seen": "2026-10-06",
+  "kind": "watch",
+  "published": "2026-10-05",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Research to Reality with Google DeepMind — Paige Bailey, Google DeepMind"
  },
  "https://www.youtube.com/watch?v=zoohZ1BiHs0": {
   "first_seen": "2026-10-05",

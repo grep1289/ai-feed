@@ -6,6 +6,13 @@
    "https://aaif.io/blog/a2a-joins-aaif",
    "https://www.youtube.com/watch?v=3oHLjC3wZNE",
    "https://www.youtube.com/watch?v=-mWWsvv19jE"
+  ],
+  "2026-10-06": [
+   "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+   "https://developers.openai.com/blog/responses-api",
+   "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "https://www.youtube.com/watch?v=4-oA1BJeyr4",
+   "https://www.youtube.com/watch?v=hbH2RbUBZQ0"
   ]
  },
  "rollup": {
@@ -134,10 +141,10 @@
   ]
  },
  "scoring": {
-  "calls": 30,
-  "date": "2026-10-05",
-  "error": "reply has no scores",
-  "failed": 9,
-  "rejected": 12
+  "calls": 40,
+  "date": "2026-10-06",
+  "error": null,
+  "failed": 0,
+  "rejected": 32
  }
 }
