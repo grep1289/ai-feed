@@ -23,6 +23,20 @@
   "what": "",
   "why": ""
  },
+ "https://aaif.io/blog/agent-router-joins-aaif": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "minutes": null,
+  "published": null,
+  "score": 0,
+  "snippet": "",
+  "source": "aaif-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "Envoy AI Gateway becomes Agent Router and joins AAIF",
+  "what": "No technical content provided.",
+  "why": "Cannot extract actionable information."
+ },
  "https://aaif.io/blog/mcp-usage-surged-as-the-protocol-went-stateless": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -2434,6 +2448,2142 @@
   "status": "dropped:category",
   "title": "Zero Trust for AI agents"
  },
+ "https://claude.com/resources/articles/1m-context": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-08-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Sonnet 4 now supports 1M tokens of context"
+ },
+ "https://claude.com/resources/articles/1m-context-ga": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6"
+ },
+ "https://claude.com/resources/articles/a-field-guide-to-claude-fable-finding-your-unknowns": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "A field guide to Claude Fable 5: Finding your unknowns"
+ },
+ "https://claude.com/resources/articles/a-guide-to-cost-visibility-and-control-in-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-04",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "A guide to cost visibility and control in Claude"
+ },
+ "https://claude.com/resources/articles/agent-capabilities-api": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-05-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "New capabilities for building agents on the Anthropic API"
+ },
+ "https://claude.com/resources/articles/agent-identity-access-model": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI"
+ },
+ "https://claude.com/resources/articles/agent-view-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-11",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Agent view in Claude Code"
+ },
+ "https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic"
+ },
+ "https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Agents you can coach: how Asana builds human-agent teams with Claude"
+ },
+ "https://claude.com/resources/articles/ai-ci-cd-on-call": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures"
+ },
+ "https://claude.com/resources/articles/ai-code-migration": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic runs large-scale code migrations with Claude Code"
+ },
+ "https://claude.com/resources/articles/amazon-bedrock-general-availability": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2023-09-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude on Amazon Bedrock now available to every AWS customer"
+ },
+ "https://claude.com/resources/articles/analysis-tool": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-10-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing the analysis tool in Claude.ai"
+ },
+ "https://claude.com/resources/articles/android-app": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-07-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Android app"
+ },
+ "https://claude.com/resources/articles/anthropics-approach-to-teaching-and-learning-ai": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Anthropic’s approach to teaching and learning AI"
+ },
+ "https://claude.com/resources/articles/artifacts-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Code now supports artifacts"
+ },
+ "https://claude.com/resources/articles/auto-mode": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Auto mode for Claude Code"
+ },
+ "https://claude.com/resources/articles/auto-mode-default-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans"
+ },
+ "https://claude.com/resources/articles/auto-mode-in-production": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Running auto mode in production"
+ },
+ "https://claude.com/resources/articles/automate-security-reviews-with-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-08-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Automate security reviews with Claude Code"
+ },
+ "https://claude.com/resources/articles/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner"
+ },
+ "https://claude.com/resources/articles/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Behind the model launch: What customers discovered testing Claude Opus 4.6 early"
+ },
+ "https://claude.com/resources/articles/best-practices-for-computer-and-browser-use-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Best practices for computer and browser use with Claude"
+ },
+ "https://claude.com/resources/articles/best-practices-for-getting-started-with-claude-cowork": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Best practices for getting started with Claude Cowork"
+ },
+ "https://claude.com/resources/articles/best-practices-for-prompt-engineering": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Best practices for prompt engineering for 2026"
+ },
+ "https://claude.com/resources/articles/best-practices-for-using-claude-opus-4-7-with-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Best practices for using Claude Opus 4.7 with Claude Code"
+ },
+ "https://claude.com/resources/articles/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Beyond permission prompts: making Claude Code more secure and autonomous"
+ },
+ "https://claude.com/resources/articles/bringing-claude-code-and-claude-cowork-to-government": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing Claude Code and Claude Cowork to government"
+ },
+ "https://claude.com/resources/articles/bringing-claude-mythos-5-to-more-defenders": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders"
+ },
+ "https://claude.com/resources/articles/bringing-mcp-2026-07-28-to-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing MCP 2026-07-28 to Claude"
+ },
+ "https://claude.com/resources/articles/build-artifacts": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-06-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Turn ideas into interactive AI-powered apps"
+ },
+ "https://claude.com/resources/articles/build-plugins-for-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Build plugins for Claude"
+ },
+ "https://claude.com/resources/articles/build-responsive-web-layouts": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Build responsive web layouts"
+ },
+ "https://claude.com/resources/articles/building-agents-that-reach-production-systems-with-mcp": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building agents that reach production systems with MCP"
+ },
+ "https://claude.com/resources/articles/building-agents-with-skills-equipping-agents-for-specialized-work": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building agents with Skills: Equipping agents for specialized work"
+ },
+ "https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-09-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building agents with the Claude Agent SDK"
+ },
+ "https://claude.com/resources/articles/building-ai-agents-for-startups": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building AI agents for startups"
+ },
+ "https://claude.com/resources/articles/building-ai-agents-for-the-enterprise": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building AI agents for the enterprise"
+ },
+ "https://claude.com/resources/articles/building-ai-agents-in-financial-services": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building AI agents for financial services"
+ },
+ "https://claude.com/resources/articles/building-ai-agents-in-healthcare-and-life-sciences": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building AI agents for healthcare and life sciences"
+ },
+ "https://claude.com/resources/articles/building-an-ai-native-revenue-organization": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building an AI-native revenue organization"
+ },
+ "https://claude.com/resources/articles/building-companies-with-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How three YC startups built their companies with Claude Code"
+ },
+ "https://claude.com/resources/articles/building-effective-human-agent-teams": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building effective human-agent teams"
+ },
+ "https://claude.com/resources/articles/building-multi-agent-systems-when-and-how-to-use-them": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building multi-agent systems: When and how to use them"
+ },
+ "https://claude.com/resources/articles/building-verification-loops-in-claude-code-with-skills": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building verification loops in Claude Code with skills"
+ },
+ "https://claude.com/resources/articles/building-with-claude-managed-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The evolution of agentic surfaces: building with Claude Managed Agents"
+ },
+ "https://claude.com/resources/articles/carta-healthcare-clinical-abstractor": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Carta Healthcare gets AI to reason like a clinical abstractor"
+ },
+ "https://claude.com/resources/articles/ciso-guide-to-agentic-ai": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Zero risk isn't the job: a CISO's guide to agentic AI"
+ },
+ "https://claude.com/resources/articles/claude-2-1-prompting": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2023-12-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Long context prompting for Claude 2.1"
+ },
+ "https://claude.com/resources/articles/claude-2-amazon-bedrock": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2023-08-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude 2 on Amazon Bedrock"
+ },
+ "https://claude.com/resources/articles/claude-and-slack": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude and Slack"
+ },
+ "https://claude.com/resources/articles/claude-api-skill": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp"
+ },
+ "https://claude.com/resources/articles/claude-builds-visuals": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude now creates interactive charts, diagrams and visualizations"
+ },
+ "https://claude.com/resources/articles/claude-code-and-new-admin-controls-for-business-plans": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-08-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Code and new admin controls for business plans"
+ },
+ "https://claude.com/resources/articles/claude-code-and-slack": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Code and Slack"
+ },
+ "https://claude.com/resources/articles/claude-code-desktop-redesign": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Redesigning Claude Code on desktop for parallel agents"
+ },
+ "https://claude.com/resources/articles/claude-code-guide-for-startups": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The Claude Code guide for startups"
+ },
+ "https://claude.com/resources/articles/claude-code-mods": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Customize Claude Code with mods"
+ },
+ "https://claude.com/resources/articles/claude-code-on-the-web": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Code on the web"
+ },
+ "https://claude.com/resources/articles/claude-code-plugins": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Customize Claude Code with plugins"
+ },
+ "https://claude.com/resources/articles/claude-code-remote-mcp": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-06-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Remote MCP support in Claude Code"
+ },
+ "https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-work": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Design now stays on brand for daily work"
+ },
+ "https://claude.com/resources/articles/claude-enterprise-inference-hooks": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Inference hooks: inline data loss prevention for Claude Enterprise"
+ },
+ "https://claude.com/resources/articles/claude-excel-powerpoint-updates": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-11",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Advancing Claude for Excel and PowerPoint"
+ },
+ "https://claude.com/resources/articles/claude-for-chrome": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-08-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Piloting Claude in Chrome"
+ },
+ "https://claude.com/resources/articles/claude-for-commerce-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building commerce agents with Claude"
+ },
+ "https://claude.com/resources/articles/claude-for-enterprise": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-09-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude for Enterprise"
+ },
+ "https://claude.com/resources/articles/claude-for-financial-advisors": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude for Financial Advisors"
+ },
+ "https://claude.com/resources/articles/claude-for-foundation-models": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework"
+ },
+ "https://claude.com/resources/articles/claude-for-government-is-now-generally-available": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude for Government is now generally available"
+ },
+ "https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude for Small Business launches new workflows, integrations, and training programs"
+ },
+ "https://claude.com/resources/articles/claude-for-teachers-now-available-for-schools-and-districts": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude for Teachers, now available for U.S. K-12 schools and districts"
+ },
+ "https://claude.com/resources/articles/claude-for-the-legal-industry": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude for the legal industry"
+ },
+ "https://claude.com/resources/articles/claude-in-chrome-generally-available": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude in Chrome is generally available"
+ },
+ "https://claude.com/resources/articles/claude-in-microsoft-foundry": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude in Microsoft Foundry is now generally available"
+ },
+ "https://claude.com/resources/articles/claude-managed-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Managed Agents: get to production 10x faster"
+ },
+ "https://claude.com/resources/articles/claude-managed-agents-memory": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Built-in memory for Claude Managed Agents"
+ },
+ "https://claude.com/resources/articles/claude-managed-agents-updates": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-19",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels"
+ },
+ "https://claude.com/resources/articles/claude-marketplace": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners"
+ },
+ "https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Choosing a Claude model and effort level in Claude Code"
+ },
+ "https://claude.com/resources/articles/claude-models-explained-choosing-the-best-model-for-your-use-case": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude models explained: choosing the best model for your use case"
+ },
+ "https://claude.com/resources/articles/claude-now-available-in-microsoft-365-copilot": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-09-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude is now available in Microsoft 365 Copilot"
+ },
+ "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude now works with Google Docs, Sheets, and Slides"
+ },
+ "https://claude.com/resources/articles/claude-on-google-cloud-fedramp-high": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-04-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized"
+ },
+ "https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind."
+ },
+ "https://claude.com/resources/articles/claude-platform-compliance-api": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Audit Claude Platform activity with the Compliance API"
+ },
+ "https://claude.com/resources/articles/claude-platform-on-aws": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-11",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing the Claude Platform on AWS"
+ },
+ "https://claude.com/resources/articles/claude-powered-artifacts": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-07-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Build and share AI-powered apps with Claude"
+ },
+ "https://claude.com/resources/articles/claude-security-public-beta": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Security is now in public beta"
+ },
+ "https://claude.com/resources/articles/claude-tag-now-reads-even-more-of-the-room": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Tag now reads even more of the room"
+ },
+ "https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Tag now supports personal connectors in channels"
+ },
+ "https://claude.com/resources/articles/claude-team-updates": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Updates to Claude Team"
+ },
+ "https://claude.com/resources/articles/claudes-memory-works-everywhere-and-you-decide-whats-in-it": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude's memory works everywhere, and you decide what's in it"
+ },
+ "https://claude.com/resources/articles/code-review": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing Code Review to Claude Code"
+ },
+ "https://claude.com/resources/articles/code-w-claude-london-2026-rethinking-how-we-build": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Code w/ Claude London 2026: Rethinking how we build"
+ },
+ "https://claude.com/resources/articles/code-w-claude-sf-2026-sf": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Code w/ Claude SF 2026 recap: Building on the AI exponential"
+ },
+ "https://claude.com/resources/articles/code-with-claude-san-francisco-london-tokyo": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Code with Claude comes to San Francisco, London, and Tokyo"
+ },
+ "https://claude.com/resources/articles/collaborate-with-claude-across-excel-powerpoint-word-and-outlook": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook"
+ },
+ "https://claude.com/resources/articles/common-workflow-patterns-for-ai-agents-and-when-to-use-them": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Common workflow patterns for AI agents—and when to use them"
+ },
+ "https://claude.com/resources/articles/complete-guide-to-building-skills-for-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "A complete guide to building skills for Claude"
+ },
+ "https://claude.com/resources/articles/compliance-api-cowork-and-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-11",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Compliance API coverage extends to Claude Cowork and Claude Code"
+ },
+ "https://claude.com/resources/articles/compliance-api-security-partners": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude now works with more security and compliance tools"
+ },
+ "https://claude.com/resources/articles/computer-use-skills-api-files-api": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Build production agents with computer use, the Skills API, and the Files API"
+ },
+ "https://claude.com/resources/articles/connectors-directory": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-07-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Discover tools that work with Claude"
+ },
+ "https://claude.com/resources/articles/connectors-for-everyday-life": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "New connectors in Claude for everyday life"
+ },
+ "https://claude.com/resources/articles/context-management": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-09-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Managing context on the Claude Developer Platform"
+ },
+ "https://claude.com/resources/articles/contribution-metrics": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Understand Claude Code’s impact with contribution metrics"
+ },
+ "https://claude.com/resources/articles/cowork-built-in-browser": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude gets its own browser in Cowork"
+ },
+ "https://claude.com/resources/articles/cowork-chrome-side-panel": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The Claude in Chrome side panel is now Claude Cowork"
+ },
+ "https://claude.com/resources/articles/cowork-for-enterprise": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Making Claude Cowork ready for enterprise"
+ },
+ "https://claude.com/resources/articles/cowork-is-now-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Cowork and chat are now one Claude"
+ },
+ "https://claude.com/resources/articles/cowork-plugins": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Customize Cowork with plugins"
+ },
+ "https://claude.com/resources/articles/cowork-plugins-across-enterprise": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Cowork and plugins for teams across the enterprise"
+ },
+ "https://claude.com/resources/articles/cowork-plugins-finance": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Cowork and plugins for finance"
+ },
+ "https://claude.com/resources/articles/cowork-web-mobile": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Cowork is coming to mobile and web"
+ },
+ "https://claude.com/resources/articles/create-files": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-09-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude can now create and edit files"
+ },
+ "https://claude.com/resources/articles/deploying-ai-from-pilot-to-production": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Deploying AI from pilot to production"
+ },
+ "https://claude.com/resources/articles/deploying-claude-across-financial-services": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Deploying Claude across financial services"
+ },
+ "https://claude.com/resources/articles/deploying-claude-across-the-legal-industry": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Deploying Claude across the legal industry"
+ },
+ "https://claude.com/resources/articles/dispatch-and-computer-use": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Put Claude to work on your computer"
+ },
+ "https://claude.com/resources/articles/driving-ai-transformation-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How enterprises are driving AI transformation with Claude"
+ },
+ "https://claude.com/resources/articles/eight-trends-defining-how-software-gets-built-in-2026": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Eight trends defining how software gets built in 2026"
+ },
+ "https://claude.com/resources/articles/enterprise-managed-auth": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Centrally manage authorization for MCP connectors"
+ },
+ "https://claude.com/resources/articles/evaluate-prompts": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-07-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Evaluate prompts in the developer console"
+ },
+ "https://claude.com/resources/articles/extending-claude-capabilities-with-skills-mcp-servers": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-19",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Extending Claude’s capabilities with skills and MCP servers"
+ },
+ "https://claude.com/resources/articles/fine-tune-claude-3-haiku": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-07-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
+ },
+ "https://claude.com/resources/articles/fix-software-bugs-faster-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Fix software bugs faster with Claude"
+ },
+ "https://claude.com/resources/articles/four-role-based-claude-certifications": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Four role-based certifications for the people who put Claude to work for customers"
+ },
+ "https://claude.com/resources/articles/getting-started-with-loops": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Loop engineering: Getting started with loops"
+ },
+ "https://claude.com/resources/articles/giving-admins-more-visibility-and-control-over-claude-usage-and-spend": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Giving admins more visibility and control over Claude spend"
+ },
+ "https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Giving companies more control over their AI agents, with NVIDIA"
+ },
+ "https://claude.com/resources/articles/harnessing-claudes-intelligence": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence"
+ },
+ "https://claude.com/resources/articles/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks"
+ },
+ "https://claude.com/resources/articles/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents"
+ },
+ "https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "COBOL Modernization with AI: Breaking the Cost Barrier"
+ },
+ "https://claude.com/resources/articles/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep"
+ },
+ "https://claude.com/resources/articles/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book"
+ },
+ "https://claude.com/resources/articles/how-anthropic-employees-use-claude-tag": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic employees use Claude Tag"
+ },
+ "https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic enables self-service data analytics with Claude"
+ },
+ "https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic secures its AI-native software development lifecycle"
+ },
+ "https://claude.com/resources/articles/how-anthropic-teams-use-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-07-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic teams use Claude Code"
+ },
+ "https://claude.com/resources/articles/how-anthropic-uses-claude-cybersecurity": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's cybersecurity team built a threat detection platform with Claude Code"
+ },
+ "https://claude.com/resources/articles/how-anthropic-uses-claude-gtm-engineering": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How one Anthropic seller rebuilt his team's workflows with Claude Code"
+ },
+ "https://claude.com/resources/articles/how-anthropic-uses-claude-legal": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's legal team cut review times from days to hours with Claude"
+ },
+ "https://claude.com/resources/articles/how-anthropic-uses-claude-marketing": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code"
+ },
+ "https://claude.com/resources/articles/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale"
+ },
+ "https://claude.com/resources/articles/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers"
+ },
+ "https://claude.com/resources/articles/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds"
+ },
+ "https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents"
+ },
+ "https://claude.com/resources/articles/how-brex-improves-code-quality-and-productivity-with-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Brex improves code quality and productivity with Claude Code"
+ },
+ "https://claude.com/resources/articles/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Claude Code works in large codebases: Best practices and where to start"
+ },
+ "https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace"
+ },
+ "https://claude.com/resources/articles/how-coderabbit-used-claude-to-build-an-agent-orchestration-system": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-27",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How CodeRabbit used Claude to build an agent orchestration system"
+ },
+ "https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases"
+ },
+ "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK"
+ },
+ "https://claude.com/resources/articles/how-datadog-built-a-universal-machine-tool-for-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Datadog built a “universal machine tool” for Claude Code"
+ },
+ "https://claude.com/resources/articles/how-enterprises-are-building-ai-agents-in-2026": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How enterprises are building AI agents in 2026"
+ },
+ "https://claude.com/resources/articles/how-healthcare-organizations-use-claude-tag": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How healthcare organizations use Claude Tag"
+ },
+ "https://claude.com/resources/articles/how-jetbrains-evaluates-and-deploys-claude-fable-5": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5"
+ },
+ "https://claude.com/resources/articles/how-kepler-built-verifiable-ai-for-financial-services-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Kepler built verifiable AI for financial services with Claude"
+ },
+ "https://claude.com/resources/articles/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How leading retailers are turning AI pilots into enterprise-wide transformation"
+ },
+ "https://claude.com/resources/articles/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate"
+ },
+ "https://claude.com/resources/articles/how-our-partners-are-putting-opus-to-work-for-cybersecurity": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How our partners are putting Opus to work for cybersecurity"
+ },
+ "https://claude.com/resources/articles/how-outtake-built-a-cyber-investigator-on-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Outtake built a cyber investigator on Claude"
+ },
+ "https://claude.com/resources/articles/how-people-are-using-claude-cowork": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How people are using Claude Cowork"
+ },
+ "https://claude.com/resources/articles/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How the product designer who built Claude Design uses it to explore ideas before building them"
+ },
+ "https://claude.com/resources/articles/how-to-configure-hooks": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-11",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Code power user customization: How to configure hooks"
+ },
+ "https://claude.com/resources/articles/how-to-create-skills-key-steps-limitations-and-examples": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-19",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How to create Skills: Key steps, limitations, and examples"
+ },
+ "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How to prepare for AI-driven code modernization projects"
+ },
+ "https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Warp builds self-improving agents on Claude"
+ },
+ "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Increase web search accuracy and efficiency with dynamic filtering"
+ },
+ "https://claude.com/resources/articles/improving-frontend-design-through-skills": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Improving frontend design through Skills"
+ },
+ "https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Improving skill-creator: Test, measure, and refine Agent Skills"
+ },
+ "https://claude.com/resources/articles/integrate-apis-seamlessly": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-27",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How to integrate APIs seamlessly"
+ },
+ "https://claude.com/resources/articles/integrations": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-05-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude can now connect to your world"
+ },
+ "https://claude.com/resources/articles/interactive-tools-in-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-01-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Your favorite work tools are now interactive connectors inside Claude"
+ },
+ "https://claude.com/resources/articles/introducing-citations-api": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-06-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing Citations on the Anthropic API"
+ },
+ "https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing dynamic workflows in Claude Code"
+ },
+ "https://claude.com/resources/articles/introducing-routines-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing routines in Claude Code"
+ },
+ "https://claude.com/resources/articles/introducing-the-claude-apps-gateway": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud"
+ },
+ "https://claude.com/resources/articles/introduction-to-agentic-coding": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introduction to agentic coding"
+ },
+ "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "What are the key benefits of transitioning to agentic coding for software development?"
+ },
+ "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Making Claude a better electrical engineer"
+ },
+ "https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Maximizing the value of your Claude Code sessions"
+ },
+ "https://claude.com/resources/articles/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Meet the winners of the Built with Opus 4.7 Claude Code hackathon"
+ },
+ "https://claude.com/resources/articles/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Meet the winners of our Built with Opus 4.6 Claude Code hackathon"
+ },
+ "https://claude.com/resources/articles/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Meet the winners of our Claude Opus 4.8 Build Day hackathon"
+ },
+ "https://claude.com/resources/articles/memory": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-09-11",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing memory to Claude"
+ },
+ "https://claude.com/resources/articles/message-batches-api": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-10-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing the Message Batches API"
+ },
+ "https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Millennium and Anthropic are building a digital risk analyst with Claude"
+ },
+ "https://claude.com/resources/articles/multi-agent-coordination-patterns": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Multi-agent coordination patterns: Five approaches and when to use them"
+ },
+ "https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Deploying agentic AI across the enterprise with Claude Cowork"
+ },
+ "https://claude.com/resources/articles/new-in-claude-managed-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-19",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration"
+ },
+ "https://claude.com/resources/articles/observability-for-developers-building-connectors": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Observability for developers building connectors"
+ },
+ "https://claude.com/resources/articles/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development"
+ },
+ "https://claude.com/resources/articles/optimize-code-performance-quickly": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Optimize code performance quickly"
+ },
+ "https://claude.com/resources/articles/opus-4-6-finance": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Advancing finance with Claude Opus 4.6"
+ },
+ "https://claude.com/resources/articles/organization-skills-and-directory": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-12-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Skills for organizations, partners, the ecosystem"
+ },
+ "https://claude.com/resources/articles/preparing-your-security-program-for-ai-accelerated-offense": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Preparing your security program for AI-accelerated offense"
+ },
+ "https://claude.com/resources/articles/preview-review-and-merge-with-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing automated preview, review, and merge to Claude Code on desktop"
+ },
+ "https://claude.com/resources/articles/product-development-in-the-agentic-era": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-29",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Product development in the agentic era"
+ },
+ "https://claude.com/resources/articles/product-management-on-the-ai-exponential": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-19",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Product management on the AI exponential"
+ },
+ "https://claude.com/resources/articles/productivity-platforms": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude and your productivity platforms"
+ },
+ "https://claude.com/resources/articles/projects-redesigned": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Projects redesigned: from folder to conversation"
+ },
+ "https://claude.com/resources/articles/prompt-caching": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-08-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Prompt caching with Claude"
+ },
+ "https://claude.com/resources/articles/prompt-generator": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-05-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Generate better prompts in the developer console"
+ },
+ "https://claude.com/resources/articles/prompt-improver": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-10-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Improve your prompts in the developer console"
+ },
+ "https://claude.com/resources/articles/reducing-cost-and-improving-performance-with-claude-platform": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Reducing cost and improving performance with Claude Platform"
+ },
+ "https://claude.com/resources/articles/research": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-04-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude takes research to new places"
+ },
+ "https://claude.com/resources/articles/run-claude-code-sessions-on-your-own-compute": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Run Claude Code sessions on your own compute"
+ },
+ "https://claude.com/resources/articles/running-an-ai-native-engineering-org": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Running an AI-native engineering org"
+ },
+ "https://claude.com/resources/articles/salesforce-in-claude": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Bringing Salesforce into Claude"
+ },
+ "https://claude.com/resources/articles/scaling-agentic-coding": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How to scale agentic coding across your engineering organization"
+ },
+ "https://claude.com/resources/articles/self-serve-enterprise": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-02-12",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Enterprise, now available self-serve"
+ },
+ "https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions"
+ },
+ "https://claude.com/resources/articles/skills": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing Agent Skills"
+ },
+ "https://claude.com/resources/articles/skills-explained": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-03-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Skills explained: How Skills compares to prompts, Projects, MCP, and subagents"
+ },
+ "https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-18",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents"
+ },
+ "https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Structured outputs on the Claude Developer Platform"
+ },
+ "https://claude.com/resources/articles/subagents-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How and when to use subagents in Claude Code"
+ },
+ "https://claude.com/resources/articles/t-rowe-price-brings-more-of-claude-to-its-investment-process": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "T. Rowe Price brings more of Claude to its investment process"
+ },
+ "https://claude.com/resources/articles/team-plan-and-ios": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-05-01",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing the Claude Team plan and iOS app"
+ },
+ "https://claude.com/resources/articles/the-advisor-strategy": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The advisor strategy: Give agents an intelligence boost"
+ },
+ "https://claude.com/resources/articles/the-ai-native-sdlc-playbook": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-21",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The AI-native SDLC playbook"
+ },
+ "https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "A guide to the anatomy of effective commerce agents"
+ },
+ "https://claude.com/resources/articles/the-claude-cowork-product-guide": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The Claude Cowork product guide"
+ },
+ "https://claude.com/resources/articles/the-founders-playbook": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The founder's playbook: Building an AI-native startup"
+ },
+ "https://claude.com/resources/articles/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry"
+ },
+ "https://claude.com/resources/articles/think-through-hard-problems-in-voice-mode": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Think through hard problems in voice mode"
+ },
+ "https://claude.com/resources/articles/token-saving-updates": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-03-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Token-saving updates on the Anthropic API"
+ },
+ "https://claude.com/resources/articles/tool-use-ga": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-05-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude can now use tools"
+ },
+ "https://claude.com/resources/articles/trainium2-and-distillation": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-12-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock"
+ },
+ "https://claude.com/resources/articles/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-08-19",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Turning conversation into knowledge: how Slack builds human-agent teams"
+ },
+ "https://claude.com/resources/articles/upgraded-anthropic-console": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-03-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Get to production faster with the upgraded Anthropic Console"
+ },
+ "https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Using Claude Code: session management and 1M context"
+ },
+ "https://claude.com/resources/articles/using-claude-md-files": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Using CLAUDE.md files: Customizing Claude Code for your codebase"
+ },
+ "https://claude.com/resources/articles/using-llms-to-secure-source-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-27",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Using LLMs to secure source code"
+ },
+ "https://claude.com/resources/articles/web-search": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-03-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude can now search the web"
+ },
+ "https://claude.com/resources/articles/web-search-api": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-05-07",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing web search on the Anthropic API"
+ },
+ "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "We’re expanding the Claude Startups program to help founders build"
+ },
+ "https://claude.com/resources/articles/what-1-000-small-business-owners-taught-us-about-ai": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "What 1,000 small business owners taught us about AI"
+ },
+ "https://claude.com/resources/articles/what-is-model-context-protocol": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-10-31",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "What is Model Context Protocol? Connect AI to your world"
+ },
+ "https://claude.com/resources/articles/whats-new-in-claude-managed-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-cursor": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-rakuten": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5"
+ },
+ "https://claude.com/resources/articles/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work"
+ },
+ "https://claude.com/resources/articles/working-with-claude-fable-5-in-claude-cowork": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Working with Claude Fable 5 in Claude Cowork"
+ },
+ "https://claude.com/resources/articles/workload-identity-federation": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Secure access to the Claude Platform with Workload Identity Federation"
+ },
+ "https://claude.com/resources/articles/workspaces": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2024-09-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Workspaces in the Anthropic API Console"
+ },
+ "https://claude.com/resources/articles/your-thinking-partner": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2025-11-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "What’s new in Claude: Turning Claude into your thinking partner"
+ },
+ "https://claude.com/resources/articles/zero-trust-for-ai-agents": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-27",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Zero Trust for AI agents"
+ },
+ "https://claude.dev/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "A harness for every task: dynamic workflows in Claude Code"
+ },
+ "https://claude.dev/blog/automating-eval-design-and-hillclimbing": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Automating eval design and hillclimbing with Claude"
+ },
+ "https://claude.dev/blog/building-with-claude-sonnet-5-5": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building with Claude Sonnet 5.5"
+ },
+ "https://claude.dev/blog/getting-the-most-out-of-opus-5-5": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Getting the most out of Opus 5.5 in Claude and Claude Code"
+ },
+ "https://claude.dev/blog/how-we-made-claude-ai-faster": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How we made claude.ai 3x faster in two weeks"
+ },
+ "https://claude.dev/blog/lessons-from-building-claude-code-how-we-use-skills": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-06-03",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Lessons from building Claude Code: How we use skills"
+ },
+ "https://claude.dev/blog/lessons-from-building-claude-code-prompt-caching-is-everything": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-30",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Lessons from building Claude Code: Prompt caching is everything"
+ },
+ "https://claude.dev/blog/seeing-like-an-agent": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-04-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Seeing like an agent: how we design tools in Claude Code"
+ },
+ "https://claude.dev/blog/spending-your-effort": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Using Claude Code: Spending your effort"
+ },
+ "https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-07-24",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The new rules of context engineering for Claude 5 generation models"
+ },
+ "https://claude.dev/blog/using-claude-code-the-unreasonable-effectiveness-of-html": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-05-20",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Using Claude Code: The unreasonable effectiveness of HTML"
+ },
+ "https://claude.dev/blog/what-a-task-costs-on-opus-5-5": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-25",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "What a task costs on Opus 5.5"
+ },
  "https://code.claude.com/docs/en/changelog": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -2494,6 +4644,22 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "Colab is now part of your Google AI plan"
+ },
+ "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "EmbeddingGemma 2: The Developer Guide"
+ },
+ "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2"
  },
  "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk": {
   "first_seen": "2026-10-05",
@@ -2825,11 +4991,16 @@
  "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-10-02",
+  "score": 0,
   "snippet": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
   "source": "github-blog-ai",
-  "status": "passed",
-  "title": "AI is changing developer work. Here are three skills to strengthen."
+  "status": "rejected",
+  "tags": [],
+  "title": "AI is changing developer work. Here are three skills to strengthen.",
+  "what": "",
+  "why": ""
  },
  "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot": {
   "first_seen": "2026-10-05",
@@ -3102,6 +5273,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "0.3.276"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.277": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "update changelog for release",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "0.3.277"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -3641,6 +5821,15 @@
   "status": "passed",
   "title": "v0.2.163"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.164": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.292 CI: security hardening for GitHub Actions workflows that call Claude — egress-firewall runner, network allow list, auto permission mode, and a check workflow to enforce them ( #1329 ) CI: raised PyPI per-file limit guard to 250 MiB to match the updated project limit ( #1366 ) Tests: fixed thinking-deltas e2e test for CLI…",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.164"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4100,6 +6289,21 @@
   "status": "passed",
   "title": "GitHub MCP Server 1.9.0"
  },
+ "https://github.com/github/github-mcp-server/releases/tag/v2.0.0": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "minutes": null,
+  "promote": true,
+  "published": "2026-10-06",
+  "score": 0,
+  "snippet": "Highlights ✨ More and more agents are supporting Code Mode or Programmatic Tool Calling so we have added support for structured outputs and output schemas to help do this effectively. These schemas are only advertised to clients advertising MCP 2026-07-28 spec support (or later). Our compound tools required some updates to allowed output schemas, so they are not valid for older clients and we…",
+  "source": "gh-github-github-mcp-server",
+  "status": "rejected",
+  "tags": [],
+  "title": "GitHub MCP Server 2.0.0",
+  "what": "",
+  "why": ""
+ },
  "https://github.com/google/adk-python/releases/tag/v1.39.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4553,6 +6757,15 @@
   "status": "passed",
   "title": "v1.0.5"
  },
+ "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.5.post1": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Release v1.0.5.post1",
+  "source": "gh-kubernetes-sigs-agent-sandbox",
+  "status": "passed",
+  "title": "v1.0.5.post1"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.19": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4634,6 +6847,15 @@
   "status": "passed",
   "title": "deepagents-code==0.1.80"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.81": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Features The agent can now discover marketplace plugins ( #6719 ). You can open the effort selector during active runs ( #6724 ) and the cost breakdown from the footer ( #6723 ). Added --no-tracing and an explicit tracing status indicator ( #6721 ). Renamed /summarization-model to /offload model ( #6774 ). Highlighted the active line in multiline chat input ( #6746 ). Bug Fixes Use…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.1.81"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -4678,6 +6900,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph==1.2.13"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Changes since 1.2.13 release(langgraph): 1.2.14 ( #9215 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.14"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
@@ -4749,6 +6980,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.5"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Changes since sdk==0.4.5 release(sdk-py): 0.4.6 ( #9214 ) fix(sdk-py): percent-encode thread_id and assistant_id in thread stream requests ( #9213 ) release(langgraph): 1.2.13 ( #9205 ) chore(deps): bump the minor-and-patch group in /libs/sdk-py with 5 updates ( #9149 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/sdk-py ( #9134 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.6"
  },
  "https://github.com/langfuse/langfuse/releases/tag/v4.45.0": {
   "first_seen": "2026-10-05",
@@ -4848,6 +7088,24 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.51.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.52.0": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "What's Changed Features feat(trace-batch): bound batches by estimated weight and exclude oversized traces by @LysanderKie in #18296 feat(web): show the organization usage breakdown on every deployment by @Steffen911 in #18154 feat(auth): remember the last enterprise SSO email on the sign-in form by @dergeraetbot in #18258 Fixes fix(llm): drop retired and superseded models from the Vertex AI…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.52.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.53.0": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "What's Changed Features feat(ai-gateway): expose resolution context in response headers, spans and logs by @hassiebp in #18247 Fixes / Improvements fix(web): zinc neutral tokens, surface tokens, observation line and fill colours by @nmtrang29 in #18264 fix(evals): skip Bedrock URL media interpolation by @wochinge in #18303 fix(web): filled badge variant, score and tag chips built on it by…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.53.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -5387,6 +7645,15 @@
   "status": "passed",
   "title": "0.160.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.161.0": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "Release 0.161.0",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "rust-v0.161.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.161.0-alpha.13.1": {
   "first_seen": "2026-10-06",
   "kind": "release",
@@ -5450,6 +7717,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.162.0-alpha.16"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.17": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.162.0-alpha.17"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.18": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-07",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.162.0-alpha.18"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.6": {
   "first_seen": "2026-10-05",
@@ -5870,6 +8153,15 @@
   "status": "passed",
   "title": "python/v1.58.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.58.1": {
+  "first_seen": "2026-10-07",
+  "kind": "release",
+  "published": "2026-10-06",
+  "snippet": "python/v1.58.1 Auto-drafted from commits in python/v1.58.0..python/v1.58.1 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(mcp/ts): restore legacy task execution on the SDK 2.x client ( #4711 ) ( d9c971a ) 🐛 Fixes fix(models): preserve reported cache token usage ( #4943 )…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.58.1"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5909,11 +8201,20 @@
  "https://hamel.dev/blog/posts/claude-auto-evals": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-09-30",
+  "score": 3,
   "snippet": "Anthropic released new eval tooling for Claude Code . Their claude-api plugin now includes a new build_eval and hill-climb command that helps you build evals, check the graders, and improve your application against them. I usually don’t review eval tools because software changes so often that reviews have a short shelf life. But a first-party tool from Anthropic is likely to influence how people…",
   "source": "hamel",
-  "status": "passed",
-  "title": "Claude’s new auto eval tool"
+  "status": "rejected",
+  "tags": [
+   "evaluation",
+   "auto-evals",
+   "anthropic"
+  ],
+  "title": "Claude’s new auto eval tool",
+  "what": "Blog post about Claude’s new auto‑evaluation tooling for evaluating Claude Code via the claude‑api plugin",
+  "why": "It explains how to use the new build_eval and hill‑climb commands, giving a rough idea of how to set up and run evals, but it does not provide open‑source code or design patterns for building your own system."
  },
  "https://hamel.dev/blog/posts/course": {
   "first_seen": "2026-10-05",
@@ -6371,11 +8672,16 @@
  "https://huggingface.co/blog/ServiceNow-AI/autosynthdata": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-10-02",
+  "score": 0,
   "snippet": "",
   "source": "huggingface-blog",
-  "status": "passed",
-  "title": "AutoSynthData: Generating Training Data for Enterprise Agents"
+  "status": "rejected",
+  "tags": [],
+  "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+  "what": "AutoSynthData blog post announcing a new data generation tool for enterprise agents",
+  "why": "No actionable technical details are provided, so it offers no guidance to developers"
  },
  "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections": {
   "first_seen": "2026-10-05",
@@ -10196,11 +12502,16 @@
  "https://huggingface.co/blog/microsoft/thinkingbox": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-10-03",
+  "score": 0,
   "snippet": "",
   "source": "huggingface-blog",
-  "status": "passed",
-  "title": "The Agent Said It Was Done. The Database Disagreed."
+  "status": "rejected",
+  "tags": [],
+  "title": "The Agent Said It Was Done. The Database Disagreed.",
+  "what": "Uncertain content, likely product announcement without technical detail",
+  "why": "Does not provide actionable technical insight for engineers"
  },
  "https://huggingface.co/blog/migrating-the-hub-to-xet": {
   "first_seen": "2026-10-05",
@@ -10827,6 +13138,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-09-30",
+  "shown": "2026-10-07",
   "snippet": "",
   "source": "huggingface-blog",
   "status": "passed",
@@ -13565,6 +15877,7 @@
   "minutes": 5,
   "published": "2026-10-05",
   "score": 12,
+  "shown": "2026-10-07",
   "snippet": "Memory is often the first hard limit a Kubernetes cluster hits. Nodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse. These workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt. That idle but resident memory is expensive, and it caps how many pods a node can hold. This is…",
   "source": "kubernetes-blog",
   "status": "passed",
@@ -13578,6 +15891,14 @@
   "title": "Scaling Kubernetes Workloads with Node Swap",
   "what": "A Kubernetes blog post explaining how enabling node swap can help scale workloads that are memory‑heavy and idle, such as agentic AI pods.",
   "why": "Engineers can apply node swap to increase pod density on existing nodes and reduce memory pressure, improving cost efficiency for AI services."
+ },
+ "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "kubernetes-blog",
+  "status": "dropped:keyword",
+  "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know"
  },
  "https://martinfowler.com/articles/2026-dont-like-llms.html": {
   "first_seen": "2026-10-05",
@@ -13636,11 +15957,20 @@
  "https://martinfowler.com/articles/healthy-peer-feedback.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-24",
+  "score": 0,
   "snippet": "Human collaboration, like most things, improves with feedback. But it's not obvious how to make feedback effective. Anuja Karnik and Sumeet Gayathri Moghe pass on a bevy of tips for healthy feedback, based on the principle that both praise and criticism should be seen as positive. more…",
   "source": "martinfowler",
-  "status": "passed",
-  "title": "Healthy Feedback"
+  "status": "rejected",
+  "tags": [
+   "team-building",
+   "management",
+   "feedback"
+  ],
+  "title": "Healthy Feedback",
+  "what": "An article about principles for effective human feedback in teams.",
+  "why": "Not relevant to building or operating agentic AI or open-source tools."
  },
  "https://martinfowler.com/articles/llm-and-dsls.html": {
   "first_seen": "2026-10-05",
@@ -13825,11 +16155,16 @@
  "https://martinfowler.com/fragments/2026-10-04.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 1,
   "published": "2026-10-05",
+  "score": 0,
   "snippet": "In response to my last fragments (probably the bit about us worrying if LLMs have consciousness when we when we should be wondering why they don’t have a conscience) “Metalanguage” replied : we shipped the id and forgot the superego. classic software lifecycle. I don’t know what was on their mind, but their post immediately made me think of the classic 1956 movie Forbidden Planet. Plenty of…",
   "source": "martinfowler",
-  "status": "passed",
-  "title": "Fragments: October 4"
+  "status": "rejected",
+  "tags": [],
+  "title": "Fragments: October 4",
+  "what": "A short Martin Fowler fragment reflecting on an unrelated comment",
+  "why": "It contains no actionable technical content for the reader"
  },
  "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html": {
   "first_seen": "2026-10-05",
@@ -15458,6 +17793,15 @@
   "status": "passed",
   "title": "Separating signal from noise in coding evaluations"
  },
+ "https://openai.com/index/sharing-ai-progress-in-mathematics": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "snippet": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+  "source": "openai-research",
+  "status": "passed",
+  "title": "Sharing AI progress in mathematics"
+ },
  "https://openai.com/index/shipping-sora-for-android-with-codex": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -15835,6 +18179,14 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Why we no longer evaluate SWE-bench Verified"
+ },
+ "https://www.anthropic.com/claude-sonnet-5-5": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-09-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Sonnet 5.5"
  },
  "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations": {
   "first_seen": "2026-10-05",
@@ -17270,11 +19622,20 @@
  "https://www.anthropic.com/research/project-swap": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-09-24",
+  "score": 8,
   "snippet": "Project Swap: What happens when agents trade for us?",
   "source": "anthropic-research",
-  "status": "passed",
-  "title": "Project Swap: What happens when agents trade for us?"
+  "status": "rejected",
+  "tags": [
+   "research",
+   "agent trade",
+   "Anthropic"
+  ],
+  "title": "Project Swap: What happens when agents trade for us?",
+  "what": "Anthropic’s research paper on Agent Swap experiments",
+  "why": "Provides insight into how agents can be leveraged as replacements for human work but offers limited actionable guidance for building production agents"
  },
  "https://www.anthropic.com/research/project-vend-1": {
   "first_seen": "2026-10-05",
@@ -17594,11 +19955,18 @@
  "https://www.anthropic.com/research/what-work-can-robots-do": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-30",
+  "score": 5,
   "snippet": "What work can robots do?",
   "source": "anthropic-research",
-  "status": "passed",
-  "title": "What work can robots do?"
+  "status": "rejected",
+  "tags": [
+   "research"
+  ],
+  "title": "What work can robots do?",
+  "what": "Anthropic research paper on the capabilities of robot agents.",
+  "why": "Not actionable for a practitioner; provides high-level insights but no concrete implementation guidance."
  },
  "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
   "first_seen": "2026-10-05",
@@ -17622,11 +19990,16 @@
  "https://www.anthropic.com/research/your-thoughts-on-ai": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-29",
+  "score": 0,
   "snippet": "What do you want from AI?",
   "source": "anthropic-research",
-  "status": "passed",
-  "title": "What do you want from AI?"
+  "status": "rejected",
+  "tags": [],
+  "title": "What do you want from AI?",
+  "what": "A blog post asking for reader opinions on AI.",
+  "why": "No technical content for building or using open‑source AI tools."
  },
  "https://www.anthropic.com/research/zero-days": {
   "first_seen": "2026-10-05",
@@ -17636,6 +20009,14 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Evaluating and mitigating the growing risk of LLM-discovered 0-days"
+ },
+ "https://www.cncf.io/announcements/2026/10/07/cncf-welcomes-ovhcloud-a-leading-european-cloud-provider-and-global-cloud-and-ai-player-as-a-platinum-member": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-07",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "CNCF Welcomes OVHcloud, One of Europe’s Largest Independent Cloud Providers, as a Platinum Member"
  },
  "https://www.cncf.io/blog/2026/09/25/security-slam-2026-fall-edition": {
   "first_seen": "2026-10-05",
@@ -17673,11 +20054,20 @@
  "https://www.cncf.io/blog/2026/10/01/guardrails-not-gates-rethinking-policy-in-platform-teams": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-10-01",
+  "score": 5,
   "snippet": "The most popular OPA-based policy tool for Kubernetes is literally called Gatekeeper. Admission controllers block. Policies deny. Kyverno’s enforcement setting is validationFailureAction: Enforce, which at least sounds neutral, but the failure mode it describes is still...",
   "source": "cncf-blog",
-  "status": "passed",
-  "title": "Guardrails, not gates: rethinking policy in platform teams"
+  "status": "rejected",
+  "tags": [
+   "policy",
+   "kubernetes",
+   "platform"
+  ],
+  "title": "Guardrails, not gates: rethinking policy in platform teams",
+  "what": "Opinion piece on policy approaches in Kubernetes platforms",
+  "why": "Provides high-level perspectives but lacks actionable engineering detail"
  },
  "https://www.cncf.io/blog/2026/10/01/kubecon-cloudnativecon-north-america-2026-build-your-application-developer-journey": {
   "first_seen": "2026-10-05",
@@ -17727,6 +20117,14 @@
   "status": "dropped:keyword",
   "title": "Kubelet watches inodes. Just not until it’s an emergency."
  },
+ "https://www.cncf.io/blog/2026/10/06/2026-2028-cncf-ambassador-cohort": {
+  "first_seen": "2026-10-07",
+  "kind": "read",
+  "published": "2026-10-06",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "The 2026-2028 CNCF ambassador cohort"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -17739,11 +20137,22 @@
  "https://www.langchain.com/blog/agent-harness-life-sciences": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-09-17",
+  "score": 14,
   "snippet": "Deep Life Sci is LangChain's open source agentic assistant for clinical and lab scientists. It pulls from 600K+ ClinicalTrials.gov studies, 29M PubMed abstracts, and 12M PubMed Central full-text articles, with sandboxed sub-agents for real data analysis.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Building an Agent Harness for Life Sciences: Introducing Deep Life Sci"
+  "tags": [
+   "agentic AI",
+   "open-source",
+   "life sciences",
+   "clinical trials",
+   "PubMed"
+  ],
+  "title": "Building an Agent Harness for Life Sciences: Introducing Deep Life Sci",
+  "what": "An open-source agentic assistant for life sciences that aggregates and analyzes clinical trial and biomedical literature data.",
+  "why": "Engineers can use the described agent harness framework to rapidly prototype and deploy domain-specific agents that query large biomedical datasets and run sandboxed analyses."
  },
  "https://www.langchain.com/blog/agent-observability-needs-feedback-to-power-learning": {
   "first_seen": "2026-10-05",
@@ -18313,6 +20722,7 @@
   "minutes": 12,
   "published": "2026-09-24",
   "score": 14,
+  "shown": "2026-10-07",
   "snippet": "LangChain introduces LangSmith Fine-Tuning and SmithTune, a CLI built for post-training models. Train specialized models without building data pipelines by hand.",
   "source": "langchain-blog",
   "status": "passed",
@@ -18876,6 +21286,26 @@
   "status": "dropped:keyword",
   "title": "“A Jaw Drop. Literally.” How Cooley Is Reimagining IPOs with OpenAI"
  },
+ "https://www.youtube.com/watch?v=5kTFyEOgark": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-06",
+  "score": 13,
+  "shown": "2026-10-07",
+  "snippet": "Sydney Runkle, product manager for LangChain's open source team, walks through how the team built a model router into Open SWE, LangChain's open source coding agent. She covers the four steps: mapping the task mix from LangSmith traces, picking models along the Pareto frontier, building the router in the harness, and tracking outcomes. In an A/B test against always using the performance model,…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "model routing",
+   "agent architecture",
+   "observability"
+  ],
+  "title": "How to Build a Model Router in the Harness",
+  "what": "A LangChain product manager explains how to build a model router into their open-source agent harness.",
+  "why": "Engineers can adopt the router pattern, map task mixes, select models on a Pareto frontier, and implement routing logic in their own agents this month."
+ },
  "https://www.youtube.com/watch?v=633YwioFkQY": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -18925,20 +21355,36 @@
  "https://www.youtube.com/watch?v=7wYfZvEIMnk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 20,
   "published": "2026-10-01",
+  "score": 12,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Tracing AI Calls End to End: What AI inference teaches us about gRPC observability -…",
   "source": "yt-cncf",
   "status": "passed",
-  "title": "Tracing AI Calls End to End: What AI inference teaches us about... Jigar Kuverji Savla, Tensordyne"
+  "tags": [
+   "observability",
+   "gRPC",
+   "AI-inference",
+   "cloud-native",
+   "tracing"
+  ],
+  "title": "Tracing AI Calls End to End: What AI inference teaches us about... Jigar Kuverji Savla, Tensordyne",
+  "what": "A CNCF talk on end‑to‑end tracing of AI inference over gRPC, highlighting observability patterns and tooling.",
+  "why": "Engineers can adopt the presented tracing techniques to instrument their own AI pipelines and integrate with cloud‑native observability stacks."
  },
  "https://www.youtube.com/watch?v=8aVbXXvJUY4": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-03",
+  "score": 5,
   "snippet": "Models became agents, and the APIs didn't keep up. Google DeepMind rebuilt them. Ivan Leo, developer experience engineer at Google DeepMind, introduces the Gemini Interactions API and Managed Agents. He traces how we went from single completions to function calling to agents, then shows server-side state with interaction IDs (no more hand-managing thought signatures), strongly typed multimodal…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind"
+  "status": "rejected",
+  "tags": [],
+  "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
+  "what": "Presentation on Google DeepMind’s Gemini Interaction API and Managed Agents",
+  "why": "Not relevant for open-source tool selection"
  },
  "https://www.youtube.com/watch?v=8quUT1Yn4eg": {
   "first_seen": "2026-10-05",
@@ -19052,6 +21498,14 @@
   "what": "A walkthrough of troubleshooting an AI agent in production, showing how to add observability, identify bugs, and use a coding agent to patch the issue.",
   "why": "The reader can adopt the improvement loop and observability tactics to ship more reliable AI agents."
  },
+ "https://www.youtube.com/watch?v=FB6oCmrIj-Y": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "published": "2026-10-06",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Introducing the Decisions API"
+ },
  "https://www.youtube.com/watch?v=FwiS44-xyYw": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -19095,11 +21549,21 @@
  "https://www.youtube.com/watch?v=I2LL_wd89-A": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 12,
   "published": "2026-10-03",
+  "score": 6,
   "snippet": "After 10 years of monthly releases, VS Code now ships weekly. It wasn't more AI that made it work. It was rebuilding the whole system around it. Harald Kirschner, principal product manager on VS Code at Microsoft, explains how a small team shipping to more than 50 million users moved from monthly to weekly releases with AI agents, and what broke along the way. He covers three stages: shipping…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "How VS Code Went from Monthly to Weekly Releases with AI — Harald Kirschner"
+  "status": "rejected",
+  "tags": [
+   "agentic AI",
+   "release engineering",
+   "VS Code",
+   "product management"
+  ],
+  "title": "How VS Code Went from Monthly to Weekly Releases with AI — Harald Kirschner",
+  "what": "A Microsoft product manager explains how VS Code shifted to weekly releases powered by AI agents.",
+  "why": "It shows a concrete engineering workflow that can inspire similar release‑engineering practices in other projects."
  },
  "https://www.youtube.com/watch?v=INGOC6-LLv0": {
   "first_seen": "2026-10-05",
@@ -19126,6 +21590,20 @@
   "title": "Agent-to-Agent Systems",
   "what": "Promotional video for an upcoming AGNTCon + MCPCon event",
   "why": "No actionable technical content for building or operating agents"
+ },
+ "https://www.youtube.com/watch?v=KAITWbHLSSE": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-06",
+  "score": 0,
+  "snippet": "Nathan Drezner, PM at LangChain, shows how to add web search to a managed deep agent. LangSmith includes built-in search powered by Parallel, so it takes one MCP connection with no extra authentication. He asks a research agent a question its internal docs can't fully answer, adds the search server, then deploys to LangSmith and inspects the search tool calls in LangSmith Studio. Chapters: 0:00…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [],
+  "title": "Add Web Search to Managed Deep Agents for free with One MCP Config",
+  "what": "A product demonstration video by LangChain showing how to add web search to a managed deep agent using a single MCP connection.",
+  "why": "The video primarily serves as a showcase with no detailed explanation of implementation, trade-offs, or code that would be actionable for an engineering lead."
  },
  "https://www.youtube.com/watch?v=KPcEhLoh-Wc": {
   "first_seen": "2026-10-05",
@@ -19162,11 +21640,16 @@
  "https://www.youtube.com/watch?v=LfsbC9CayA8": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-01",
+  "score": 0,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io gRPC-Python: Major Feature Updates - Sreenithi Sridharan & Sergii Tkachenko, Google…",
   "source": "yt-cncf",
-  "status": "passed",
-  "title": "gRPC-Python: Major Feature Updates - Sreenithi Sridharan & Sergii Tkachenko, Google"
+  "status": "rejected",
+  "tags": [],
+  "title": "gRPC-Python: Major Feature Updates - Sreenithi Sridharan & Sergii Tkachenko, Google",
+  "what": "gRPC-Python feature update announcement video",
+  "why": "Not suitable for technical learning feed"
  },
  "https://www.youtube.com/watch?v=M9BMTC8o9-w": {
   "first_seen": "2026-10-05",
@@ -19208,20 +21691,41 @@
  "https://www.youtube.com/watch?v=OAe8pB6VVBE": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-10-01",
+  "score": 13,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io A Lightweight gRPC-Compatible Implementation for Sidecars - Tim Burks, Agent IO gRPC…",
   "source": "yt-cncf",
   "status": "passed",
-  "title": "A Lightweight gRPC-Compatible Implementation for Sidecars - Tim Burks, Agent IO"
+  "tags": [
+   "sidecar",
+   "gRPC",
+   "agent",
+   "cloud-native",
+   "framework"
+  ],
+  "title": "A Lightweight gRPC-Compatible Implementation for Sidecars - Tim Burks, Agent IO",
+  "what": "A lightweight gRPC-compatible sidecar implementation for cloud-native agents",
+  "why": "It shows how to build and deploy efficient, vendor-agnostic gRPC sidecars that can be reused across multiple agent workloads"
  },
  "https://www.youtube.com/watch?v=OE_lLNCNfQo": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 10,
   "published": "2026-10-03",
+  "score": 5,
   "snippet": "Rowan tried to hack himself with his own coding agent. Five prompts later it had found his browser history, his bank accounts and more. Rowan Christmas, product manager at Docker, shows why harness-level guardrails aren't enough to protect your machine from your own agent, and how microVM sandboxes give you security by design. He demos Docker Sandboxes (sbx): one command spins up an isolated VM…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker"
+  "status": "rejected",
+  "tags": [
+   "product-demo",
+   "docker",
+   "sandbox",
+   "agent-security"
+  ],
+  "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker",
+  "what": "Demo of Docker’s new microVM sandbox feature for agents",
+  "why": "Shows how to spin up isolated VM sandboxes, but offers limited technical detail for engineering application"
  },
  "https://www.youtube.com/watch?v=P1zBiAQU1IA": {
   "first_seen": "2026-10-05",
@@ -19249,20 +21753,36 @@
  "https://www.youtube.com/watch?v=PmsvVjXow4M": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-01",
+  "score": 0,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io grpcgi: Enabling Universal Web Serving, Native mTLS, and xDS on the gRPC Mesh -…",
   "source": "yt-cncf",
-  "status": "passed",
-  "title": "grpcgi: Enabling Universal Web Serving, Native mTLS, and xDS on the gRPC Mesh - Mehrdad Afshari"
+  "status": "rejected",
+  "tags": [],
+  "title": "grpcgi: Enabling Universal Web Serving, Native mTLS, and xDS on the gRPC Mesh - Mehrdad Afshari",
+  "what": "Product launch video for grpcgi",
+  "why": "Does not provide actionable technical details for immediate application"
  },
  "https://www.youtube.com/watch?v=Q-dLa9DSCD8": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 20,
   "published": "2026-10-01",
+  "score": 12,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Streaming Was Only Half the Fix: Retrofitting a Stable gRPC API - Sohan Kunkerkar, Red…",
   "source": "yt-cncf",
   "status": "passed",
-  "title": "Streaming Was Only Half the Fix: Retrofitting a Stable gRPC API - Sohan Kunkerkar, Red Hat"
+  "tags": [
+   "gRPC",
+   "API stability",
+   "cloud-native",
+   "CNCF",
+   "Red Hat"
+  ],
+  "title": "Streaming Was Only Half the Fix: Retrofitting a Stable gRPC API - Sohan Kunkerkar, Red Hat",
+  "what": "A CNCF talk by Sohan Kunkerkar on retrofitting a stable gRPC API to address streaming and reliability issues",
+  "why": "Engineers can learn practical patterns for evolving gRPC services, including versioning, fallback streams, and error handling, to build robust cloud-native APIs this month"
  },
  "https://www.youtube.com/watch?v=QFxDF30qf_4": {
   "first_seen": "2026-10-05",
@@ -19275,11 +21795,22 @@
  "https://www.youtube.com/watch?v=RC1AzBS3MLQ": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-10-01",
+  "score": 11,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io From Writing REST to Writing gRPC - Mukul Mantosh, Independent",
   "source": "yt-cncf",
-  "status": "passed",
-  "title": "From Writing REST to Writing gRPC - Mukul Mantosh, Independent"
+  "status": "rejected",
+  "tags": [
+   "gRPC",
+   "REST",
+   "API",
+   "cloud-native",
+   "CNCF"
+  ],
+  "title": "From Writing REST to Writing gRPC - Mukul Mantosh, Independent",
+  "what": "A CNCF speaker explains how to transition from REST to gRPC for cloud-native applications",
+  "why": "It provides concrete patterns for reimplementing APIs with gRPC, which engineers can apply to modernize services this month"
  },
  "https://www.youtube.com/watch?v=ROF2Nv_KjOM": {
   "first_seen": "2026-10-05",
@@ -19293,11 +21824,30 @@
  "https://www.youtube.com/watch?v=RZyy529VwFU": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-10-01",
+  "score": 13,
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io How Netflix Leverages gRPC for Resilience at Scale - Olivia Bronstein & Umair Khan,…",
   "source": "yt-cncf",
   "status": "passed",
-  "title": "How Netflix Leverages gRPC for Resilience at Scale - Olivia Bronstein & Umair Khan, Netflix"
+  "tags": [
+   "gRPC",
+   "resilience",
+   "cloud-native",
+   "Netflix",
+   "KubeCon"
+  ],
+  "title": "How Netflix Leverages gRPC for Resilience at Scale - Olivia Bronstein & Umair Khan, Netflix",
+  "what": "A CNCF talk where Netflix engineers explain how they use gRPC to achieve resilience at scale.",
+  "why": "Readers can apply Netflix’s gRPC‑based resilience patterns to build more robust, cloud‑native services."
+ },
+ "https://www.youtube.com/watch?v=Sj98YstMfY0": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "published": "2026-10-06",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Kashif Khan - Speaker at KubeCon + CloudNativeCon North America"
  },
  "https://www.youtube.com/watch?v=TC_Nqbky72I": {
   "first_seen": "2026-10-05",
@@ -19310,11 +21860,42 @@
  "https://www.youtube.com/watch?v=TRe1u7dHYiA": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 15,
   "published": "2026-10-03",
+  "score": 13,
   "snippet": "Open models have nearly caught up with proprietary ones. Serving them fast and cheaply is the hard part. Dylan Bristot, who leads product marketing for Nebius Token Factory, and developer advocate Sujee Maniyam explain what it takes to run open LLMs in production. Dylan covers the trade-off between closed APIs and self-hosting, and the inference → data → post-training → deployment loop. Sujee…",
   "source": "yt-ai-engineer",
   "status": "passed",
-  "title": "What Makes Open Models Fast in Production — Sujee Maniyam, Nebius"
+  "tags": [
+   "open-source",
+   "LLM",
+   "deployment",
+   "cost optimization",
+   "infrastructure"
+  ],
+  "title": "What Makes Open Models Fast in Production — Sujee Maniyam, Nebius",
+  "what": "A technical discussion on how to serve open LLMs quickly and cost‑effectively in production.",
+  "why": "Readers can adopt the described infrastructure patterns, trade‑off analysis, and deployment pipeline to accelerate their own open‑model workloads."
+ },
+ "https://www.youtube.com/watch?v=TeErpYBUIeM": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-06",
+  "score": 13,
+  "snippet": "Improving an agent used to mean a human reading traces every week. Now agents can do most of that loop for you. Marc Klingen, co-founder of Langfuse, shows how teams are moving from manually improving their agents to letting AI run the improvement loop. He explains the reference stack that emerged for building agents, which connects online tracing and monitoring with offline datasets, experiments…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "evaluation",
+   "observability",
+   "agent lifecycle",
+   "platform engineering"
+  ],
+  "title": "The Self-Improving OSS Agent Stack — Marc Klingen, Langfuse",
+  "what": "A walkthrough of Langfuse’s self‑improving OSS agent stack that ties online tracing, offline datasets and automated experiments into a production‑ready workflow",
+  "why": "Engineers can adopt the stack to automate agent feedback loops, add observability, and run self‑learning experiments without proprietary tooling"
  },
  "https://www.youtube.com/watch?v=UAmKyyZ-b9E": {
   "first_seen": "2026-10-05",
@@ -19375,6 +21956,51 @@
   "source": "yt-cncf",
   "status": "passed",
   "title": "High-Performance gRPC Beyond HTTP/2 - Thiyagarajan Velappan & Ravi Cherukuru, Mastercard"
+ },
+ "https://www.youtube.com/watch?v=X4w2Pkz5tDY": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-07",
+  "score": 11,
+  "snippet": "Grep works great on a codebase. Try it on millions of PDFs, slides and scanned schematics. George He, head of engineering at LlamaIndex, explains when agents need pre-indexed search and when plain file traversal is enough. Claude Code skipped embeddings because code is small, text-based, local and full of breadcrumbs. Company data is huge, messy, multimodal and permissioned. He shows how to give…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "search",
+   "embeddings",
+   "agents",
+   "open-source"
+  ],
+  "title": "Grep or Embeddings? Agentic Search Over Company Documents — George He, LlamaIndex",
+  "what": "A technical talk by LlamaIndex’s head of engineering on when to use embeddings versus simple file search for agentic document retrieval.",
+  "why": "Engineers can apply the guidelines to decide on indexing strategies and implement efficient, permission‑aware search in their own agent pipelines."
+ },
+ "https://www.youtube.com/watch?v=X6l4lpA0_NY": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-06",
+  "score": 0,
+  "snippet": "In a software factory, agents write everything your users get. Your engineers build the factory. Dru Knox, head of product and design at Tessl, explains harness engineering (some now call it loop engineering), the discipline that takes a team from using coding agents to running a software factory. He defines a factory by three metrics: autonomy, automation and quality. He breaks the work into…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "video",
+   "conceptual",
+   "no code"
+  ],
+  "title": "Harness Engineering: How to Build a Software Factory — Dru Knox, Tessl",
+  "what": "Video lecture on the concept of harness engineering and software factories by Dru Knox of Tessl",
+  "why": "Not suitable for actionable engineering guidance"
+ },
+ "https://www.youtube.com/watch?v=XTpyNrEgJQ4": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "published": "2026-10-06",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Is Speculative Decoding Worth It? Profiling vLLM on NVIDIA Blackwell — Akamai"
  },
  "https://www.youtube.com/watch?v=Y9Wz2PV404E": {
   "first_seen": "2026-10-05",
@@ -19534,6 +22160,20 @@
   "status": "passed",
   "title": "gRPC and Post-Quantum Cryptography - Riya Mehta, Google"
  },
+ "https://www.youtube.com/watch?v=cf2IhzqeQH4": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-07",
+  "score": 0,
+  "snippet": "In one month, three of the biggest AI companies had a pricing emergency. Dor Sasson says it was really an infrastructure problem. Dor Sasson, co-founder and CEO of Stigg, argues that every AI company is accidentally building a bank. He starts with the April pricing scramble, when Anthropic cut third-party agents like OpenClaw off its subscription plans, OpenAI changed its Pro tier, and GitHub…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Every AI Company Is Accidentally Building a Bank — Dor Sasson, Stigg",
+  "what": "Video discusses pricing incidents in AI companies, not a technical guide",
+  "why": "Not relevant for engineering lead building agents"
+ },
  "https://www.youtube.com/watch?v=cj8yTM6hoXg": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -19577,6 +22217,23 @@
   "source": "yt-aaif",
   "status": "dropped:title_rule",
   "title": "How Anthropic uses MCP for its own product - Camila Rondinini, Anthropic"
+ },
+ "https://www.youtube.com/watch?v=eXA2tjRZIbY": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-06",
+  "score": 0,
+  "snippet": "AI changed how we write code. But 70% of engineering time goes to running and fixing it. Varun Krovvidi, product marketing lead at Resolve AI, explains why AI that writes code well still struggles to run production. Code is self-documenting, modular and a single domain. Production spans code, infrastructure, telemetry and many teams, and needs one correct answer. He covers where agents crack as…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "product-launch",
+   "marketing"
+  ],
+  "title": "The 6 Pillars of an Agentic Harness for Production — Varun Krovvidi, Resolve AI",
+  "what": "A marketing video about the challenges of deploying AI code in production.",
+  "why": "It offers no actionable technical guidance or open-source tools for the reader to apply."
  },
  "https://www.youtube.com/watch?v=ene0RUe3i6U": {
   "first_seen": "2026-10-05",
@@ -19681,6 +22338,20 @@
   "what": "A video presentation on Uber's debugging agent harness",
   "why": "Provides a high‑level overview of an internal solution but offers limited actionable detail"
  },
+ "https://www.youtube.com/watch?v=ix1qQK1IvmA": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-09-22",
+  "score": 0,
+  "snippet": "Dex will be speaking at AGNTCon NA on October 22 & 23 in San Jose. Join 3500 other people at the event: https://hubs.la/Q04gbXLb0 Dex Horthy, CEO and co-founder of HumanLayer, argues that engineering teams shipping AI-written code still have to read it. This talk is for engineering leaders and developers building agentic coding pipelines who want to know where the lights-off software factory…",
+  "source": "yt-aaif",
+  "status": "rejected",
+  "tags": [],
+  "title": "Fighting Code Slop: The State of Software Factories - Dexter Horthy",
+  "what": "A YouTube presentation about managing AI‑written code in production.",
+  "why": "The talk offers no actionable guidance or technical detail for building agentic pipelines."
+ },
  "https://www.youtube.com/watch?v=j2knrqAzYVY": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -19739,6 +22410,24 @@
   "status": "passed",
   "title": "Meet the builders of our time - the Codex Originals."
  },
+ "https://www.youtube.com/watch?v=mUQoVz7THu0": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-06",
+  "score": 4,
+  "snippet": "Most teams start their evals in a spreadsheet. Here's what happens when they try to grow out of it. Hossein Niazmandi, who leads solutions engineering in the West at Braintrust, explains why measuring agent quality is much more than putting a UI on a spreadsheet. He covers the two pillars of agent quality, evals before production and observability after, and why non-deterministic LLMs make both…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "eval-platform",
+   "agent-quality",
+   "observability"
+  ],
+  "title": "Why Building an Eval Platform Is Harder Than It Looks — Braintrust",
+  "what": "A Braintrust engineer discusses challenges in building an evaluation platform for agents.",
+  "why": "It highlights pitfalls to avoid when designing agent evaluation pipelines."
+ },
  "https://www.youtube.com/watch?v=nvbq39yVYRk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -19751,11 +22440,21 @@
  "https://www.youtube.com/watch?v=oUZEt4EiPbk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 10,
   "published": "2026-10-03",
+  "score": 3,
   "snippet": "No Mac Mini, no laptop agent. Jeremy Adams runs his personal AI agent on an old Raspberry Pi he wears around his neck. Jeremy Adams, senior developer advocate at Neo4j, assembles a wearable AI agent live on stage: NanoClaw on a Raspberry Pi 4B, messaged over WhatsApp, with Docker-isolated agents and a Neo4j graph database. He shows how he built graph memory using the POLE schema (person, object,…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "I Built a Personal AI Agent on a Raspberry Pi — Jeremy Adams, Neo4j"
+  "status": "rejected",
+  "tags": [
+   "agent hardware",
+   "raspberry-pi",
+   "docker",
+   "neo4j"
+  ],
+  "title": "I Built a Personal AI Agent on a Raspberry Pi — Jeremy Adams, Neo4j",
+  "what": "Video of Jeremy Adams assembling a wearable AI agent on a Raspberry Pi using Docker and Neo4j",
+  "why": "Shows a practical setup but offers limited actionable detail for engineering leads"
  },
  "https://www.youtube.com/watch?v=oW5AYOAqnOo": {
   "first_seen": "2026-10-05",
@@ -19797,11 +22496,22 @@
  "https://www.youtube.com/watch?v=pyvRID_CZZU": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 12,
   "published": "2026-10-04",
+  "score": 11,
   "snippet": "1,000 API signups a day and one onboarding engineer. So AssemblyAI built Joey. Matt Lawler, forward deployed engineer lead at AssemblyAI, shares how his team replaced an off-the-shelf support bot that resolved 10% of conversations with their own agent, Joey, which resolves 80% end to end for about $700 a month. Joey is built on the Claude Agent SDK with docs checked out as local markdown,…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "We Built an AI Support Agent That Resolves 80% of Tickets — AssemblyAI"
+  "status": "rejected",
+  "tags": [
+   "agent development",
+   "Claude Agent SDK",
+   "open-source framework",
+   "agent performance",
+   "cost analysis"
+  ],
+  "title": "We Built an AI Support Agent That Resolves 80% of Tickets — AssemblyAI",
+  "what": "AssemblyAI’s custom AI support agent Joey, built with the Claude Agent SDK, that lifts ticket resolution from 10% to 80% and runs for $700/month.",
+  "why": "It shows a real-world build process, architecture choices, and cost metrics that an engineering lead can adapt to create or improve a support agent in production."
  },
  "https://www.youtube.com/watch?v=qZj7sqmidqA": {
   "first_seen": "2026-10-06",
@@ -19850,11 +22560,16 @@
  "https://www.youtube.com/watch?v=rTojoVotlD8": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-10-03",
+  "score": 0,
   "snippet": "Latency, errors, traffic and saturation tell you your app is up. They don't tell you if it's right. Marina Petzel, GenAI advocate at Datadog, explains why the classic golden signals are necessary but no longer enough for generative AI applications, and which metrics to add on top. She covers cost monitoring (token creep, model drift, uncached calls and tagging for cost attribution), safety…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog"
+  "status": "rejected",
+  "tags": [],
+  "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
+  "what": "Marina Petzel discusses metrics beyond golden signals for generative AI apps.",
+  "why": "No actionable buildable content for the engineer."
  },
  "https://www.youtube.com/watch?v=s0hFne6EeOI": {
   "first_seen": "2026-10-06",
@@ -19881,6 +22596,26 @@
   "status": "passed",
   "title": "Build faster with Ultrafast"
  },
+ "https://www.youtube.com/watch?v=uKUA1a0Kdfc": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": 25,
+  "published": "2026-10-06",
+  "score": 12,
+  "snippet": "AI agents are multiplying traffic overnight. Here's how to ship fast without taking your database down with it. Ben Dicken from PlanetScale argues you no longer have to choose between moving fast and keeping things up. He covers the principles behind reliable infrastructure, isolation and redundancy, then how to scale with sharding, back pressure and decoupling, the same ideas PlanetScale uses to…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "scaling",
+   "sharding",
+   "backpressure",
+   "Vitess",
+   "open-source"
+  ],
+  "title": "Move Fast and Don't Break Things: Scaling Databases for the AI Era — PlanetScale",
+  "what": "Ben Dicken explains how PlanetScale scales databases for AI workloads using sharding, back‑pressure and isolation techniques.",
+  "why": "Readers can learn concrete database scaling patterns and evaluate using the open‑source Vitess stack for their own agent workloads."
+ },
  "https://www.youtube.com/watch?v=uXspbC2srEQ": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -19894,6 +22629,7 @@
   "first_seen": "2026-10-05",
   "kind": "watch",
   "published": "2026-09-15",
+  "shown": "2026-10-07",
   "snippet": "Join us at AGNTCon + MCPCon NA 2026: https://hubs.la/Q04gbXLb0 When MCP Tools Fail: Reliable ML Inference for MCP Agents - Sho Tanaka, Snowflake The Model Context Protocol (MCP) is emerging as a standard for connecting AI agents with external tools. While LLM-based tools are flexible, their non-deterministic behavior makes it difficult to meet requirements for stability, repeatability, and…",
   "source": "yt-aaif",
   "status": "passed",
@@ -19911,11 +22647,16 @@
  "https://www.youtube.com/watch?v=wMGcJkbxuys": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-20",
+  "score": 0,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026, https://hubs.la/Q04gbXLb0 Closing the Context Gap: Making Your APIs Agent-Ready - Aanchal Mishra, Postman & Ali Mustafa Shaikh, Pieces AI Traditional AI implementation relies on \"tool sprawl\": manually wrapping every API action into custom functions. This creates a maintenance burden where prompts swell, tokens vanish, and agents hallucinate under the weight…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Stop Letting Your Context Get Out of Control"
+  "status": "rejected",
+  "tags": [],
+  "title": "Stop Letting Your Context Get Out of Control",
+  "what": "Video on managing API context for agent readiness.",
+  "why": "Not actionable for building or evaluating agents."
  },
  "https://www.youtube.com/watch?v=woIYJYd_etI": {
   "first_seen": "2026-10-06",
@@ -19932,6 +22673,20 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "From Raw Documents to AI-Ready Data — Leo Platzer & Jeff Koss"
+ },
+ "https://www.youtube.com/watch?v=xLd-mLCN_t0": {
+  "first_seen": "2026-10-07",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-06",
+  "score": 0,
+  "snippet": "Join us at AGNTCon + MCPCon NA 2026, the premier event for people building, operating, researching, or supporting agent systems. Where developers, architects, and AI practitioners come together to explore the latest in agentic AI, tool protocols, and production-ready MCP architectures. Learn more here: https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
+  "source": "yt-aaif",
+  "status": "rejected",
+  "tags": [],
+  "title": "The Context ft MintMCP",
+  "what": "Event promotion for AGNTCon + MCPCon NA 2026.",
+  "why": "No technical content to implement or learn from."
  },
  "https://www.youtube.com/watch?v=xLxhT2ZI7UM": {
   "first_seen": "2026-10-06",
@@ -19956,11 +22711,21 @@
  "https://www.youtube.com/watch?v=y-OVWZD4j6U": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 10,
   "published": "2026-10-02",
+  "score": 4,
   "snippet": "Coding agents made development faster. They also made production a lot harder to debug. Eric Schwartz, product manager at Traversal, explains why more AI-written code means more time spent troubleshooting, why observability dashboards tell you what broke but not why, and why root cause analysis is a causal problem rather than an observability problem. He lays out five levels of 'self-driving…",
   "source": "yt-ai-engineer",
-  "status": "passed",
-  "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal"
+  "status": "rejected",
+  "tags": [
+   "observability",
+   "root-cause-analysis",
+   "agent-autonomy",
+   "production-debugging"
+  ],
+  "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
+  "what": "Eric Schwartz discusses five levels of self‑driving production and the challenges of debugging AI‑written code.",
+  "why": "Readers can learn a framework for staging agent autonomy and practical root‑cause analysis techniques they can apply in their own pipelines."
  },
  "https://www.youtube.com/watch?v=zQZiHOpkq_s": {
   "first_seen": "2026-10-06",

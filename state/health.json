@@ -25,10 +25,10 @@
  },
  {
   "error": null,
-  "fetched": 258,
+  "fetched": 274,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 0,
+  "new": 268,
   "ok": true
  },
  {
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -49,10 +49,10 @@
  },
  {
   "error": null,
-  "fetched": 4,
+  "fetched": 3,
   "id": "aaif-blog",
   "name": "Agentic AI Foundation Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 875,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -100,7 +100,7 @@
   "fetched": 10,
   "id": "github-blog-ai",
   "name": "GitHub Blog (AI and ML)",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -108,7 +108,7 @@
   "fetched": 15,
   "id": "yt-aaif",
   "name": "Agentic AI Foundation",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -132,7 +132,7 @@
   "fetched": 15,
   "id": "yt-langchain",
   "name": "LangChain",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 15,
+  "new": 8,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -316,7 +316,7 @@
   "fetched": 10,
   "id": "gh-kubernetes-sigs-agent-sandbox",
   "name": "kubernetes-sigs/agent-sandbox",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -332,7 +332,7 @@
   "fetched": 10,
   "id": "gh-github-github-mcp-server",
   "name": "github/github-mcp-server",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -380,7 +380,7 @@
   "fetched": 10,
   "id": "gh-promptfoo-promptfoo",
   "name": "promptfoo/promptfoo",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -388,7 +388,7 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -401,10 +401,10 @@
  },
  {
   "error": null,
-  "fetched": 199,
+  "fetched": 200,
   "id": "openai-research",
   "name": "OpenAI Research",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {

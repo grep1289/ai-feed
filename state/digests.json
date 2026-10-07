@@ -13,6 +13,13 @@
    "https://huggingface.co/blog/tiiuae/falcon-emirati",
    "https://www.youtube.com/watch?v=4-oA1BJeyr4",
    "https://www.youtube.com/watch?v=hbH2RbUBZQ0"
+  ],
+  "2026-10-07": [
+   "https://www.langchain.com/blog/langsmith-fine-tuning",
+   "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap",
+   "https://huggingface.co/blog/open-tts-leaderboard",
+   "https://www.youtube.com/watch?v=5kTFyEOgark",
+   "https://www.youtube.com/watch?v=usjk-gdMgqM"
   ]
  },
  "rollup": {
@@ -142,9 +149,9 @@
  },
  "scoring": {
   "calls": 40,
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "error": null,
   "failed": 0,
-  "rejected": 32
+  "rejected": 31
  }
 }
