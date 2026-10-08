@@ -20,6 +20,13 @@
    "https://huggingface.co/blog/open-tts-leaderboard",
    "https://www.youtube.com/watch?v=5kTFyEOgark",
    "https://www.youtube.com/watch?v=usjk-gdMgqM"
+  ],
+  "2026-10-08": [
+   "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+   "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+   "https://www.youtube.com/watch?v=kRaJtEXAOxU",
+   "https://www.youtube.com/watch?v=U_XD5NxO8KY"
   ]
  },
  "rollup": {
@@ -149,9 +156,9 @@
  },
  "scoring": {
   "calls": 40,
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "error": null,
   "failed": 0,
-  "rejected": 31
+  "rejected": 33
  }
 }
