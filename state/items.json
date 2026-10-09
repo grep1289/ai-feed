@@ -3377,6 +3377,14 @@
   "status": "dropped:category",
   "title": "Claude can now create and edit files"
  },
+ "https://claude.com/resources/articles/dashboards-and-motion": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "published": "2026-10-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Build live dashboards and animate explainers with Claude"
+ },
  "https://claude.com/resources/articles/deploying-ai-from-pilot-to-production": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -3640,6 +3648,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents"
+ },
+ "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "published": "2026-10-08",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Block orchestrates Claude Fable across thousands of pull requests"
  },
  "https://claude.com/resources/articles/how-brex-improves-code-quality-and-productivity-with-claude-code": {
   "first_seen": "2026-10-07",
@@ -4687,6 +4703,14 @@
   "status": "passed",
   "title": "Introducing Support for Local AI Models in the Antigravity SDK"
  },
+ "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "published": "2026-10-08",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge"
+ },
  "https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -4708,6 +4732,26 @@
   "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
   "what": "Announcement of Google Developer Knowledge API and MCP Server in public preview.",
   "why": "Not useful for hands‑on engineering guidance."
+ },
+ "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-08",
+  "score": 12,
+  "snippet": "How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference implementation that runs beside your production agent in Google Cloud, sweeps and verifies failure clusters against conversation transcripts, and diagnoses root causes anchored to the…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "tags": [
+   "agent quality",
+   "monitoring",
+   "open source",
+   "Google Cloud",
+   "diagnostics"
+  ],
+  "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+  "what": "AQuA, an ambient quality agent that runs beside a production AI agent to detect and diagnose silent quality regressions",
+  "why": "Engineers can adopt AQuA to continuously monitor and root‑cause failures in their own agents, learning patterns that improve long‑term reliability"
  },
  "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway": {
   "first_seen": "2026-10-05",
@@ -4904,6 +4948,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-09-12",
+  "shown": "2026-10-09",
   "snippet": "Details worth noticing in recent realtime speech-to-speech updates",
   "source": "openai-developer",
   "status": "passed",
@@ -5045,11 +5090,21 @@
  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-25",
+  "score": 3,
   "snippet": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on The GitHub Blog .",
   "source": "github-blog-ai",
-  "status": "passed",
-  "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases"
+  "status": "rejected",
+  "tags": [
+   "github",
+   "copilot",
+   "workflow",
+   "canvas"
+  ],
+  "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+  "what": "GitHub Copilot app tutorial on building custom workflow canvases",
+  "why": "Provides a high‑level overview of Copilot’s canvas feature but offers little actionable code or open‑source guidance"
  },
  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser": {
   "first_seen": "2026-10-05",
@@ -5231,6 +5286,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix: v20.19.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.20.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-09",
+  "snippet": "20.20.0 (2026-10-08) Features harbor: prompt hill-climb task on a text-to-SQL dataset ( #16458 ) ( bd78550 ) mcp/sql: allowlist the annotation, evaluator, prompt, split and job tables ( #16788 ) ( a37b841 ) mcp: add GraphQL schema, query, and mutation tools ( #16828 ) ( 9351580 ) playground: add claude-haiku-5-5 and remove retired Anthropic models ( #16870 ) ( b978e7c ) pxi: make PXI's MCP code…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.20.0"
  },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
@@ -5514,6 +5578,15 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.53.0"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.54.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "✨ Features Prompt for goose mode during first-time configure #12629 HTML session export with an interactive viewer #11977 🐛 Bug Fixes Adaptive thinking for Claude Sonnet and Haiku 5.5 #12761 Treat a client extension selection as the exact session set #12548 Support hyphenated GPT 6.1 Sol effort aliases #12689 Use a system Node.js in the Windows npx wrapper #12176 Show thinking when…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.54.0"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -5877,6 +5950,15 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.164"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.165": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.294 CI: alert Slack when a release is blocked or fails ( #1368 ) PyPI: https://pypi.org/project/claude-agent-sdk/0.2.165/ pip install claude-agent-sdk==0.2.165",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.165"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -6265,6 +6347,15 @@
   "status": "passed",
   "title": "1.15.25"
  },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.26": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "What's Changed Bug Fixes Fix ownership retention of rwlock when acquisition is interrupted. Resolve issue with documentation site source URLs not being preserved. Fix task output display in log-tasks-outputs to show actual output. Documentation Update snapshot and changelog for version v1.15.25. Contributors @Velmet44 , @Vidit-Ostwal , @joaomdmoura , @leilei3167 , @lorenzejay , @lux-liang",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.26"
+ },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6378,6 +6469,15 @@
   "source": "gh-github-github-mcp-server",
   "status": "passed",
   "title": "GitHub MCP Server 2.0.1"
+ },
+ "https://github.com/github/github-mcp-server/releases/tag/v2.0.2": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "Bugfix release fix(inventory): restore typed tool HTTP header validation by @SamMorrowDrums in #3454 Full Changelog : v2.0.1...v2.0.2",
+  "source": "gh-github-github-mcp-server",
+  "status": "passed",
+  "title": "GitHub MCP Server 2.0.2"
  },
  "https://github.com/google/adk-python/releases/tag/v1.39.0": {
   "first_seen": "2026-10-05",
@@ -6849,6 +6949,15 @@
   "status": "passed",
   "title": "v1.0.5.post1"
  },
+ "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.6": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "🚀 Announcing Agent Sandbox v1.0.6! We're excited to announce Agent Sandbox v1.0.6 ! This release adds the first part of a multi-cluster warm-pool fleet planner, interactive processes via commands.start() in the TypeScript SDK, and closer parity across the Go and Python SDKs (per-request command timeouts, claim expiry, sandboxd health and metadata, claim labels and selectors). It also fixes…",
+  "source": "gh-kubernetes-sigs-agent-sandbox",
+  "status": "passed",
+  "title": "v1.0.6"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.19": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7235,6 +7344,15 @@
   "status": "passed",
   "title": "v4.54.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.55.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "What's Changed Features feat(docker): create zero vuln base images and add fips mode by @Steffen911 in #18009 feat(topics): rework the summary system prompt and default facets by @LysanderKie in #17935 feat(web): show ClickHouse organization id in org debug information by @Steffen911 in #18390 feat(topics): summarize all facets of a trace in one call by @LysanderKie in #18013 feat(skills): import…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.55.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7333,6 +7451,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "python-1.20.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/python-1.21.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "[1.21.0] - 2026-10-08 Added agent-framework , agent-framework-core , agent-framework-purview : Add tool-result standing guidance, expose rewritten variable-expansion arguments, and support full-buffer Purview policy evaluation for streamed responses ( #8784 , #8506 , #8702 ) agent-framework-openai : Add the maximum reasoning-effort option ( #8857 ) agent-framework-oracle : Add the alpha Oracle…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "python-1.21.0"
  },
  "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-10-07": {
   "first_seen": "2026-10-05",
@@ -7799,6 +7926,15 @@
   "status": "dropped:prerelease",
   "title": "0.161.0-alpha.13.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.162.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "New Features Add tools for creating and listing managed Git worktrees from trusted local projects when the worktrees feature is enabled. ( #50148 ) Pin tasks in the agent Command Center with p and keep them in a shared Pinned group when supported by the server. ( #51500 ) Navigate and copy transcript blocks with /copy , use Ctrl+Insert to copy selections, and tune mouse-wheel scrolling with…",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.162.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.10": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7942,6 +8078,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.162.0-alpha.9"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.1": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-09",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.2"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -8123,6 +8275,15 @@
   "status": "passed",
   "title": "0.124.0"
  },
+ "https://github.com/promptfoo/promptfoo/releases/tag/0.124.1": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "0.124.1 (2026-10-08) Features assertions: record cost without a threshold ( #11451 ) ( 037f1f6 ) providers: add OpenAI Decisions support ( #11454 ) ( 2dbf3ec ) providers: expose catalog text-token pricing ( #11452 ) ( 3ecce2e ) Bug Fixes assertions: preserve async expression grading ( #11453 ) ( 1df3eb8 ) assertions: preserve keyword-property grading ( #11450 ) ( a2da804 ) assertions: preserve…",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "0.124.1"
+ },
  "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8140,6 +8301,15 @@
   "source": "gh-promptfoo-promptfoo",
   "status": "passed",
   "title": "code-scan-action: 0.2.1"
+ },
+ "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.2": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "0.2.2 (2026-10-08) Bug Fixes code-scan: mint OIDC after CLI installation ( #11467 ) ( 9a404c8 )",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "code-scan-action: 0.2.2"
  },
  "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding": {
   "first_seen": "2026-10-06",
@@ -8267,6 +8437,15 @@
   "status": "passed",
   "title": "harness-cli/v0.1.4"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "harness-cli/v0.2.0 Auto-drafted from commits in harness-cli/v0.1.4..harness-cli/v0.2.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(mcp): expose tool client accessor ( #4863 ) ( 1556ede ) feat: add vended subagent tool ( #4841 ) ( f076964 ) feat(mcp/ts): restore legacy…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-cli/v0.2.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8276,6 +8455,15 @@
   "status": "passed",
   "title": "harness-python/v0.1.2"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.2.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "harness-python/v0.2.0 Auto-drafted from commits in harness-python/v0.1.2..harness-python/v0.2.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(mcp): expose tool client accessor ( #4863 ) ( 1556ede ) feat: add vended subagent tool ( #4841 ) ( f076964 ) feat(mcp/ts):…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-python/v0.2.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.1.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8284,6 +8472,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "harness-typescript/v0.1.1"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.2.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "harness-typescript/v0.2.0 Auto-drafted from commits in harness-typescript/v0.1.1..harness-typescript/v0.2.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(mcp): expose tool client accessor ( #4863 ) ( 1556ede ) feat: add vended subagent tool ( #4841 ) ( f076964 )…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-typescript/v0.2.0"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/mcp%2Fv0.3.0": {
   "first_seen": "2026-10-05",
@@ -8339,6 +8536,15 @@
   "status": "passed",
   "title": "python/v1.58.1"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.59.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "python/v1.59.0 Auto-drafted from commits in python/v1.58.1..python/v1.59.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(mcp): expose tool client accessor ( #4863 ) ( 1556ede ) feat: add vended subagent tool ( #4841 ) ( f076964 ) 🐛 Fixes fix(models): support Anthropic…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.59.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8347,6 +8553,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "typescript/v1.19.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.20.0": {
+  "first_seen": "2026-10-09",
+  "kind": "release",
+  "published": "2026-10-08",
+  "snippet": "typescript/v1.20.0 Auto-drafted from commits in typescript/v1.19.0..typescript/v1.20.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(mcp): expose tool client accessor ( #4863 ) ( 1556ede ) feat: add vended subagent tool ( #4841 ) ( f076964 ) feat(mcp/ts): restore legacy…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "typescript/v1.20.0"
  },
  "https://hamel.dev/": {
   "first_seen": "2026-10-05",
@@ -8642,11 +8857,16 @@
  "https://huggingface.co/blog/Hcompany/holo4": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-28",
+  "score": 0,
   "snippet": "",
   "source": "huggingface-blog",
-  "status": "passed",
-  "title": "Holo4: powering generalist computer-use agents"
+  "status": "rejected",
+  "tags": [],
+  "title": "Holo4: powering generalist computer-use agents",
+  "what": "Holo4 announcement blog",
+  "why": "Not enough technical detail to be useful"
  },
  "https://huggingface.co/blog/Hcompany/holotab": {
   "first_seen": "2026-10-05",
@@ -9637,6 +9857,14 @@
   "source": "huggingface-blog",
   "status": "passed",
   "title": "Building the Hugging Face MCP Server"
+ },
+ "https://huggingface.co/blog/building-with-ml-intern": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "published": "2026-10-08",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "The model that didn't exist, so you made it yourself"
  },
  "https://huggingface.co/blog/carbon-emissions-on-the-hub": {
   "first_seen": "2026-10-05",
@@ -14853,6 +15081,14 @@
   "status": "dropped:keyword",
   "title": "Falcon-Arabic: A Breakthrough in Arabic Language Models"
  },
+ "https://huggingface.co/blog/tiiuae/falcon-asr": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "published": "2026-10-07",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Introducing Falcon ASR"
+ },
  "https://huggingface.co/blog/tiiuae/falcon-edge": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -19629,6 +19865,20 @@
   "status": "passed",
   "title": "Language models (mostly) know what they know"
  },
+ "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-08",
+  "score": 0,
+  "snippet": "Launching an opt-in vulnerability-finding service for open-source software",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "Launching an opt-in vulnerability-finding service for open-source software",
+  "what": "",
+  "why": ""
+ },
  "https://www.anthropic.com/research/long-running-Claude": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20097,6 +20347,26 @@
   "status": "passed",
   "title": "The Capacity for Moral Self-Correction in Large Language Models"
  },
+ "https://www.anthropic.com/research/the-missing-map-of-the-sky": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "minutes": 12,
+  "published": "2026-10-08",
+  "score": 15,
+  "shown": "2026-10-09",
+  "snippet": "The missing map of the sky",
+  "source": "anthropic-research",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "evaluation",
+   "open standards",
+   "building and operating agents in production"
+  ],
+  "title": "The missing map of the sky",
+  "what": "An Anthropic research paper that maps the distribution of agents' knowledge across the sky of AI capabilities.",
+  "why": "It provides concrete architectural patterns and data that an engineer can use to design and benchmark their own agent systems this month."
+ },
  "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20264,11 +20534,22 @@
  "https://www.cncf.io/blog/2026/09/28/the-case-for-a-cloud-native-agent-harness": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-09-28",
+  "score": 13,
   "snippet": "Coding agents became useful when they stopped being a chat box. Four things changed the shape of the problem: capable tools, a shared repository and filesystem, subagents, and skills that capture what the system learned from...",
   "source": "cncf-blog",
   "status": "passed",
-  "title": "The case for a cloud native agent harness"
+  "tags": [
+   "open-source",
+   "agent-harness",
+   "cloud-native",
+   "subagents",
+   "skills"
+  ],
+  "title": "The case for a cloud native agent harness",
+  "what": "An article describing how a cloud-native agent harness can be built and operated using shared repositories, subagents, and reusable skills.",
+  "why": "It provides concrete patterns and design patterns that an engineering lead can apply to build production‑ready agents today."
  },
  "https://www.cncf.io/blog/2026/09/30/argocon-north-america-2026-what-to-expect-as-the-argo-community-looks-toward-cd-4-0": {
   "first_seen": "2026-10-05",
@@ -20392,6 +20673,25 @@
   "status": "dropped:keyword",
   "title": "Meshery becomes a CNCF Incubating project"
  },
+ "https://www.cncf.io/blog/2026/10/08/dont-give-ai-agents-root-make-them-propose-the-next-system-state": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-08",
+  "score": 12,
+  "snippet": "The uncomfortable question In the past few months, I’ve been hearing different versions of the same question: under what conditions can we safely allow an autonomous system to operate a machine? It comes up when my...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "tags": [
+   "agent security",
+   "rootless design",
+   "open-source framework",
+   "operating agents"
+  ],
+  "title": "Don’t give AI agents root. Make them propose the next system state.",
+  "what": "A CNCF blog post arguing that AI agents should be given proposal authority rather than root access.",
+  "why": "It offers concrete design ideas and patterns a lead can apply to secure agent operations in production."
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20447,6 +20747,27 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "Autonomous Agents & Agent Simulations"
+ },
+ "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "minutes": 8,
+  "published": "2026-10-08",
+  "score": 12,
+  "shown": "2026-10-09",
+  "snippet": "Build an agent that pays for real purchases. Restock runs in Slack on Managed Deep Agents and pays with Stripe's Link over the Machine Payments Protocol.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "agents",
+   "payments",
+   "Stripe",
+   "LangChain",
+   "Managed Deep Agents"
+  ],
+  "title": "Agents that can pay: building Restock with Stripe's Link and Managed Deep Agents",
+  "what": "A LangChain blog post describing how to build a Slack‑based agent that processes real Stripe payments using Stripe’s Link and the Machine Payments Protocol.",
+  "why": "It shows concrete code, architecture, and trade‑offs so engineers can replicate a payment‑enabled agent in their own Slack or other platforms this month."
  },
  "https://www.langchain.com/blog/aligning-llm-as-a-judge-with-human-preferences": {
   "first_seen": "2026-10-05",
@@ -20588,11 +20909,21 @@
  "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-09-14",
+  "score": 14,
   "snippet": "Learn how Connections in Managed Deep Agents securely manage credentials, support per-user OAuth, and let agents act with each caller’s identity.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents"
+  "tags": [
+   "agent identity",
+   "OAuth",
+   "managed credentials",
+   "open-source"
+  ],
+  "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
+  "what": "LangChain’s new Connections feature enables Managed Deep Agents to securely store credentials, support per-user OAuth, and act on behalf of individual callers.",
+  "why": "Engineers can integrate Connections into their agent workflows to provide fine-grained, identity-aware access without exposing secrets, and can adapt the pattern to other open‑source agent frameworks."
  },
  "https://www.langchain.com/blog/cube-x-langchain-building-ai-experiences-with-llms-and-the-semantic-layer": {
   "first_seen": "2026-10-05",
@@ -20727,6 +21058,25 @@
   "source": "langchain-blog",
   "status": "dropped:title_rule",
   "title": "How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents"
+ },
+ "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature": {
+  "first_seen": "2026-10-09",
+  "kind": "read",
+  "minutes": 8,
+  "published": "2026-10-09",
+  "score": 8,
+  "snippet": "Discover how Snyk transformed an internal support agent into Snyk Assist, a customer-facing AI feature powered by LangChain, LangGraph, and LangSmith.",
+  "source": "langchain-blog",
+  "status": "rejected",
+  "tags": [
+   "open-source",
+   "agents",
+   "platform engineering",
+   "LangChain"
+  ],
+  "title": "How Snyk Turned an Internal Support Agent into a Customer Feature",
+  "what": "A case study of turning an internal support chatbot into a customer-facing AI feature using LangChain technologies.",
+  "why": "Shows how to leverage LangChain, LangGraph, and LangSmith to build and deploy a production agent, providing insights into architecture, training data, and integration patterns."
  },
  "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
   "first_seen": "2026-10-05",
@@ -21300,11 +21650,21 @@
  "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-09-15",
+  "score": 11,
   "snippet": "A guide on scaling agents in Europe & the Middle East to see how Schneider Electric, Vodafone, and monday.com are approaching production AI at scale, from establishing shared agent platforms and LLMOps practices to designing multi-agent architectures with stronger observability, evaluation, and control.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com"
+  "tags": [
+   "agent scaling",
+   "LLMOps",
+   "observability",
+   "multi‑agent architecture"
+  ],
+  "title": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
+  "what": "A LangChain blog detailing how Schneider Electric, Vodafone, and monday.com scale agents in Europe and the Middle East.",
+  "why": "It offers actionable LLMOps and multi‑agent design patterns that the reader can try in their own production environments."
  },
  "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient": {
   "first_seen": "2026-10-05",
@@ -21541,6 +21901,14 @@
   "what": "A conference opening talk by David Soria Parra on the importance of agent connectivity over model improvements, introducing the MCP framework.",
   "why": "It gives a high-level perspective and rationale for building agent ecosystems that can be applied to design and evaluate agent architectures."
  },
+ "https://www.youtube.com/watch?v=3XI90A3ENSg": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "published": "2026-10-08",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "How a Remote Company Builds AI Fluency — Em Shreve, Automattic"
+ },
  "https://www.youtube.com/watch?v=3glzJZ-_qB8": {
   "first_seen": "2026-10-08",
   "kind": "watch",
@@ -21662,6 +22030,7 @@
   "minutes": 30,
   "published": "2026-09-30",
   "score": 10,
+  "shown": "2026-10-09",
   "snippet": "Nathan Drezner, a product manager at LangChain, shows how to build a custom HTTP channel for a Managed Deep Agent so it can receive inbound requests from any service you don't control, like HubSpot, Salesforce, or a texting provider. He builds Reflex, an expense-reporting agent that receives receipt photos over iMessage through Photon, extracts the data, and stores it in durable memory backed by…",
   "source": "yt-langchain",
   "status": "passed",
@@ -21867,6 +22236,24 @@
   "what": "A video explaining why larger context windows fail for agents and how to handle tool outputs using the open-source Strands Agents framework.",
   "why": "It gives concrete patterns and trade‑offs a lead can apply this month to build more robust agents."
  },
+ "https://www.youtube.com/watch?v=Emo5FGGY-wM": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-09",
+  "score": 7,
+  "snippet": "Your agent scores great on benchmarks. Then real customers use it and it breaks. Felipe Blanes from the Amazon AGI Lab shares what he learned working directly with customers of Nova Act, Amazon's service for building browser agents, from research preview to general availability on AWS. He calls the core problem the benchmark illusion: static evals look great until customers do things nobody…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent reliability",
+   "benchmark illusion",
+   "Amazon AGI Lab"
+  ],
+  "title": "Why 80% Reliability Isn't Good Enough — Felipe Blanes, Amazon AGI Lab",
+  "what": "A talk by Amazon AGI Lab on the pitfalls of benchmark‑driven reliability for agent systems.",
+  "why": "Provides lessons on evaluating real‑world reliability but is tied to a proprietary service."
+ },
  "https://www.youtube.com/watch?v=F0TNSmbo5hE": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -21933,6 +22320,14 @@
   "title": "How To Build A Harness With Jev | A LangChain x TypeSafe Conversation",
   "what": "",
   "why": ""
+ },
+ "https://www.youtube.com/watch?v=HTzgC3FoYsI": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "published": "2026-10-08",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Let Anyone at Your Company Ship Internal Apps with AI — Garrett Galow, WorkOS"
  },
  "https://www.youtube.com/watch?v=I2LL_wd89-A": {
   "first_seen": "2026-10-05",
@@ -22001,6 +22396,26 @@
   "what": "A product demonstration video by LangChain showing how to add web search to a managed deep agent using a single MCP connection.",
   "why": "The video primarily serves as a showcase with no detailed explanation of implementation, trade-offs, or code that would be actionable for an engineering lead."
  },
+ "https://www.youtube.com/watch?v=KGFyOtl5ktI": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-08",
+  "score": 12,
+  "snippet": "Most teams are great at watching what their agents did. Far fewer turn that into lessons for the next run. Jake Broekhuizen from LangChain's Labs team explains how to give agents memory that actually changes their behavior. Using a real financial services agent whose tone kept slipping from advisory to pushy, he shows why traces and logs are only evidence: they become memory only when a lesson…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "memory",
+   "agent learning",
+   "LangChain",
+   "open source",
+   "financial services"
+  ],
+  "title": "Giving AI Agents Memory That Learns — Jake Broekhuizen, LangChain",
+  "what": "A LangChain Labs engineer explains how to give AI agents a learnable memory that adapts behavior, illustrated with a financial services use case.",
+  "why": "Engineers can adopt the described memory‑learning pattern to keep agent tone consistent and improve performance in production."
+ },
  "https://www.youtube.com/watch?v=KPcEhLoh-Wc": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -22058,11 +22473,30 @@
  "https://www.youtube.com/watch?v=M9BMTC8o9-w": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 30,
   "published": "2026-09-15",
+  "score": 12,
   "snippet": "Akshay Sharma, Machine Learning Engineer at Lyft, breaks down how Lyft rebuilt its customer support agent stack with LangGraph and LangSmith. The team replaced brittle, single-call agents with a meta-agent architecture where PMs and ops can ship new agents as a prompt and a config change, without writing new code. The result: agent build time dropped from six months to one to two weeks, and…",
   "source": "yt-langchain",
   "status": "passed",
-  "title": "How Lyft Increased Its Agent Resolution Rate by 16% with LangSmith and LangGraph"
+  "tags": [
+   "open‑source framework",
+   "LangGraph",
+   "LangSmith",
+   "meta‑agent architecture",
+   "agent build time"
+  ],
+  "title": "How Lyft Increased Its Agent Resolution Rate by 16% with LangSmith and LangGraph",
+  "what": "A Lyft ML engineer explains how the company rebuilt its customer‑support agent stack with LangGraph and LangSmith, achieving a 16 % increase in agent resolution rate.",
+  "why": "Readers can learn how to adopt a meta‑agent architecture that lets product managers deploy new agents by only changing prompts and configs, cutting build time from months to weeks."
+ },
+ "https://www.youtube.com/watch?v=Mm3EsJL73tM": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "published": "2026-10-08",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "How Oracle Uses ChatGPT Work to Transform Recruitment"
  },
  "https://www.youtube.com/watch?v=N5kTmoCKbe0": {
   "first_seen": "2026-10-08",
@@ -22080,6 +22514,26 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "AI on campus"
+ },
+ "https://www.youtube.com/watch?v=NaOkR3VSfR4": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-08",
+  "score": 11,
+  "snippet": "Let the model decide what should happen next. Never let it improvise how a production cluster gets restarted. Viren Baraiya, co-founder and CTO of Orkes and the original creator of Netflix Conductor, explains how to run agents in production. Real agents aren't just chatbots: they run on schedules, react to events, coordinate other agents and can run for months, so the harness around them starts…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent safety",
+   "production orchestration",
+   "Netflix Conductor",
+   "Orkes",
+   "agent architecture"
+  ],
+  "title": "Brains vs Hands: How to Run AI Agents Safely in Production — Viren Baraiya",
+  "what": "An engineering talk on how to safely run AI agents in production, covering architecture, harnesses, and operational practices.",
+  "why": "It provides concrete patterns and design choices that an engineering lead can adopt immediately to build robust agent systems."
  },
  "https://www.youtube.com/watch?v=NdrSPm6NCdk": {
   "first_seen": "2026-10-06",
@@ -22246,6 +22700,25 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "Introducing Claude Fable 5.1"
+ },
+ "https://www.youtube.com/watch?v=RQfg-zo4R-g": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 25,
+  "published": "2026-10-08",
+  "score": 2,
+  "snippet": "It’s 3 a.m. and checkout errors are climbing. What do you check first? Join cohosts Tony Loehr and Anke Hao for three practical production-monitoring demos with Codex. Follow a checkout failure in Grafana, investigate a Kubernetes rollout that causes out-of-memory restarts, and explore how a Codex Security finding connects service availability to a missing resource limit. See how telemetry,…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [
+   "product-demo",
+   "monitoring",
+   "Kubernetes",
+   "Grafana"
+  ],
+  "title": "Production Monitoring with Codex: Grafana, Kubernetes, & Security",
+  "what": "Video demo showing how to use Codex for production monitoring in Grafana, Kubernetes, and security contexts.",
+  "why": "It illustrates practical debugging scenarios but offers limited actionable detail for engineers to apply immediately."
  },
  "https://www.youtube.com/watch?v=RZyy529VwFU": {
   "first_seen": "2026-10-05",
@@ -22464,6 +22937,24 @@
   "what": "Video lecture on the concept of harness engineering and software factories by Dru Knox of Tessl",
   "why": "Not suitable for actionable engineering guidance"
  },
+ "https://www.youtube.com/watch?v=XPj3mIKEtI4": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-08",
+  "score": 2,
+  "snippet": "Agents finish a task, then forget what they learned. Retrieval alone won't fix that. Will Lyon, senior product manager at Neo4j, explains why agent memory built on embeddings and retrieval isn't enough: recall isn't actionable knowledge. Agents need knowledge that is connected, typed and traceable. He shows Neo4j's model of agent memory as a context graph with short-term, long-term and reasoning…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent-memory",
+   "graph-db",
+   "conceptual"
+  ],
+  "title": "Turning Agent Memory Into Skills That Work — Will Lyon, Neo4j",
+  "what": "A talk about Neo4j’s approach to agent memory via context graphs",
+  "why": "It offers a conceptual view but no actionable code or techniques for builders"
+ },
  "https://www.youtube.com/watch?v=XTpyNrEgJQ4": {
   "first_seen": "2026-10-07",
   "kind": "watch",
@@ -22522,6 +23013,23 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "Introducing Claude Fable 5"
+ },
+ "https://www.youtube.com/watch?v=YNT7Plf9KIg": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 10,
+  "published": "2026-10-08",
+  "score": 2,
+  "snippet": "Your coding agent is fast. But it can't see how your services actually run, so it guesses. Matt Gibiec, who leads AI-native solutions engineering at Dynatrace, explains why AI agents need something like a nervous system: real context from the environment they're changing. Agents get stuck in loops, cause operational and security issues, and are hard to measure, because they work fast but blind,…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agents in production",
+   "observability"
+  ],
+  "title": "Your AI Agent Has No Nervous System — Matt Gibiec, Dynatrace",
+  "what": "Matt Gibiec explains why AI agents need a \"nervous system\" to observe and act safely in real systems.",
+  "why": "It highlights operational pitfalls and the need for environmental context, prompting engineers to design more observable, controlled agents."
  },
  "https://www.youtube.com/watch?v=YXb2Wx1r_Pk": {
   "first_seen": "2026-10-05",
@@ -22914,6 +23422,25 @@
   "what": "A YouTube walkthrough of diagnosing and fixing runaway processes in sandboxed environments.",
   "why": "Engineers can apply the debugging patterns to improve sandbox reliability in their own CI/CD pipelines."
  },
+ "https://www.youtube.com/watch?v=gLbewwQdoSk": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 45,
+  "published": "2026-10-08",
+  "score": 11,
+  "snippet": "What happens when autonomous agents become part of an open source maintenance crew? At KubeCon + CloudNativeCon North America, Andy Anderson of IBM Research will share how KubeStellar Console merged roughly 2,400 pull requests across 211 releases in just 90 days, including approximately 850 opened by autonomous agents. Learn what these agents handle well, where they stumble, and what their work…",
+  "source": "yt-cncf",
+  "status": "rejected",
+  "tags": [
+   "open-source frameworks",
+   "agents for platform engineering",
+   "evaluation",
+   "observability"
+  ],
+  "title": "Meet Andy Anderson - Speaker at KubeCon + CloudNativeCon North America",
+  "what": "A talk by IBM Research’s Andy Anderson on how autonomous agents merged thousands of pull requests in the KubeStellar Console project.",
+  "why": "Engineers can learn practical lessons on scaling agent-driven PR automation, including success patterns, pitfalls, and operational considerations for their own Kubernetes-based open‑source projects."
+ },
  "https://www.youtube.com/watch?v=hbH2RbUBZQ0": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -22930,6 +23457,7 @@
   "minutes": 60,
   "published": "2026-10-06",
   "score": 16,
+  "shown": "2026-10-09",
   "snippet": "A batch of 968 sample support traces exposes order lookup failures and broken escalation calls. Doug Guthrie uses those cases to connect Braintrust observability with the work of improving an agent. The workshop starts with a Python support agent built on the OpenAI Agents SDK, adds tracing, establishes an offline evaluation baseline, and publishes custom scorers. Online automations grade…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -23013,6 +23541,24 @@
   "status": "passed",
   "title": "Translating Claude’s thoughts into language"
  },
+ "https://www.youtube.com/watch?v=jJQoVkd5yLg": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-08",
+  "score": 12,
+  "snippet": "Reducto gave its whole team an MCP server with a tool for every endpoint. It broke the same day. Abhi Arya, who works on product at Reducto, argues that building agent-first software comes down to one question: who pays when the agent is wrong? He describes three approaches, auto mode, user-first, and agent experience in service of the user, and how Reducto learned the difference. A first MCP…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "building and operating agents in production",
+   "open standards and protocols",
+   "open-source frameworks"
+  ],
+  "title": "Why We Deleted Our MCP Server and Rebuilt It — Abhi Arya, Reducto",
+  "what": "Reducto engineer explains why they rebuilt their MCP server and shares lessons on building agent-first software.",
+  "why": "The reader can apply the three approach frameworks and design choices to better structure agent interactions and cost responsibilities in their own projects."
+ },
  "https://www.youtube.com/watch?v=jc3kbZkuHTo": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -23032,6 +23578,25 @@
   "title": "The Human Is an Async API — Melanie Warrick, Temporal",
   "what": "A video on building non-blocking, durable human-in-the-loop agents using Temporal and LangGraph",
   "why": "It shows how to design agent harnesses that tolerate human delays and persist state, which you can apply in your own agent pipelines"
+ },
+ "https://www.youtube.com/watch?v=k2ClBT4aqAg": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-08",
+  "score": 11,
+  "snippet": "Coding agents are great inside one repo. Postman has 115 microservices and thousands of endpoints. Kamalakannan Nandagopal, staff engineer at Postman, shares how Postman made coding agents work across a real distributed system. Docs go stale, skills and MCPs are only as good as their context, and agent memory stays stuck with one person. Borrowing from Postman's go-to-market team, they realized…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agents in production",
+   "microservices",
+   "distributed systems",
+   "agent observability"
+  ],
+  "title": "We Mapped 115 Microservices for Our Coding Agents — Kamalakannan Nandagopal, Postman",
+  "what": "Postman staff engineer explains how to scale coding agents across 115 microservices in a real distributed system",
+  "why": "Readers can adapt Postman’s distributed‑agent patterns to build scalable, context‑aware agents for their own microservice architectures"
  },
  "https://www.youtube.com/watch?v=kRaJtEXAOxU": {
   "first_seen": "2026-10-05",
@@ -23360,6 +23925,14 @@
   "source": "yt-aaif",
   "status": "passed",
   "title": "When MCP Tools Fail"
+ },
+ "https://www.youtube.com/watch?v=uuwDWRbxoYo": {
+  "first_seen": "2026-10-09",
+  "kind": "watch",
+  "published": "2026-10-09",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "AI Writes More PRs. Who Validates Them? — Ali-Reza Adl-Tabatabai, Sonar"
  },
  "https://www.youtube.com/watch?v=wCWmpQoa6qo": {
   "first_seen": "2026-10-05",

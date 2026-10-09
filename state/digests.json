@@ -27,6 +27,13 @@
    "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
    "https://www.youtube.com/watch?v=kRaJtEXAOxU",
    "https://www.youtube.com/watch?v=U_XD5NxO8KY"
+  ],
+  "2026-10-09": [
+   "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+   "https://developers.openai.com/blog/realtime-api",
+   "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+   "https://www.youtube.com/watch?v=6v0Fmsi4Ldk",
+   "https://www.youtube.com/watch?v=hfEczxdNyvU"
   ]
  },
  "rollup": {
@@ -155,10 +162,10 @@
   ]
  },
  "scoring": {
-  "calls": 40,
-  "date": "2026-10-08",
+  "calls": 21,
+  "date": "2026-10-09",
   "error": null,
   "failed": 0,
-  "rejected": 33
+  "rejected": 11
  }
 }
