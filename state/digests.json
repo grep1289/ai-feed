@@ -34,6 +34,13 @@
    "https://www.anthropic.com/research/the-missing-map-of-the-sky",
    "https://www.youtube.com/watch?v=6v0Fmsi4Ldk",
    "https://www.youtube.com/watch?v=hfEczxdNyvU"
+  ],
+  "2026-10-10": [
+   "https://www.langchain.com/blog/agent-harness-life-sciences",
+   "https://www.cncf.io/blog/2026/09/28/the-case-for-a-cloud-native-agent-harness",
+   "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
+   "https://www.youtube.com/watch?v=bv1qgkbWhms",
+   "https://www.youtube.com/watch?v=3wj6sgbi1YA"
   ]
  },
  "rollup": {
@@ -162,10 +169,10 @@
   ]
  },
  "scoring": {
-  "calls": 21,
-  "date": "2026-10-09",
+  "calls": 18,
+  "date": "2026-10-10",
   "error": null,
   "failed": 0,
-  "rejected": 11
+  "rejected": 13
  }
 }
