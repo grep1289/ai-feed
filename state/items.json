@@ -4920,11 +4920,16 @@
  "https://developers.openai.com/blog/intro": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 1,
   "published": "2026-09-11",
+  "score": 0,
   "snippet": "Introducing our developer blog",
   "source": "openai-developer",
-  "status": "passed",
-  "title": "Hello, world!"
+  "status": "rejected",
+  "tags": [],
+  "title": "Hello, world!",
+  "what": "OpenAI Developer Blog introduction page",
+  "why": "Not a technical resource, no actionable content for building agents"
  },
  "https://developers.openai.com/blog/mastering-codex-remote-for-engineering": {
   "first_seen": "2026-10-05",
@@ -4995,11 +5000,21 @@
  "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 8,
   "published": "2026-09-11",
+  "score": 6,
   "snippet": "Revisit skill descriptions, AGENTS.md, and task prompts to avoid bloated context.",
   "source": "openai-developer",
-  "status": "passed",
-  "title": "Rethinking skills and prompts for GPT-6 Astra"
+  "status": "rejected",
+  "tags": [
+   "prompt-engineering",
+   "skills",
+   "open-source-ideas",
+   "agent-design"
+  ],
+  "title": "Rethinking skills and prompts for GPT-6 Astra",
+  "what": "A blog post from OpenAI explaining how to refine skills and prompts for GPT‑6 Astra to reduce bloated context.",
+  "why": "It offers design patterns and prompt‑engineering tricks that an engineer can try in their own agent projects this month."
  },
  "https://developers.openai.com/blog/rosalind-workbench": {
   "first_seen": "2026-10-05",
@@ -18393,11 +18408,22 @@
  "https://openai.com/index/scaling-storage-one-billion-users-part-one": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 15,
   "published": "2026-09-11",
+  "score": 11,
   "snippet": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
   "source": "openai-engineering",
   "status": "passed",
-  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users"
+  "tags": [
+   "building and operating agents in production",
+   "architecture",
+   "scaling",
+   "storage",
+   "open standards and protocols"
+  ],
+  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+  "what": "A technical deep‑dive by OpenAI engineers on how they transformed Habitat from a Python library into a globally distributed storage platform that serves over 1 billion ChatGPT users and 22 M QPS.",
+  "why": "It explains concrete scaling techniques, architectural choices, and trade‑offs that an engineering lead can adapt to design or operate large‑scale storage or data pipelines for agent workloads."
  },
  "https://openai.com/index/separating-signal-from-noise-coding-evaluations": {
   "first_seen": "2026-10-05",
@@ -20864,6 +20890,7 @@
   "minutes": 10,
   "published": "2026-10-08",
   "score": 12,
+  "shown": "2026-10-11",
   "snippet": "The uncomfortable question In the past few months, I’ve been hearing different versions of the same question: under what conditions can we safely allow an autonomous system to operate a machine? It comes up when my...",
   "source": "cncf-blog",
   "status": "passed",
@@ -21122,6 +21149,7 @@
   "minutes": 12,
   "published": "2026-09-14",
   "score": 14,
+  "shown": "2026-10-11",
   "snippet": "Learn how Connections in Managed Deep Agents securely manage credentials, support per-user OAuth, and let agents act with each caller’s identity.",
   "source": "langchain-blog",
   "status": "passed",
@@ -22346,6 +22374,26 @@
   "what": "OpenAI announces Codex Cloud, a new cloud environment for code tasks",
   "why": "No actionable technical details for engineering lead to build or apply"
  },
+ "https://www.youtube.com/watch?v=7v2myBde05o": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-10",
+  "score": 13,
+  "snippet": "You can write all the rules you want in a markdown file. Your agent can still call the API. Sam, CTO at Gravity, skips the slides and runs five live scenarios against a hotel-booking agent to show why governance belongs in the infrastructure, not in the agent's instructions. Running on the Gravity Gateway with a Databricks backend, Sonnet and Groq, he shows the gateway blocking a destructive…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "open-source gateway",
+   "policy enforcement",
+   "API gateway",
+   "agent governance",
+   "infra-driven policy"
+  ],
+  "title": "AI Agents Don't Read Your Policy Docs. They Hit Your APIs — Gravitee",
+  "what": "A demo of how the Gravitee API gateway can enforce policy governance for AI agents that otherwise ignore markdown rules",
+  "why": "Engineers can learn to shift policy enforcement to an open-source gateway, reducing agent-side complexity and enabling runtime governance"
+ },
  "https://www.youtube.com/watch?v=7wYfZvEIMnk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -22715,6 +22763,14 @@
   "status": "dropped:keyword",
   "title": "Introducing GPT-6 in ChatGPT with Intelligent UI"
  },
+ "https://www.youtube.com/watch?v=Ju-JyxDgV7g": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "published": "2026-10-10",
+  "source": "yt-openai",
+  "status": "dropped:title_rule",
+  "title": "How Oracle Uses Codex to Help Business Users Get Answers"
+ },
  "https://www.youtube.com/watch?v=KAITWbHLSSE": {
   "first_seen": "2026-10-07",
   "kind": "watch",
@@ -22939,6 +22995,25 @@
   "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker",
   "what": "Demo of Docker’s new microVM sandbox feature for agents",
   "why": "Shows how to spin up isolated VM sandboxes, but offers limited technical detail for engineering application"
+ },
+ "https://www.youtube.com/watch?v=ORVh4GivEU0": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-10",
+  "score": 8,
+  "snippet": "Vector search can't answer \"which PRs did I merge last week?\" A relational context engine can, and it cuts token burn along the way. Peter Werry, founding engineer at Unblocked, explains what a context engine is and why coding agents need more than code search: the PRs, Slack threads and incident history that explain why the code is the way it is. He shows Claude sessions with and without that…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent design",
+   "context engineering",
+   "token efficiency",
+   "open‑source potential"
+  ],
+  "title": "Beyond RAG: A Relational Context Engine That Cuts Token Burn — Unblocked",
+  "what": "A talk by Peter Werry on Unblocked’s relational context engine that reduces token usage for LLM agents by incorporating relational data such as PRs and Slack threads.",
+  "why": "It shows a practical design for embedding relational context into agents, offering concrete architecture and trade‑offs that an engineer can adapt to build more efficient, context‑aware agents in production."
  },
  "https://www.youtube.com/watch?v=P1zBiAQU1IA": {
   "first_seen": "2026-10-05",
@@ -23491,6 +23566,26 @@
   "what": "A YouTube demo showing how to add custom site annotations that interact with ChatGPT via WebMCP.",
   "why": "It gives a quick visual example but offers limited actionable guidance for building or operating agents."
  },
+ "https://www.youtube.com/watch?v=Zf_e45GiNCE": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-10",
+  "score": 12,
+  "snippet": "Cold starts, proprietary SDKs and one-region deployments slow AI apps down. WebAssembly at the edge removes all three. Thorsten Hans, senior developer advocate at Akamai, shows how to build and ship MCP servers and AI agents with Spin, the open-source WebAssembly framework, and run them on Akamai Functions, a globally distributed serverless platform with no cold starts. He explains why…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "WebAssembly",
+   "Spin",
+   "Akamai Functions",
+   "Serverless AI",
+   "Edge AI"
+  ],
+  "title": "Zero Cold Starts: Serverless AI Agents on Akamai Functions — Thorsten Hans",
+  "what": "A technical walkthrough of building serverless AI agents with WebAssembly on Akamai Functions using the Spin framework.",
+  "why": "Engineers can learn to deploy fast, cold‑start‑free AI agents at scale by leveraging open-source WebAssembly tooling and Akamai’s edge platform."
+ },
  "https://www.youtube.com/watch?v=ZnrMyEE4RcQ": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -23577,6 +23672,37 @@
   "what": "Announcement of LangSmith Custom Apps for building custom UIs over agent data",
   "why": "Not a technical how-to or open-source tool to build with"
  },
+ "https://www.youtube.com/watch?v=abw_m-DRi1k": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-10",
+  "score": 1,
+  "snippet": "Your coding agent can read private data, take in untrusted content and talk to the internet. That's the lethal trifecta, and it's already running on your developers' laptops. Michael Patterson, staff solutions engineer at Coder, explains Simon Willison's lethal trifecta (access to private data, exposure to untrusted content, and the ability to communicate externally) and why agents like Claude…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "risk",
+   "agent security"
+  ],
+  "title": "The Lethal Trifecta Is Already on Your Laptops — Michael Patterson, Coder",
+  "what": "Video on the risks of coding agents",
+  "why": "No actionable guidance for building agents"
+ },
+ "https://www.youtube.com/watch?v=b9UhZkKjX_A": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-10",
+  "score": 0,
+  "snippet": "Most teams build an agent once, on one laptop, and never share it. Here's how to take it from local to the whole org to the CI pipeline. Jose Palafox, who has spent six and a half years at GitHub and now works with companies on Copilot adoption, walks through the path from a local custom agent to agents that run unattended in your pipeline. He explains how Copilot works under the hood, the…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "From Your Laptop to the Pipeline: Scaling Custom Agents with GitHub Copilot",
+  "what": "Video on scaling custom GitHub Copilot agents",
+  "why": "Not suitable for an experienced engineer seeking buildable open‑source guidance"
+ },
  "https://www.youtube.com/watch?v=bQ3-pXCpCTg": {
   "first_seen": "2026-10-08",
   "kind": "watch",
@@ -23648,6 +23774,7 @@
   "minutes": 20,
   "published": "2026-10-01",
   "score": 14,
+  "shown": "2026-10-11",
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io gRPC and Post-Quantum Cryptography - Riya Mehta, Google",
   "source": "yt-cncf",
   "status": "passed",
@@ -23916,6 +24043,24 @@
   "what": "Workshop on building observability for AI agents using the OpenAI Agents SDK and custom tracers",
   "why": "Readers can apply the tracing, offline evaluation, and scoring techniques to monitor and improve their own production agents this month"
  },
+ "https://www.youtube.com/watch?v=htod7Nv1cBc": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-10",
+  "score": 11,
+  "snippet": "Most models learn text first and get vision bolted on later. MiniMax M3 learned both from the very first training step. Olive, who works on reinforcement learning research at MiniMax, goes inside MiniMax M3, an open-weight model with frontier-level coding and agentic ability, a 1 million token context window and native multimodality. She explains MSA, MiniMax's sparse attention design (about 9x…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "open-source frameworks",
+   "agents for platform engineering",
+   "evaluation"
+  ],
+  "title": "How MiniMax M3 Was Built: Sparse Attention and Native Multimodality — Olive Song",
+  "what": "Olive Song explains the architecture and training of MiniMax M3, an open‑weight multimodal model with sparse attention and a 1M‑token context window.",
+  "why": "Engineers can learn how to implement sparse attention, native multimodality, and large‑context training to build their own agentic models."
+ },
  "https://www.youtube.com/watch?v=iF5IWjOWcA4": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -23984,6 +24129,25 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "Translating Claude’s thoughts into language"
+ },
+ "https://www.youtube.com/watch?v=j4AmIK6OvHc": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-11",
+  "score": 13,
+  "snippet": "Your voice agent's dashboard says it's fast. Your callers say it feels robotic. They're both right. Jesse Hall, staff developer advocate at LiveKit, explains how to build voice agents that feel human. He shows why leaderboards can't pick your models (scores measure one model, but you ship a pipeline, and errors compound from speech-to-text to the LLM to text-to-speech) and why measured latency…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "voice agents",
+   "latency",
+   "LiveKit",
+   "open-source"
+  ],
+  "title": "Latency Is a Budget. Humanlike Is the Goal. — Jesse Hall, LiveKit",
+  "what": "A LiveKit engineer explains how to build human‑like voice agents by measuring and optimizing pipeline latency.",
+  "why": "Engineers can apply LiveKit’s latency‑budget framework to improve user experience in their own voice‑AI systems."
  },
  "https://www.youtube.com/watch?v=jJQoVkd5yLg": {
   "first_seen": "2026-10-09",
@@ -24300,6 +24464,27 @@
   "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
   "what": "Marina Petzel discusses metrics beyond golden signals for generative AI apps.",
   "why": "No actionable buildable content for the engineer."
+ },
+ "https://www.youtube.com/watch?v=s-glGHAa1a4": {
+  "first_seen": "2026-10-11",
+  "kind": "watch",
+  "minutes": 45,
+  "published": "2026-10-11",
+  "score": 14,
+  "shown": "2026-10-11",
+  "snippet": "The era of unlimited AI budgets is over, and most teams are locked into whichever tools they picked first. Remy Guercio, who works on Tailscale's AI gateway Aperture, looks back at a year of AI lock-in and asks how teams get out of it while proving real ROI. He breaks an internal AI deployment into four layers (the models, the data connectors like MCP, CLIs and APIs, the interface, and the…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "open standards",
+   "AI gateway",
+   "MCP",
+   "open source",
+   "agent architecture"
+  ],
+  "title": "An AI Future Without the Lock-In — Remy Guercio, Tailscale",
+  "what": "Remy Guercio from Tailscale discusses how to escape AI lock‑in and build an open‑source AI gateway with Aperture and MCP.",
+  "why": "It gives engineers a concrete, modular design for an AI deployment that can be built and tuned in their own infrastructure."
  },
  "https://www.youtube.com/watch?v=s0hFne6EeOI": {
   "first_seen": "2026-10-06",

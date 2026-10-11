@@ -41,6 +41,12 @@
    "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
    "https://www.youtube.com/watch?v=bv1qgkbWhms",
    "https://www.youtube.com/watch?v=3wj6sgbi1YA"
+  ],
+  "2026-10-11": [
+   "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+   "https://www.cncf.io/blog/2026/10/08/dont-give-ai-agents-root-make-them-propose-the-next-system-state",
+   "https://www.youtube.com/watch?v=s-glGHAa1a4",
+   "https://www.youtube.com/watch?v=cLMAqEqW3U4"
   ]
  },
  "rollup": {
@@ -169,10 +175,10 @@
   ]
  },
  "scoring": {
-  "calls": 18,
-  "date": "2026-10-10",
+  "calls": 11,
+  "date": "2026-10-11",
   "error": null,
   "failed": 0,
-  "rejected": 13
+  "rejected": 6
  }
 }
