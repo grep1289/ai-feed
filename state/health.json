@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 8,
+  "new": 15,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {

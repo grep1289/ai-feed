@@ -5356,6 +5356,15 @@
   "status": "passed",
   "title": "arize-phoenix: v20.20.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.21.0": {
+  "first_seen": "2026-10-12",
+  "kind": "release",
+  "published": "2026-10-11",
+  "snippet": "20.21.0 (2026-10-11) Features assign a random gradient to projects created by ingestion ( #16873 ) ( 8946f7a ) cost-tracking: support Mistral AI model pricing ( #16880 ) ( 0e33736 ), closes #16878 Bug Fixes agents: upgrade pydantic-ai for CVE-2026-107286 ( #16893 ) ( 3cdb004 ) deps: update arize-phoenix-evals to 3.9.2 ( #16900 ) ( e8aa1ea ) playground: sync built-in model prices and model lists (…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.21.0"
+ },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7123,6 +7132,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents==0.7.23"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.24": {
+  "first_seen": "2026-10-12",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Features Added fork mode support for async subagents ( #6739 ). Bug Fixes Recover from context overflow during summary calls ( #6864 ). Preserve the parent rubric during parallel subagent calls ( #6849 ). Special thanks to everyone who reported the issues addressed in this release: Alex Gatto (@awg66) ( #6861 ) Internal maintainers: ccurme (@ccurme) , Mason Daugherty (@mdrxy) Released by: Mason…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.24"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.76": {
   "first_seen": "2026-10-05",
@@ -21268,6 +21286,7 @@
   "minutes": 10,
   "published": "2026-09-14",
   "score": 13,
+  "shown": "2026-10-12",
   "snippet": "See how Credit Genie uses OpenWiki to automate repo documentation, reduce tribal knowledge, and give engineers and coding agents searchable codebase context.",
   "source": "langchain-blog",
   "status": "passed",
@@ -21784,11 +21803,22 @@
  "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-09-08",
+  "score": 12,
   "snippet": "Learn how context modes in deepagents help subagents fork a supervisor's context or start isolated — for faster, cheaper, more focused multi-agent work.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Organizing Context in a Multi-Agent Harness"
+  "tags": [
+   "LangChain",
+   "deepagents",
+   "multi-agent",
+   "context",
+   "agent architecture"
+  ],
+  "title": "Organizing Context in a Multi-Agent Harness",
+  "what": "A LangChain blog post explaining how deepagents’ context modes let subagents fork or isolate supervisor context for efficient multi-agent workflows.",
+  "why": "It teaches engineers to design multi-agent systems with clear context boundaries, enabling faster, cheaper, and more focused agent execution in production."
  },
  "https://www.langchain.com/blog/own-your-intelligence": {
   "first_seen": "2026-10-05",
@@ -22111,6 +22141,14 @@
   "what": "",
   "why": ""
  },
+ "https://www.youtube.com/watch?v=13YZ1EB9hjU": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "published": "2026-10-11",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI — Fireworks AI"
+ },
  "https://www.youtube.com/watch?v=1akSvsjd_oI": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -22314,11 +22352,16 @@
  "https://www.youtube.com/watch?v=633YwioFkQY": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-11",
+  "score": 0,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026, the premier event for people building, operating, researching, or supporting agent systems. Where developers, architects, and AI practitioners come together to explore the latest in agentic AI, tool protocols, and production-ready MCP architectures. Learn more here: https://events.linuxfoundation.org/agntcon-mcpcon-north-america/ Who Authorized That Agent?…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Who Authorized That Agent to do That?"
+  "status": "rejected",
+  "tags": [],
+  "title": "Who Authorized That Agent to do That?",
+  "what": "Event promotion video for AGNTCon + MCPCon 2026",
+  "why": "No actionable technical content for engineering leads."
  },
  "https://www.youtube.com/watch?v=6qkzlT962es": {
   "first_seen": "2026-10-10",
@@ -22450,11 +22493,16 @@
  "https://www.youtube.com/watch?v=8quUT1Yn4eg": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-06",
+  "score": 0,
   "snippet": "Join us at AGNTCon + MCPCon NA 2026, the premier event for people building, operating, researching, or supporting agent systems. Where developers, architects, and AI practitioners come together to explore the latest in agentic AI, tool protocols, and production-ready MCP architectures. Learn more here: https://events.linuxfoundation.org/agntcon-mcpcon-north-america/ Self-Improving MCP Agents -…",
   "source": "yt-aaif",
-  "status": "passed",
-  "title": "Self-Improving Agents - Kemal Elmizan"
+  "status": "rejected",
+  "tags": [],
+  "title": "Self-Improving Agents - Kemal Elmizan",
+  "what": "YouTube event promotion for AGNTCon + MCPCon",
+  "why": "Does not provide technical content to build or learn from"
  },
  "https://www.youtube.com/watch?v=950byF7njfw": {
   "first_seen": "2026-10-05",
@@ -22584,6 +22632,7 @@
   "minutes": 12,
   "published": "2026-10-08",
   "score": 14,
+  "shown": "2026-10-12",
   "snippet": "A bigger context window won't save your agent. Past a point, it forgets the middle. Elizabeth Fuentes Leone, developer advocate at AWS, explains why agents break when tools return huge amounts of data, and why bigger context windows aren't the fix: models remember the start and end of a long context but lose the middle. Using the open-source, model-agnostic Strands Agents framework, she walks…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -22616,6 +22665,20 @@
   "title": "Stop Prompting — Greg Pstrucha, Sentry",
   "what": "Greg Pstrucha discusses why repeatedly re-prompting a coding agent is ineffective and proposes codifying recurring rules instead.",
   "why": "The reader can apply rule‑based feedback loops to improve agent reliability and reduce memory‑dependent errors in their own projects."
+ },
+ "https://www.youtube.com/watch?v=EEt3ZSG4a1s": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "What does it take to hire an agent the way you'd hire an employee? Then three agent-native startups pitch live for $100K. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Howie Liu, founder of Airtable and HyperAgent, traces agent products from completions to chatbots,…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Hiring Employable Agents + Startup Battlefield Finals — Howie Liu, HyperAgent",
+  "what": "A YouTube talk on hiring agents and startup pitches.",
+  "why": "It does not provide technical guidance for building or operating agents."
  },
  "https://www.youtube.com/watch?v=Emo5FGGY-wM": {
   "first_seen": "2026-10-09",
@@ -22661,6 +22724,23 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "Introducing the Decisions API"
+ },
+ "https://www.youtube.com/watch?v=FGftGOzfohc": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "From a one-line console agent to a research desk with skills, subagents, memory and self-grading outcomes. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Priyanka Phatak finishes a no-code agent in the console, then Gabe Cemaj leads the hands-on build: a 'research desk' app…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "product-demo",
+   "anthropic"
+  ],
+  "title": "Build a Research Agent with Claude Managed Agents (Part 2 of 4) — Anthropic",
+  "what": "Video demo of building a research agent using Anthropic's Claude Managed Agents.",
+  "why": "Not suitable for technical learning as it lacks open-source detail or actionable guidance."
  },
  "https://www.youtube.com/watch?v=FwiS44-xyYw": {
   "first_seen": "2026-10-06",
@@ -22963,6 +23043,7 @@
   "minutes": 30,
   "published": "2026-10-01",
   "score": 13,
+  "shown": "2026-10-12",
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io A Lightweight gRPC-Compatible Implementation for Sidecars - Tim Burks, Agent IO gRPC…",
   "source": "yt-cncf",
   "status": "passed",
@@ -23066,6 +23147,24 @@
   "what": "Product launch video for grpcgi",
   "why": "Does not provide actionable technical details for immediate application"
  },
+ "https://www.youtube.com/watch?v=PwCSYy-oGsM": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-12",
+  "score": 7,
+  "snippet": "Two AI interns. One handles 96% of conversations alone, the other only 80%. The dashboard picks the wrong one. Druid AI's team, including co-founder and chief product officer Dan Bălăceanu, shows why containment rate, the metric on every agent dashboard, can point you to the wrong agent. In their bank example, the intern who escalated more often was handing senior bankers customers who were about…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "evaluation",
+   "metrics",
+   "agent performance"
+  ],
+  "title": "Containment Is Lying to You: Measuring AI Agents Like Employees — Druid AI",
+  "what": "A video presentation by Druid AI’s co‑founder on why their containment‑rate metric can be misleading when measuring agent performance.",
+  "why": "It warns readers that common dashboard metrics may not reflect true agent quality, prompting them to critically assess and design better evaluation methods."
+ },
  "https://www.youtube.com/watch?v=Q-dLa9DSCD8": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -23093,6 +23192,20 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "“It Blew Me Away” | Box’s First Look at GPT-6 Astra"
+ },
+ "https://www.youtube.com/watch?v=QSeaZ6qHyXs": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "How to version agent configs, isolate customers, add GPUs and keep a long-running agent responsive. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes The workshop closes with audience Q&A for Priyanka Phatak and Gabe Cemaj: syncing agent configs in CI/CD with the ant CLI, what…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Claude Managed Agents Q&A: Evals, CI/CD and Multi-Tenancy (Part 4 of 4) — Anthropic",
+  "what": "Claude Managed Agents Q&A: Evals, CI/CD and Multi‑Tenancy (Part 4 of 4)",
+  "why": "Not enough technical depth or actionable guidance for building your own agents."
  },
  "https://www.youtube.com/watch?v=RC1AzBS3MLQ": {
   "first_seen": "2026-10-05",
@@ -23202,6 +23315,20 @@
   "status": "dropped:keyword",
   "title": "Meet Kashif Khan - Speaker at KubeCon + CloudNativeCon North America"
  },
+ "https://www.youtube.com/watch?v=T3wRyXg_yVg": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "AI company revenue growth jumped from 120% to 175% in a year. Stripe's data shows what the fastest-growing companies do differently. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Nilofer Rajpurkar, product lead for agent and developer experiences at Stripe, uses Stripe…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Inside the AI Economy: What Stripe's Data Reveals — Nilofer Rajpurkar, Stripe",
+  "what": "",
+  "why": ""
+ },
  "https://www.youtube.com/watch?v=TC_Nqbky72I": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -23296,6 +23423,20 @@
   "source": "yt-aaif",
   "status": "dropped:title_rule",
   "title": "Building the Agentic Stack | MCP Dev Summit Mumbai 2026 Highlights"
+ },
+ "https://www.youtube.com/watch?v=Uv0nAf_7tyU": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "The first version of Claude Managed Agents put everything in one container. Here's why Anthropic split it apart. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Priyanka Phatak, who leads the Claude Managed Agents engineering team at Anthropic, defines an agent as a model in…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Decoupling the Brain from the Hands: Claude Managed Agents (Part 1 of 4) — Anthropic",
+  "what": "Video on Anthropic's Claude Managed Agents architecture and deployment decisions.",
+  "why": "Not suitable for an engineering lead seeking actionable open-source insights."
  },
  "https://www.youtube.com/watch?v=UxJZrCFzTHY": {
   "first_seen": "2026-10-05",
@@ -23593,6 +23734,14 @@
   "source": "yt-aaif",
   "status": "dropped:title_rule",
   "title": "AGNTCon + MCPCon Japan 2026 Highlights | Tokyo’s First Production Agentic AI Summit"
+ },
+ "https://www.youtube.com/watch?v=_cRgl3maiT8": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "published": "2026-10-12",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "How Inference Keeps Up with Our Insatiable Need for Tokens — Cerebras & Gimlet Labs"
  },
  "https://www.youtube.com/watch?v=_fHTqOs5wQA": {
   "first_seen": "2026-10-06",
@@ -24070,6 +24219,25 @@
   "status": "passed",
   "title": "How Icelanders are thinking about AI"
  },
+ "https://www.youtube.com/watch?v=iH_wV8BbS24": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-12",
+  "score": 7,
+  "snippet": "Running your coding agent with --dangerously-skip-permissions on your laptop puts every file, secret and prod credential you have in reach. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Robert Brennan, co-founder and CEO of OpenHands, traces AI coding from ChatGPT snippets…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "open-source frameworks",
+   "agent isolation",
+   "security",
+   "OpenHands"
+  ],
+  "title": "Sandboxes Aren't Optional: 4 Ways to Isolate Coding Agents — Robert Brennan, OpenHands",
+  "what": "A YouTube talk by Robert Brennan on sandboxing coding agents to isolate them from local environments",
+  "why": "Provides concrete sandbox patterns and tool examples the engineer can implement this month to secure their agents"
+ },
  "https://www.youtube.com/watch?v=iJxkWMEwCkM": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -24206,6 +24374,26 @@
   "what": "Postman staff engineer explains how to scale coding agents across 115 microservices in a real distributed system",
   "why": "Readers can adapt Postman’s distributed‑agent patterns to build scalable, context‑aware agents for their own microservice architectures"
  },
+ "https://www.youtube.com/watch?v=k72eLcYpVys": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-12",
+  "score": 8,
+  "snippet": "We pointed a coding agent at our own sandbox overnight and told it to break things. Here's what failed. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Kevin Orellana, an engineer on Amazon Bedrock AgentCore, wrapped AgentCore's code sandbox and cloud browser in an MCP…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent sandbox",
+   "LLM code execution",
+   "failure analysis",
+   "agent testing",
+   "AWS AgentCore"
+  ],
+  "title": "1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Run Code — Kevin Orellana, AWS",
+  "what": "A demonstration of 1,000 automated agent tasks that break in a sandboxed environment.",
+  "why": "The reader can learn which failure modes to anticipate when running LLM agents in production and how to design robust sandboxes."
+ },
  "https://www.youtube.com/watch?v=kRaJtEXAOxU": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -24255,6 +24443,23 @@
   "what": "YouTube video about OpenAI Codex builders",
   "why": "Not suitable for technical learning"
  },
+ "https://www.youtube.com/watch?v=mBNVKkyfnE0": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 3,
+  "snippet": "Adi Singh let an agent run unsupervised to recruit other agents. It started calling itself a prophet of persistent identity. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Adi Singh, co-founder of AgentMail, argues that agent identity won't be issued by a new spec but…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent identity",
+   "agentmail"
+  ],
+  "title": "The Next Trillion Internet Users Still Don’t Have an Identity — Adi Singh, AgentMail",
+  "what": "Adi Singh discusses agent identity challenges in a YouTube talk",
+  "why": "Not actionable for an engineering lead; lacks technical depth"
+ },
  "https://www.youtube.com/watch?v=mUQoVz7THu0": {
   "first_seen": "2026-10-07",
   "kind": "watch",
@@ -24272,6 +24477,20 @@
   "title": "Why Building an Eval Platform Is Harder Than It Looks — Braintrust",
   "what": "A Braintrust engineer discusses challenges in building an evaluation platform for agents.",
   "why": "It highlights pitfalls to avoid when designing agent evaluation pipelines."
+ },
+ "https://www.youtube.com/watch?v=nSkmXakJ6eo": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "Agents are starting to pick your vendors, and most signup flows block them at the door. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Michael Grinich, founder and CEO of WorkOS, argues that as agents run for hours and increasingly choose tools on their own, services have…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Auth for Agents: Let AI Sign Up for Your Product with auth.md — Michael Grinich, WorkOS",
+  "what": "Video discussing WorkOS’s authentication approach for AI agents",
+  "why": "No actionable guidance or technical detail for building agents"
  },
  "https://www.youtube.com/watch?v=nvbq39yVYRk": {
   "first_seen": "2026-10-05",
@@ -24407,6 +24626,20 @@
   "what": "AssemblyAI’s custom AI support agent Joey, built with the Claude Agent SDK, that lifts ticket resolution from 10% to 80% and runs for $700/month.",
   "why": "It shows a real-world build process, architecture choices, and cost metrics that an engineering lead can adapt to create or improve a support agent in production."
  },
+ "https://www.youtube.com/watch?v=qJtcEDc_WJU": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "Agents on a schedule, fan-out across sessions, and a research preview that improves memory from past runs. NEXT UP: AI ENGINEER CODE SUMMIT Join us in SF for the second annual AIE CODE Summit, Nov 10–12, our last flagship summit of 2026. Applications live now: https://aie.codes Gabe Cemaj fans one request out into a session per company with a custom tool, sets up deployments that run an agent on…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Scheduled Agents, Dreaming and Q&A: Claude Managed Agents (Part 3 of 4) — Anthropic",
+  "what": "",
+  "why": ""
+ },
  "https://www.youtube.com/watch?v=qZj7sqmidqA": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -24516,6 +24749,14 @@
   "what": "Ultrafast demo from OpenAI",
   "why": "No actionable content for engineering leads"
  },
+ "https://www.youtube.com/watch?v=snTZtttfL70": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "published": "2026-10-12",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Building AIE: Open Q&A and Feedback Session with swyx"
+ },
  "https://www.youtube.com/watch?v=tNAV259UhCM": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -24548,6 +24789,20 @@
   "title": "Why Your AI Agents Can't Talk to Each Other (Yet) — Vlad Luzin, BAND",
   "what": "A talk arguing that AI agents should communicate directly rather than via human‑mediated routing.",
   "why": "Provides conceptual motivation but no actionable code or patterns for builders."
+ },
+ "https://www.youtube.com/watch?v=tyFPqtyOK5w": {
+  "first_seen": "2026-10-12",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-11",
+  "score": 0,
+  "snippet": "A computer agent finds a speaker on Tuesday's conference schedule, saves the successful steps as a skill, and tries to replay them for Wednesday. A hiccup pushes it back into model driven exploration before the workflow completes. Ang Li uses that demonstration to explain Simular's approach to autonomous computers: combine adaptable vision agents with reusable automation code, then check the…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "The Autonomous Computer: Infrastructure for Computer Use Agents — Ang Li, Simular",
+  "what": "Video demonstration of a computer agent scheduling a speaker and replaying steps",
+  "why": "Insufficient technical detail for actionable learning"
  },
  "https://www.youtube.com/watch?v=u-o0sW9nwmk": {
   "first_seen": "2026-10-08",
