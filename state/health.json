@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -100,7 +100,7 @@
   "fetched": 10,
   "id": "github-blog-ai",
   "name": "GitHub Blog (AI and ML)",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -108,7 +108,7 @@
   "fetched": 15,
   "id": "yt-aaif",
   "name": "Agentic AI Foundation",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 15,
+  "new": 7,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 0,
+  "new": 5,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -284,7 +284,7 @@
   "fetched": 10,
   "id": "gh-strands-agents-sdk-python",
   "name": "strands-agents/sdk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -388,15 +388,15 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 176,
+  "fetched": 178,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {

@@ -4791,11 +4791,16 @@
  "https://developers.openai.com/blog/architectural-visualization-with-astra": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-04",
+  "score": 0,
   "snippet": "How I used Astra to design a house, refine its everyday details, and explore it through Blender camera tours and an Unreal Engine 5 walkthrough.",
   "source": "openai-developer",
-  "status": "passed",
-  "title": "Architectural visualization with Astra"
+  "status": "rejected",
+  "tags": [],
+  "title": "Architectural visualization with Astra",
+  "what": "",
+  "why": ""
  },
  "https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex": {
   "first_seen": "2026-10-05",
@@ -4911,11 +4916,16 @@
  "https://developers.openai.com/blog/how-to-build-games-with-astra": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-09-04",
+  "score": 0,
   "snippet": "How I built a procedural space exploration game in Codex, from concept art to planets you can land on.",
   "source": "openai-developer",
-  "status": "passed",
-  "title": "Building games with Astra"
+  "status": "rejected",
+  "tags": [],
+  "title": "Building games with Astra",
+  "what": "A tutorial on building a game with OpenAI’s Astra framework.",
+  "why": "It is primarily a product showcase with limited actionable guidance for building agentic systems."
  },
  "https://developers.openai.com/blog/intro": {
   "first_seen": "2026-10-05",
@@ -5130,6 +5140,25 @@
   "what": "GitHub Copilot app tutorial on building custom workflow canvases",
   "why": "Provides a high‑level overview of Copilot’s canvas feature but offers little actionable code or open‑source guidance"
  },
+ "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase": {
+  "first_seen": "2026-10-13",
+  "kind": "read",
+  "minutes": 8,
+  "published": "2026-10-12",
+  "score": 5,
+  "snippet": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+  "source": "github-blog-ai",
+  "status": "rejected",
+  "tags": [
+   "copilot",
+   "custom-instructions",
+   "MCP",
+   "playwright"
+  ],
+  "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+  "what": "GitHub blog tutorial on adding custom instructions and skills to Copilot for a repo, including MCP server integration",
+  "why": "It explains how to configure Copilot to better understand a codebase, but relies on proprietary GitHub tools"
+ },
  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5320,6 +5349,15 @@
   "status": "passed",
   "title": "arize-phoenix-otel: v0.17.2"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-sqlean-v0.2.0": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "0.2.0 (2026-10-12) Features phoenix-sqlean: bundle SQLite 3.54.0 and support Python 3.15 ( #16936 ) ( fff25bc )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-sqlean: v0.2.0"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.17.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5364,6 +5402,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix: v20.21.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.21.1": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "20.21.1 (2026-10-12) Bug Fixes improve span ingestion reliability ( #16889 ) ( 678740c ) trace: accept empty dataframes in TraceDataset ( #16913 ) ( d0dc9e5 ) Documentation Add Scalekit to the Phoenix platform docs ( #16896 ) ( 1afe1ea ) readme: make the \"Add to Cursor\" MCP badge clickable on GitHub ( #16926 ) ( b8d0e3f )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.21.1"
  },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
@@ -5472,6 +5519,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "0.3.278"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.279": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "0.3.279 (2026-10-12) Bug Fixes Internal improvements.",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.279"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -7142,6 +7198,15 @@
   "status": "passed",
   "title": "deepagents==0.7.24"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Bug Fixes Shell permissions now apply only to the exact commands authorized. Local context prompts are preserved across compaction. The demo now uses valid Claude 5.5 model IDs. Internal maintainers: Hunter Lovell (@hntrl) , Jacob Lee (@jacoblee93) Released by: Hunter Lovell (@hntrl) Git log since deepagents-acp==0.0.12 This commit history includes changes to this package. Commits are listed…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-acp==0.0.13"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.76": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7214,6 +7279,15 @@
   "status": "passed",
   "title": "deepagents-code==0.1.83"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.84": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Features Resolve invoked skills on the server and check whether they are trusted ( #6837 ). Show provider-visible reasoning by default in the TUI ( #6850 ). Surface Daytona sandbox snapshots ( #6854 ). Bug Fixes Refresh the agent skill catalog when /reload is run ( #6843 ). Keep fork goals visible without grading them ( #6893 ). Thanks to our community contributors: Sumit Binnani (@sumitbinnani)…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.1.84"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7268,6 +7342,15 @@
   "status": "passed",
   "title": "langgraph==1.2.14"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Changes since 1.2.14 release(langgraph): 1.2.15 ( #9283 ) fix(langgraph): give every message written to a messages DeltaChannel an id ( #9275 ) fix(langgraph): save a cached node's writes like a node that ran ( #9259 ) fix(langgraph): stop at an interrupt_before breakpoint when a drain is requested before it ( #9281 ) fix(langgraph): keep an exit run from a checkpoint the thread moved past out of…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.15"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7276,6 +7359,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-checkpoint==4.2.0"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.0": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Changes since checkpoint==4.2.0 fix(checkpoint): default InMemorySaver delta history to the latest checkpoint ( #9257 ) test(checkpoint): run the delta conformance suite against InMemorySaver in CI ( #9261 ) fix(checkpoint,checkpoint-postgres,checkpoint-sqlite): validate namespace labels before store dispatch ( #9217 ) fix(checkpoint): keep serialized data when an object can't be rebuilt ( #9251…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint==4.3.0"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2": {
   "first_seen": "2026-10-05",
@@ -7286,6 +7378,15 @@
   "status": "passed",
   "title": "langgraph-checkpoint-postgres==3.1.2"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Changes since checkpointpostgres==3.1.2 release(checkpoint-postgres): 3.1.3 ( #9287 ) fix(checkpoint-postgres,checkpoint-sqlite): treat an empty checkpoint_id as the latest in delta history ( #9262 ) perf(checkpoint-postgres): start the delta walk at the target ( #9248 ) fix(checkpoint,checkpoint-postgres,checkpoint-sqlite): validate namespace labels before store dispatch ( #9217 ) fix: order…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint-postgres==3.1.3"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7294,6 +7395,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-checkpoint-sqlite==3.1.1"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Changes since checkpointsqlite==3.1.1 release(checkpoint-sqlite): 3.1.2 ( #9288 ) fix(checkpoint-postgres,checkpoint-sqlite): treat an empty checkpoint_id as the latest in delta history ( #9262 ) fix(checkpoint,checkpoint-postgres,checkpoint-sqlite): validate namespace labels before store dispatch ( #9217 ) fix: order delta channel replay by task path ( #8544 ) chore(deps-dev): bump the…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint-sqlite==3.1.2"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32": {
   "first_seen": "2026-10-05",
@@ -7356,6 +7466,24 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.6"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "Changes since sdk==0.4.6 release(sdk-py): 0.4.7 ( #9289 ) release(langgraph): 1.2.15 ( #9283 ) fix(sdk-py): end a thread stream's run only on a root lifecycle event ( #9228 ) fix: order delta channel replay by task path ( #8544 ) release(langgraph): 1.2.14 ( #9215 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.7"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.225.12": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "What's Changed feat(web): hint self-hosted v3 deployments to upgrade to Langfuse v4 by @maxdeichmann in #18644 fix(web): tidy the v3 version menu upgrade hint by @maxdeichmann in #18661 Full Changelog : v3.225.11...v3.225.12",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.225.12"
  },
  "https://github.com/langfuse/langfuse/releases/tag/v4.45.0": {
   "first_seen": "2026-10-05",
@@ -7500,6 +7628,24 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.56.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.57.0": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "What's Changed Features feat(ee): refuse FIPS mode with storage options that compute MD5 by @Steffen911 in #18443 feat(worker): add optional startup jitter before queue registration by @niklassemmler in #18525 feat(auth): hash passwords with PBKDF2 in FIPS mode by @Steffen911 in #18444 feat(web): restore optional Cloudflare Turnstile captcha on credential auth by @maxdeichmann in #18580…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.57.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.58.0": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "What's Changed Features feat(web): require Turnstile on password-reset emails by @maxdeichmann in #18584 feat(ci): bump dependabot to opus5.5 by @nimarb in #18553 feat(otel): extract media before TypeScript parsing by @sumerman in #18239 feat(media): add upload pool with concurrency and byte limits by @sumerman in #18629 feat(worker): per-project trace idle time in tracing_readiness_settings by…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.58.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -8734,6 +8880,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "python/v1.59.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.60.0": {
+  "first_seen": "2026-10-13",
+  "kind": "release",
+  "published": "2026-10-12",
+  "snippet": "python/v1.60.0 Auto-drafted from commits in python/v1.59.0..python/v1.60.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(telemetry): propagate OTel baggage context in Python ( #4840 ) ( 900ad33 ) feat(mcp/ts): add SEP-2663 task execution on mcp/ext-tasks ( #4977 ) (…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.60.0"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
@@ -19721,6 +19876,25 @@
   "status": "passed",
   "title": "Disempowerment patterns in real-world AI usage"
  },
+ "https://www.anthropic.com/research/distillation-defenses": {
+  "first_seen": "2026-10-13",
+  "kind": "read",
+  "minutes": 20,
+  "published": "2026-10-12",
+  "score": 8,
+  "snippet": "Strengthening our defenses against distillation attacks",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [
+   "security",
+   "distillation",
+   "model defense",
+   "anthropic"
+  ],
+  "title": "Strengthening our defenses against distillation attacks",
+  "what": "Research on mitigating distillation attacks against language models",
+  "why": "Provides technical insights and potential mitigation strategies the reader can experiment with in their own model deployments"
+ },
  "https://www.anthropic.com/research/distributed-representations-composition-superposition": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20458,6 +20632,23 @@
   "status": "passed",
   "title": "Scaling Laws and Interpretability of Learning from Repeated Data"
  },
+ "https://www.anthropic.com/research/self-replicating-ai": {
+  "first_seen": "2026-10-13",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 9,
+  "snippet": "AI models may be capable of self-replicating without access to a datacenter",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [
+   "research",
+   "self‑replication"
+  ],
+  "title": "AI models may be capable of self-replicating without access to a datacenter",
+  "what": "Anthropic research on AI self‑replication",
+  "why": "The paper offers theoretical insights, but offers no actionable techniques or open‑source code for builders."
+ },
  "https://www.anthropic.com/research/shade-arena-sabotage-monitoring": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20945,6 +21136,27 @@
   "source": "cncf-blog",
   "status": "dropped:keyword",
   "title": "Who owns NIS2 and DORA on a Kubernetes platform team"
+ },
+ "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop": {
+  "first_seen": "2026-10-13",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-12",
+  "score": 14,
+  "shown": "2026-10-13",
+  "snippet": "If you have seen a demo of a no-code agent builder, you know the moment. Someone types one sentence, waits a minute, and there it is: a new agent, running, with tools. It is impressive. For...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "tags": [
+   "open-source",
+   "agent builder",
+   "kagent",
+   "CNCF",
+   "local deployment"
+  ],
+  "title": "From zero to agent builder: Running kagent on your laptop",
+  "what": "A CNCF blog post that walks through installing and running the open‑source kagent agent builder locally.",
+  "why": "It shows how to set up kagent on a laptop, so you can start building and experimenting with agent tooling right away."
  },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
@@ -21749,11 +21961,23 @@
  "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-09-04",
+  "score": 14,
+  "shown": "2026-10-13",
   "snippet": "MCP support now lives in langchain.mcp, built on FastMCP for the 2026-07-28 spec, with elicitation handled as a LangGraph interrupt and tool lists cached.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!"
+  "tags": [
+   "open-standards",
+   "MCP",
+   "agent-protocols",
+   "langchain",
+   "framework"
+  ],
+  "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+  "what": "An update on LangChain’s implementation of the MCP protocol, detailing stateless interactions, elicitation via LangGraph interrupts, and tool-list caching.",
+  "why": "Engineers can quickly adopt or extend LangChain’s MCP support in their own agent pipelines and leverage the open‑source FastMCP stack."
  },
  "https://www.langchain.com/blog/meet-connery-an-open-source-plugin-infrastructure-for-opengpts-and-llm-apps": {
   "first_seen": "2026-10-05",
@@ -22490,6 +22714,22 @@
   "what": "Presentation on Google DeepMind’s Gemini Interaction API and Managed Agents",
   "why": "Not relevant for open-source tool selection"
  },
+ "https://www.youtube.com/watch?v=8g0g1ncwzG0": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "“Fill out a form for Mr. Harper” becomes a process that lasts days: identify the right household, find missing information, contact the client, wait, follow up, obtain a signature and retain the evidence. Karthic Rao uses that wealth management example to show why a fixed flowchart breaks on ambiguity and an improvising agent creates a different reliability problem. At Perpetual, his design puts…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "product launch"
+  ],
+  "title": "Reliable, Smart Workflows for Finance, Wealth and Insurance — Karthic Rao, Perpetual",
+  "what": "A YouTube talk on Perpetual’s finance workflow agent",
+  "why": "No actionable technical details or open-source guidance"
+ },
  "https://www.youtube.com/watch?v=8quUT1Yn4eg": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -22742,6 +22982,24 @@
   "what": "Video demo of building a research agent using Anthropic's Claude Managed Agents.",
   "why": "Not suitable for technical learning as it lacks open-source detail or actionable guidance."
  },
+ "https://www.youtube.com/watch?v=Fa3hQVIKShw": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-12",
+  "score": 4,
+  "snippet": "A pipeline stripped the minus signs from loan amounts and turned a net $784,000 into $5.3 million of debt, with multiple models agreeing on the wrong result. Hrishi Olickel uses failures like this to explain why transforming data requires more than a universal schema or a confident agent. A customer means something different to billing, support and compliance. Useful structure depends on the…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "ontology",
+   "data quality",
+   "AI pitfalls"
+  ],
+  "title": "Just-in-Time Ontologies: What Cheap Intelligence Means for Data — Hrishi Olickel, Southbridge AI",
+  "what": "A talk on the pitfalls of data ontologies and their impact on AI models",
+  "why": "Highlights the importance of contextual data handling, but offers limited actionable guidance for building agents"
+ },
  "https://www.youtube.com/watch?v=FwiS44-xyYw": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -22835,6 +23093,23 @@
   "what": "Promotional video for an upcoming AGNTCon + MCPCon event",
   "why": "No actionable technical content for building or operating agents"
  },
+ "https://www.youtube.com/watch?v=IZXv6a78NDw": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "Code review is the new bottleneck. Codex brings pull requests, review feedback, and private conversations about your code into one place. See how to find reviews across repositories, understand changes and risks, apply your team’s review guidelines, and draft comments without switching tools. GitHub code review is generally available, with GitLab support in preview.",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [
+   "product-launch",
+   "feature-announcement"
+  ],
+  "title": "Code review is no longer the bottleneck",
+  "what": "A product launch video announcing Codex for code reviews",
+  "why": "No technical guidance for building or operating agents"
+ },
  "https://www.youtube.com/watch?v=IsL4dVezs18": {
   "first_seen": "2026-10-08",
   "kind": "watch",
@@ -22850,6 +23125,24 @@
   "source": "yt-openai",
   "status": "dropped:title_rule",
   "title": "How Oracle Uses Codex to Help Business Users Get Answers"
+ },
+ "https://www.youtube.com/watch?v=JzBLYv1BTTM": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": 10,
+  "published": "2026-10-12",
+  "score": 3,
+  "snippet": "Join us at AGNTCon + MCPCon NA 2026 October 22 & 23rd in San Jose: https://hubs.la/Q04gbXLb0",
+  "source": "yt-aaif",
+  "status": "rejected",
+  "tags": [
+   "evaluation",
+   "observability",
+   "production"
+  ],
+  "title": "Why Agent Evals Miss What Production Catches",
+  "what": "A conference talk discussing shortcomings in agent evaluation practices that surface only in production environments.",
+  "why": "Provides insights into common pitfalls to avoid when designing and measuring agent systems in real deployments."
  },
  "https://www.youtube.com/watch?v=KAITWbHLSSE": {
   "first_seen": "2026-10-07",
@@ -23261,6 +23554,7 @@
   "minutes": 30,
   "published": "2026-10-01",
   "score": 13,
+  "shown": "2026-10-13",
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io How Netflix Leverages gRPC for Resilience at Scale - Olivia Bronstein & Umair Khan,…",
   "source": "yt-cncf",
   "status": "passed",
@@ -23306,6 +23600,14 @@
   "title": "How OpenAI Puts ChatGPT to Work | DevDay 2026",
   "what": "OpenAI showcase video on internal use of ChatGPT",
   "why": "Not suitable for actionable engineering guidance"
+ },
+ "https://www.youtube.com/watch?v=SacJfmp33vM": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "published": "2026-10-12",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Your GPU Neighbor Can Hear Your Model — Branislav Brzak, Stealthium"
  },
  "https://www.youtube.com/watch?v=Sj98YstMfY0": {
   "first_seen": "2026-10-07",
@@ -24161,6 +24463,20 @@
   "what": "A talk by IBM Research’s Andy Anderson on how autonomous agents merged thousands of pull requests in the KubeStellar Console project.",
   "why": "Engineers can learn practical lessons on scaling agent-driven PR automation, including success patterns, pitfalls, and operational considerations for their own Kubernetes-based open‑source projects."
  },
+ "https://www.youtube.com/watch?v=gpmze-6ueGU": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "While one financial planner is on a client call, an agent drafts another client's cash flow or insurance analysis. The planner reviews every recommendation before anything reaches the client. At Range, Matthew Ragone and his colleagues built the skills behind that workflow without writing code. Six months in, he reports 24 skills across the company, including 17 in planning, with sales, product…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "We Let Our Financial Planners Write the Agents — Matthew Ragone, Range",
+  "what": "A video description of how Range uses no-code agents for financial planning.",
+  "why": "It offers no technical detail, so it provides no actionable insight for an engineering lead."
+ },
  "https://www.youtube.com/watch?v=hbH2RbUBZQ0": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -24304,6 +24620,7 @@
   "minutes": 15,
   "published": "2026-10-11",
   "score": 13,
+  "shown": "2026-10-13",
   "snippet": "Your voice agent's dashboard says it's fast. Your callers say it feels robotic. They're both right. Jesse Hall, staff developer advocate at LiveKit, explains how to build voice agents that feel human. He shows why leaderboards can't pick your models (scores measure one model, but you ship a pipeline, and errors compound from speech-to-text to the LLM to text-to-speech) and why measured latency…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -24570,6 +24887,25 @@
   "what": "YouTube talk on Gemini Interactions API",
   "why": "Not suitable for learning actionable open-source tools"
  },
+ "https://www.youtube.com/watch?v=oixzVKMAXG0": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-12",
+  "score": 10,
+  "snippet": "A single internal app now handles Railway's marketing content, email, social posts, media, creator relationships and launch planning. Mahmoud Abdelwahab built it with coding agents, but getting the features to run was only the beginning. The difference between a quick SaaS replacement and a tool his team wants to open every day lives in the details: background saving, responsive interactions,…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent architecture",
+   "internal tooling",
+   "coding agents",
+   "workflow automation"
+  ],
+  "title": "Please… Enough with the Sloppy, One-Shot SaaS Replacements — Mahmoud Abdelwahab, Railway",
+  "what": "A Railway engineer explains how his team built an internal coding‑agent app to replace multiple SaaS tools for marketing, email, and social media workflows.",
+  "why": "Readers can learn practical patterns for building agent‑driven internal tools, including background persistence and responsive UI, that they can adapt in their own projects."
+ },
  "https://www.youtube.com/watch?v=p5KxBTUncoE": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -24666,6 +25002,26 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "Stop Fine-Tuning to Fix Retrieval Problems — Anant Srivastava"
+ },
+ "https://www.youtube.com/watch?v=rAUyRDOFyHU": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": 10,
+  "published": "2026-10-12",
+  "score": 7,
+  "snippet": "More than 9,700 code review runs in 30 days came from a workflow that lets the model read code but never modify it. Eduardo Simon and Javier Casal describe Orbit, Flywire's internal platform for putting model steps inside deterministic engineering workflows. A YAML definition goes through the same merge request review as other code, declares the tools and access each step can use, and runs on the…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "workflow",
+   "CI/CD",
+   "agents",
+   "YAML",
+   "model orchestration"
+  ],
+  "title": "Agents in Orbit: Workflows, Not Autopilot — Eduardo Simon & Javier Casal, Flywire",
+  "what": "A Flywire internal platform called Orbit that integrates large language model steps into deterministic code review workflows via YAML definitions.",
+  "why": "Engineers can adopt a similar workflow model, using YAML to orchestrate model calls in CI/CD pipelines without exposing model code."
  },
  "https://www.youtube.com/watch?v=rKV5JcALQoQ": {
   "first_seen": "2026-10-05",
@@ -24942,6 +25298,20 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "What Is an Inference Engine, Anyway? — Charles Frye, Modal"
+ },
+ "https://www.youtube.com/watch?v=ws9XcGGPBDk": {
+  "first_seen": "2026-10-13",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-12",
+  "score": 0,
+  "snippet": "An on call agent drops a billing database, restarts a production server and scales a service from four pods to 40, adding $420 an hour to the bill. Kim Maida's staged triage demo shows what happens when an agent receives standing API keys and an administrator's database credentials. Private data, untrusted tickets and access to external services combine into the lethal trifecta. The agent can do…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Your Agent Is a Lethal Trifecta (And What to Do About It) — Kim Maida, Keycard",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=wzWNYDY7toc": {
   "first_seen": "2026-10-06",

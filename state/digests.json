@@ -52,6 +52,12 @@
    "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
    "https://www.youtube.com/watch?v=DrfyORO8RqA",
    "https://www.youtube.com/watch?v=OAe8pB6VVBE"
+  ],
+  "2026-10-13": [
+   "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+   "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop",
+   "https://www.youtube.com/watch?v=j4AmIK6OvHc",
+   "https://www.youtube.com/watch?v=RZyy529VwFU"
   ]
  },
  "rollup": {
@@ -169,9 +175,9 @@
  },
  "scoring": {
   "calls": 15,
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "error": null,
   "failed": 0,
-  "rejected": 14
+  "rejected": 13
  }
 }
