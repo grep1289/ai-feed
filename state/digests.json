@@ -58,6 +58,13 @@
    "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop",
    "https://www.youtube.com/watch?v=j4AmIK6OvHc",
    "https://www.youtube.com/watch?v=RZyy529VwFU"
+  ],
+  "2026-10-14": [
+   "https://www.langchain.com/blog/context-management-for-deepagents",
+   "https://www.anthropic.com/engineering/redesigning-source-control",
+   "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+   "https://www.youtube.com/watch?v=d6aNbE-3dxo",
+   "https://www.youtube.com/watch?v=7v2myBde05o"
   ]
  },
  "rollup": {
@@ -175,9 +182,9 @@
  },
  "scoring": {
   "calls": 15,
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "error": null,
   "failed": 0,
-  "rejected": 13
+  "rejected": 5
  }
 }

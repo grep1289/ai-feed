@@ -4329,6 +4329,14 @@
   "status": "dropped:category",
   "title": "Turning conversation into knowledge: how Slack builds human-agent teams"
  },
+ "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "published": "2026-10-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Uber's CISO on building an insider threat program for AI"
+ },
  "https://claude.com/resources/articles/upgraded-anthropic-console": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4694,6 +4702,14 @@
   "status": "dropped:keyword",
   "title": "EmbeddingGemma 2: The Developer Guide"
  },
+ "https://developers.googleblog.com/gemini-4-argon-for-robotics": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "published": "2026-10-13",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Gemini 4 Argon for Robotics"
+ },
  "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4718,6 +4734,25 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge"
+ },
+ "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-13",
+  "score": 11,
+  "snippet": "How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).",
+  "source": "google-developers-ai",
+  "status": "rejected",
+  "tags": [
+   "open‑source frameworks",
+   "agent development kit",
+   "performance optimization",
+   "observability"
+  ],
+  "title": "Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon",
+  "what": "A Google engineering team’s overnight optimization of a 200,000‑line Python codebase using Gemini 4 Argon with the open‑source Python Agent Development Kit",
+  "why": "It shows concrete metrics and techniques that can be replicated to reduce session overhead and improve import times in large Python projects"
  },
  "https://developers.googleblog.com/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus": {
   "first_seen": "2026-10-05",
@@ -5029,11 +5064,16 @@
  "https://developers.openai.com/blog/rosalind-workbench": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-28",
+  "score": 0,
   "snippet": "How guided tasks, scientific viewers, and sequencing analysis help researchers follow a question from data to evidence.",
   "source": "openai-developer",
-  "status": "passed",
-  "title": "Meet Rosalind Workbench: Empowering every scientist to be their own research team"
+  "status": "rejected",
+  "tags": [],
+  "title": "Meet Rosalind Workbench: Empowering every scientist to be their own research team",
+  "what": "OpenAI introduces the Rosalind Workbench for scientific research workflows",
+  "why": "No technical or open-source details are provided for implementation"
  },
  "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex": {
   "first_seen": "2026-10-05",
@@ -5214,6 +5254,14 @@
   "source": "github-blog-ai",
   "status": "dropped:keyword",
   "title": "When chat is the wrong UI"
+ },
+ "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "published": "2026-10-13",
+  "source": "github-blog-ai",
+  "status": "dropped:keyword",
+  "title": "GitHub’s model for secret detection: Finding more secrets with less noise"
  },
  "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp": {
   "first_seen": "2026-10-05",
@@ -5412,6 +5460,24 @@
   "status": "passed",
   "title": "arize-phoenix: v20.21.1"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.21.2": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "20.21.2 (2026-10-13) Bug Fixes experiments: coerce average repeated-run latency to float on PostgreSQL ( #16957 ) ( c05a170 ) graphql: normalize retrieval summary counts to int ( #16960 ) ( 9735fc9 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.21.2"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.21.3": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "20.21.3 (2026-10-13) Documentation fix dead Read the Docs links ( #16967 ) ( 0fed1f4 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.21.3"
+ },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5529,6 +5595,15 @@
   "status": "passed",
   "title": "v0.3.279"
  },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.280": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "0.3.280 (2026-10-14) Features agent-bridge: filters can now tell which agent a bridged model request belongs to ( #4791 ) ( 1b78969 ) google: support Gemini 4 Argon ( #5843 ) ( 76e69f9 ) keep the response headers of a model call ( #5795 ) ( 1b16791 ) Bug Fixes Behavior change: Docker sandboxes now block writable host mounts by default; use read-only mounts, Sample.files or Docker-managed volumes,…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.280"
+ },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5642,6 +5717,14 @@
   "source": "gh-aaif-goose-goose",
   "status": "dropped:prerelease",
   "title": "gdk-v0.1.0-alpha.11: chore(GDK): release v0.1.0-alpha.11 (#12495)"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.12": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "source": "gh-aaif-goose-goose",
+  "status": "dropped:prerelease",
+  "title": "gdk-v0.1.0-alpha.12: chore(GDK): release v0.1.0-alpha.12 (#12561)"
  },
  "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.8": {
   "first_seen": "2026-10-05",
@@ -6094,6 +6177,15 @@
   "status": "passed",
   "title": "v0.2.165"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.166": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "New Features Hook-specific output types : Added typed output classes and missing input fields for hooks, giving hook implementations precise type information instead of untyped dicts ( #1331 ) SystemInitData TypedDict : The init system message payload is now fully typed via SystemInitData , along with nested types SystemInitMcpServer , SystemInitPlugin , SystemInitPluginError , and FastModeState…",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.166"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6517,6 +6609,15 @@
   "status": "passed",
   "title": "1.15.27"
  },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "What's Changed Features Add crewai eval command to report where a stopped model broke. Use LiteLLM catalog for context windows. Bug Fixes Fix flow to learn from resumed human feedback and preserve reviewed output types. Warn when non-empty apps resolve to zero platform tools. Fix flow add-crew to correctly find the package from pyproject. Show reasons for deployment failures and fix deploy remove…",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.28"
+ },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6675,6 +6776,15 @@
   "source": "gh-google-adk-python",
   "status": "passed",
   "title": "v2.11.0"
+ },
+ "https://github.com/google/adk-python/releases/tag/v2.12.0": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "2.12.0 (2026-10-13) Highlights This release enhances execution performance in long sessions while introducing finer control over tool execution, workflow approvals, and deployment security. Performance : Cut time to first model request by 40% in long sessions. ( 1754b3e ) Tools : Intercept and filter tool outputs before returning them to the model using after_tool_callback . ( fdda17c ) Workflows…",
+  "source": "gh-google-adk-python",
+  "status": "passed",
+  "title": "v2.12.0"
  },
  "https://github.com/google/adk-python/releases/tag/v2.7.0": {
   "first_seen": "2026-10-05",
@@ -6971,6 +7081,22 @@
   "status": "dropped:prerelease",
   "title": "v1.0.0-alpha11"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha12": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-alpha12"
+ },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha13": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-alpha13"
+ },
  "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7198,6 +7324,15 @@
   "status": "passed",
   "title": "deepagents==0.7.24"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.25": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "Features Read inline skill tool support from model profiles. ( #6879 ) Bug Fixes Filesystem permission rules and interrupt_on approvals now check both the requested and symlink-resolved paths; previously, FilesystemBackend followed symlinks after the check, potentially allowing access to denied paths. Review your rules and approvals for symlink targets. ( #6818 ) Fixed path-glob grep in…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.25"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -7305,6 +7440,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "langchain-quickjs==0.3.8"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.9": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "Features Configure the number of concurrent subagents with CodeInterpreterMiddleware(max_subagent_concurrency=16) . The default remains 32 per REPL; requests above the cap queue until a slot opens. Lower limits can reduce memory use, load, and cost, while higher limits allow more parallel work. The prompt now recommends batches of around 10 rather than requiring them, even at the default setting.…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-quickjs==0.3.9"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/1.2.11": {
   "first_seen": "2026-10-05",
@@ -7430,6 +7574,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-cli==0.4.33"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "Changes since cli==0.4.33 release(cli): 0.4.34 ( #9300 ) feat(cli): add --json to deploy listeners list ( #9243 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.34"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
@@ -8390,6 +8543,22 @@
   "status": "dropped:prerelease",
   "title": "0.163.0-alpha.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.10"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-14",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.11"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2": {
   "first_seen": "2026-10-09",
   "kind": "release",
@@ -8421,6 +8590,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "rust-v0.163.0-alpha.6"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.8": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.8"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.9"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -8745,6 +8930,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.55.0 (2026-10-09)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.56.0": {
+  "first_seen": "2026-10-14",
+  "kind": "release",
+  "published": "2026-10-13",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Run BrowserUse on the host model by default and make browser-use telemetry opt-in by @mpfaffenberger in #9506 🚀 Features Let Skills layer project and personal libraries, name each skill's directory, and render a skill for a host command by @DouweM in #9802 Add base_url argument to ZaiProvider by @aisk in #10099 Adds PGTaskDurability based on pgtask by…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.56.0 (2026-10-13)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -9270,6 +9464,20 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark"
+ },
+ "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-13",
+  "score": 0,
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+  "what": "Announcement of a new on-device private agent model.",
+  "why": "No actionable technical content."
  },
  "https://huggingface.co/blog/LiquidAI/lfm25-dspark": {
   "first_seen": "2026-10-05",
@@ -16721,6 +16929,26 @@
   "status": "passed",
   "title": "The Archaeologist’s Copilot"
  },
+ "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-13",
+  "score": 13,
+  "shown": "2026-10-14",
+  "snippet": "Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized model, GPT-6 Luna, succeeded in only 3 of 10 unharnessed runs and all 10 with the harness. While adding the harness increased token usage and runtime for Luna, the harnessed Luna runs achieved the…",
+  "source": "martinfowler",
+  "status": "passed",
+  "tags": [
+   "harness",
+   "cost-optimization",
+   "agent-design",
+   "model-evaluation"
+  ],
+  "title": "Are Harnesses Worth the Cost?",
+  "what": "A Martin Fowler article evaluating the cost-benefit of using a behavioral harness for coding agents, comparing a frontier and a cost-optimized model on API service generation.",
+  "why": "It shows a concrete harness pattern you can implement to trade off token usage, runtime, and correctness, and provides metrics that you can adapt to your own agents."
+ },
  "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -19222,6 +19450,27 @@
   "status": "passed",
   "title": "How we built our multi-agent research system"
  },
+ "https://www.anthropic.com/engineering/redesigning-source-control": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-13",
+  "score": 12,
+  "shown": "2026-10-14",
+  "snippet": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "tags": [
+   "source control",
+   "scaling",
+   "in‑house VCS",
+   "architecture",
+   "engineering lead"
+  ],
+  "title": "Redesigning source control at Anthropic",
+  "what": "Anthropic’s internal migration to a custom source‑control system to handle scaling bottlenecks.",
+  "why": "Gives actionable patterns for scaling VCS, trade‑offs, and architecture that can be adapted to other organizations."
+ },
  "https://www.anthropic.com/engineering/swe-bench-sonnet": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21197,6 +21446,20 @@
   "status": "passed",
   "title": "Agent observability needs feedback to power learning"
  },
+ "https://www.langchain.com/blog/agent-traces-ai-search-langsmith": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-13",
+  "score": 0,
+  "snippet": "AI Search in LangSmith is a new way to query traces using natural language. Describe the behavior you're looking for, and LangSmith returns the traces where it happened.",
+  "source": "langchain-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "Search agent traces by behavior with AI Search in LangSmith",
+  "what": "AI Search in LangSmith for querying agent traces with natural language",
+  "why": "Not suitable for the engineering lead; offers no actionable buildable guidance"
+ },
  "https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21353,6 +21616,26 @@
   "status": "passed",
   "title": "How We Build Agent Environments & Tasks"
  },
+ "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-13",
+  "score": 13,
+  "snippet": "Use ScaleDown's constrained decoding models with LangChain and Deep Agents to summarize history, compress tool results, and extract data faster and cheaper.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "building agents",
+   "open-source frameworks",
+   "Deep Agents",
+   "ScaleDown",
+   "LangChain"
+  ],
+  "title": "Building Long-Running Agents with ScaleDown and Deep Agents",
+  "what": "A LangChain blog post detailing how to use ScaleDown constrained decoding with Deep Agents to enable long‑running, cost‑efficient agents.",
+  "why": "It shows concrete code patterns and architecture choices that an engineering lead can implement today to build scalable, memory‑efficient agents."
+ },
  "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21392,6 +21675,27 @@
   "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
   "what": "LangChain’s new Connections feature enables Managed Deep Agents to securely store credentials, support per-user OAuth, and act on behalf of individual callers.",
   "why": "Engineers can integrate Connections into their agent workflows to provide fine-grained, identity-aware access without exposing secrets, and can adapt the pattern to other open‑source agent frameworks."
+ },
+ "https://www.langchain.com/blog/context-management-for-deepagents": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 12,
+  "published": "2026-10-13",
+  "score": 14,
+  "shown": "2026-10-14",
+  "snippet": "Learn how Deep Agents SDK manages context for long-running AI tasks through offloading, summarization, and filesystem abstraction to prevent context rot.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "context management",
+   "LangChain",
+   "deep agents",
+   "agentic AI"
+  ],
+  "title": "Context Management for Deep Agents",
+  "what": "A LangChain blog post that explains how its Deep Agents SDK handles long‑running agent context via offloading, summarization, and a filesystem abstraction to avoid context rot.",
+  "why": "Engineers can copy the context‑management patterns and open‑source components to keep their own agents’ state manageable while scaling them."
  },
  "https://www.langchain.com/blog/cube-x-langchain-building-ai-experiences-with-llms-and-the-semantic-layer": {
   "first_seen": "2026-10-05",
@@ -21455,6 +21759,26 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "Debugging Deep Agents with LangSmith"
+ },
+ "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-13",
+  "score": 11,
+  "snippet": "Today we’re launching Deep Agents deploy in beta. Deep Agents deploy is the fastest way to deploy a model agnostic, open source agent harness in a production ready way.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-source",
+   "agent deployment",
+   "production",
+   "model-agnostic",
+   "LangChain"
+  ],
+  "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
+  "what": "Deep Agents Deploy is a beta platform for deploying model-agnostic, open‑source agents in production.",
+  "why": "Readers can adopt the framework to run their own agents, learn deployment patterns, and integrate with existing infra."
  },
  "https://www.langchain.com/blog/eden-ai-x-langchain": {
   "first_seen": "2026-10-05",
@@ -21536,6 +21860,14 @@
   "source": "langchain-blog",
   "status": "dropped:title_rule",
   "title": "How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents"
+ },
+ "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "published": "2026-10-13",
+  "source": "langchain-blog",
+  "status": "dropped:title_rule",
+  "title": "How Orange Business Built Live Intelligence with LangChain and LangSmith"
  },
  "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature": {
   "first_seen": "2026-10-09",
@@ -21623,6 +21955,25 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "LangSmith Engine: How We Built an Agent for Improving Agents"
+ },
+ "https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-13",
+  "score": 14,
+  "snippet": "Harness engineering improved LangChain's coding agent from Top 30 to Top 5 on Terminal Bench using self-verification, tracing, and context optimization.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "agents in production",
+   "evaluation",
+   "observability"
+  ],
+  "title": "Improving Deep Agents with harness engineering",
+  "what": "A LangChain blog post detailing how harness engineering techniques boosted a coding agent’s performance on the Terminal Bench",
+  "why": "It explains concrete methods—self‑verification, tracing, and context optimization—that the reader can apply to improve their own agent pipelines"
  },
  "https://www.langchain.com/blog/introducing-airbyte-sources-within-langchain": {
   "first_seen": "2026-10-05",
@@ -22015,6 +22366,46 @@
   "status": "passed",
   "title": "LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA"
  },
+ "https://www.langchain.com/blog/open-models-have-crossed-a-threshold": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 8,
+  "published": "2026-10-13",
+  "score": 13,
+  "snippet": "Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here's what our evals show and how to start using them in Deep Agents.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-models",
+   "evaluation",
+   "agent-tasks",
+   "cost",
+   "latency"
+  ],
+  "title": "Open Models have crossed a threshold",
+  "what": "LangChain’s blog post shows how open LLMs like GLM‑5 and MiniMax M2.7 can match closed‑source models on core agent tasks and how to integrate them into Deep Agents.",
+  "why": "Engineers can use the provided evaluation results and code snippets to replace expensive proprietary models with cheaper, faster open models in their own agent pipelines."
+ },
+ "https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-13",
+  "score": 14,
+  "snippet": "Built on Deep Agents and LangGraph, Open SWE provides the core architectural components for internal coding agents.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "internal coding agents",
+   "Deep Agents",
+   "LangGraph",
+   "agent architecture"
+  ],
+  "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+  "what": "Open SWE is an open-source framework for building internal coding agents built by the LangChain team.",
+  "why": "It teaches how to architect and implement coding agents using Deep Agents and LangGraph, providing code samples and design patterns the reader can apply this month."
+ },
  "https://www.langchain.com/blog/openais-bet-on-a-cognitive-architecture": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -22043,6 +22434,25 @@
   "title": "Organizing Context in a Multi-Agent Harness",
   "what": "A LangChain blog post explaining how deepagents’ context modes let subagents fork or isolate supervisor context for efficient multi-agent workflows.",
   "why": "It teaches engineers to design multi-agent systems with clear context boundaries, enabling faster, cheaper, and more focused agent execution in production."
+ },
+ "https://www.langchain.com/blog/our-docs-test-themselves": {
+  "first_seen": "2026-10-14",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-13",
+  "score": 12,
+  "snippet": "Stale code samples are a docs problem nobody prioritizes. Here's how we used the Deep Agents CLI to automate migrating inline code into testable, CI-ready examples",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "documentation",
+   "automation",
+   "CI",
+   "open-source"
+  ],
+  "title": "How We Made Our Docs Test Themselves",
+  "what": "A LangChain blog post describing how to use the Deep Agents CLI to automatically convert stale inline code examples in documentation into testable, CI‑ready snippets.",
+  "why": "Readers can adopt the Deep Agents CLI pattern to keep their own docs up‑to‑date and CI‑friendly, applying the technique in the next sprint."
  },
  "https://www.langchain.com/blog/own-your-intelligence": {
   "first_seen": "2026-10-05",
@@ -22647,6 +23057,7 @@
   "minutes": 12,
   "published": "2026-10-10",
   "score": 13,
+  "shown": "2026-10-14",
   "snippet": "You can write all the rules you want in a markdown file. Your agent can still call the API. Sam, CTO at Gravity, skips the slides and runs five live scenarios against a hotel-booking agent to show why governance belongs in the infrastructure, not in the agent's instructions. Running on the Gravity Gateway with a Databricks backend, Sonnet and Groq, he shows the gateway blocking a destructive…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -23523,11 +23934,16 @@
  "https://www.youtube.com/watch?v=ROF2Nv_KjOM": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": null,
   "published": "2026-09-01",
+  "score": 0,
   "snippet": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress. It excels at complex, multi-step work, like a long mathematical proof or a contract with hundreds of cross-references. It avoids shortcuts and is smart enough to fix the root…",
   "source": "yt-anthropic",
-  "status": "passed",
-  "title": "Introducing Claude Fable 5.1"
+  "status": "rejected",
+  "tags": [],
+  "title": "Introducing Claude Fable 5.1",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=RQfg-zo4R-g": {
   "first_seen": "2026-10-09",
@@ -23743,11 +24159,21 @@
  "https://www.youtube.com/watch?v=UxJZrCFzTHY": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 10,
   "published": "2026-08-28",
+  "score": 10,
   "snippet": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS started as part of a beneficial deployments project between Anthropic and HHMI Janelia Research Campus and is evolving into a wider industry effort. This video shows what MHS is, how it works, and early examples of AI agents operating lab…",
   "source": "yt-anthropic",
   "status": "passed",
-  "title": "Model Hardware Standard: AI operating physical equipment"
+  "tags": [
+   "open standards",
+   "agent operating physical equipment",
+   "manufacturing",
+   "research"
+  ],
+  "title": "Model Hardware Standard: AI operating physical equipment",
+  "what": "Video explaining the Model Hardware Standard (MHS) for AI agents to safely operate physical equipment in scientific research and advanced manufacturing.",
+  "why": "Provides the design principles and architecture of an open standard that an engineering lead can study to build or integrate agent controls for physical devices in their own projects."
  },
  "https://www.youtube.com/watch?v=VE5dsWll06M": {
   "first_seen": "2026-10-05",
@@ -24294,6 +24720,7 @@
   "minutes": 12,
   "published": "2026-09-16",
   "score": 12,
+  "shown": "2026-10-14",
   "snippet": "Nathan Drezner, PM at LangChain, walks through middleware for Managed Deep Agents, the layer that lets you extend your agent's lifecycle with custom behavior like policy enforcement, fault tolerance, and rate limits. He demos adding the prebuilt PIIMiddleware to redact a customer email before it ever reaches the LLM, then builds a custom logging middleware from scratch using the wrap_tool_call…",
   "source": "yt-langchain",
   "status": "passed",
