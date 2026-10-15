@@ -2497,6 +2497,14 @@
   "status": "dropped:category",
   "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI"
  },
+ "https://claude.com/resources/articles/agent-observability-on-the-claude-platform": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "published": "2026-10-14",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Agent observability on the Claude Platform"
+ },
  "https://claude.com/resources/articles/agent-view-in-claude-code": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4668,6 +4676,20 @@
   "status": "passed",
   "title": "Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond"
  },
+ "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-14",
+  "score": 0,
+  "snippet": "Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as…",
+  "source": "google-developers-ai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+  "what": "Announcement of MCP support in Apigee Hybrid",
+  "why": "Not suitable for learning how to build or use the feature"
+ },
  "https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -4975,6 +4997,24 @@
   "title": "Hello, world!",
   "what": "OpenAI Developer Blog introduction page",
   "why": "Not a technical resource, no actionable content for building agents"
+ },
+ "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-14",
+  "score": 7,
+  "snippet": "How OpenAI’s Core Experimentation team uses Codex to remove unused code, clean up stale experiments, and improve CI.",
+  "source": "openai-developer",
+  "status": "rejected",
+  "tags": [
+   "CI/CD",
+   "code maintenance",
+   "automation"
+  ],
+  "title": "Maintaining software with the GPT-6 family",
+  "what": "A technical blog post from OpenAI’s Core Experimentation team on using Codex to prune unused code, clean stale experiments, and improve continuous integration pipelines.",
+  "why": "It offers concrete patterns and code snippets that a lead engineer can adopt to automate maintenance tasks and streamline CI workflows in their own projects."
  },
  "https://developers.openai.com/blog/mastering-codex-remote-for-engineering": {
   "first_seen": "2026-10-05",
@@ -5477,6 +5517,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix: v20.21.3"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.21.4": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "20.21.4 (2026-10-14) Bug Fixes ui: keep labels on Escape and fix table sort, a11y and accessor warnings ( #16980 ) ( 53a1735 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.21.4"
  },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
@@ -6185,6 +6234,15 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.166"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.167": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.300 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.167/ pip install claude-agent-sdk==0.2.167",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.167"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -7423,6 +7481,15 @@
   "status": "passed",
   "title": "deepagents-code==0.1.84"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.85": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "Bug Fixes Suppress ownership warnings for root installs. Performance Improvements Avoid restyling transcript history when inserting messages. Internal maintainers: Hunter Lovell (@hntrl) , Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since deepagents-code==0.1.84 This commit history includes changes to this package. Commits are listed newest first. 4bfa520…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.1.85"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7531,6 +7598,15 @@
   "status": "passed",
   "title": "langgraph-checkpoint-postgres==3.1.3"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "Changes since checkpointpostgres==3.1.3 release(checkpoint-postgres): 3.2.0 ( #9313 ) feat(checkpoint-postgres): add prune to PostgresSaver and AsyncPostgresSaver ( #9290 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint-postgres==3.2.0"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7583,6 +7659,24 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-cli==0.4.34"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "Changes since cli==0.4.34 release(cli): 0.4.35 ( #9310 ) feat(cli): add --image-pull-secret for deploying through a private registry ( #9305 ) feat(cli): log in with the registry username the control plane returns ( #9301 ) fix(cli): preserve failed deployment build logs ( #9308 ) chore(deps): bump handlebars from 4.7.9 to 4.7.10 in /libs/cli/js-examples ( #9286 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.35"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "Changes since prebuilt==1.1.0 release(prebuilt): 1.1.1 ( #9316 ) release(checkpoint-postgres): 3.2.0 ( #9313 ) release(checkpoint-postgres): 3.1.3 ( #9287 ) release(checkpoint-sqlite): 3.1.2 ( #9288 ) release(langgraph): 1.2.15 ( #9283 ) fix(langgraph,prebuilt): stop ToolNode from swallowing invalid resume values ( #9232 ) fix: order delta channel replay by task path ( #8544 ) release(langgraph):…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-prebuilt==1.1.1"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
@@ -7800,6 +7894,15 @@
   "status": "passed",
   "title": "v4.58.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.59.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "What's Changed feat(llm-connections): label TypeSafe adapter as \"TypeSafe (System One)\" in picker by @hassiebp in #18670 perf(worker): poll queue metrics once per interval across workers by @Steffen911 in #18672 ci(notifications): stop sending redundant title, branch, and event to Slack by @nimarb in #18652 chore(pricing): correct Claude Sonnet 5.5 cache-read price by @langfuse-bot in #18667…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.59.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7853,6 +7956,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "dotnet-1.24.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.25.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "Changes: 1ab3430 .NET: Dotnet: Add approval reuse considerations ( #9389 ) 563eb3a .NET: terminate chat completions SSE stream with data: [DONE] ( #8532 ) [ #8526 ] 4964bdd .NET: Update version for 1.25.0 release ( #9388 ) 5abdadf .NET: Also include citations and error details in purview checks. ( #9375 ) 74db3c1 .NET: Fix reasoning remnants and handoff bounce-back ( #9174 ) 6b57b5f .NET: Upgrade…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "dotnet-1.25.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0": {
   "first_seen": "2026-10-05",
@@ -8551,6 +8663,14 @@
   "status": "dropped:prerelease",
   "title": "0.163.0-alpha.10"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.10.1"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11": {
   "first_seen": "2026-10-14",
   "kind": "release",
@@ -8558,6 +8678,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.163.0-alpha.11"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.163.0-alpha.12"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.163.0-alpha.13"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.2": {
   "first_seen": "2026-10-09",
@@ -8696,6 +8832,15 @@
   "source": "gh-openai-openai-agents-python",
   "status": "passed",
   "title": "v0.23.1"
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "0.24.0 (2026-10-15) Features expose MCP annotations on converted tools ( #5356 ) ( 75813f8 ) support run-wide tool exception formatting ( #5326 ) ( 8fd9a7c ) Bug Fixes batch OpenAI conversation session writes within the API limit ( #5334 ) ( 26345c1 ) defer automatic compaction for pending approvals ( #5363 ) ( 5eb47a5 ) deps-dev: bump fastapi from 0.139.2 to 0.141.1 ( #5312 ) ( cdf23bd )…",
+  "source": "gh-openai-openai-agents-python",
+  "status": "passed",
+  "title": "v0.24.0"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/0.121.17": {
   "first_seen": "2026-10-05",
@@ -8976,6 +9121,15 @@
   "status": "passed",
   "title": "harness-cli/v0.2.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.1": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "harness-cli/v0.2.1 Auto-drafted from commits in harness-cli/v0.2.0..harness-cli/v0.2.1 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(skills): package Strands for Claude, Codex, and Cursor ( #5123 ) ( 5e84caf ) feat(ts): add DecisionModel primitive and LLMDecisionModel (…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-cli/v0.2.1"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8994,6 +9148,15 @@
   "status": "passed",
   "title": "harness-python/v0.2.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "harness-python/v0.3.0 Auto-drafted from commits in harness-python/v0.2.0..harness-python/v0.3.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(skills): package Strands for Claude, Codex, and Cursor ( #5123 ) ( 5e84caf ) feat(ts): add DecisionModel primitive and…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-python/v0.3.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.1.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9011,6 +9174,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "harness-typescript/v0.2.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.3.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "harness-typescript/v0.3.0 Auto-drafted from commits in harness-typescript/v0.2.0..harness-typescript/v0.3.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(skills): package Strands for Claude, Codex, and Cursor ( #5123 ) ( 5e84caf ) feat(ts): add DecisionModel primitive…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-typescript/v0.3.0"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/mcp%2Fv0.3.0": {
   "first_seen": "2026-10-05",
@@ -9084,6 +9256,15 @@
   "status": "passed",
   "title": "python/v1.60.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.61.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "python/v1.61.0 Auto-drafted from commits in python/v1.60.0..python/v1.61.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(skills): package Strands for Claude, Codex, and Cursor ( #5123 ) ( 5e84caf ) feat(ts): add DecisionModel primitive and LLMDecisionModel ( #4942 ) (…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.61.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9101,6 +9282,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "typescript/v1.20.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.21.0": {
+  "first_seen": "2026-10-15",
+  "kind": "release",
+  "published": "2026-10-14",
+  "snippet": "typescript/v1.21.0 Auto-drafted from commits in typescript/v1.20.0..typescript/v1.21.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(skills): package Strands for Claude, Codex, and Cursor ( #5123 ) ( 5e84caf ) feat(ts): add DecisionModel primitive and LLMDecisionModel (…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "typescript/v1.21.0"
  },
  "https://hamel.dev/": {
   "first_seen": "2026-10-05",
@@ -9927,6 +10117,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "DiScoFormer: One transformer for density and score, across distributions"
+ },
+ "https://huggingface.co/blog/allenai/hiro-acev2": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "published": "2026-10-14",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost"
  },
  "https://huggingface.co/blog/allenai/impactful-scheduling": {
   "first_seen": "2026-10-10",
@@ -16902,6 +17100,14 @@
   "status": "dropped:keyword",
   "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know"
  },
+ "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "published": "2026-10-14",
+  "source": "kubernetes-blog",
+  "status": "dropped:keyword",
+  "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp"
+ },
  "https://martinfowler.com/articles/2026-dont-like-llms.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -17011,6 +17217,20 @@
   "source": "martinfowler",
   "status": "passed",
   "title": "Making Your Data Ready for Agentic AI"
+ },
+ "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-14",
+  "score": 0,
+  "snippet": "Building a slide template starts with three foundational choices — colours, fonts and layouts. Sumeet Gayathri Moghe covers the basics of color theory and how to build a reusable palette, the essentials of typography, including serif, sans-serif, handwritten and monospace fonts, plus the finer points of kerning and leading, and why a near-blank layout might serve you better than the prescribed…",
+  "source": "martinfowler",
+  "status": "rejected",
+  "tags": [],
+  "title": "Build your slide template",
+  "what": "Build your slide template – a guide on slide design choices.",
+  "why": "No technical content about agentic AI or open-source tools."
  },
  "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html": {
   "first_seen": "2026-10-05",
@@ -21410,11 +21630,19 @@
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "LangSmith's Role Based Access Control (RBAC) helps enterprises manage resource access with custom roles and API keys.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Role Based Access Control (RBAC) for LangSmith"
+  "status": "rejected",
+  "tags": [
+   "product-announcement",
+   "langsmith"
+  ],
+  "title": "Role Based Access Control (RBAC) for LangSmith",
+  "what": "A blog post announcing role-based access control for LangSmith.",
+  "why": "It is a product announcement with no actionable technical content."
  },
  "https://www.langchain.com/blog/agent-harness-life-sciences": {
   "first_seen": "2026-10-05",
@@ -21529,11 +21757,16 @@
  "https://www.langchain.com/blog/august-2026-langchain-newsletter": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-27",
+  "score": 0,
   "snippet": "Managed Deep Agents and LLM Gateway hit public beta, plus Deep Agents v0.7, Tuned Evaluators, Bring Your Own Cloud on AWS, and LangSmith Engine upgrades.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "August 2026: LangChain Newsletter — Managed Deep Agents, LLM Gateway, and More"
+  "status": "rejected",
+  "tags": [],
+  "title": "August 2026: LangChain Newsletter — Managed Deep Agents, LLM Gateway, and More",
+  "what": "LangChain August 2026 newsletter announcing new product features and beta releases",
+  "why": "It is primarily a product announcement with no actionable technical detail for building agents"
  },
  "https://www.langchain.com/blog/auto-evaluator-opportunities": {
   "first_seen": "2026-10-05",
@@ -21656,6 +21889,27 @@
   "what": "A LangGraph blog post detailing how to use Jev and LangGraph to build production agents.",
   "why": "Readers can adopt the showcased architecture, patterns, and open-source tools to create their own cost‑efficient production agents this month."
  },
+ "https://www.langchain.com/blog/common-questions-about-agent-evals": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-15",
+  "score": 14,
+  "shown": "2026-10-15",
+  "snippet": "Where to start with agent evals, offline vs online evals, evaluator types, LLM judges, benchmarks with Harbor, multi-turn evals, and keeping costs down.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "evaluation",
+   "observability",
+   "cost control",
+   "agent-evals",
+   "langchain"
+  ],
+  "title": "The Most Common Questions About Agent Evals, Answered",
+  "what": "A LangChain blog post that explains common questions about evaluating agents, covering offline/online tests, evaluator types, cost‑saving strategies, and benchmarking with Harbor.",
+  "why": "It provides concrete evaluation patterns and cost‑optimization tips the reader can apply immediately to build and monitor agents in production."
+ },
  "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21675,6 +21929,26 @@
   "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
   "what": "LangChain’s new Connections feature enables Managed Deep Agents to securely store credentials, support per-user OAuth, and act on behalf of individual callers.",
   "why": "Engineers can integrate Connections into their agent workflows to provide fine-grained, identity-aware access without exposing secrets, and can adapt the pattern to other open‑source agent frameworks."
+ },
+ "https://www.langchain.com/blog/context-engineering-deep-agents-remember": {
+  "first_seen": "2026-10-15",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-14",
+  "score": 14,
+  "snippet": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "agent context management",
+   "memory techniques",
+   "LangChain",
+   "sub‑agents",
+   "summarization"
+  ],
+  "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+  "what": "A LangChain blog post outlining techniques to manage long‑running agent context windows using summarization, sub‑agents, skills, and memory modules.",
+  "why": "Engineers can adopt the described patterns to keep agent context manageable, improving performance and reliability in production deployments."
  },
  "https://www.langchain.com/blog/context-management-for-deepagents": {
   "first_seen": "2026-10-14",
@@ -23649,6 +23923,7 @@
   "minutes": 30,
   "published": "2026-09-15",
   "score": 12,
+  "shown": "2026-10-15",
   "snippet": "Akshay Sharma, Machine Learning Engineer at Lyft, breaks down how Lyft rebuilt its customer support agent stack with LangGraph and LangSmith. The team replaced brittle, single-call agents with a meta-agent architecture where PMs and ops can ship new agents as a prompt and a config change, without writing new code. The result: agent build time dropped from six months to one to two weeks, and…",
   "source": "yt-langchain",
   "status": "passed",
@@ -23803,11 +24078,20 @@
  "https://www.youtube.com/watch?v=P1zBiAQU1IA": {
   "first_seen": "2026-10-05",
   "kind": "watch",
+  "minutes": 10,
   "published": "2026-08-27",
+  "score": 3,
   "snippet": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS began as a collaboration between Anthropic’s Beneficial Deployments team and HHMI Janelia Research Campus. This video tells the story of how MHS was developed and shows how it can be used to accelerate scientific research. MHS is now in…",
   "source": "yt-anthropic",
-  "status": "passed",
-  "title": "AI models can now help run physical science experiments"
+  "status": "rejected",
+  "tags": [
+   "open‑standards",
+   "physical‑science",
+   "AI‑agents"
+  ],
+  "title": "AI models can now help run physical science experiments",
+  "what": "Anthropic’s Model Hardware Standard (MHS) video outlining a new standard for AI agents to control physical lab equipment",
+  "why": "Provides a high‑level overview of a potential open standard, but lacks actionable code or design patterns for immediate use"
  },
  "https://www.youtube.com/watch?v=PUBc2G0Tj5E": {
   "first_seen": "2026-10-06",
@@ -24101,6 +24385,7 @@
   "minutes": 10,
   "published": "2026-10-10",
   "score": 13,
+  "shown": "2026-10-15",
   "snippet": "A 4 billion parameter model, trained with RL for under $500, beat its 235 billion parameter sibling on real financial questions. Charles Dickens, research scientist at Snorkel AI, shares how Snorkel and UC Berkeley's Sky Computing Lab trained a small model to beat a much bigger one. Working from SEC 10-K filings, they built FinQA, a financial question-answering dataset with expert-validated…",
   "source": "yt-ai-engineer",
   "status": "passed",

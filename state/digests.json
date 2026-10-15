@@ -65,6 +65,11 @@
    "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
    "https://www.youtube.com/watch?v=d6aNbE-3dxo",
    "https://www.youtube.com/watch?v=7v2myBde05o"
+  ],
+  "2026-10-15": [
+   "https://www.langchain.com/blog/common-questions-about-agent-evals",
+   "https://www.youtube.com/watch?v=M9BMTC8o9-w",
+   "https://www.youtube.com/watch?v=TyPpSRXGhbc"
   ]
  },
  "rollup": {
@@ -181,10 +186,10 @@
   ]
  },
  "scoring": {
-  "calls": 15,
-  "date": "2026-10-14",
+  "calls": 8,
+  "date": "2026-10-15",
   "error": null,
   "failed": 0,
-  "rejected": 5
+  "rejected": 6
  }
 }
