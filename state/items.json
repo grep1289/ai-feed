@@ -3209,6 +3209,14 @@
   "status": "dropped:category",
   "title": "Bringing Code Review to Claude Code"
  },
+ "https://claude.com/resources/articles/code-review-is-now-generally-available": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Code Review is now generally available"
+ },
  "https://claude.com/resources/articles/code-w-claude-london-2026-rethinking-how-we-build": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4676,6 +4684,14 @@
   "status": "passed",
   "title": "Announcing ADK for Kotlin 1.0: Building Production-Ready AI Agents in Kotlin, Android, and Beyond"
  },
+ "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens"
+ },
  "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster": {
   "first_seen": "2026-10-15",
   "kind": "read",
@@ -4723,6 +4739,26 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "EmbeddingGemma 2: The Developer Guide"
+ },
+ "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-15",
+  "score": 15,
+  "shown": "2026-10-16",
+  "snippet": "A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "tags": [
+   "evaluation",
+   "observability",
+   "open-standards",
+   "agent-operating"
+  ],
+  "title": "Evaluating AI agents: moving past the vibe check",
+  "what": "A practical guide and reference architecture for continuous evaluation of multi-turn AI agents with Google’s Gemini Enterprise Agent Platform and OpenInference.",
+  "why": "Engineers can adopt the architecture to build robust evaluation pipelines for their own agents within a month."
  },
  "https://developers.googleblog.com/gemini-4-argon-for-robotics": {
   "first_seen": "2026-10-14",
@@ -4818,6 +4854,26 @@
   "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
   "what": "AQuA, an ambient quality agent that runs beside a production AI agent to detect and diagnose silent quality regressions",
   "why": "Engineers can adopt AQuA to continuously monitor and root‑cause failures in their own agents, learning patterns that improve long‑term reliability"
+ },
+ "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "minutes": 7,
+  "published": "2026-10-15",
+  "score": 14,
+  "snippet": "The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. Developers can leverage reference patterns, install modular vertical skills (such as retail product search and virtual try-on) directly into their coding assistants, and deploy production-ready…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "tags": [
+   "agent development",
+   "open-source",
+   "framework",
+   "production",
+   "patterns"
+  ],
+  "title": "Three layers, one repo: a tour of google/adk-recipes",
+  "what": "An overview of the Google ADK Recipes repository, showing its three-layer structure and how to integrate modular vertical skills into AI agents.",
+  "why": "Engineers can immediately apply the provided patterns and plugin examples to build and deploy production-ready agents using the open-source ADK framework."
  },
  "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway": {
   "first_seen": "2026-10-05",
@@ -5527,6 +5583,24 @@
   "status": "passed",
   "title": "arize-phoenix: v20.21.4"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.22.0": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "20.22.0 (2026-10-15) Features playground: add Meta muse-wonder-1.0 and gemini-4-argon ( #16976 ) ( d5168d1 ) Bug Fixes oauth2: preserve SameSite=Strict cookies on server-owned return_url after IdP sign-in ( #16997 ) ( c332b0c ) Documentation add Claude Managed Agents tracing docs ( #16989 ) ( 54fe899 ) add standalone release note for the Harbor plugin ( #16977 ) ( fe4a06b )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.22.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.23.0": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "20.23.0 (2026-10-16) Features server: export server logs over OTLP ( #17010 ) ( add77bf ) Bug Fixes playground: forward Bedrock tool results directly as text ( #16951 ) ( 15355fd ) Documentation add Atomic Agents tracing integration ( #17000 ) ( fe5e933 ) Add Phoenix release notes — 2026-10-14 ( #16979 ) ( 97c4b2a )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.23.0"
+ },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5652,6 +5726,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "v0.3.280"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.281": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "0.3.281 (2026-10-15) Breaking Changes require Python 3.11 and test on Python 3.14 ( #5862 ) Features add swarm_controller and swarm_channel registry types ( #5860 ) ( a11afc9 ) agent-bridge: forward allowed Anthropic betas, Accept-Encoding and Responses reasoning context ( #5708 ) ( be4fd1f ) let agent bridges transform model responses with response_filter ( #5715 ) ( 19f9349 ) require Python…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.281"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -6243,6 +6326,15 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.167"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.168": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.301 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.168/ pip install claude-agent-sdk==0.2.168",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.168"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -7328,6 +7420,15 @@
   "status": "passed",
   "title": "v1.0.6"
  },
+ "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.7": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "🚀 Announcing Agent Sandbox v1.0.7! We're excited to announce Agent Sandbox v1.0.7 ! This release adds optional bearer-token authentication to sandboxd , streaming command execution in the Go SDK, and closer parity across the Python and TypeScript SDKs ( env and cwd , named claims, custom kubeconfig, fail-fast on terminated Pods). Warm pools no longer churn members that are waiting on scheduling…",
+  "source": "gh-kubernetes-sigs-agent-sandbox",
+  "status": "passed",
+  "title": "v1.0.7"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.19": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7390,6 +7491,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents==0.7.25"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.26": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "Features Async subagents now report when they’re waiting for a human. ( #6842 ) Async subagent runs now appear under their parent’s trace and identify the agent that launched them. ( #6823 , #6836 ) Summarization middleware now exposes its summarizer . ( #6900 ) Bug Fixes Preserve resolved tool-result paths. ( #6968 ) Special thanks to everyone who reported the issues addressed in this release:…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.26"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
@@ -7903,6 +8013,15 @@
   "status": "passed",
   "title": "v4.59.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.60.0": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "What's Changed Features feat(llm): add organization-level connections by @wochinge in #18450 feat(billing): record billable units in an append-only ClickHouse ledger by @Steffen911 in #18722 feat(skills): add CLI import instructions by @tobi12345 in #18794 feat(evals): restyle the evaluator gallery with score previews by @nmtrang29 in #18709 feat(topics): show facet descriptions in Configure…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.60.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8019,6 +8138,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "python-1.21.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/python-1.22.0": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "[1.22.0] - 2026-10-15 Important Python 3.15 support: The core framework and root agent-framework package now support Python 3.15, but not every package, optional extra, or feature supports it yet because of upstream dependency constraints. Before upgrading, check the README for each package and extra you use. The Python README summarizes the currently known limitations. Warning Persisted-state…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "python-1.22.0"
  },
  "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-10-07": {
   "first_seen": "2026-10-05",
@@ -8647,6 +8775,15 @@
   "status": "passed",
   "title": "0.162.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X ,…",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.163.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.1": {
   "first_seen": "2026-10-09",
   "kind": "release",
@@ -8670,6 +8807,14 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.163.0-alpha.10.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.163.0-alpha.10.2"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11": {
   "first_seen": "2026-10-14",
@@ -9085,6 +9230,15 @@
   "status": "passed",
   "title": "v2.56.0 (2026-10-13)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Attach namespaced origin and tool_call_id metadata to BackgroundTools completions by @michaeldunn9 in #10196 Take GPT-Live realtime history, usage, and reply waits from the session core by @DouweM in #10083 Honour disable-model-invocation and user-invocable in Skills , and skip stray skill library paths by @DouweM in #10378 Take Gemini Live realtime history,…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.57.0 (2026-10-15)"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9156,6 +9310,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "harness-python/v0.3.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.1": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "harness-python/v0.3.1 Auto-drafted from commits in harness-python/v0.3.0..harness-python/v0.3.1 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🐛 Fixes fix(bedrock): drop reasoning blocks the target model rejects when history crosses model families ( #5166 ) ( 5cb8805 ) fix(subagent):…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-python/v0.3.1"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.1.1": {
   "first_seen": "2026-10-05",
@@ -9264,6 +9427,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "python/v1.61.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.61.1": {
+  "first_seen": "2026-10-16",
+  "kind": "release",
+  "published": "2026-10-15",
+  "snippet": "python/v1.61.1 Auto-drafted from commits in python/v1.61.0..python/v1.61.1 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🐛 Fixes fix(bedrock): drop reasoning blocks the target model rejects when history crosses model families ( #5166 ) ( 5cb8805 ) fix(subagent): surface the child's…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.61.1"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
@@ -11784,6 +11956,14 @@
   "status": "dropped:keyword",
   "title": "Diffusers welcomes FLUX-2"
  },
+ "https://huggingface.co/blog/flux-3": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Welcome FLUX.3 Image Klein in Diffusers"
+ },
  "https://huggingface.co/blog/flux-qlora": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -12560,6 +12740,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality"
+ },
+ "https://huggingface.co/blog/ibm-granite/granite-switch-4-1": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint"
  },
  "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption": {
   "first_seen": "2026-10-05",
@@ -13651,6 +13839,14 @@
   "status": "dropped:keyword",
   "title": "How to train a Language Model with Megatron-LM"
  },
+ "https://huggingface.co/blog/meta-muse-spark-open": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
+ },
  "https://huggingface.co/blog/mi300kernels": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -14153,6 +14349,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare"
+ },
+ "https://huggingface.co/blog/nvidia/scaling-indic-pretraining": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-16",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline"
  },
  "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms": {
   "first_seen": "2026-10-05",
@@ -17282,6 +17486,25 @@
   "status": "passed",
   "title": "Practitioner Voice: The Writing Category Nobody has Named Yet"
  },
+ "https://martinfowler.com/articles/software-meets-hardware.html": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-15",
+  "score": 10,
+  "snippet": "When software meets hardware, engineering principles remain largely the same, but the sensible defaults often change. Kuldeep Singh describes our experience modernizing a large IoT fleet of battery-powered sensors. Our familiar principles remained important; what changed was how we applied them. These practices emerged through experiments, failures, and operational experience—each challenge…",
+  "source": "martinfowler",
+  "status": "rejected",
+  "tags": [
+   "IoT",
+   "battery‑powered",
+   "hardware constraints",
+   "software principles"
+  ],
+  "title": "When Software Meets Hardware",
+  "what": "An exploration of how software engineering practices translate when modernizing a large fleet of battery‑powered IoT sensors.",
+  "why": "Readers can adapt proven software patterns to handle hardware constraints, experiments, and operational lessons in their own IoT or embedded projects."
+ },
  "https://martinfowler.com/bliki/ParacelsusMaxim.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -18405,6 +18628,20 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Introducing SWE-bench Verified"
+ },
+ "https://openai.com/index/introducing-the-rosalind-academic-plan": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-15",
+  "score": 0,
+  "snippet": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+  "source": "openai-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "what": "Product announcement of OpenAI's Rosalind Academic Plan for GPT-Rosalind access.",
+  "why": "No technical content, just a marketing announcement."
  },
  "https://openai.com/index/jalapeno-first-results": {
   "first_seen": "2026-10-05",
@@ -21627,6 +21864,14 @@
   "what": "A CNCF blog post that walks through installing and running the open‑source kagent agent builder locally.",
   "why": "It shows how to set up kagent on a laptop, so you can start building and experimenting with agent tooling right away."
  },
+ "https://www.cncf.io/blog/2026/10/15/carbon-as-a-first-class-signal-bringing-software-carbon-intensity-to-opentelemetry": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21668,11 +21913,22 @@
  "https://www.langchain.com/blog/agent-observability-needs-feedback-to-power-learning": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Traces show what an agent did; feedback shows what it meant. How explicit, implicit, LLM-as-judge and rule-based feedback turn observability into learning.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Agent observability needs feedback to power learning"
+  "tags": [
+   "agent observability",
+   "feedback loops",
+   "learning agents",
+   "open-source",
+   "LangChain"
+  ],
+  "title": "Agent observability needs feedback to power learning",
+  "what": "A LangChain blog post explaining how to enhance agent observability with explicit and implicit feedback to enable learning.",
+  "why": "It shows concrete feedback patterns and code snippets that an engineering lead can adopt to monitor and improve their own open‑source agents."
  },
  "https://www.langchain.com/blog/agent-traces-ai-search-langsmith": {
   "first_seen": "2026-10-14",
@@ -21700,11 +21956,22 @@
  "https://www.langchain.com/blog/agents-round": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 15,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Explore how LangChain implements autonomous agents like AutoGPT and BabyAGI. Learn about planning techniques, memory systems, and agent simulations.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Autonomous Agents & Agent Simulations"
+  "tags": [
+   "open-source frameworks",
+   "building agents",
+   "planning",
+   "memory systems",
+   "agent simulation"
+  ],
+  "title": "Autonomous Agents & Agent Simulations",
+  "what": "A LangChain blog post detailing how to build and simulate autonomous agents such as AutoGPT and BabyAGI, covering planning, memory, and simulation techniques.",
+  "why": "Engineers can copy the demonstrated patterns, code snippets, and architecture to prototype and deploy similar agents in their own systems this month."
  },
  "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link": {
   "first_seen": "2026-10-09",
@@ -21730,11 +21997,21 @@
  "https://www.langchain.com/blog/aligning-llm-as-a-judge-with-human-preferences": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 15,
   "published": "2026-08-26",
+  "score": 10,
   "snippet": "Deep dive into self-improving evaluators in LangSmith, motivated by the rise of LLM-as-a-Judge evaluators plus research on few-shot learning and aligning human preferences.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Aligning LLM-as-a-Judge with Human Preferences"
+  "tags": [
+   "open-source frameworks",
+   "evaluation",
+   "alignment",
+   "agentic AI"
+  ],
+  "title": "Aligning LLM-as-a-Judge with Human Preferences",
+  "what": "A blog post explaining how LangSmith’s LLM-as-a-Judge self-improves through few-shot learning and human preference alignment.",
+  "why": "Readers can adapt the alignment pipeline to build their own evaluation agents and incorporate preference feedback into production workflows."
  },
  "https://www.langchain.com/blog/announcing-our-10m-seed-round-led-by-benchmark": {
   "first_seen": "2026-10-05",
@@ -21936,6 +22213,7 @@
   "minutes": 10,
   "published": "2026-10-14",
   "score": 14,
+  "shown": "2026-10-16",
   "snippet": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
   "source": "langchain-blog",
   "status": "passed",
@@ -22639,6 +22917,24 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA"
+ },
+ "https://www.langchain.com/blog/october-2026-langchain-newsletter": {
+  "first_seen": "2026-10-16",
+  "kind": "read",
+  "minutes": 2,
+  "published": "2026-10-15",
+  "score": 0,
+  "snippet": "What we shipped at Interrupt NYC and London: LangSmith AI Search, Engine v2, Trajectories, Custom Apps, Fine-Tuning, and Managed Deep Agents v0.9.",
+  "source": "langchain-blog",
+  "status": "rejected",
+  "tags": [
+   "product-launch",
+   "newsletter",
+   "langchain"
+  ],
+  "title": "October 2026 LangChain Newsletter: Everything we shipped at Interrupt NYC & London",
+  "what": "LangChain Newsletter summarizing recent product releases from Interrupt NYC & London.",
+  "why": "No actionable technical content for building or operating agents; it's a marketing recap."
  },
  "https://www.langchain.com/blog/open-models-have-crossed-a-threshold": {
   "first_seen": "2026-10-14",
@@ -24365,6 +24661,7 @@
   "minutes": 30,
   "published": "2026-10-06",
   "score": 13,
+  "shown": "2026-10-16",
   "snippet": "Improving an agent used to mean a human reading traces every week. Now agents can do most of that loop for you. Marc Klingen, co-founder of Langfuse, shows how teams are moving from manually improving their agents to letting AI run the improvement loop. He explains the reference stack that emerged for building agents, which connects online tracing and monitoring with offline datasets, experiments…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -25640,6 +25937,7 @@
   "minutes": 12,
   "published": "2026-09-24",
   "score": 11,
+  "shown": "2026-10-16",
   "snippet": "Introducing LangSmith Fine-Tuning and smithtune, a CLI that helps teams turn LangSmith trajectories into custom fine-tuned models for their agents. It handles the entire fine-tuning process from one CLI: dataset creation and preparation from LangSmith trajectories, training with Fireworks or Baseten, and evaluation with LangSmith. You can run smithtune directly or work with your coding agent to…",
   "source": "yt-langchain",
   "status": "passed",

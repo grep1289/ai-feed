@@ -70,6 +70,12 @@
    "https://www.langchain.com/blog/common-questions-about-agent-evals",
    "https://www.youtube.com/watch?v=M9BMTC8o9-w",
    "https://www.youtube.com/watch?v=TyPpSRXGhbc"
+  ],
+  "2026-10-16": [
+   "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+   "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check",
+   "https://www.youtube.com/watch?v=pb-AAvvQZ-U",
+   "https://www.youtube.com/watch?v=TeErpYBUIeM"
   ]
  },
  "rollup": {
@@ -187,9 +193,9 @@
  },
  "scoring": {
   "calls": 8,
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "error": null,
   "failed": 0,
-  "rejected": 6
+  "rejected": 3
  }
 }

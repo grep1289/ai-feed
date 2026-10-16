@@ -12,7 +12,7 @@
   "fetched": 31,
   "id": "openai-developer",
   "name": "OpenAI Developer Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -25,7 +25,7 @@
  },
  {
   "error": null,
-  "fetched": 283,
+  "fetched": 284,
   "id": "claude-blog",
   "name": "Claude Blog",
   "new": 1,
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 1,
+  "new": 3,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 2,
+  "new": 1,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -84,15 +84,15 @@
   "fetched": 50,
   "id": "kubernetes-blog",
   "name": "Kubernetes Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 876,
+  "fetched": 879,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 4,
   "ok": true
  },
  {
@@ -236,7 +236,7 @@
   "fetched": 10,
   "id": "gh-openai-openai-agents-python",
   "name": "openai/openai-agents-python",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 3,
+  "new": 2,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -284,7 +284,7 @@
   "fetched": 10,
   "id": "gh-strands-agents-sdk-python",
   "name": "strands-agents/sdk-python",
-  "new": 5,
+  "new": 2,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -316,7 +316,7 @@
   "fetched": 10,
   "id": "gh-kubernetes-sigs-agent-sandbox",
   "name": "kubernetes-sigs/agent-sandbox",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -388,7 +388,7 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -401,10 +401,10 @@
  },
  {
   "error": null,
-  "fetched": 200,
+  "fetched": 201,
   "id": "openai-research",
   "name": "OpenAI Research",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
