@@ -3561,6 +3561,14 @@
   "status": "dropped:category",
   "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep"
  },
+ "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "published": "2026-10-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How an Anthropic Japan BDR runs his day with a fleet of Claude agents"
+ },
  "https://claude.com/resources/articles/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4617,6 +4625,14 @@
   "status": "dropped:category",
   "title": "Seeing like an agent: how we design tools in Claude Code"
  },
+ "https://claude.dev/blog/solving-code-review-at-anthropic": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "published": "2026-10-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How the Claude Code team does code review"
+ },
  "https://claude.dev/blog/spending-your-effort": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4861,6 +4877,7 @@
   "minutes": 7,
   "published": "2026-10-15",
   "score": 14,
+  "shown": "2026-10-17",
   "snippet": "The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. Developers can leverage reference patterns, install modular vertical skills (such as retail product search and virtual try-on) directly into their coding assistants, and deploy production-ready…",
   "source": "google-developers-ai",
   "status": "passed",
@@ -5016,6 +5033,25 @@
   "source": "openai-developer",
   "status": "passed",
   "title": "Designing delightful frontends with GPT-5.4"
+ },
+ "https://developers.openai.com/blog/designing-failover-across-openai-model-providers": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-14",
+  "score": 9,
+  "snippet": "Why direct OpenAI access matters for previews and critical workloads.",
+  "source": "openai-developer",
+  "status": "rejected",
+  "tags": [
+   "failover",
+   "model‑providers",
+   "architecture",
+   "agent‑resilience"
+  ],
+  "title": "Designing failover across OpenAI model providers",
+  "what": "An OpenAI blog post explaining how to design failover across multiple OpenAI model providers.",
+  "why": "It gives concrete patterns and trade‑offs a dev lead can apply to build robust agent pipelines this month."
  },
  "https://developers.openai.com/blog/eval-skills": {
   "first_seen": "2026-10-05",
@@ -5936,6 +5972,15 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.54.0"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.55.0": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "✨ Features AIgateway declarative provider #12528 Propagate W3C trace context from ACP prompts to MCP tool calls #12697 Surface provider x-request-id on responses and errors #12587 Honor supports_vision declared on custom provider models #12769 Use live model metadata for OpenAI reasoning and prefer the Responses API #12568 Cap auto-compaction at 225k tokens by default #12790 Improve askai bot…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.55.0"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -7247,6 +7292,14 @@
   "status": "dropped:prerelease",
   "title": "v1.0.0-alpha13"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha14": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-alpha14"
+ },
  "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7501,6 +7554,24 @@
   "status": "passed",
   "title": "deepagents==0.7.26"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.27": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Features Keep the main agent informed of asynchronous subagent status updates ( #6853 ). Bug Fixes Pass subagent names to subagents ( #6987 ). Internal maintainers: ccurme (@ccurme) , Mason Daugherty (@mdrxy) , Thushanth Bengre (@thushanth-bengre-langchain) Released by: ccurme (@ccurme) Git log since deepagents==0.7.26 This commit history includes changes to this package. Commits are listed…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.27"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.28": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Bug Fixes Fixed ContextHubBackend.glob to honor the path argument. Internal maintainers: Caspar Broekhuizen (@casparb) Released by: ccurme (@ccurme) Git log since deepagents==0.7.27 This commit history includes changes to this package. Commits are listed newest first. 9db018b release(deepagents): 0.7.28 ( #7003 ) dd6706d fix(sdk): make ContextHubBackend.glob honor path ( #6998 )",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.28"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -7600,6 +7671,15 @@
   "status": "passed",
   "title": "deepagents-code==0.1.85"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.86": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Features Add NVIDIA OpenShell as a sandbox provider ( #6999 ). Show a banner when a prompt cache expires ( #6957 ). Bug Fixes Add /resume as an alias and improve how alias matches are ranked ( #6988 ). Report workspace refusals accurately when resuming a thread ( #6992 ). Replace repeated thread-resume errors ( #6990 ). Replace the chat input when recalling a prompt ( #6994 ). Show an expired…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.1.86"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7671,6 +7751,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph==1.2.15"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Changes since 1.2.15 release(langgraph): 1.2.16 ( #9334 ) fix(langgraph): let other tasks finish when a resume value is invalid ( #9265 ) fix(langgraph): apply a resumed Command's update once ( #9322 ) fix(langgraph): stop a subgraph from rerunning its finished tasks on resume ( #9315 ) fix(langgraph): save a resumed exit run's pending writes once ( #9314 ) release(prebuilt): 1.1.1 ( #9316 )…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.16"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
@@ -7779,6 +7868,15 @@
   "status": "passed",
   "title": "langgraph-cli==0.4.35"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Changes since cli==0.4.35 release(cli): 0.4.36 ( #9330 ) fix(cli): accept serverless and dedicated deployment aliases ( #9325 ) fix(cli): push through the active Docker context in langgraph deploy ( #9321 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.36"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
   "first_seen": "2026-10-15",
   "kind": "release",
@@ -7832,6 +7930,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.7"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Changes since sdk==0.4.7 release(langgraph): 1.2.16 ( #9334 ) release(sdk-py): 0.4.8 ( #9335 ) fix(sdk-py): surface thread stream errors and stop retrying a rejected stream ( #9317 ) release(prebuilt): 1.1.1 ( #9316 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.8"
  },
  "https://github.com/langfuse/langfuse/releases/tag/v3.225.12": {
   "first_seen": "2026-10-13",
@@ -8021,6 +8128,33 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.60.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.61.0": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "What's Changed Features feat(topics): unify manual trace processing and topic generation by @LysanderKie in #18840 feat(ingestion): measure synchronous OTEL work and preparation codepaths by @sumerman in #18844 feat: Add status information on integrations screen directly by @jordibosch20 in #18718 feat(traces): add dedicated skills tab by @tobi12345 in #18872 feat(observability): gate ECS and…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.61.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.62.0": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "What's Changed ci: run ai-gateway e2e tests on ai-gateway crate changes by @wochinge in #18915 ci(deps): let the security maintainer remediate Rust Dependabot alerts by @wochinge in #18885 fix(web): tracing page header and search row spacing by @nmtrang29 in #18352 feat(ai-gateway): raise request limit to 16 MiB and make execution limits configurable by @wochinge in #18820 build: ship Rust…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.62.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.63.0": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "snippet": "Features feat(web): link personal feature previews from organization settings by @nimarb in #18887 feat(traces): integrate PostHog analytics for IO parser comparison tracking by @marliessophie in #18896 feat(skills): improve browsing and editing UX by @tobi12345 in #18940 feat(ai-gateway): route slugless codex- models to OpenAI connections by @wochinge in #18938 feat(ai-gateway): attribute errors…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.63.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -8887,6 +9021,30 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.163.0-alpha.9"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-16",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3": {
+  "first_seen": "2026-10-17",
+  "kind": "release",
+  "published": "2026-10-17",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.3"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -15084,6 +15242,14 @@
   "status": "dropped:keyword",
   "title": "Red-Teaming Large Language Models"
  },
+ "https://huggingface.co/blog/reflection-beam": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "published": "2026-10-16",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Welcome Beam: a 501B open model you can own, customize, and scale"
+ },
  "https://huggingface.co/blog/reformer": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -19269,6 +19435,7 @@
   "minutes": 15,
   "published": "2026-09-11",
   "score": 11,
+  "shown": "2026-10-17",
   "snippet": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
   "source": "openai-engineering",
   "status": "passed",
@@ -20132,6 +20299,20 @@
   "status": "passed",
   "title": "Paving the way for agents in biology"
  },
+ "https://www.anthropic.com/research/ai-expectations-gap": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-16",
+  "score": 0,
+  "snippet": "The AI expectations gap",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "The AI expectations gap",
+  "what": "An analysis of the mismatch between AI expectations and reality presented by Anthropic researchers.",
+  "why": "The piece offers high‑level discussion without concrete technical guidance or code, so it provides little actionable insight for an engineering lead looking to build or adopt agentic solutions."
+ },
  "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20546,6 +20727,20 @@
   "status": "passed",
   "title": "An update on our model deprecation commitments for Claude Opus 3"
  },
+ "https://www.anthropic.com/research/designing-efficient-quantum-circuits": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-16",
+  "score": 8,
+  "snippet": "Designing more efficient quantum circuits with Claude",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "Designing more efficient quantum circuits with Claude",
+  "what": "A research paper on quantum circuit optimization using Claude",
+  "why": "It offers insights into quantum circuit design, but is not directly applicable to building or operating agentic AI systems for the reader."
+ },
  "https://www.anthropic.com/research/diff-tool": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20619,6 +20814,25 @@
   "status": "passed",
   "title": "Donating our open-source alignment tool"
  },
+ "https://www.anthropic.com/research/ecdsa-curve-origins": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-16",
+  "score": 10,
+  "snippet": "Claude reveals ECDSA curve origins",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [
+   "cryptography",
+   "security",
+   "standards",
+   "open-source"
+  ],
+  "title": "Claude reveals ECDSA curve origins",
+  "what": "Anthropic researchers explain the historical origins and selection rationale behind common ECDSA curves used in modern cryptography",
+  "why": "Engineers can assess curve suitability, understand trade‑offs, and apply best practices when implementing or auditing ECDSA‑based systems"
+ },
  "https://www.anthropic.com/research/economic-index-geography": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20691,6 +20905,20 @@
   "status": "passed",
   "title": "Emotion concepts and their function in a large language model"
  },
+ "https://www.anthropic.com/research/employment-at-anthropic": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-16",
+  "score": 0,
+  "snippet": "How employment is changing at Anthropic",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "How employment is changing at Anthropic",
+  "what": "An internal HR discussion on how employment is evolving at Anthropic.",
+  "why": "It offers no technical or engineering guidance for building or operating AI agents."
+ },
  "https://www.anthropic.com/research/enabling-independent-research": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20752,6 +20980,20 @@
   "source": "anthropic-research",
   "status": "dropped:title_rule",
   "title": "Evaluating feature steering: A case study in mitigating social biases"
+ },
+ "https://www.anthropic.com/research/expectations-for-the-future": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-16",
+  "score": 0,
+  "snippet": "Working at the frontier shapes expectations for the future",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "Working at the frontier shapes expectations for the future",
+  "what": "Anthropic research blog on future expectations",
+  "why": "Does not provide actionable or technical details for building or operating agents"
  },
  "https://www.anthropic.com/research/exploit": {
   "first_seen": "2026-10-05",
@@ -21872,6 +22114,30 @@
   "status": "dropped:keyword",
   "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry"
  },
+ "https://www.cncf.io/blog/2026/10/15/extending-kubernetes-policy-enforcement-to-runtime-security-for-ai-workloads": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Extending Kubernetes policy enforcement to runtime security for AI workloads"
+ },
+ "https://www.cncf.io/blog/2026/10/16/deploying-maintaining-and-migrating-production-n8n-on-eks": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "published": "2026-10-16",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Deploying, maintaining, and migrating production n8n on EKS"
+ },
+ "https://www.cncf.io/blog/2026/10/16/putting-nepal-on-the-cncf-golden-kubestronaut-map": {
+  "first_seen": "2026-10-17",
+  "kind": "read",
+  "published": "2026-10-16",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Putting Nepal on the CNCF Golden Kubestronaut map"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -22016,20 +22282,35 @@
  "https://www.langchain.com/blog/announcing-our-10m-seed-round-led-by-benchmark": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "LangChain secures $10M seed round from Benchmark to empower developers building AI apps with our open-source framework for data-aware, agentic LLMs.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Announcing our $10M seed round led by Benchmark"
+  "status": "rejected",
+  "tags": [],
+  "title": "Announcing our $10M seed round led by Benchmark",
+  "what": "LangChain seed round announcement",
+  "why": "No technical content to build or use"
  },
  "https://www.langchain.com/blog/applying-openai-rag": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 11,
   "snippet": "Implement OpenAI's proven RAG strategies with LangChain. Explore query transformations, routing, post-processing, and evaluation methods for optimal retrieval.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Applying OpenAI's RAG Strategies"
+  "tags": [
+   "open-source frameworks",
+   "retrieval-augmented-generation",
+   "evaluation",
+   "LangChain"
+  ],
+  "title": "Applying OpenAI's RAG Strategies",
+  "what": "A LangChain blog post outlining how to implement OpenAI's Retrieval-Augmented Generation strategies using LangChain tooling.",
+  "why": "Engineers can copy the query transformations, routing, post‑processing and evaluation patterns to quickly add RAG to their own agents."
  },
  "https://www.langchain.com/blog/august-2026-langchain-newsletter": {
   "first_seen": "2026-10-05",
@@ -22048,11 +22329,21 @@
  "https://www.langchain.com/blog/auto-evaluator-opportunities": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 12,
   "snippet": "Auto-evaluate LLM question-answer chains with LangChain's free tool. Generate test sets, grade answers, and optimize chain performance.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Auto-Evaluator Opportunities"
+  "tags": [
+   "open‑source",
+   "langchain",
+   "evaluation",
+   "LLM"
+  ],
+  "title": "Auto-Evaluator Opportunities",
+  "what": "A LangChain blog post describing how to auto-evaluate LLM question‑answer chains using LangChain’s free tooling",
+  "why": "Engineers can integrate automated grading and test set generation into their LLM pipelines to quickly measure and improve chain performance"
  },
  "https://www.langchain.com/blog/automating-web-research": {
   "first_seen": "2026-10-05",
@@ -22514,6 +22805,7 @@
   "minutes": 15,
   "published": "2026-10-13",
   "score": 14,
+  "shown": "2026-10-17",
   "snippet": "Harness engineering improved LangChain's coding agent from Top 30 to Top 5 on Terminal Bench using self-verification, tracing, and context optimization.",
   "source": "langchain-blog",
   "status": "passed",
@@ -24641,6 +24933,7 @@
   "minutes": 15,
   "published": "2026-10-03",
   "score": 13,
+  "shown": "2026-10-17",
   "snippet": "Open models have nearly caught up with proprietary ones. Serving them fast and cheaply is the hard part. Dylan Bristot, who leads product marketing for Nebius Token Factory, and developer advocate Sujee Maniyam explain what it takes to run open LLMs in production. Dylan covers the trade-off between closed APIs and self-hosting, and the inference → data → post-training → deployment loop. Sujee…",
   "source": "yt-ai-engineer",
   "status": "passed",
