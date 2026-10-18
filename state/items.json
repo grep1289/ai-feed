@@ -22348,29 +22348,61 @@
  "https://www.langchain.com/blog/automating-web-research": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-08-26",
+  "score": 12,
   "snippet": "Automate web research with LangChain's retriever. Run parallel searches, scrape pages, and synthesize information with LLMs—locally or in the cloud.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Automating Web Research"
+  "tags": [
+   "building agents",
+   "open-source framework",
+   "web scraping",
+   "LLM orchestration"
+  ],
+  "title": "Automating Web Research",
+  "what": "A LangChain blog post showing how to automate web research by running parallel searches, scraping pages, and synthesizing data with LLMs using LangChain’s retriever.",
+  "why": "Readers can implement a similar end-to-end web‑research pipeline in their own projects, applying the parallel search, scraper, and LLM synthesis patterns described."
  },
  "https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 14,
   "snippet": "Build better Q&A systems for CSV data using LangChain agents, retrieval, and LLM evaluation. Includes benchmarks, debugging insights, and open-source code.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Benchmarking Question/Answering Over CSV Data"
+  "tags": [
+   "LangChain",
+   "CSV",
+   "Q&A",
+   "retrieval",
+   "LLM evaluation"
+  ],
+  "title": "Benchmarking Question/Answering Over CSV Data",
+  "what": "LangChain blog post benchmarking CSV-based Q&A with LLM agents and retrieval pipelines",
+  "why": "Readers can replicate the evaluation pipeline, tweak agent design, and adopt the open-source code to improve their own CSV data QA systems"
  },
  "https://www.langchain.com/blog/build-an-auditable-vc-research-agent-with-the-perplexity-agent-api-langgraph-and-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 12,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Build a VC research agent that drafts a cited investment memo in about 90 seconds for $0.40, using the Perplexity Agent API, LangGraph, and LangSmith evals.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Build an Auditable VC Research Agent with Perplexity"
+  "tags": [
+   "agents",
+   "LangGraph",
+   "LangSmith",
+   "VC research",
+   "Perplexity API"
+  ],
+  "title": "Build an Auditable VC Research Agent with Perplexity",
+  "what": "A step‑by‑step guide to build a VC research agent that drafts cited investment memos using the Perplexity Agent API, LangGraph, and LangSmith evals.",
+  "why": "Engineers can copy the architecture and code patterns to quickly prototype their own low‑cost, auditable research agents."
  },
  "https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks": {
   "first_seen": "2026-10-05",
@@ -23254,6 +23286,7 @@
   "minutes": 15,
   "published": "2026-10-13",
   "score": 14,
+  "shown": "2026-10-18",
   "snippet": "Built on Deep Agents and LangGraph, Open SWE provides the core architectural components for internal coding agents.",
   "source": "langchain-blog",
   "status": "passed",
@@ -25037,6 +25070,7 @@
   "minutes": 10,
   "published": "2026-08-28",
   "score": 10,
+  "shown": "2026-10-18",
   "snippet": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. MHS started as part of a beneficial deployments project between Anthropic and HHMI Janelia Research Campus and is evolving into a wider industry effort. This video shows what MHS is, how it works, and early examples of AI agents operating lab…",
   "source": "yt-anthropic",
   "status": "passed",
@@ -25316,6 +25350,7 @@
   "minutes": 20,
   "published": "2026-10-10",
   "score": 12,
+  "shown": "2026-10-18",
   "snippet": "Cold starts, proprietary SDKs and one-region deployments slow AI apps down. WebAssembly at the edge removes all three. Thorsten Hans, senior developer advocate at Akamai, shows how to build and ship MCP servers and AI agents with Spin, the open-source WebAssembly framework, and run them on Akamai Functions, a globally distributed serverless platform with no cold starts. He explains why…",
   "source": "yt-ai-engineer",
   "status": "passed",

@@ -82,6 +82,11 @@
    "https://openai.com/index/scaling-storage-one-billion-users-part-one",
    "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes",
    "https://www.youtube.com/watch?v=TRe1u7dHYiA"
+  ],
+  "2026-10-18": [
+   "https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents",
+   "https://www.youtube.com/watch?v=UxJZrCFzTHY",
+   "https://www.youtube.com/watch?v=Zf_e45GiNCE"
   ]
  },
  "rollup": {
@@ -198,10 +203,10 @@
   ]
  },
  "scoring": {
-  "calls": 9,
-  "date": "2026-10-17",
+  "calls": 3,
+  "date": "2026-10-18",
   "error": null,
   "failed": 0,
-  "rejected": 7
+  "rejected": 0
  }
 }

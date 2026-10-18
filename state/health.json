@@ -12,7 +12,7 @@
   "fetched": 32,
   "id": "openai-developer",
   "name": "OpenAI Developer Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -28,7 +28,7 @@
   "fetched": 286,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 880,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -212,7 +212,7 @@
   "fetched": 10,
   "id": "gh-aaif-goose-goose",
   "name": "aaif-goose/goose",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -308,7 +308,7 @@
   "fetched": 10,
   "id": "gh-kagent-dev-kagent",
   "name": "kagent-dev/kagent",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -396,7 +396,7 @@
   "fetched": 183,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 5,
+  "new": 0,
   "ok": true
  },
  {
