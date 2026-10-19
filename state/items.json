@@ -4936,6 +4936,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-08-25",
+  "shown": "2026-10-19",
   "snippet": "How Runme and WebMCP turn recurring engineering tasks into reviewable, reusable workflows.",
   "source": "openai-developer",
   "status": "passed",
@@ -22416,11 +22417,20 @@
  "https://www.langchain.com/blog/building-a-company-due-diligence-agent-with-deep-agents-langsmith-and-parallel": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 12,
   "snippet": "A cookbook for automating company due diligence: Deep Agents orchestrates five research subagents and Parallel's Task API returns cited, sourced findings.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Building a company due diligence Agent with Deep Agents"
+  "tags": [
+   "open-source frameworks",
+   "agents for platform engineering",
+   "evaluation"
+  ],
+  "title": "Building a company due diligence Agent with Deep Agents",
+  "what": "A cookbook that details how to build a due‑diligence agent using LangChain’s Deep Agents and Parallel’s Task API.",
+  "why": "Engineers can copy the architecture, use the open‑source LangChain SDK, and plug in Parallel’s API to prototype similar agents for data‑driven research workflows."
  },
  "https://www.langchain.com/blog/building-a-harness-with-jev": {
   "first_seen": "2026-10-05",
@@ -22455,6 +22465,7 @@
   "minutes": 10,
   "published": "2026-10-13",
   "score": 13,
+  "shown": "2026-10-19",
   "snippet": "Use ScaleDown's constrained decoding models with LangChain and Deep Agents to summarize history, compress tool results, and extract data faster and cheaper.",
   "source": "langchain-blog",
   "status": "passed",
@@ -22575,20 +22586,36 @@
  "https://www.langchain.com/blog/cube-x-langchain-building-ai-experiences-with-llms-and-the-semantic-layer": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 12,
   "snippet": "Build AI-powered data experiences with Cube's semantic layer and LangChain. Prevent hallucinations, query in natural language, create conversational interfaces.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Cube x LangChain: Building AI experiences with LLMs and the semantic layer"
+  "tags": [
+   "LangChain",
+   "Cube",
+   "semantic layer",
+   "LLM guardrails",
+   "data experiences"
+  ],
+  "title": "Cube x LangChain: Building AI experiences with LLMs and the semantic layer",
+  "what": "A LangChain blog post on integrating Cube’s semantic layer with LangChain to build conversational AI data experiences and reduce hallucinations",
+  "why": "It shows concrete code patterns for plugging Cube’s semantic queries into LangChain chains, enabling developers to create natural‑language interfaces and guardrails for LLMs in their own data platforms"
  },
  "https://www.langchain.com/blog/customers-factory": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "How Factory AI uses LangSmith to debug issues and close the product feedback loop, resulting in a 2x improvement in iteration speed.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x"
+  "status": "rejected",
+  "tags": [],
+  "title": "How Factory used LangSmith to automate their feedback loop and improve iteration speed by 2x",
+  "what": "Customer case study about Factory AI using LangSmith",
+  "why": "Not a technical resource for building or operating agents"
  },
  "https://www.langchain.com/blog/customers-klarna": {
   "first_seen": "2026-10-05",
@@ -24470,6 +24497,7 @@
   "minutes": 15,
   "published": "2026-10-08",
   "score": 12,
+  "shown": "2026-10-19",
   "snippet": "Most teams are great at watching what their agents did. Far fewer turn that into lessons for the next run. Jake Broekhuizen from LangChain's Labs team explains how to give agents memory that actually changes their behavior. Using a real financial services agent whose tone kept slipping from advisory to pushy, he shows why traces and logs are only evidence: they become memory only when a lesson…",
   "source": "yt-ai-engineer",
   "status": "passed",
