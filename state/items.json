@@ -4809,6 +4809,14 @@
   "status": "dropped:keyword",
   "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge"
  },
+ "https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "published": "2026-10-19",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Native Model Authoring for Edge with LiteRT Tensor API"
+ },
  "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon": {
   "first_seen": "2026-10-14",
   "kind": "read",
@@ -4835,6 +4843,27 @@
   "source": "google-developers-ai",
   "status": "dropped:title_rule",
   "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs"
+ },
+ "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-19",
+  "score": 16,
+  "shown": "2026-10-20",
+  "snippet": "The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, configuring response scheduling behaviors such as WHEN_IDLE,…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "voice agents",
+   "non-blocking patterns",
+   "streaming tools",
+   "agent development kit"
+  ],
+  "title": "Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK",
+  "what": "Step‑by‑step tutorial on building a voice agent with Google’s open‑source Agent Development Kit (ADK) and Gemini 3.8 Live that stays responsive by using non‑blocking, streaming tools.",
+  "why": "Engineers can copy the patterns, add their own tools, and deploy a production‑ready voice agent that doesn’t stall during long backend calls."
  },
  "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem": {
   "first_seen": "2026-10-08",
@@ -4967,6 +4996,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-08-25",
+  "shown": "2026-10-20",
   "snippet": "From a short-staffed veterinary clinic to speech accessibility, spatial audio, and ancient machines, the winning projects started with problems their builders knew well.",
   "source": "openai-developer",
   "status": "passed",
@@ -5341,6 +5371,20 @@
   "status": "passed",
   "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
  },
+ "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-19",
+  "score": 0,
+  "snippet": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
+  "source": "github-blog-ai",
+  "status": "rejected",
+  "tags": [],
+  "title": "How to continue a GitHub Copilot app session in VS Code",
+  "what": "Guide on moving a GitHub Copilot app session into VS Code",
+  "why": "It does not provide technical insights for building or operating agents"
+ },
  "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5538,6 +5582,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix-sqlean: v0.2.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-sqlean-v0.2.1": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "snippet": "0.2.1 (2026-10-19) Bug Fixes phoenix-sqlean: bump bundled sqlean to 0.28.5 ( #17058 ) ( 5e0262e )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-sqlean: v0.2.1"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.17.0": {
   "first_seen": "2026-10-05",
@@ -5772,6 +5825,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "v0.3.281"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.282": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "snippet": "0.3.282 (2026-10-19) Breaking Changes tool state scopes so agents running concurrently in one sample keep separate tool state ( #5861 ) Features sharding: conditional S3 writes and a local lock helper ( #5775 ) ( 5384f73 ) show a sharded run as one task in inspect ctl --log-dir ( #5774 ) ( c0e60d0 ) tool state scopes so agents running concurrently in one sample keep separate tool state ( #5861 )…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.282"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -7301,6 +7363,22 @@
   "status": "dropped:prerelease",
   "title": "v1.0.0-alpha14"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha15": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-alpha15"
+ },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha16": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-alpha16"
+ },
  "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7878,6 +7956,15 @@
   "status": "passed",
   "title": "langgraph-cli==0.4.36"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "snippet": "Changes since cli==0.4.36 release(cli): 0.4.37 ( #9351 ) fix(cli): stop printing subprocess stdin in verbose output ( #9350 ) Merge PR #9349 fix(cli): default deploy to serverless ( #9333 ) chore(deps): bump the minor-and-patch group in /libs/cli/js-examples with 9 updates ( #9152 ) chore(deps-dev): bump dotenv from 17.4.2 to 18.0.4 in /libs/cli/js-examples in the major group ( #9154 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.37"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
   "first_seen": "2026-10-15",
   "kind": "release",
@@ -8156,6 +8243,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.63.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.64.0": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "snippet": "What's Changed Features feat(trace): Move messages tab and reuse session timeline by @bezbac in #18953 feat(api-keys): enable project API key permissions by default by @marksalpeter in #18950 feat: rename Langfuse Assistant to Halo by @Lotte-Verheyden in #18898 feat(api-keys): show the Admin role as Full access on API keys by @marksalpeter in #18981 feat(topics): show cost of runs by @nimarb in…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.64.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -9047,6 +9143,30 @@
   "status": "dropped:prerelease",
   "title": "0.164.0-alpha.3"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.4"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.5"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-19",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.6"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9290,6 +9410,15 @@
   "status": "passed",
   "title": "v1.107.7 (2026-09-29)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.8": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "This comment was posted by codex-tui using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security Medium — MCP request telemetry: GHSA-xv4x-g8mx-ch56 . Provider-native MCP configuration could expose server URLs, authorization tokens and custom header values in OpenTelemetry request traces, even with include_content=False . URL-based MCP capabilities could also expose a credential embedded in…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v1.107.8 (2026-10-19)"
+ },
  "https://github.com/pydantic/pydantic-ai/releases/tag/v2.46.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9397,6 +9526,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.57.0 (2026-10-15)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.58.0": {
+  "first_seen": "2026-10-20",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "This comment was posted by codex-tui using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security Medium — MCP request telemetry: GHSA-xv4x-g8mx-ch56 . Provider-native MCP configuration could expose server URLs, authorization tokens and custom header values in OpenTelemetry request traces, even with include_content=False . URL-based MCP capabilities could also expose a credential embedded in…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.58.0 (2026-10-19)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -9676,6 +9814,24 @@
   "source": "hamel",
   "status": "passed",
   "title": "An Open Course on LLMs, Led by Practitioners"
+ },
+ "https://hamel.dev/blog/posts/decision-model-evals": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-20",
+  "score": 8,
+  "snippet": "Decision models have exploded onto the scene recently, starting with TypeSafe’s Jev, followed by Perplexity’s Decider, Liquid’s d1, Cloudflare’s Clef, and OpenAI’s Decisions API 1 . These models promise fast, inexpensive classification. Decision models are an appealing low-cost alternative to LLM judges 2 for automated evals. But whether they’re the right choice depends on the cost, performance,…",
+  "source": "hamel",
+  "status": "rejected",
+  "tags": [
+   "evaluation",
+   "cost control",
+   "decision-models"
+  ],
+  "title": "How To Use Decision Models for Evals",
+  "what": "A blog post explaining how to use various decision model APIs for automated evaluation of language model outputs.",
+  "why": "It offers a practical comparison and guidance for selecting low‑cost classification backends that a lead can experiment with this month."
  },
  "https://hamel.dev/blog/posts/drift": {
   "first_seen": "2026-10-05",
@@ -12665,6 +12821,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Codex is Open Sourcing AI models"
+ },
+ "https://huggingface.co/blog/hf-torchneuron": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "published": "2026-10-19",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
  },
  "https://huggingface.co/blog/how-to-deploy-a-pipeline-to-google-clouds": {
   "first_seen": "2026-10-05",
@@ -15996,6 +16160,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Swift Transformers Reaches 1.0 – and Looks to the Future"
+ },
+ "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "published": "2026-10-15",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Apertus 1.5 Release Notes"
  },
  "https://huggingface.co/blog/synthetic-data-generator": {
   "first_seen": "2026-10-05",
@@ -22139,6 +22311,14 @@
   "status": "dropped:keyword",
   "title": "Putting Nepal on the CNCF Golden Kubestronaut map"
  },
+ "https://www.cncf.io/blog/2026/10/19/how-ai-workloads-are-reshaping-kubernetes-autoscaling": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "published": "2026-10-19",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "How AI workloads are reshaping Kubernetes autoscaling"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -22629,29 +22809,49 @@
  "https://www.langchain.com/blog/customers-podium": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "See how Podium tests across the lifecycle development of their AI employee agent, using LangSmith for dataset curation and finetuning. They improved agent F1 response quality to 98% and reduced the need for engineering intervention by 90%.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "How Podium optimized agent behavior and reduced engineering intervention by 90% with LangSmith"
+  "status": "rejected",
+  "tags": [],
+  "title": "How Podium optimized agent behavior and reduced engineering intervention by 90% with LangSmith",
+  "what": "Podium's use of LangSmith to optimize an AI employee agent",
+  "why": "No technical details provided"
  },
  "https://www.langchain.com/blog/customers-replit": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "See how Replit built their agents atop LangGraph and integrated LangSmith to pinpoint issues, improve the performance of their agents, and enable human-in-the-loop workflows.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Pushing LangSmith to new limits with Replit Agent's complex workflows"
+  "status": "rejected",
+  "tags": [],
+  "title": "Pushing LangSmith to new limits with Replit Agent's complex workflows",
+  "what": "Replit’s agent use‑case write‑up",
+  "why": "No actionable guidance for building your own agents"
  },
  "https://www.langchain.com/blog/data-driven-characters": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 14,
   "snippet": "Data-driven-characters is a repo for creating, debugging, and interacting your own chatbots conditioned on your own story corpora.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Data-Driven Characters"
+  "tags": [
+   "open-source frameworks",
+   "agents in production",
+   "open standards",
+   "buildable"
+  ],
+  "title": "Data-Driven Characters",
+  "what": "A guide and repository for building chatbots that generate characters based on user-provided story corpora, written by the LangChain team.",
+  "why": "It shows how to ingest text, train a retrieval‑augmented agent, and interact via a CLI or web interface, enabling engineers to prototype conversational characters in a month."
  },
  "https://www.langchain.com/blog/debugging-deep-agents-with-langsmith": {
   "first_seen": "2026-10-05",
@@ -22762,6 +22962,14 @@
   "source": "langchain-blog",
   "status": "dropped:title_rule",
   "title": "How Included Health Built Federated Healthcare Agents with LangGraph and Deep Agents"
+ },
+ "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith": {
+  "first_seen": "2026-10-20",
+  "kind": "read",
+  "published": "2026-10-19",
+  "source": "langchain-blog",
+  "status": "dropped:title_rule",
+  "title": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith"
  },
  "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith": {
   "first_seen": "2026-10-14",
@@ -23293,6 +23501,7 @@
   "minutes": 8,
   "published": "2026-10-13",
   "score": 13,
+  "shown": "2026-10-20",
   "snippet": "Open models like GLM-5 and MiniMax M2.7 now match closed frontier models on core agent tasks — file operations, tool use, and instruction following — at a fraction of the cost and latency. Here's what our evals show and how to start using them in Deep Agents.",
   "source": "langchain-blog",
   "status": "passed",
@@ -26005,6 +26214,7 @@
   "minutes": 12,
   "published": "2026-10-08",
   "score": 12,
+  "shown": "2026-10-20",
   "snippet": "Reducto gave its whole team an MCP server with a tool for every endpoint. It broke the same day. Abhi Arya, who works on product at Reducto, argues that building agent-first software comes down to one question: who pays when the agent is wrong? He describes three approaches, auto mode, user-first, and agent experience in service of the user, and how Reducto learned the difference. A first MCP…",
   "source": "yt-ai-engineer",
   "status": "passed",

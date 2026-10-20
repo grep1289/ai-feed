@@ -92,6 +92,12 @@
    "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
    "https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex",
    "https://www.youtube.com/watch?v=KGFyOtl5ktI"
+  ],
+  "2026-10-20": [
+   "https://www.langchain.com/blog/open-models-have-crossed-a-threshold",
+   "https://developers.openai.com/blog/build-week-winners",
+   "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk",
+   "https://www.youtube.com/watch?v=jJQoVkd5yLg"
   ]
  },
  "rollup": {
@@ -190,10 +196,10 @@
   ]
  },
  "scoring": {
-  "calls": 3,
-  "date": "2026-10-19",
+  "calls": 6,
+  "date": "2026-10-20",
   "error": null,
   "failed": 0,
-  "rejected": 1
+  "rejected": 4
  }
 }
