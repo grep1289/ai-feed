@@ -4722,6 +4722,14 @@
   "what": "Announcement of MCP support in Apigee Hybrid",
   "why": "Not suitable for learning how to build or use the feature"
  },
+ "https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Announcing New vLLM and SGLang Inference Engines on TPU"
+ },
  "https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -4730,6 +4738,14 @@
   "source": "google-developers-ai",
   "status": "passed",
   "title": "Autonomous LLM post-training with Tunix on TPUs"
+ },
+ "https://developers.googleblog.com/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer"
  },
  "https://developers.googleblog.com/build-zero-trust-ai-agents-that-judge-intent-not-just-syntax": {
   "first_seen": "2026-10-05",
@@ -4791,6 +4807,14 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2"
+ },
+ "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU"
  },
  "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk": {
   "first_seen": "2026-10-05",
@@ -4929,6 +4953,14 @@
   "source": "google-developers-ai",
   "status": "passed",
   "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway"
+ },
+ "https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon"
  },
  "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open": {
   "first_seen": "2026-10-05",
@@ -5370,6 +5402,14 @@
   "source": "github-blog-ai",
   "status": "passed",
   "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+ },
+ "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "github-blog-ai",
+  "status": "dropped:keyword",
+  "title": "How 3 Java Champions are using GitHub Copilot for increased productivity"
  },
  "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code": {
   "first_seen": "2026-10-20",
@@ -6443,6 +6483,24 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.168"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.169": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "Documentation Clarified that include_hook_events does not suppress SessionStart and Setup hook events, which the CLI emits regardless of the setting ( #1336 ) Internal/Other Changes Updated bundled Claude CLI to version 2.1.305 CI: hash-pinned the release build tools ( build , twine , wheel , hatchling ) so a tampered or unexpected download stops the job ( #1415 ) PyPI:…",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.169"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.170": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-21",
+  "snippet": "Bug Fixes Fixed parallel tool calls missing from session messages : get_session_messages and get_session_messages_from_store now return every tool call and result from turns that ran tools in parallel. Previously only one branch of the forked transcript was followed, dropping some calls and results ( #1422 ) Internal/Other Changes Updated bundled Claude CLI to version 2.1.306 CI: release uploads…",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.170"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -7651,6 +7709,15 @@
   "status": "passed",
   "title": "deepagents==0.7.28"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.29": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "Bug Fixes CompositeBackend now handles routes without a trailing slash. Text edits to binary files are now rejected. In-memory grep now skips binary files. Special thanks to everyone who reported the issues addressed in this release: david (@david-dev666) ( #7033 ), Tianyu Cai (@cty-ut) ( #7013 , #7030 ) Internal maintainers: ccurme (@ccurme) Released by: Mason Daugherty (@mdrxy) Git log since…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.29"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -7758,6 +7825,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-code==0.1.86"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.87": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "Features Resume threads in non-interactive mode ( #7011 ). Compact large idle sessions before the prompt cache expires ( #6956 ) and show the prompt-cache expiration time ( #7005 ). Support custom Slack OAuth app identity ( #7061 ). Load older threads from the thread switcher ( #7051 ). Bug Fixes Stop the local server when its owner dies ( #7038 ). Support non-ASCII file names in @ mentions (…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.1.87"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
@@ -8252,6 +8328,24 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.64.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.65.0": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "What's Changed Features feat(topics): non-blocking clustering for large numbers by @nimarb in #18964 feat(topics): name topics by what their facet asks about by @LysanderKie in #19008 feat(routes): add recovery option for V4 experience and update sidebar toggle logic by @marliessophie in #19053 feat(skills): stabilize API and restore MCP access by @tobi12345 in #19025 feat(ai-gateway): add…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.65.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.66.0": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "snippet": "What's Changed Features feat(topics): one gate for Topics visibility by @LysanderKie in #19091 Fixes fix(sessions): Don't allow expanding empty reasoning messages by @bezbac in #19096 fix(web): disable Owner role selection without ownership permission by @marksalpeter in #19092 fix(web): boxed, sticky I/O sections with a collapse caret by @nmtrang29 in #18684 fix(otel): store number-like metadata…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.66.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -9167,6 +9261,22 @@
   "status": "dropped:prerelease",
   "title": "0.164.0-alpha.6"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.7"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-20",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.8"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9419,6 +9529,15 @@
   "status": "passed",
   "title": "v1.107.8 (2026-10-19)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.9": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-21",
+  "snippet": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security High — HTML conversion in web_fetch : GHSA-4whf-38hw-pxxh . When web_fetch_tool fetched attacker-controlled HTML containing many elements, conversion could delay unrelated work in the same process. Fixed in v2.59.0 and v1.107.9. Upgrade if the tool can fetch such pages. Full Changelog :…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v1.107.9 (2026-10-20)"
+ },
  "https://github.com/pydantic/pydantic-ai/releases/tag/v2.46.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9535,6 +9654,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.58.0 (2026-10-19)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.59.0": {
+  "first_seen": "2026-10-21",
+  "kind": "release",
+  "published": "2026-10-21",
+  "snippet": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security High — HTML conversion in web_fetch : GHSA-4whf-38hw-pxxh . When web_fetch_tool fetched attacker-controlled HTML containing many elements, conversion could delay unrelated work in the same process. Fixed in v2.59.0 and v1.107.9. Upgrade if the tool can fetch such pages. ⚠️ Compatibility Notes…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.59.0 (2026-10-20)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -10605,6 +10733,24 @@
   "status": "dropped:keyword",
   "title": "DiScoFormer: One transformer for density and score, across distributions"
  },
+ "https://huggingface.co/blog/allenai/fairstress": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-20",
+  "score": 0,
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "rejected",
+  "tags": [
+   "fairness",
+   "LLM",
+   "evaluation"
+  ],
+  "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+  "what": "FairStress evaluation of LLM fairness",
+  "why": "Not relevant to building or operating agents"
+ },
  "https://huggingface.co/blog/allenai/hiro-acev2": {
   "first_seen": "2026-10-15",
   "kind": "read",
@@ -10719,6 +10865,14 @@
   "source": "huggingface-blog",
   "status": "passed",
   "title": "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms"
+ },
+ "https://huggingface.co/blog/anylanguagemodel-1-0": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms"
  },
  "https://huggingface.co/blog/arena-atla": {
   "first_seen": "2026-10-05",
@@ -12830,6 +12984,14 @@
   "status": "dropped:keyword",
   "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever"
  },
+ "https://huggingface.co/blog/hf-torchtpu": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively"
+ },
  "https://huggingface.co/blog/how-to-deploy-a-pipeline-to-google-clouds": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -13080,6 +13242,14 @@
   "source": "huggingface-blog",
   "status": "passed",
   "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic"
+ },
+ "https://huggingface.co/blog/ibm-research/altk-evolve-bc": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model"
  },
  "https://huggingface.co/blog/ibm-research/altk-evolve-consistency": {
   "first_seen": "2026-10-05",
@@ -14401,6 +14571,14 @@
   "status": "dropped:keyword",
   "title": "Mixture of Experts (MoEs) in Transformers"
  },
+ "https://huggingface.co/blog/mps-pytorch-2-15": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "MPS in PyTorch 2.15"
+ },
  "https://huggingface.co/blog/mteb": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -14539,6 +14717,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics"
+ },
+ "https://huggingface.co/blog/nvidia/cosmos3-h-dreams": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-10-20",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation"
  },
  "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune": {
   "first_seen": "2026-10-05",
@@ -18986,6 +19172,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-08-25",
+  "shown": "2026-10-21",
   "snippet": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
   "source": "openai-engineering",
   "status": "passed",
@@ -20286,6 +20473,15 @@
   "status": "passed",
   "title": "Writing effective tools for agents — with agents"
  },
+ "https://www.anthropic.com/institute/econ-scenarios": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-09-09",
+  "snippet": "Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, and see how your answers compare to +10,000 Americans.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Scenarios for our economic future"
+ },
  "https://www.anthropic.com/institute/measuring-pace-of-ai-development": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20418,6 +20614,15 @@
   "status": "passed",
   "title": "Anthropic Education Report: The AI Fluency Index"
  },
+ "https://www.anthropic.com/research/AI-resistant-technical-evaluations": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-01-21",
+  "snippet": "What we learned from three iterations of a performance engineering take-home that Claude keeps beating.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Designing AI-resistant technical evaluations"
+ },
  "https://www.anthropic.com/research/Claude-accelerates-protein-design": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20453,6 +20658,24 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "A Mathematical Framework for Transformer Circuits"
+ },
+ "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-09-17",
+  "snippet": "A technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "A postmortem of three recent issues"
+ },
+ "https://www.anthropic.com/research/advanced-tool-use": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-11-24",
+  "snippet": "We’ve added three new beta features that let Claude discover, learn, and execute tools dynamically. Here’s how they work.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Introducing advanced tool use on the Claude Developer Platform"
  },
  "https://www.anthropic.com/research/agentic-misalignment": {
   "first_seen": "2026-10-05",
@@ -20558,6 +20781,15 @@
   "status": "passed",
   "title": "Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI"
  },
+ "https://www.anthropic.com/research/april-23-postmortem": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-04-23",
+  "snippet": "We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "An update on recent Claude Code quality reports"
+ },
  "https://www.anthropic.com/research/assistant-axis": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20629,6 +20861,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Building AI for cyber defenders"
+ },
+ "https://www.anthropic.com/research/building-c-compiler": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-02-05",
+  "snippet": "Nicholas Carlini, a researcher on our Safeguards team, explains how he tasked 16 agents with writing a Rust-based C compiler, from scratch, capable of compiling the Linux kernel.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Building a C compiler with a team of parallel Claudes"
  },
  "https://www.anthropic.com/research/building-effective-agents": {
   "first_seen": "2026-10-05",
@@ -20711,6 +20952,24 @@
   "status": "passed",
   "title": "Claude’s Character"
  },
+ "https://www.anthropic.com/research/claude-code-auto-mode": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-03-25",
+  "snippet": "Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "How we built Claude Code auto mode: a safer way to skip permissions"
+ },
+ "https://www.anthropic.com/research/claude-code-best-practices": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-04-18",
+  "snippet": "Claude Code: Best practices for agentic coding",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Claude Code: Best practices for agentic coding"
+ },
  "https://www.anthropic.com/research/claude-code-expertise": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20719,6 +20978,24 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Agentic coding and persistent returns to expertise"
+ },
+ "https://www.anthropic.com/research/claude-code-sandboxing": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-10-20",
+  "snippet": "Beyond permission prompts: making Claude Code more secure and autonomous",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Beyond permission prompts: making Claude Code more secure and autonomous"
+ },
+ "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-09-23",
+  "snippet": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Claude discovers a novel enzyme system with CRISPR-like repeats"
  },
  "https://www.anthropic.com/research/claude-personal-guidance": {
   "first_seen": "2026-10-05",
@@ -20738,6 +21015,20 @@
   "status": "passed",
   "title": "Claude plays robotics"
  },
+ "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-20",
+  "score": 1,
+  "snippet": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "How Claude designed protein binders against scorpion neurotoxins",
+  "what": "Anthropic’s research post on Claude designing protein binders against scorpion neurotoxins",
+  "why": "It’s a research note with no actionable guidance or open-source details for building agentic AI"
+ },
  "https://www.anthropic.com/research/claude-shaped-science": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20755,6 +21046,15 @@
   "title": "Claude-shaped science",
   "what": "Claude-shaped science is an academic article describing Anthropic’s research into using Claude models for scientific tasks.",
   "why": "It offers insights into how Claude can be applied to scientific problems, but it does not provide actionable code or open‑source resources for engineering leads."
+ },
+ "https://www.anthropic.com/research/claude-think-tool": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-03-20",
+  "snippet": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations"
  },
  "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling": {
   "first_seen": "2026-10-05",
@@ -20782,6 +21082,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Clio: A system for privacy-preserving insights into real-world AI use"
+ },
+ "https://www.anthropic.com/research/code-execution-with-mcp": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-11-04",
+  "snippet": "Code execution with MCP: Building more efficient agents",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Code execution with MCP: Building more efficient agents"
  },
  "https://www.anthropic.com/research/coding-agents-social-sciences": {
   "first_seen": "2026-10-05",
@@ -20882,6 +21191,15 @@
   "status": "passed",
   "title": "Decomposing language models into understandable components"
  },
+ "https://www.anthropic.com/research/demystifying-evals-for-ai-agents": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-01-09",
+  "snippet": "Guidance on how to design more rigorous and useful evals for agents across a range of agent architectures and use cases in real-world deployment.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Demystifying evals for AI agents"
+ },
  "https://www.anthropic.com/research/deprecation-commitments": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20913,6 +21231,15 @@
   "title": "Designing more efficient quantum circuits with Claude",
   "what": "A research paper on quantum circuit optimization using Claude",
   "why": "It offers insights into quantum circuit design, but is not directly applicable to building or operating agentic AI systems for the reader."
+ },
+ "https://www.anthropic.com/research/desktop-extensions": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-06-26",
+  "snippet": "Today, we're introducing Desktop Extensions—a new packaging format that makes installing MCP servers as simple as clicking a button.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop"
  },
  "https://www.anthropic.com/research/diff-tool": {
   "first_seen": "2026-10-05",
@@ -21060,6 +21387,24 @@
   "status": "passed",
   "title": "Preparing for AI’s economic impact: exploring policy responses"
  },
+ "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-09-29",
+  "snippet": "We explore the emerging art of context engineering and offer a refined mental model for building steerable, effective agents.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Effective context engineering for AI agents"
+ },
+ "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-11-26",
+  "snippet": "We developed a two-fold solution to enable the Claude Agent SDK to work effectively across many context windows: an initializer agent that sets up the environment on the first run, and a coding agent that is tasked with making incremental progress in every session while leaving clear artifacts for the next session.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Effective harnesses for long-running agents"
+ },
  "https://www.anthropic.com/research/emergent-misalignment-reward-hacking": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21119,6 +21464,15 @@
   "status": "passed",
   "title": "The engineering challenges of scaling interpretability"
  },
+ "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-10-16",
+  "snippet": "Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents using files and folders.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Equipping agents for the real world with Agent Skills"
+ },
  "https://www.anthropic.com/research/estimating-productivity-gains": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21127,6 +21481,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Estimating AI productivity gains from Claude conversations"
+ },
+ "https://www.anthropic.com/research/eval-awareness-browsecomp": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-03-06",
+  "snippet": "Evaluating Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance"
  },
  "https://www.anthropic.com/research/evaluating-ai-systems": {
   "first_seen": "2026-10-05",
@@ -21254,6 +21617,15 @@
   "status": "passed",
   "title": "A global workspace in language models"
  },
+ "https://www.anthropic.com/research/harness-design-long-running-apps": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-03-24",
+  "snippet": "Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous software engineering.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Harness design for long-running application development"
+ },
  "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21278,6 +21650,15 @@
   "source": "anthropic-research",
   "status": "dropped:title_rule",
   "title": "How Canada uses Claude: Findings from the Anthropic Economic Index"
+ },
+ "https://www.anthropic.com/research/how-we-contain-claude": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-05-25",
+  "snippet": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "How we contain Claude across products"
  },
  "https://www.anthropic.com/research/impact-software-development": {
   "first_seen": "2026-10-05",
@@ -21314,6 +21695,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Tracing model outputs to the training data"
+ },
+ "https://www.anthropic.com/research/infrastructure-noise": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-02-05",
+  "snippet": "Agentic coding benchmarks are often treated as precise measurements of relative model capability. However, we’ve found that infrastructure configuration alone can produce meaningful differences in the scores.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Quantifying infrastructure noise in agentic coding evals"
  },
  "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities": {
   "first_seen": "2026-10-05",
@@ -21420,6 +21810,15 @@
   "status": "passed",
   "title": "Making Claude a chemist"
  },
+ "https://www.anthropic.com/research/managed-agents": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2026-04-08",
+  "snippet": "Harnesses encode assumptions that go stale as models improve. Managed Agents—our hosted service for long-horizon agent work—is built around interfaces that stay stable as harnesses change.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Scaling Managed Agents: Decoupling the brain from the hands"
+ },
  "https://www.anthropic.com/research/many-shot-jailbreaking": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21473,6 +21872,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Measuring Progress on Scalable Oversight for Large Language Models"
+ },
+ "https://www.anthropic.com/research/multi-agent-research-system": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-06-13",
+  "snippet": "How we built our multi-agent research system",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "How we built our multi-agent research system"
  },
  "https://www.anthropic.com/research/multiagent-systems": {
   "first_seen": "2026-10-05",
@@ -21707,6 +22115,26 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned"
+ },
+ "https://www.anthropic.com/research/redesigning-source-control": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-13",
+  "score": 10,
+  "shown": "2026-10-21",
+  "snippet": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "tags": [
+   "source control",
+   "scaling",
+   "in‑house VCS",
+   "engineering management"
+  ],
+  "title": "Redesigning source control at Anthropic",
+  "what": "A case study from Anthropic on migrating to an in‑house version control system to handle massive merge traffic.",
+  "why": "It shows concrete scaling techniques, architecture decisions and trade‑offs that an engineering lead can adapt to build or refactor their own source‑control tooling."
  },
  "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs": {
   "first_seen": "2026-10-05",
@@ -22012,6 +22440,15 @@
   "title": "What work can robots do?",
   "what": "Anthropic research paper on the capabilities of robot agents.",
   "why": "Not actionable for a practitioner; provides high-level insights but no concrete implementation guidance."
+ },
+ "https://www.anthropic.com/research/writing-tools-for-agents": {
+  "first_seen": "2026-10-21",
+  "kind": "read",
+  "published": "2025-09-11",
+  "snippet": "In this post, we describe our most effective techniques for improving performance in a variety of agentic AI systems.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Writing effective tools for agents — with agents"
  },
  "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": {
   "first_seen": "2026-10-05",
@@ -22885,29 +23322,55 @@
  "https://www.langchain.com/blog/eden-ai-x-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Access multiple LLMs, embeddings, and AI tools through Eden AI's LangChain integration. Unified API for text generation, OCR, speech-to-text, and more.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Eden AI x LangChain: Harnessing LLMs, Embeddings, and AI"
+  "status": "rejected",
+  "tags": [],
+  "title": "Eden AI x LangChain: Harnessing LLMs, Embeddings, and AI",
+  "what": "Eden AI's new LangChain integration for unified AI tool access.",
+  "why": "It is a product announcement with no technical depth for implementation."
  },
  "https://www.langchain.com/blog/evaluating-openwiki-with-wikibench": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 14,
   "snippet": "We built WikiBench to test whether generated wikis help coding agents. Pairing a wiki with source code scored higher than source alone, at lower cost.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Evaluating OpenWiki with WikiBench"
+  "tags": [
+   "open-source frameworks",
+   "evaluation",
+   "agents for platform engineering",
+   "buildable"
+  ],
+  "title": "Evaluating OpenWiki with WikiBench",
+  "what": "An evaluation of the WikiBench framework showing that adding a generated wiki improves coding agent performance.",
+  "why": "Engineers can adopt WikiBench to build lightweight knowledge bases that boost agent code accuracy while keeping costs low."
  },
  "https://www.langchain.com/blog/financial-ai-that-investigates-macro-trends-eu-economic-analysis-with-you-com-and-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 45,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "A Deep Agents research agent analyzes GDP across all 27 EU states, flags outliers like Ireland and Germany, and writes a cited briefing in about 45 minutes.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "EU Macroeconomic Analysis with Deep Agents and You.com"
+  "tags": [
+   "agents",
+   "finance",
+   "macro-economic",
+   "deep-agent",
+   "LangChain"
+  ],
+  "title": "EU Macroeconomic Analysis with Deep Agents and You.com",
+  "what": "A LangChain Deep Agents demo that analyzes EU macroeconomic data and generates a cited briefing.",
+  "why": "It shows how to build an agent that queries multiple sources, processes data, and produces structured reports, offering patterns for similar analytics projects."
  },
  "https://www.langchain.com/blog/how-candidly-built-state-aware-agent-harnesses-with-langsmith": {
   "first_seen": "2026-10-05",
@@ -23572,6 +24035,7 @@
   "minutes": 10,
   "published": "2026-10-13",
   "score": 12,
+  "shown": "2026-10-21",
   "snippet": "Stale code samples are a docs problem nobody prioritizes. Here's how we used the Deep Agents CLI to automate migrating inline code into testable, CI-ready examples",
   "source": "langchain-blog",
   "status": "passed",

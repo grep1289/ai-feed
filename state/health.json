@@ -1,10 +1,10 @@
 [
  {
   "error": null,
-  "fetched": 26,
+  "fetched": 27,
   "id": "anthropic-engineering",
   "name": "Anthropic Engineering",
-  "new": 0,
+  "new": 23,
   "ok": true
  },
  {
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 2,
+  "new": 4,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -89,10 +89,10 @@
  },
  {
   "error": null,
-  "fetched": 882,
+  "fetched": 886,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 2,
+  "new": 6,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 3,
+  "new": 2,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -308,7 +308,7 @@
   "fetched": 10,
   "id": "gh-kagent-dev-kagent",
   "name": "kagent-dev/kagent",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -388,15 +388,15 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 183,
+  "fetched": 187,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -412,7 +412,7 @@
   "fetched": 20,
   "id": "hamel",
   "name": "Hamel Husain (evals practice)",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {

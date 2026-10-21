@@ -98,6 +98,11 @@
    "https://developers.openai.com/blog/build-week-winners",
    "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk",
    "https://www.youtube.com/watch?v=jJQoVkd5yLg"
+  ],
+  "2026-10-21": [
+   "https://www.langchain.com/blog/our-docs-test-themselves",
+   "https://www.anthropic.com/research/redesigning-source-control",
+   "https://openai.com/index/jalapeno-first-results"
   ]
  },
  "rollup": {
@@ -197,9 +202,9 @@
  },
  "scoring": {
   "calls": 6,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "error": null,
   "failed": 0,
-  "rejected": 4
+  "rejected": 3
  }
 }
