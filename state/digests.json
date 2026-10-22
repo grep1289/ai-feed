@@ -103,6 +103,13 @@
    "https://www.langchain.com/blog/our-docs-test-themselves",
    "https://www.anthropic.com/research/redesigning-source-control",
    "https://openai.com/index/jalapeno-first-results"
+  ],
+  "2026-10-22": [
+   "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+   "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+   "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond",
+   "https://www.youtube.com/watch?v=kwKVe27xnw4",
+   "https://www.youtube.com/watch?v=p__dgzDzCrE"
   ]
  },
  "rollup": {
@@ -201,10 +208,10 @@
   ]
  },
  "scoring": {
-  "calls": 6,
-  "date": "2026-10-21",
+  "calls": 29,
+  "date": "2026-10-22",
   "error": null,
   "failed": 0,
-  "rejected": 3
+  "rejected": 22
  }
 }
