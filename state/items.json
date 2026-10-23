@@ -37,6 +37,20 @@
   "what": "No technical content provided.",
   "why": "Cannot extract actionable information."
  },
+ "https://aaif.io/blog/agent-skills-sharing-team-expertise-across-ai-agents": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": null,
+  "published": null,
+  "score": 0,
+  "snippet": "",
+  "source": "aaif-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "Agent Skills: Sharing Team Expertise Across AI Agents",
+  "what": "Article on Agent Skills sharing team expertise across AI agents",
+  "why": "Not enough technical depth for actionable guidance"
+ },
  "https://aaif.io/blog/mcp-usage-surged-as-the-protocol-went-stateless": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -68,6 +82,59 @@
   "title": "The EU AI Act and the New Rules for Building AI Agents",
   "what": "A policy overview of the EU AI Act and its implications for AI agent development",
   "why": "It offers high‑level regulatory context but no actionable engineering guidance"
+ },
+ "https://aaif.io/blog/the-sandbox-as-an-agent-primitive": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": 5,
+  "published": null,
+  "score": 5,
+  "snippet": "",
+  "source": "aaif-blog",
+  "status": "rejected",
+  "tags": [
+   "concept",
+   "sandbox",
+   "agent-primitive"
+  ],
+  "title": "The Sandbox as an Agent Primitive",
+  "what": "Blog post describing the sandbox concept as an agent primitive",
+  "why": "Provides a conceptual framework but offers limited actionable guidance"
+ },
+ "https://aaif.io/blog/training-agents-for-real-world-tasks-with-openenv": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": 12,
+  "published": null,
+  "score": 13,
+  "shown": "2026-10-23",
+  "snippet": "",
+  "source": "aaif-blog",
+  "status": "passed",
+  "tags": [
+   "open-source",
+   "agentic‑ai",
+   "training",
+   "OpenEnv",
+   "real‑world tasks"
+  ],
+  "title": "Training agents for real-world tasks with OpenEnv",
+  "what": "A blog post from the Agentic AI Foundation explaining how to train agents on real‑world tasks using the OpenEnv platform.",
+  "why": "It provides code snippets, architectural discussion, and performance data that an engineering lead can directly apply to prototype agent workloads in their own infrastructure."
+ },
+ "https://aaif.io/blog/what-open-responses-changes-for-ai-developers": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": null,
+  "published": null,
+  "score": 0,
+  "snippet": "",
+  "source": "aaif-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "What Open Responses changes for AI developers",
+  "what": "Article about Open Responses updates for AI developers",
+  "why": "No actionable technical content for engineers"
  },
  "https://blog.modelcontextprotocol.io/posts/2025-07-29-prompts-for-automation": {
   "first_seen": "2026-10-05",
@@ -2730,6 +2797,14 @@
   "status": "dropped:category",
   "title": "Building agents that reach production systems with MCP"
  },
+ "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "published": "2026-10-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building agents: When to fold subagents into your main agent loop"
+ },
  "https://claude.com/resources/articles/building-agents-with-skills-equipping-agents-for-specialized-work": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -3113,6 +3188,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Claude models explained: choosing the best model for your use case"
+ },
+ "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "published": "2026-10-22",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "The full Claude Platform, available on Google Cloud"
  },
  "https://claude.com/resources/articles/claude-now-available-in-microsoft-365-copilot": {
   "first_seen": "2026-10-07",
@@ -4755,6 +4838,23 @@
   "status": "dropped:keyword",
   "title": "Announcing New vLLM and SGLang Inference Engines on TPU"
  },
+ "https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-22",
+  "score": 0,
+  "snippet": "Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live production outages in 1.8 seconds.",
+  "source": "google-developers-ai",
+  "status": "rejected",
+  "tags": [
+   "product-launch",
+   "no-technical-detail"
+  ],
+  "title": "Architecting Governed, Self-Evolving AI Agents on Google Cloud",
+  "what": "Google blog announcing the Gemini Enterprise Agent Platform and its governance stack for self‑evolving agents",
+  "why": "No actionable guidance for building or operating agents, just a feature overview"
+ },
  "https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5704,6 +5804,15 @@
   "status": "passed",
   "title": "arize-phoenix-evals: v3.9.2"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-evals-v3.9.3": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "3.9.3 (2026-10-22) Bug Fixes deps: exclude compromised litellm 1.107.0 ( #17087 ) ( f6a0231 ) deps: require certifi 2026.10.18 to distrust the compromised emSign root ( #17093 ) ( 9056a4a ) evals: typecheck JSONPath extraction against jsonpath-ng ( #16935 ) ( aa4b05b ) Documentation fix dead Read the Docs links ( #16967 ) ( 0fed1f4 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-evals: v3.9.3"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-otel-v0.17.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5838,6 +5947,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix: v20.24.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.25.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "20.25.0 (2026-10-22) Features factory: scaffold managed agents issue-to-PR factory ( #17020 ) ( e5e360b ) Bug Fixes factory: keep claude-lock.json on a factory-state branch instead of main ( #17169 ) ( 2e131a8 ) sandbox: keep teardown alive on cancellation ( #17166 ) ( 2779b46 ) server: format the ID in the experiments 404 error details ( #17079 ) ( 33ed20a ) server: work around graphql-core…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.25.0"
  },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
@@ -6645,6 +6763,15 @@
   "status": "passed",
   "title": "v0.2.172"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.173": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.309 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.173/ pip install claude-agent-sdk==0.2.173",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.173"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6941,6 +7068,15 @@
   "source": "gh-containers-kubernetes-mcp-server",
   "status": "passed",
   "title": "v0.0.67"
+ },
+ "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.0.68": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "What's Changed Config rework by @2uasimojo in #1423 cleanup: drop unnecessary CLAUDE.md by @Cali0707 in #1451 fix: restore Streamable HTTP behind kube-rbac-proxy by @alexeykazakov in #1455 Add MCP Apps support by @nader-ziada in #1456 feat!: do not enable configuration_view tool if in http mode by @Cali0707 in #1442 Add NetObserv MCP contract and E2E tests by @Amoghrd in #1437 Add custom MCP App…",
+  "source": "gh-containers-kubernetes-mcp-server",
+  "status": "passed",
+  "title": "v0.0.68"
  },
  "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14": {
   "first_seen": "2026-10-05",
@@ -7797,6 +7933,15 @@
   "status": "passed",
   "title": "v1.0.7"
  },
+ "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.8": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "🚀 Announcing Agent Sandbox v1.0.8! We're excited to announce the release of Agent Sandbox v1.0.8 ! Highlights: opt-in recovery from failed Pods, creation-latency metrics for directly created Sandboxes, GKE Pod Snapshot primitives for RL workloads, Go SDK provisioning parity with the Python SDK, bounded MCP command output, and hardened sandbox-router deployment credentials. ⚠️ Action Required MCP…",
+  "source": "gh-kubernetes-sigs-agent-sandbox",
+  "status": "passed",
+  "title": "v1.0.8"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.19": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8031,6 +8176,15 @@
   "status": "passed",
   "title": "deepagents-code==0.1.88"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "⚠ BREAKING CHANGES deepagents-code now requires Python 3.14 ( >=3.14,<3.15 ). If you have auto-upgrade enabled, this should be handled for you automatically. Otherwise, re-run the dcode installer or recreate your environment with Python 3.14. Bug Fixes Decode Git output as UTF-8. Thanks to our community contributors: Roydon Sequeira (@roydonsequeira) Special thanks to everyone who reported the…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.0"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8039,6 +8193,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-talon==0.0.9"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.1.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "⚠ BREAKING CHANGES deepagents-talon now requires Python 3.14 ( >=3.14,<3.15 ). Features Added /effort controls for reasoning. ( #7043 ) Added the NVIDIA OpenShell sandbox provider and an openshell extra for Talon. ( #6999 , #7000 ) Added independent breakout tasks for Slack and Discord. ( #6932 ) Discord guild mentions now receive replies in threads, as they do in Slack. ( #7012 ) Added…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-talon==0.1.0"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.8": {
   "first_seen": "2026-10-05",
@@ -8552,6 +8715,15 @@
   "status": "passed",
   "title": "v4.67.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.68.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "What's Changed Features feat(mcp): add listLlmConnections tool by @wochinge in #19139 feat(web): Treemap and Grid views for Topics results by @nmtrang29 in #19106 feat(ai-gateway): log per-connection socket writes and output completeness by @wochinge in #19154 feat(blob-export): add opt-in score metadata and provenance field groups by @niklassemmler in #19138 feat(ai-gateway): global enable flag…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.68.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8677,6 +8849,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "python-1.22.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "[1.23.0] - 2026-10-22 Added agent-framework-a2a : Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ( #9193 ) agent-framework-core , agent-framework-orchestrations : Add an opt-in synthetic trailing user turn for providers that return empty text after assistant-ending prompts ( #8779 ) Changed agent-framework , agent-framework-ag-ui ,…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "python-1.23.0"
  },
  "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-10-07": {
   "first_seen": "2026-10-05",
@@ -9434,6 +9615,15 @@
   "status": "dropped:prerelease",
   "title": "0.163.0-alpha.9"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "New Features Save reusable prompts and slash commands in ten numbered /presets slots, with a keyboard menu for quick access. ( #54380 , #54381 ) Set model, reasoning effort, speed, and permission profiles directly with inline /model and /permissions arguments. ( #54378 , #54383 ) Preview viewed and generated images in the fullscreen transcript on terminals supporting Kitty or Sixel graphics. (…",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.164.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1": {
   "first_seen": "2026-10-17",
   "kind": "release",
@@ -9457,6 +9647,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.164.0-alpha.11"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-23",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.11.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.164.0-alpha.12"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2": {
   "first_seen": "2026-10-17",
@@ -9909,6 +10115,15 @@
   "status": "passed",
   "title": "v2.59.0 (2026-10-20)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.60.0": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Raise model error categories like ModelRateLimitError from embedding models by @DouweM in #10804 Add usage_limits , deadline , run_id and conversation_id to ModelSelectionContext by @DouweM in #10856 Default BedrockConverseModel 's maxTokens to Claude's maximum output, streaming such requests behind the scenes by @DouweM in #10845 Deprecate RetryPromptPart in…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.60.0 (2026-10-22)"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9954,6 +10169,15 @@
   "status": "passed",
   "title": "harness-cli/v0.2.1"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.2": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "harness-cli/v0.2.2 Auto-drafted from commits in harness-cli/v0.2.1..harness-cli/v0.2.2 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(decisions): add decision usage to the request's invocation context ( #5304 ) ( 5adc6a6 ) feat(python): add experimental OpenAI Live…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-cli/v0.2.2"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9989,6 +10213,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "harness-python/v0.3.1"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.2": {
+  "first_seen": "2026-10-23",
+  "kind": "release",
+  "published": "2026-10-22",
+  "snippet": "harness-python/v0.3.2 Auto-drafted from commits in harness-python/v0.3.1..harness-python/v0.3.2 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(tools)!: consolidate shared agent tool streaming logic ( #5079 ) ( 519fb66 ) feat(decisions): add decision usage to the…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-python/v0.3.2"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.1.1": {
   "first_seen": "2026-10-05",
@@ -11062,6 +11295,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "OlmoEarth v1.1: A more efficient family of Earth observation models"
+ },
+ "https://huggingface.co/blog/allenai/olmoearth-v1-3": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "published": "2026-10-22",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet"
  },
  "https://huggingface.co/blog/amazon/foundation-model-building-blocks": {
   "first_seen": "2026-10-05",
@@ -13591,6 +13832,14 @@
   "status": "passed",
   "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents"
  },
+ "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "published": "2026-10-22",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Ensemble forecasting with IBM Granite time-series models"
+ },
  "https://huggingface.co/blog/ibm-research/itbenchandmast": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -14681,6 +14930,26 @@
   "title": "The Agent Said It Was Done. The Database Disagreed.",
   "what": "Uncertain content, likely product announcement without technical detail",
   "why": "Does not provide actionable technical insight for engineers"
+ },
+ "https://huggingface.co/blog/microsoft/thinkingbox-training": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-22",
+  "score": 12,
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "passed",
+  "tags": [
+   "agent training",
+   "reinforcement learning",
+   "open-source framework",
+   "ThinkingBox",
+   "database grading"
+  ],
+  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "what": "A Hugging Face blog detailing how the ThinkingBox framework turns database grading into reinforcement learning rewards for post‑training agent improvement",
+  "why": "It explains a concrete RL‑reward engineering technique that engineers can adopt or adapt in their own agent training pipelines"
  },
  "https://huggingface.co/blog/migrating-the-hub-to-xet": {
   "first_seen": "2026-10-05",
@@ -19070,6 +19339,23 @@
   "status": "passed",
   "title": "Solving (some) formal math olympiad problems"
  },
+ "https://openai.com/index/forward-deployed-engineering-means": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-22",
+  "score": 2,
+  "snippet": "What forward deployed engineering means at OpenAI",
+  "source": "openai-engineering",
+  "status": "rejected",
+  "tags": [
+   "concept",
+   "internal"
+  ],
+  "title": "What FDE means at OpenAI",
+  "what": "An internal blog post explaining OpenAI’s concept of forward‑deployed engineering.",
+  "why": "It offers a high‑level view of a mindset that could inspire design choices, but it doesn’t provide actionable patterns or code to implement this month."
+ },
  "https://openai.com/index/frontierscience": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21914,6 +22200,24 @@
   "status": "passed",
   "title": "Forecasting rare language model behaviors"
  },
+ "https://www.anthropic.com/research/formal-verification": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-22",
+  "score": 9,
+  "snippet": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [
+   "formal verification",
+   "LLMs",
+   "open-source libraries"
+  ],
+  "title": "LLMs are making formal software verification feasible at a much larger scale",
+  "what": "Anthropic research demonstrating large-scale formal verification of open-source libraries using Claude",
+  "why": "Illustrates potential use of LLMs for verification but offers limited actionable guidance for self-build"
+ },
  "https://www.anthropic.com/research/formalizing-fermats-last-theorem": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -23112,6 +23416,25 @@
   "what": "An opinion piece on leveraging existing coding agents before buying AI SRE products",
   "why": "It offers high-level guidance but not actionable code or patterns"
  },
+ "https://www.cncf.io/blog/2026/10/22/filtering-and-reducing-ai-agent-telemetry-with-the-opentelemetry-collector": {
+  "first_seen": "2026-10-23",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-22",
+  "score": 13,
+  "shown": "2026-10-23",
+  "snippet": "Turn on an AI coding agent’s telemetry and it throws a wall of text at you. It’s expensive to store and what’s worse, you can’t make sense of it. It’s all OpenTelemetry native, though. So you...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "observability",
+   "open standards"
+  ],
+  "title": "Filtering and reducing AI agent telemetry with the OpenTelemetry Collector",
+  "what": "How to use the OpenTelemetry Collector to filter and reduce telemetry from AI coding agents.",
+  "why": "Engineers can immediately apply collector filters to lower storage costs and improve observability for their own AI agents."
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -23344,6 +23667,7 @@
   "minutes": 10,
   "published": "2026-08-26",
   "score": 14,
+  "shown": "2026-10-23",
   "snippet": "Build better Q&A systems for CSV data using LangChain agents, retrieval, and LLM evaluation. Includes benchmarks, debugging insights, and open-source code.",
   "source": "langchain-blog",
   "status": "passed",
@@ -23765,20 +24089,35 @@
  "https://www.langchain.com/blog/how-do-i-speed-up-my-agent": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Learn proven strategies to speed up your AI agent: reduce latency, optimize LLM calls, enable parallelism, and improve UX. Expert tips from LangChain.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "AI Agent Latency 101: How do I speed up my AI agent?"
+  "tags": [
+   "open-source frameworks",
+   "agent performance",
+   "latency optimization",
+   "LangChain"
+  ],
+  "title": "AI Agent Latency 101: How do I speed up my AI agent?",
+  "what": "A LangChain blog post detailing practical techniques for reducing AI agent latency, written by the LangChain team.",
+  "why": "Engineers can apply the suggested optimizations—parallel LLM calls, request batching, and profiling—to accelerate their own open‑source LangChain agents within a month."
  },
  "https://www.langchain.com/blog/how-harmonic-rebuilt-scout-on-deep-agents-and-4xd-retention-with-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Harmonic rebuilt Scout on Deep Agents and LangSmith: iteration went from months to days, week-four retention rose 4x, and session duration increased 10x.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "How Harmonic Rebuilt Scout on Deep Agents and 4x'd Retention"
+  "status": "rejected",
+  "tags": [],
+  "title": "How Harmonic Rebuilt Scout on Deep Agents and 4x'd Retention",
+  "what": "LangChain blog post about Harmonic’s internal rebuild of Scout using Deep Agents and LangSmith",
+  "why": "Not useful for an engineering lead wanting to build or learn from open-source tools, as it lacks technical detail and code"
  },
  "https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph": {
   "first_seen": "2026-10-05",
@@ -23847,11 +24186,21 @@
  "https://www.langchain.com/blog/how-to-design-an-agent-for-production": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 15,
   "published": "2026-08-26",
+  "score": 12,
   "snippet": "Build production-ready AI agents with LangChain. Technical guide covering OpenAI functions, tools, prompts, and architecture for Cal.ai's scheduling assistant.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "How to design an Agent for Production"
+  "tags": [
+   "open-source framework",
+   "agent design",
+   "production",
+   "LangChain"
+  ],
+  "title": "How to design an Agent for Production",
+  "what": "A technical guide on designing production-ready AI agents with LangChain, covering tools, prompts, and architecture.",
+  "why": "It offers concrete patterns and code snippets that the reader can adapt to build and deploy agents in their own production environments."
  },
  "https://www.langchain.com/blog/how-toyota-north-america-put-enterprise-ai-on-the-balance-sheet-with-deep-agents-and-langsmith": {
   "first_seen": "2026-10-05",
@@ -24837,6 +25186,7 @@
   "minutes": 20,
   "published": "2026-10-15",
   "score": 13,
+  "shown": "2026-10-23",
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io",
   "source": "yt-cncf",
   "status": "passed",

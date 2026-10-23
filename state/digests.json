@@ -110,6 +110,12 @@
    "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond",
    "https://www.youtube.com/watch?v=kwKVe27xnw4",
    "https://www.youtube.com/watch?v=p__dgzDzCrE"
+  ],
+  "2026-10-23": [
+   "https://aaif.io/blog/training-agents-for-real-world-tasks-with-openenv",
+   "https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data",
+   "https://www.cncf.io/blog/2026/10/22/filtering-and-reducing-ai-agent-telemetry-with-the-opentelemetry-collector",
+   "https://www.youtube.com/watch?v=2RvC3ooLXzk"
   ]
  },
  "rollup": {
@@ -208,10 +214,10 @@
   ]
  },
  "scoring": {
-  "calls": 29,
-  "date": "2026-10-22",
+  "calls": 12,
+  "date": "2026-10-23",
   "error": null,
   "failed": 0,
-  "rejected": 22
+  "rejected": 7
  }
 }
