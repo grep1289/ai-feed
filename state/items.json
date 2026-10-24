@@ -3037,6 +3037,14 @@
   "status": "dropped:category",
   "title": "Introducing Claude Duet"
  },
+ "https://claude.com/resources/articles/claude-duet-safety-privacy-and-security": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "published": "2026-10-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Duet Safety, Privacy, and Security"
+ },
  "https://claude.com/resources/articles/claude-enterprise-inference-hooks": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4469,6 +4477,14 @@
   "status": "dropped:category",
   "title": "Uber's CISO on building an insider threat program for AI"
  },
+ "https://claude.com/resources/articles/unified-claude-enterprise": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "published": "2026-10-23",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Cowork and chat come together for Enterprise"
+ },
  "https://claude.com/resources/articles/upgraded-anthropic-console": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -5428,6 +5444,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-08-21",
+  "shown": "2026-10-24",
   "snippet": "Use ChatGPT, Codex Security, and open-source tools to investigate threats, validate vulnerabilities, and move from findings to reviewed, verified fixes.",
   "source": "openai-developer",
   "status": "passed",
@@ -5957,6 +5974,15 @@
   "status": "passed",
   "title": "arize-phoenix: v20.25.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.26.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "20.26.0 (2026-10-23) Features factory: link session IDs in factory comments to the Claude Console ( #17192 ) ( b022cfd ) factory: nominate factory candidates in triage and dispatch trusted ones ( #17170 ) ( 2dcd97c ) server: add service.version to the server's OpenTelemetry resource ( #17212 ) ( 6933827 ) Bug Fixes deps: update arize-phoenix-evals to 3.9.3 ( #17175 ) ( 846ccbf ) Documentation…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.26.0"
+ },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6319,6 +6345,15 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.55.0"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.56.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "✨ Features Automatic thinking level operation for improved model reasoning #12237 Resume failed or cancelled delegate subagents #13015 Subagent session link in UI with view-only subagent sessions #12998 Limit concurrent subagents with GOOSE_MAX_CONCURRENT_SUBAGENTS #12946 Report session status via OSC 7501 in CLI #12928 Windows NSIS installer for desktop #12869 IO Intelligence provider #12795…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.56.0"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -6772,6 +6807,15 @@
   "status": "passed",
   "title": "v0.2.173"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.174": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-24",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.310 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.174/ pip install claude-agent-sdk==0.2.174",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.174"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7078,6 +7122,15 @@
   "status": "passed",
   "title": "v0.0.68"
  },
+ "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.0.69": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed chore: update playwright version to work with ubuntu26 by @Cali0707 in #1561 chore(deps): update dependency @playwright/test to v0.64.1 by @2uasimojo in #1564 build: s390x container should work again by @Cali0707 in #1566 Full Changelog : v0.0.68...v0.0.69",
+  "source": "gh-containers-kubernetes-mcp-server",
+  "status": "passed",
+  "title": "v0.0.69"
+ },
  "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7212,6 +7265,24 @@
   "source": "gh-crewaiinc-crewai",
   "status": "passed",
   "title": "1.15.28"
+ },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed Features Add support for LiteLLM-compatible kwargs. Implement platform application search in CLI. Highlight action picker search in CLI. Trace conversation routes and public replies in flow. Select organization during login in CLI. Add offline jev routing and guardrail evaluation runner. Run integration app actions directly with call: tool. Promote AgentExecutor out of experimental…",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.29"
+ },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-24",
+  "snippet": "What's Changed Bug Fixes Fix AGENTS.md to start the login process while evaluating and stop after three rounds. Documentation Update snapshot and changelog for v1.15.29. Contributors @joaomdmoura",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.30"
  },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
@@ -7390,6 +7461,15 @@
   "status": "passed",
   "title": "v2.12.0"
  },
+ "https://github.com/google/adk-python/releases/tag/v2.13.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "2.13.0 (2026-10-22) Highlights This release stabilizes core features while introducing TypeSafe workflow classification, live audio interactions, MongoDB integrations, and execution performance improvements. Stability : Access 12 mature experimental features now promoted to stable status. See the unit guide for more details. ( ea298d4 ) Classifiers : Route workflows with TypeSafe's Jev models via…",
+  "source": "gh-google-adk-python",
+  "status": "passed",
+  "title": "v2.13.0"
+ },
  "https://github.com/google/adk-python/releases/tag/v2.7.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7534,6 +7614,24 @@
   "source": "gh-hashicorp-terraform-mcp-server",
   "status": "passed",
   "title": "v1.3.0"
+ },
+ "https://github.com/hashicorp/terraform-mcp-server/releases/tag/v1.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "No content.",
+  "source": "gh-hashicorp-terraform-mcp-server",
+  "status": "passed",
+  "title": "v1.4.0"
+ },
+ "https://github.com/hashicorp/terraform-mcp-server/releases/tag/v1.4.1": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "No content.",
+  "source": "gh-hashicorp-terraform-mcp-server",
+  "status": "passed",
+  "title": "v1.4.1"
  },
  "https://github.com/k8sgpt-ai/k8sgpt/releases/tag/v0.4.30": {
   "first_seen": "2026-10-05",
@@ -8050,6 +8148,24 @@
   "status": "passed",
   "title": "deepagents==0.7.30"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.31": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Features Expose execution output retention metadata in tracing ( #6876 ). Bug Fixes Omit async task IDs from user replies by default ( #7174 ). Preserve filesystem permissions in SDK middleware overrides ( #7166 ). Special thanks to everyone who reported the issues addressed in this release: Aleksandr Filippov (@alex-feel) ( #5388 ) Internal maintainers: lc-arjun , Mason Daugherty (@mdrxy)…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.31"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.32": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Performance Improvements Avoid importing langchain_anthropic and langchain_openai at SDK import time ( #7204 , #7185 ). Internal maintainers: Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since deepagents==0.7.31 This commit history includes changes to this package. Commits are listed newest first. e85c6b9 release(deepagents): 0.7.32 ( #7188 ) 492a184 perf(sdk): stop…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.32"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -8185,6 +8301,15 @@
   "status": "passed",
   "title": "deepagents-code==0.2.0"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.1": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Features Support skill-scoped MCP tools ( #7010 ). Default the Anthropic Auto classifier to Claude Sonnet 5.5 ( #7163 ). Bug Fixes Automatically migrate to Python 3.14 when no other session is running ( #7160 ). Use native structured output for the Anthropic Auto classifier ( #7162 ). Special thanks to everyone who reported the issues addressed in this release: Norman Morse (@p4norman) ( #7159 )…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.1"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8202,6 +8327,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-talon==0.1.0"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-daytona%3D%3D0.0.9": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Bug Fixes Apply request timeouts and preserve partial output when a timeout occurs ( #7121 ). Thanks to our community contributors: Atharva Gaur (@Atharvagaur) Special thanks to everyone who reported the issues addressed in this release: Connor Imes (@connorimes) ( #7042 ) Internal maintainers: Hunter Lovell (@hntrl) , Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-daytona==0.0.9"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.8": {
   "first_seen": "2026-10-05",
@@ -8274,6 +8408,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph==1.2.16"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-24",
+  "snippet": "Changes since 1.2.16 release(langgraph): 1.2.17 ( #9418 ) fix(langgraph): apply an explicit recursion_limit equal to the default ( #9417 ) fix(langgraph): keep the caller's namespace in RemoteGraph.stream(subgraphs=True) ( #9401 ) chore(deps): remove precautionary third-party upper bounds ( #9390 ) chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/langgraph ( #9375 ) chore(deps-dev):…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.17"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
@@ -8400,6 +8543,15 @@
   "status": "passed",
   "title": "langgraph-cli==0.4.37"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Changes since cli==0.4.37 release(cli): 0.4.38 ( #9411 ) feat(cli): add the priority section to langgraph.json ( #9393 ) chore(deps): bump uv from 0.11.15 to 0.13.4 in /libs/cli ( #9366 ) chore(deps): bump certifi from 2026.2.25 to 2026.10.19 in /libs/cli ( #9374 ) chore(deps): bump the uv group across 2 directories with 1 update ( #9373 ) fix(cli): patch missed brace-expansion dependency majors…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.38"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
   "first_seen": "2026-10-15",
   "kind": "release",
@@ -8462,6 +8614,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.8"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Changes since sdk==0.4.8 release(sdk-py): 0.4.9 ( #9398 ) feat(sdk-py): add Priority for thread priority settings ( #9392 ) chore(deps): remove precautionary third-party upper bounds ( #9390 ) chore(deps): bump certifi from 2026.2.25 to 2026.10.19 in /libs/sdk-py ( #9370 ) chore(deps-dev): bump dotenv from 17.4.2 to 18.0.4 in /libs/cli/js-examples in the major group ( #9154 ) chore(deps-dev):…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.9"
  },
  "https://github.com/langfuse/langfuse/releases/tag/v3.225.12": {
   "first_seen": "2026-10-13",
@@ -8724,6 +8885,15 @@
   "status": "passed",
   "title": "v4.68.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.69.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed Features feat(ai-gateway): show per-tool setup instructions after creating a gateway key by @wochinge in #19186 feat(topics): write rules as target trace transcript by @marliessophie in #19236 feat(blob-storage): add an outbound host allowlist for blob storage endpoints by @niklassemmler in #18907 feat(web): gate self-hosted AI gateway on LANGFUSE_AI_GATEWAY_DEPLOYED by @wochinge…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.69.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8786,6 +8956,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "dotnet-1.25.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.26.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Changes: 9c8a351 Update package versions for release ( #9650 ) c3b9f22 Add ACGS to the Python community projects ( #9618 ) 71cf48c Python: Honor allow_multiple_tool_calls in AnthropicClient when tool_choice is unset ( #8980 ) ea32b6d Python: compose Copilot session hooks correctly ( #9649 ) 678c661 .NET: Fix AG-UI sample prerequisites and troubleshooting paths ( #9620 ) 8730cb1 .NET: Log a…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "dotnet-1.26.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0": {
   "first_seen": "2026-10-05",
@@ -9125,6 +9304,33 @@
   "status": "passed",
   "title": "v1.8.1"
  },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.2": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed chore(deploy): promote production to 1.8.1 by @rdimitrov in #1510 Fix broken relative links in releasing docs by @latent-9 in #1517 build(deps): bump github.com/go-git/go-git/v6 from 6.0.0-alpha.4 to 6.0.0-alpha.5 in /deploy by @dependabot [bot] in #1514 docs: add cargo and crates.io to schema examples by @Wolfe-Jam in #1511 fix(admin): use PATCH status endpoints in takedown script…",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.2"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.3": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed chore(deploy): promote production to 1.8.2 by @rdimitrov in #1729 fix(publish): correct misleading org-namespace guidance in 403 and docs by @rdimitrov in #1483 fix(database): index server name substring searches by @rdimitrov in #1730 Full Changelog : v1.8.2...v1.8.3",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.3"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.4": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed chore(deploy): promote production to 1.8.3 by @rdimitrov in #1731 fix(publish): validate registries outside the transaction and time the pool wait by @rdimitrov in #1562 Full Changelog : v1.8.3...v1.8.4",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.4"
+ },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.3.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9133,6 +9339,15 @@
   "source": "gh-modelcontextprotocol-typescript-sdk",
   "status": "passed",
   "title": "@modelcontextprotocol/client@2.3.1"
+ },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Minor Changes #3085 a633756 Thanks @claude ! - Add an opt-in for sending scope on refresh-token requests, for authorization servers that reject a refresh without it (Microsoft Entra ID answers AADSTS90009 when the client and the resource are the same app registration, #2718 ). OAuthClientProvider gains an optional scopeForRefresh(tokens) : auth() , and so the transports and withOAuth , sends the…",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "@modelcontextprotocol/client@2.4.0"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fcodemod%402.3.1": {
   "first_seen": "2026-10-05",
@@ -9143,6 +9358,15 @@
   "status": "passed",
   "title": "@modelcontextprotocol/codemod@2.3.1"
  },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fcodemod%402.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "No content.",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "@modelcontextprotocol/codemod@2.4.0"
+ },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fcore%402.3.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9152,6 +9376,24 @@
   "status": "passed",
   "title": "@modelcontextprotocol/core@2.3.1"
  },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fcore%402.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Minor Changes #3047 46d9c99 Thanks @KKonstantinov , @tobi-oye , @mattzcarey ! - Add the Skills extension (SEP-2640), reachable through new ext/skills subpaths; package root exports are unchanged. @modelcontextprotocol/server/ext/skills : SkillsExtension ( attach(server) serves skills/list , skills/get , resources/directory/read and a skill://{+path} resource template), SkillsExtension.load(files)…",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "@modelcontextprotocol/core@2.4.0"
+ },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fnode%402.1.2": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Patch Changes #3084 10c26b0 Thanks @claude ! - The @hono/node-server dependency range widens from ^1.19.9 to ^1.19.9 || ^2.1.3 , so a new install resolves to 2.x and an install that cannot get 2.x keeps 1.x. Updated dependencies [ ef38c67 , c05225a , 43c45f4 , 5820f79 , c05225a , b381559 , 46d9c99 , 895007f , b022522 ]: @modelcontextprotocol/server@2.4.0",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "@modelcontextprotocol/node@2.1.2"
+ },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fserver%402.3.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9160,6 +9402,15 @@
   "source": "gh-modelcontextprotocol-typescript-sdk",
   "status": "passed",
   "title": "@modelcontextprotocol/server@2.3.1"
+ },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fserver%402.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Minor Changes #3057 c05225a Thanks @steipete ! - ServerEvent takes optional params , which the subscriptions/listen router delivers with its own subscription ID, so a gateway can forward change notifications with their _meta and extension params. #3047 46d9c99 Thanks @KKonstantinov , @tobi-oye , @mattzcarey ! - Add the Skills extension (SEP-2640), reachable through new ext/skills subpaths;…",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "@modelcontextprotocol/server@2.4.0"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fserver-legacy%402.3.0": {
   "first_seen": "2026-10-05",
@@ -9179,6 +9430,15 @@
   "status": "passed",
   "title": "@modelcontextprotocol/server-legacy@2.3.1"
  },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fserver-legacy%402.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Patch Changes Updated dependencies [ 46d9c99 ]: @modelcontextprotocol/core@2.4.0",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "@modelcontextprotocol/server-legacy@2.4.0"
+ },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.32.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9197,6 +9457,15 @@
   "status": "passed",
   "title": "1.32.1"
  },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.32.2": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "What's Changed fix: add explicit | undefined to Transport optional properties (v1.x backport of #1766 ) by @kishormorol in #2814 [v1.x] fix: allow registering after connect() when the capability was declared by @claude [bot] in #2958 chore: bump version to 1.32.2 by @claude [bot] in #3089 New Contributors @kishormorol made their first contribution in #2814 Full Changelog : 1.32.1...1.32.2",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "1.32.2"
+ },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.3.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9214,6 +9483,15 @@
   "source": "gh-modelcontextprotocol-typescript-sdk",
   "status": "passed",
   "title": "2.3.1"
+ },
+ "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "Package Version @modelcontextprotocol/client 2.4.0 @modelcontextprotocol/server 2.4.0 @modelcontextprotocol/core 2.4.0 @modelcontextprotocol/server-legacy 2.4.0 @modelcontextprotocol/codemod 2.4.0 @modelcontextprotocol/node 2.1.2 @modelcontextprotocol/express , hono , fastify unchanged Upgrade notes x-mcp-header on a number parameter is rejected , as the 2026-07-28 spec requires: the client does…",
+  "source": "gh-modelcontextprotocol-typescript-sdk",
+  "status": "passed",
+  "title": "2.4.0"
  },
  "https://github.com/open-telemetry/semantic-conventions/releases/tag/v1.36.0": {
   "first_seen": "2026-10-05",
@@ -9728,6 +10006,14 @@
   "status": "dropped:prerelease",
   "title": "0.164.0-alpha.9"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.165.0-alpha.1"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9926,6 +10212,15 @@
   "status": "passed",
   "title": "0.124.1"
  },
+ "https://github.com/promptfoo/promptfoo/releases/tag/0.125.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-23",
+  "snippet": "0.125.0 (2026-10-23) ⚠ BREAKING CHANGES deps: make jks-js an optional peer dependency ( #11739 ) providers: make Claude Agent and Codex SDKs opt-in ( #11134 ) Features add provider-only environment overrides ( #11889 ) ( 2eed6e1 ) assertions: add rouge-l and rouge-s assertion types ( #10256 ) ( 6842fc3 ) assertions: filter trace spans by attributes ( #10648 ) ( faf08b4 ) assertions: optional…",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "0.125.0"
+ },
  "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10123,6 +10418,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.60.0 (2026-10-22)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0": {
+  "first_seen": "2026-10-24",
+  "kind": "release",
+  "published": "2026-10-24",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Warn when a provider-specific thinking setting from a broader scope overrides thinking by @dsfaccini in #10231 Send the least thinking a model accepts for thinking=False on models that can't turn thinking off by @DouweM in #11036 Raise NotImplementedError for a file in a CohereModel tool return instead of dropping it by @dsfaccini in #11114 Keep concurrent…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.61.0 (2026-10-23)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -11279,6 +11583,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Impactful scheduling for GPU clusters"
+ },
+ "https://huggingface.co/blog/allenai/litpivot": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "published": "2026-10-23",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape"
  },
  "https://huggingface.co/blog/allenai/olmoearth-embeddings": {
   "first_seen": "2026-10-05",
@@ -17320,6 +17632,14 @@
   "status": "dropped:keyword",
   "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP"
  },
+ "https://huggingface.co/blog/torch-neuronx-model-support": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "published": "2026-10-23",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Does Your Model Run on AWS Trainium? Look It Up"
+ },
  "https://huggingface.co/blog/torch-profiler": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20434,6 +20754,27 @@
   "what": "A technical deep‑dive by OpenAI engineers on how they transformed Habitat from a Python library into a globally distributed storage platform that serves over 1 billion ChatGPT users and 22 M QPS.",
   "why": "It explains concrete scaling techniques, architectural choices, and trade‑offs that an engineering lead can adapt to design or operate large‑scale storage or data pipelines for agent workloads."
  },
+ "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "minutes": 12,
+  "published": "2026-10-23",
+  "score": 13,
+  "shown": "2026-10-24",
+  "snippet": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+  "source": "openai-engineering",
+  "status": "passed",
+  "tags": [
+   "open‑source frameworks",
+   "multi‑tenancy",
+   "global caching",
+   "Cosmos DB",
+   "scalable storage"
+  ],
+  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+  "what": "An OpenAI engineering post detailing how they scaled Habitat with multi‑tenancy and global caching to serve 1 billion ChatGPT users.",
+  "why": "Engineers can adopt similar caching, tenancy, and Cosmos DB patterns to boost read performance in their own large‑scale services."
+ },
  "https://openai.com/index/separating-signal-from-noise-coding-evaluations": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21341,6 +21682,24 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "An alignment assessment of recent cybersecurity incidents"
+ },
+ "https://www.anthropic.com/research/alignment-assessment-ukaisi": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-23",
+  "score": 6,
+  "snippet": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [
+   "research",
+   "alignment",
+   "AI safety"
+  ],
+  "title": "An alignment assessment of the UK AISI cybertesting incident",
+  "what": "Anthropic’s research paper on the UK AISI cyber‑testing incident with Claude Mythos 5.",
+  "why": "Provides an in‑depth alignment analysis, but offers little actionable guidance for engineering leads building agents."
  },
  "https://www.anthropic.com/research/alignment-faking": {
   "first_seen": "2026-10-05",
@@ -23435,6 +23794,14 @@
   "what": "How to use the OpenTelemetry Collector to filter and reduce telemetry from AI coding agents.",
   "why": "Engineers can immediately apply collector filters to lower storage costs and improve observability for their own AI agents."
  },
+ "https://www.cncf.io/blog/2026/10/23/multi-tenant-gpu-kubernetes-on-simulated-hardware-with-kamaji-and-hami": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "published": "2026-10-23",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -23859,6 +24226,26 @@
   "what": "A LangChain blog post outlining techniques to manage long‑running agent context windows using summarization, sub‑agents, skills, and memory modules.",
   "why": "Engineers can adopt the described patterns to keep agent context manageable, improving performance and reliability in production deployments."
  },
+ "https://www.langchain.com/blog/context-engineering-starts-with-retrieval": {
+  "first_seen": "2026-10-24",
+  "kind": "read",
+  "minutes": 12,
+  "published": "2026-10-23",
+  "score": 13,
+  "shown": "2026-10-24",
+  "snippet": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "agents",
+   "memory",
+   "retrieval",
+   "open-source"
+  ],
+  "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+  "what": "LangChain’s guide on designing agent memory with retrieval techniques for efficient context use",
+  "why": "It shows concrete retrieval patterns and code examples the reader can adopt to improve agent recall in their own projects"
+ },
  "https://www.langchain.com/blog/context-management-for-deepagents": {
   "first_seen": "2026-10-14",
   "kind": "read",
@@ -24234,11 +24621,21 @@
  "https://www.langchain.com/blog/how-we-built-langsmith-engine-our-agent-for-improving-agents": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 15,
   "published": "2026-08-26",
+  "score": 12,
   "snippet": "A technical look at LangSmith Engine: how it analyzes traces at scale, turns recurring failures into actionable issues, and proposes evaluators and fixes.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "LangSmith Engine: How We Built an Agent for Improving Agents"
+  "tags": [
+   "agent trace analysis",
+   "failure detection",
+   "automated remediation",
+   "open-source tools"
+  ],
+  "title": "LangSmith Engine: How We Built an Agent for Improving Agents",
+  "what": "A technical walkthrough of LangSmith Engine, an internal tool that analyzes LLM agent traces, surfaces recurring failures, and recommends fixes",
+  "why": "Engineers can learn how to build their own trace‑analysis pipeline, identify failure patterns, and automate remediation of LLM agents"
  },
  "https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering": {
   "first_seen": "2026-10-14",
@@ -24263,20 +24660,36 @@
  "https://www.langchain.com/blog/introducing-airbyte-sources-within-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Connect 300+ data sources to LangChain with Airbyte document loaders. Load from Stripe, Salesforce, Hubspot & more directly in Python.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Introducing Airbyte sources within LangChain"
+  "tags": [
+   "open-source frameworks",
+   "data integration",
+   "LangChain",
+   "Airbyte",
+   "document loaders"
+  ],
+  "title": "Introducing Airbyte sources within LangChain",
+  "what": "How to use Airbyte’s open-source data connectors as document loaders in LangChain.",
+  "why": "Readers can immediately add over 300 data source integrations to their LangChain pipelines with minimal code."
  },
  "https://www.langchain.com/blog/introducing-interrupt-langchain-conference": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Join us this May at Interrupt, LangChain’s inaugural conference where the future of AI agents takes center stage.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Introducing Interrupt: The AI Agent Conference by LangChain"
+  "status": "rejected",
+  "tags": [],
+  "title": "Introducing Interrupt: The AI Agent Conference by LangChain",
+  "what": "",
+  "why": ""
  },
  "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error": {
   "first_seen": "2026-10-05",
@@ -26599,6 +27012,7 @@
   "minutes": 45,
   "published": "2026-10-15",
   "score": 13,
+  "shown": "2026-10-24",
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io",
   "source": "yt-cncf",
   "status": "passed",

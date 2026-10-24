@@ -116,6 +116,12 @@
    "https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data",
    "https://www.cncf.io/blog/2026/10/22/filtering-and-reducing-ai-agent-telemetry-with-the-opentelemetry-collector",
    "https://www.youtube.com/watch?v=2RvC3ooLXzk"
+  ],
+  "2026-10-24": [
+   "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+   "https://developers.openai.com/blog/scaling-cyber-defenders-with-daybreak",
+   "https://www.youtube.com/watch?v=RmvmYqeQWwg"
   ]
  },
  "rollup": {
@@ -214,10 +220,10 @@
   ]
  },
  "scoring": {
-  "calls": 12,
-  "date": "2026-10-23",
+  "calls": 6,
+  "date": "2026-10-24",
   "error": null,
   "failed": 0,
-  "rejected": 7
+  "rejected": 2
  }
 }
