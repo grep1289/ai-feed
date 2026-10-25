@@ -5830,6 +5830,15 @@
   "status": "passed",
   "title": "arize-phoenix-evals: v3.9.3"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-evals-v3.9.4": {
+  "first_seen": "2026-10-25",
+  "kind": "release",
+  "published": "2026-10-24",
+  "snippet": "3.9.4 (2026-10-24) Bug Fixes evals: apply template_format override when copying a PromptTemplate ( #17071 ) ( 7121ade ) evals: let sync/async client kwargs override the shared LLM kwargs ( #17043 ) ( 27361d4 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-evals: v3.9.4"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-otel-v0.17.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6136,6 +6145,15 @@
   "status": "passed",
   "title": "v0.3.283"
  },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.284": {
+  "first_seen": "2026-10-25",
+  "kind": "release",
+  "published": "2026-10-25",
+  "snippet": "0.3.284 (2026-10-25) Features moonshot: support Kimi K3.1 Pro and K3.1 Pro Highspeed ( #6072 ) ( eade928 ) sentinel: step.agent_messages is the running agent's own message list at every stage ( #5986 ) ( 4744d5f ) update fireworks and together model info ( d6bbd08 ) viewer plays asciicasts stored in the sample store under asciinema:* keys ( #6069 ) ( 473fac0 ) Bug Fixes collect() drops the cause…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.284"
+ },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6257,6 +6275,14 @@
   "source": "gh-aaif-goose-goose",
   "status": "dropped:prerelease",
   "title": "gdk-v0.1.0-alpha.12: chore(GDK): release v0.1.0-alpha.12 (#12561)"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.13": {
+  "first_seen": "2026-10-25",
+  "kind": "release",
+  "published": "2026-10-24",
+  "source": "gh-aaif-goose-goose",
+  "status": "dropped:prerelease",
+  "title": "gdk-v0.1.0-alpha.13: chore(GDK): release v0.1.0-alpha.13 (#12876)"
  },
  "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.8": {
   "first_seen": "2026-10-05",
@@ -8894,6 +8920,15 @@
   "status": "passed",
   "title": "v4.69.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.70.0": {
+  "first_seen": "2026-10-25",
+  "kind": "release",
+  "published": "2026-10-24",
+  "snippet": "What's Changed Features feat(public-api): add unstable read-only Topics endpoints by @LysanderKie in #19104 feat(ai-gateway): update Claude Desktop setup steps and merge Claude tabs by @wochinge in #19298 feat(web): warn ClickHouse staff viewing data by @maxdeichmann in #19266 feat(web): syntax-highlight shell, TOML and JSON setup snippets by @wochinge in #19306 feat(ai-gateway): describe gateway…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.70.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10220,6 +10255,15 @@
   "source": "gh-promptfoo-promptfoo",
   "status": "passed",
   "title": "0.125.0"
+ },
+ "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1": {
+  "first_seen": "2026-10-25",
+  "kind": "release",
+  "published": "2026-10-25",
+  "snippet": "0.125.1 (2026-10-25) Bug Fixes restore the authentic Discord invite ( #11967 ) ( 98000c4 )",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "0.125.1"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.0": {
   "first_seen": "2026-10-05",
@@ -15249,6 +15293,7 @@
   "minutes": 10,
   "published": "2026-10-22",
   "score": 12,
+  "shown": "2026-10-25",
   "snippet": "",
   "source": "huggingface-blog",
   "status": "passed",
@@ -24344,6 +24389,7 @@
   "minutes": 10,
   "published": "2026-08-26",
   "score": 14,
+  "shown": "2026-10-25",
   "snippet": "Data-driven-characters is a repo for creating, debugging, and interacting your own chatbots conditioned on your own story corpora.",
   "source": "langchain-blog",
   "status": "passed",
@@ -24712,11 +24758,16 @@
  "https://www.langchain.com/blog/january-2026-langchain-newsletter": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Read about the latest product updates, events, and content from the LangChain team",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "January 2026: LangChain Newsletter"
+  "status": "rejected",
+  "tags": [],
+  "title": "January 2026: LangChain Newsletter",
+  "what": "LangChain January 2026 newsletter summarizing product updates, events, and content",
+  "why": "Not a technical resource; offers no actionable guidance for building or operating agents"
  },
  "https://www.langchain.com/blog/jev-agent-evals-langsmith": {
   "first_seen": "2026-10-05",
@@ -24748,11 +24799,22 @@
  "https://www.langchain.com/blog/kay-x-cybersyn-x-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 10,
   "snippet": "Retrieve context from SEC filings for RAG with Kay and Cybersyn's SEC Retriever on LangChain. Pre-embedded data, optimized retrieval, no setup required.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Kay x Cybersyn x LangChain: Embedding SEC Filings for RAG"
+  "tags": [
+   "open-source frameworks",
+   "retrieval-augmented-generation",
+   "SEC filings",
+   "LangChain",
+   "Kay"
+  ],
+  "title": "Kay x Cybersyn x LangChain: Embedding SEC Filings for RAG",
+  "what": "A LangChain‑powered RAG setup that pulls embedded SEC filings via Kay and Cybersyn’s Retriever with no manual setup.",
+  "why": "Engineers can quickly prototype RAG pipelines on regulatory data using the open‑source Retriever and embed it in their own LangChain workflows."
  },
  "https://www.langchain.com/blog/langchain-agentcore-payments": {
   "first_seen": "2026-10-05",
@@ -24766,11 +24828,16 @@
  "https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "LangChain and NVIDIA launch the NemoClaw Deep Agents blueprint, combining Deep Agents Code, Nemotron 3 Ultra, and OpenShell for open, governed enterprise agents.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint",
+  "what": "LangChain and NVIDIA launch the NemoClaw Deep Agents blueprint",
+  "why": "This item is a product launch announcement with no actionable technical detail for building agents."
  },
  "https://www.langchain.com/blog/langchain-second-birthday": {
   "first_seen": "2026-10-05",

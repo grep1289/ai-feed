@@ -20,7 +20,7 @@
   "fetched": 23,
   "id": "openai-engineering",
   "name": "OpenAI Engineering",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -28,7 +28,7 @@
   "fetched": 294,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 890,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -172,7 +172,7 @@
   "fetched": 10,
   "id": "gh-modelcontextprotocol-typescript-sdk",
   "name": "modelcontextprotocol/typescript-sdk",
-  "new": 8,
+  "new": 0,
   "ok": true
  },
  {
@@ -180,7 +180,7 @@
   "fetched": 10,
   "id": "gh-modelcontextprotocol-registry",
   "name": "modelcontextprotocol/registry",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 4,
+  "new": 0,
   "ok": true
  },
  {
@@ -268,7 +268,7 @@
   "fetched": 10,
   "id": "gh-google-adk-python",
   "name": "google/adk-python",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -276,7 +276,7 @@
   "fetched": 10,
   "id": "gh-microsoft-agent-framework",
   "name": "microsoft/agent-framework",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -300,7 +300,7 @@
   "fetched": 10,
   "id": "gh-crewaiinc-crewai",
   "name": "crewAIInc/crewAI",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -324,7 +324,7 @@
   "fetched": 10,
   "id": "gh-containers-kubernetes-mcp-server",
   "name": "containers/kubernetes-mcp-server",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -340,7 +340,7 @@
   "fetched": 10,
   "id": "gh-hashicorp-terraform-mcp-server",
   "name": "hashicorp/terraform-mcp-server",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -388,7 +388,7 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -396,7 +396,7 @@
   "fetched": 189,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {

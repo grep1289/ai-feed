@@ -122,6 +122,10 @@
    "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
    "https://developers.openai.com/blog/scaling-cyber-defenders-with-daybreak",
    "https://www.youtube.com/watch?v=RmvmYqeQWwg"
+  ],
+  "2026-10-25": [
+   "https://www.langchain.com/blog/data-driven-characters",
+   "https://huggingface.co/blog/microsoft/thinkingbox-training"
   ]
  },
  "rollup": {
@@ -220,8 +224,8 @@
   ]
  },
  "scoring": {
-  "calls": 6,
-  "date": "2026-10-24",
+  "calls": 3,
+  "date": "2026-10-25",
   "error": null,
   "failed": 0,
   "rejected": 2
