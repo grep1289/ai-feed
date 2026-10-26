@@ -126,108 +126,153 @@
   "2026-10-25": [
    "https://www.langchain.com/blog/data-driven-characters",
    "https://huggingface.co/blog/microsoft/thinkingbox-training"
+  ],
+  "2026-10-26": [
+   "https://www.langchain.com/blog/evaluating-openwiki-with-wikibench"
   ]
  },
  "rollup": {
-  "date": "2026-10-19",
+  "date": "2026-10-26",
   "items": [
    {
     "count": 1,
     "name": "aaif-goose/goose",
-    "title": "v1.55.0",
-    "url": "https://github.com/aaif-goose/goose/releases/tag/v1.55.0"
+    "title": "v1.56.0",
+    "url": "https://github.com/aaif-goose/goose/releases/tag/v1.56.0"
    },
    {
-    "count": 3,
+    "count": 6,
     "name": "anthropics/claude-agent-sdk-python",
-    "title": "v0.2.168",
-    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.168"
+    "title": "v0.2.174",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.174"
    },
    {
-    "count": 7,
+    "count": 13,
     "name": "Arize-ai/phoenix",
-    "title": "arize-phoenix: v20.23.0",
-    "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.23.0"
+    "title": "arize-phoenix: v20.26.1",
+    "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.26.1"
+   },
+   {
+    "count": 2,
+    "name": "containers/kubernetes-mcp-server",
+    "title": "v0.0.69",
+    "url": "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.0.69"
+   },
+   {
+    "count": 2,
+    "name": "crewAIInc/crewAI",
+    "title": "1.15.30",
+    "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30"
    },
    {
     "count": 1,
-    "name": "crewAIInc/crewAI",
-    "title": "1.15.28",
-    "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28"
+    "name": "github/github-mcp-server",
+    "title": "GitHub MCP Server 2.0.3",
+    "url": "https://github.com/github/github-mcp-server/releases/tag/v2.0.3"
    },
    {
     "count": 1,
     "name": "google/adk-python",
-    "title": "v2.12.0",
-    "url": "https://github.com/google/adk-python/releases/tag/v2.12.0"
+    "title": "v2.13.0",
+    "url": "https://github.com/google/adk-python/releases/tag/v2.13.0"
+   },
+   {
+    "count": 2,
+    "name": "hashicorp/terraform-mcp-server",
+    "title": "v1.4.1",
+    "url": "https://github.com/hashicorp/terraform-mcp-server/releases/tag/v1.4.1"
+   },
+   {
+    "count": 1,
+    "name": "k8sgpt-ai/k8sgpt",
+    "title": "v0.4.41",
+    "url": "https://github.com/k8sgpt-ai/k8sgpt/releases/tag/v0.4.41"
+   },
+   {
+    "count": 1,
+    "name": "kagent-dev/kagent",
+    "title": "v0.10.4",
+    "url": "https://github.com/kagent-dev/kagent/releases/tag/v0.10.4"
    },
    {
     "count": 1,
     "name": "kubernetes-sigs/agent-sandbox",
-    "title": "v1.0.7",
-    "url": "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.7"
+    "title": "v1.0.8",
+    "url": "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.8"
    },
    {
     "count": 10,
     "name": "langchain-ai/deepagents",
-    "title": "deepagents-code==0.1.86",
-    "url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.86"
+    "title": "langchain-daytona==0.0.9",
+    "url": "https://github.com/langchain-ai/deepagents/releases/tag/langchain-daytona%3D%3D0.0.9"
    },
    {
-    "count": 12,
+    "count": 4,
     "name": "langchain-ai/langgraph",
-    "title": "langgraph-sdk==0.4.8",
-    "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8"
+    "title": "langgraph==1.2.17",
+    "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17"
    },
    {
-    "count": 8,
+    "count": 7,
     "name": "langfuse/langfuse",
-    "title": "v4.63.0",
-    "url": "https://github.com/langfuse/langfuse/releases/tag/v4.63.0"
+    "title": "v4.70.0",
+    "url": "https://github.com/langfuse/langfuse/releases/tag/v4.70.0"
    },
    {
     "count": 2,
     "name": "microsoft/agent-framework",
-    "title": "python-1.22.0",
-    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.22.0"
+    "title": "dotnet-1.26.0",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.26.0"
+   },
+   {
+    "count": 3,
+    "name": "modelcontextprotocol/registry",
+    "title": "v1.8.4",
+    "url": "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.4"
+   },
+   {
+    "count": 8,
+    "name": "modelcontextprotocol/typescript-sdk",
+    "title": "2.4.0",
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/v2.4.0"
    },
    {
     "count": 1,
     "name": "openai/codex",
-    "title": "0.163.0",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0"
-   },
-   {
-    "count": 1,
-    "name": "openai/openai-agents-python",
-    "title": "v0.24.0",
-    "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0"
+    "title": "0.164.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0"
    },
    {
     "count": 2,
+    "name": "promptfoo/promptfoo",
+    "title": "0.125.1",
+    "url": "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1"
+   },
+   {
+    "count": 6,
     "name": "pydantic/pydantic-ai",
-    "title": "v2.57.0 (2026-10-15)",
-    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0"
+    "title": "v2.61.0 (2026-10-23)",
+    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0"
    },
    {
-    "count": 8,
+    "count": 5,
     "name": "strands-agents/sdk-python",
-    "title": "python/v1.61.1",
-    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.61.1"
+    "title": "harness-python/v0.3.2",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.2"
    },
    {
-    "count": 3,
+    "count": 4,
     "name": "UKGovernmentBEIS/inspect_ai",
-    "title": "v0.3.281",
-    "url": "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.281"
+    "title": "v0.3.285",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.285"
    }
   ]
  },
  "scoring": {
-  "calls": 3,
-  "date": "2026-10-25",
+  "calls": 4,
+  "date": "2026-10-26",
   "error": null,
   "failed": 0,
-  "rejected": 2
+  "rejected": 4
  }
 }

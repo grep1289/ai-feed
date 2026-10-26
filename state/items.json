@@ -5992,6 +5992,15 @@
   "status": "passed",
   "title": "arize-phoenix: v20.26.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.26.1": {
+  "first_seen": "2026-10-26",
+  "kind": "release",
+  "published": "2026-10-25",
+  "snippet": "20.26.1 (2026-10-25) Bug Fixes playground: refresh MiniMax text model presets ( #17237 ) ( a49a47b ) Documentation add star history chart and rank badge to READMEs ( #17238 ) ( 3123853 ) integrations: add Microsoft Agent Framework tracing page ( #17209 ) ( a772dad )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v20.26.1"
+ },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6153,6 +6162,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "v0.3.284"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.285": {
+  "first_seen": "2026-10-26",
+  "kind": "release",
+  "published": "2026-10-25",
+  "snippet": "0.3.285 (2026-10-25) Features viewer Terminals tab for recorded terminal sessions and a merged Info tab ( #6079 ) ( e37ce2f ) Bug Fixes .eval reads with exclude_fields failing on large float literals ( #6045 ) ( 641b871 ) agent bridge returns non-beta Anthropic usage to beta.messages calls with anthropic 2.3 ( #6061 ) ( 3dcd2de )",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.285"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -24230,6 +24248,20 @@
   "what": "A LangChain blog post that explains common questions about evaluating agents, covering offline/online tests, evaluator types, cost‑saving strategies, and benchmarking with Harbor.",
   "why": "It provides concrete evaluation patterns and cost‑optimization tips the reader can apply immediately to build and monitor agents in production."
  },
+ "https://www.langchain.com/blog/components-building-company-harness": {
+  "first_seen": "2026-10-26",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-25",
+  "score": 0,
+  "snippet": "Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.",
+  "source": "langchain-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "The five components of building a \"company harness\"",
+  "what": "LangChain’s blog post outlining internal agent components used across teams",
+  "why": "It’s a high‑level product announcement with no actionable guidance for readers"
+ },
  "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -24453,6 +24485,7 @@
   "minutes": 5,
   "published": "2026-08-26",
   "score": 14,
+  "shown": "2026-10-26",
   "snippet": "We built WikiBench to test whether generated wikis help coding agents. Pairing a wiki with source code scored higher than source alone, at lower cost.",
   "source": "langchain-blog",
   "status": "passed",
@@ -24842,29 +24875,51 @@
  "https://www.langchain.com/blog/langchain-second-birthday": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Reflections on how LangChain has evolved — including our products, ecosystem, and community — over the past two years, and where we're headed next.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangChain's Second Birthday"
+  "status": "rejected",
+  "tags": [
+   "product-anniversary",
+   "community"
+  ],
+  "title": "LangChain's Second Birthday",
+  "what": "LangChain blog post celebrating its second anniversary, reflecting on community and product milestones",
+  "why": "No actionable technical guidance; primarily a celebratory overview"
  },
  "https://www.langchain.com/blog/langchain-state-of-ai-2023": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Discover how developers build LLM applications in 2023. Insights on popular models, vectorstores, retrieval strategies, and testing methods from LangSmith.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangChain State of AI 2023"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangChain State of AI 2023",
+  "what": "LangChain State of AI 2023 blog post",
+  "why": "Not useful for hands‑on building or open‑source guidance"
  },
  "https://www.langchain.com/blog/langchain-state-of-ai-2024": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 6,
   "snippet": "Dive into LangSmith product usage patterns that show how the AI ecosystem and the way people are building LLM apps is evolving.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangChain State of AI 2024 Report"
+  "status": "rejected",
+  "tags": [
+   "product",
+   "usage",
+   "trends"
+  ],
+  "title": "LangChain State of AI 2024 Report",
+  "what": "LangChain blog report on LangSmith usage patterns in 2024",
+  "why": "Provides high‑level trends but little actionable detail for building agents"
  },
  "https://www.langchain.com/blog/langgraph-cloud": {
   "first_seen": "2026-10-05",

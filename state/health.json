@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -212,7 +212,7 @@
   "fetched": 10,
   "id": "gh-aaif-goose-goose",
   "name": "aaif-goose/goose",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -380,7 +380,7 @@
   "fetched": 10,
   "id": "gh-promptfoo-promptfoo",
   "name": "promptfoo/promptfoo",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
