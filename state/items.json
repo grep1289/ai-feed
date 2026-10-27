@@ -3573,6 +3573,14 @@
   "status": "dropped:category",
   "title": "Evaluate prompts in the developer console"
  },
+ "https://claude.com/resources/articles/expanding-claude-for-nonprofits": {
+  "first_seen": "2026-10-27",
+  "kind": "read",
+  "published": "2026-10-26",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Expanding Claude for Nonprofits"
+ },
  "https://claude.com/resources/articles/extending-claude-capabilities-with-skills-mcp-servers": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -6491,6 +6499,14 @@
   "status": "dropped:prerelease",
   "title": "v1.7.0-alpha.1"
  },
+ "https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0-rc.1": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "source": "gh-agentgateway-agentgateway",
+  "status": "dropped:prerelease",
+  "title": "v1.7.0-rc.1"
+ },
  "https://github.com/agentsmd/agents.md/commit/0103409d8cd5937b2038b61df7c6d27ec97ce348": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8354,6 +8370,15 @@
   "status": "passed",
   "title": "deepagents-code==0.2.1"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.2": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "This update includes considerable security and performance improvements. We recommend upgrading as soon as feasible. Features Add support for GPT-6.1 Terra ( #7295 ). Bring selected text into the chat input ( #6955 ). Detect plugin updates and notify you when they are available ( #7234 ). Bug Fixes Prevent project .env files from setting extension, shell, plugin, and skill trust ( #7275 ).…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.2"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8380,6 +8405,24 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "langchain-daytona==0.0.9"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-modal%3D%3D0.0.7": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Bug Fixes Handle per-file permission and directory errors ( #7241 ). Thanks to our community contributors: JasonH (@yang0228) Special thanks to everyone who reported the issues addressed in this release: JasonH (@yang0228) ( #7129 ) Internal maintainers: Hunter Lovell (@hntrl) , Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since langchain-modal==0.0.6 This commit history…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-modal==0.0.7"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.10": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Bug Fixes Fixed PTC prompt caching to cache prompts per slot and tool identity. ( #7296 ) Special thanks to everyone who reported the issues addressed in this release: Ramon Nogueira (@ramon-langchain) ( #6878 ) Internal maintainers: Hunter Lovell (@hntrl) , Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since langchain-quickjs==0.3.9 This commit history includes changes…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-quickjs==0.3.10"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.8": {
   "first_seen": "2026-10-05",
@@ -8462,6 +8505,15 @@
   "status": "passed",
   "title": "langgraph==1.2.17"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Changes since 1.2.17 release(checkpoint): 4.3.1 ( #9447 ) release(langgraph): 1.2.18 ( #9445 ) fix(langgraph): let error_handler recover on every path and stream failed task results ( #9408 ) feat(langgraph): default delta snapshots to 100 updates ( #9420 ). DeltaChannel now takes a full snapshot every 100 updates instead of 1000: faster reads on long threads, more storage. Pass…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.18"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8479,6 +8531,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-checkpoint==4.3.0"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Changes since checkpoint==4.3.0 release(checkpoint): 4.3.1 ( #9447 ) fix(checkpoint): reject NUL bytes in namespace labels ( #9383 ) chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/checkpoint ( #9372 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint==4.3.1"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2": {
   "first_seen": "2026-10-05",
@@ -8596,6 +8657,24 @@
   "status": "passed",
   "title": "langgraph-cli==0.4.38"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.39": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Changes since cli==0.4.38 release(cli): 0.4.39 ( #9442 ) feat(cli): add --json to deploy list ( #9395 ) chore(deps): bump zod from 4.3.6 to 4.6.7 in /libs/cli/js-examples ( #9432 ) chore(deps): bump langgraph-checkpoint-postgres from 3.1.1 to 3.1.3 in /libs/cli/uv-examples/monorepo in the uv group across 1 directory ( #9422 ) chore(deps): bump virtualenv from 21.7.13 to 21.14.13 in /libs/cli (…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.39"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Changes since cli==0.4.39 release(cli): 0.4.40 ( #9443 ) feat(cli): send the upload headers the control plane returns ( #9396 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.40"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
   "first_seen": "2026-10-15",
   "kind": "release",
@@ -8604,6 +8683,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-prebuilt==1.1.1"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "Changes since sdk==0.4.9 release(checkpoint): 4.3.1 ( #9447 ) release(langgraph): 1.2.18 ( #9445 ) release(sdk-py): 0.4.10 ( #9446 ) fix(sdk-py): retry runs.wait with a bodyless GET and raise run errors in sync wait ( #9399 ) fix(sdk-py): follow the SSE spec for multi-line data, empty ids and a leading BOM ( #9402 ) fix(sdk-py): accept durability, stream_resumable and context in the runs…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.10"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
@@ -8676,6 +8764,24 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v3.225.12"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.225.13": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "chore: release v3.225.13",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.225.13"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.225.14": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "What's Changed security: rebuild to pull node.js patches test(worker): skip Azure LLM connection tests until CI key is replaced (v3 backport of #17924 ) by @Steffen911 in #19386 Full Changelog : v3.225.13...v3.225.14",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.225.14"
  },
  "https://github.com/langfuse/langfuse/releases/tag/v4.45.0": {
   "first_seen": "2026-10-05",
@@ -8946,6 +9052,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.70.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.70.1": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "What's Changed chore(pricing): remove retired legacy OpenAI snapshots from the model picker by @langfuse-bot in #19176 chore(deps): bump node to 24.22.1 by @nimarb in #19339 chore(design-sync): apply fixes from the daily design-system sync by @marksalpeter in #19297 chore(design-sync): apply fixes from the daily design-system sync by @marksalpeter in #19354 feat(topics): make it work well on…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.70.1"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -9383,6 +9498,15 @@
   "source": "gh-modelcontextprotocol-registry",
   "status": "passed",
   "title": "v1.8.4"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.5": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "snippet": "This release adds production performance diagnostics: request arrivals and backlog, database pool/query metrics, and bounded slow-listing logs correlated with ingress request IDs. Slow-request logs separate connection acquisition, query/fetch waits, row decoding, and response processing, including snapshots while requests remain stuck. It also includes publisher fixes for P-384 signatures and…",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.5"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.3.1": {
   "first_seen": "2026-10-05",
@@ -10067,6 +10191,46 @@
   "status": "dropped:prerelease",
   "title": "0.165.0-alpha.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.1": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-27",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.165.0-alpha.1.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.2": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-27",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.165.0-alpha.1.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.2": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.165.0-alpha.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-26",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.165.0-alpha.3"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.1": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-27",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.1"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10489,6 +10653,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.61.0 (2026-10-23)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.62.0": {
+  "first_seen": "2026-10-27",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Change thinking effort mid-conversation via OpenAI configuration_update and Anthropic per-message output_config , recorded as ModelSettingsDeltaPart by @DouweM in #11111 Add ModelRequestRejectedError , ModelAuthenticationError and ModelNotFoundError model error categories by @DouweM in #11081 State loaded deferred capabilities' instructions in the system…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.62.0 (2026-10-26)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -19344,6 +19517,20 @@
   "status": "passed",
   "title": "Building a safe, effective sandbox to enable Codex on Windows"
  },
+ "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
+  "first_seen": "2026-10-27",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+  "source": "openai-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "Working with academic communities to build scientific understanding",
+  "what": "OpenAI blog post on sharing scientific model results with academia",
+  "why": "Not useful for a hands‑on engineering lead seeking open‑source tooling or practical techniques"
+ },
  "https://openai.com/index/building-self-improving-tax-agents-with-codex": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -19352,6 +19539,20 @@
   "source": "openai-engineering",
   "status": "passed",
   "title": "Building self-improving tax agents with Codex"
+ },
+ "https://openai.com/index/chatgpt-expanding-world-of-work": {
+  "first_seen": "2026-10-27",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+  "source": "openai-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "ChatGPT’s expanding world of work",
+  "what": "OpenAI research blog post announcing usage data about ChatGPT in work contexts",
+  "why": "No actionable technical content for engineering leads to build or apply"
  },
  "https://openai.com/index/chatgpt-memory-dreaming": {
   "first_seen": "2026-10-05",
@@ -23865,6 +24066,25 @@
   "status": "dropped:keyword",
   "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi"
  },
+ "https://www.cncf.io/blog/2026/10/26/isolation-security-scale": {
+  "first_seen": "2026-10-27",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-26",
+  "score": 10,
+  "snippet": "Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensure they do what they’re supposed to do, and there’s zero way of ensuring that the...",
+  "source": "cncf-blog",
+  "status": "rejected",
+  "tags": [
+   "building and operating agents in production",
+   "open standards and protocols",
+   "agent architecture",
+   "security best practices"
+  ],
+  "title": "Isolation. Security. Scale.",
+  "what": "CNCF blog on isolation, security, and scaling for agents",
+  "why": "It gives practical patterns and design decisions the reader can apply when building production‑ready agents"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -24683,6 +24903,7 @@
   "minutes": 7,
   "published": "2026-09-14",
   "score": 13,
+  "shown": "2026-10-27",
   "snippet": "Learn how we built a GTM agent that increased lead conversion by 250% while saving each sales rep 40 hours per month",
   "source": "langchain-blog",
   "status": "passed",
@@ -24924,11 +25145,16 @@
  "https://www.langchain.com/blog/langgraph-cloud": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Our new infrastructure for running agents at scale, LangGraph Cloud, is available in beta. We also have a new stable release of LangGraph.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Announcing LangGraph v0.1 & LangGraph Cloud: Running agents at scale, reliably"
+  "status": "rejected",
+  "tags": [],
+  "title": "Announcing LangGraph v0.1 & LangGraph Cloud: Running agents at scale, reliably",
+  "what": "LangGraph v0.1 and LangGraph Cloud launch announcement",
+  "why": "Not suitable for hands‑on learning, no actionable technical content"
  },
  "https://www.langchain.com/blog/langgraph-platform-ga": {
   "first_seen": "2026-10-05",
@@ -24941,11 +25167,16 @@
  "https://www.langchain.com/blog/langserve-playground-and-configurability": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Deploy LangChain apps with LangServe's playground UI and configurable parameters. Experiment with models, share with teams, stream in real-time.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangServe Playground and Configurability"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangServe Playground and Configurability",
+  "what": "LangServe Playground and Configurability blog post announcing a UI for deploying LangChain apps.",
+  "why": "No actionable technical content for engineering leads to build or adopt."
  },
  "https://www.langchain.com/blog/langsmith-custom-apps": {
   "first_seen": "2026-10-05",
@@ -25017,11 +25248,16 @@
  "https://www.langchain.com/blog/langsmith-homepage-redesign-and-resource-tags": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "LangSmith's homepage is now organized into Observability, Evaluation, and Prompt Engineering. Learn why we organized the homepage like this. Plus, see our latest Resource Tags updates.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangSmith: Redesigned product homepage and Resource Tags for better organization"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangSmith: Redesigned product homepage and Resource Tags for better organization",
+  "what": "LangSmith homepage redesign announcement",
+  "why": "No actionable technical content for building agents"
  },
  "https://www.langchain.com/blog/langsmith-langchain-oss-eu-ai-act": {
   "first_seen": "2026-10-05",
@@ -25581,6 +25817,20 @@
   "status": "passed",
   "title": "Xata x LangChain: new vector store and memory store integrations"
  },
+ "https://www.youtube.com/shorts/2lNUGkCg_qc": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-23",
+  "score": 0,
+  "snippet": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "AI agents for everyday IT fixes | Shield and OpenAI",
+  "what": "AI agents for everyday IT fixes promo by Shield and OpenAI",
+  "why": "No actionable content for the reader"
+ },
  "https://www.youtube.com/shorts/3IVo-MNwk2I": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -25603,6 +25853,14 @@
   "what": "Short video about Booking.com’s stateless MCP implementation",
   "why": "Not enough technical depth to apply to personal projects"
  },
+ "https://www.youtube.com/shorts/7Cs5qyBlYQk": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "published": "2026-10-23",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "From notes to AI training with ChatGPT Work | Realpage."
+ },
  "https://www.youtube.com/shorts/7lC2N9woZy4": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -25610,6 +25868,37 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "Thomson Reuters on Building Trust in Legal AI | OpenAI"
+ },
+ "https://www.youtube.com/shorts/Wanw4woz7zc": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "At Sullivan & Cromwell LLP, John Savva uses Codex to build tools around the firm’s legal expertise. Agreement Analyzer brings together a draft agreement, selected precedents, and playbooks reflecting the firm’s and client’s positions. It identifies potential issues and returns a memo and proposed tracked changes for a lawyer to review. Lawyers can inspect the sources and explanations behind the…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [
+   "product launch",
+   "demo"
+  ],
+  "title": "How Sullivan & Cromwell builds legal tools with Codex | OpenAI",
+  "what": "YouTube short showcasing a legal tool built with Codex at Sullivan & Cromwell.",
+  "why": "Insufficient technical detail for a developer to replicate or learn from."
+ },
+ "https://www.youtube.com/shorts/qyGvwLgqmaU": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-23",
+  "score": 0,
+  "snippet": "Anant Kumar at Benefit Street Partners used Codex to build a tool that collects loan valuations from SEC filings and turns them into a website with visualizations. The first version took about a day. “I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.”",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "From analyst to builder with Codex | Benefit Street Partners",
+  "what": "Short video showing an analyst using Codex to build a SEC filings tool",
+  "why": "Not enough technical detail for actionable learning"
  },
  "https://www.youtube.com/shorts/v45XAMqH7pE": {
   "first_seen": "2026-10-22",
@@ -25955,6 +26244,20 @@
   "what": "Event promotion video for AGNTCon + MCPCon 2026",
   "why": "No actionable technical content for engineering leads."
  },
+ "https://www.youtube.com/watch?v=6f7ojkd4_Wc": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-23",
+  "score": 0,
+  "snippet": "We’re using dots to build better dots. Rennie Song, an engineer at OpenAI, uses her dot to gather feedback from social media and user reports, update a live tracker in ChatGPT Space, and investigate and fix bugs with Codex. Get started with dots today: https://learn.chatgpt.com/docs/dots",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Hunt bugs with your dot",
+  "what": "Video about using dots for bug tracking",
+  "why": "Not useful for engineering lead seeking buildable open-source tools"
+ },
  "https://www.youtube.com/watch?v=6qkzlT962es": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -26082,6 +26385,20 @@
   "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
   "what": "Presentation on Google DeepMind’s Gemini Interaction API and Managed Agents",
   "why": "Not relevant for open-source tool selection"
+ },
+ "https://www.youtube.com/watch?v=8fp-G14hvUk": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "Stack Overflow is building a knowledge intelligence platform that turns information scattered across workplace tools into verified knowledge for people and AI agents. The company's latest product, Stack Overflow for Agents, was built from the ground up by two engineers in just a few weeks using Codex. To distribute it, Stack launched a ChatGPT plugin, and signups tripled overnight. Users also…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+  "what": "Product launch video for Stack Overflow for Agents, presented as a marketing promo.",
+  "why": "Contains no technical details or actionable content for engineers."
  },
  "https://www.youtube.com/watch?v=8g0g1ncwzG0": {
   "first_seen": "2026-10-13",
@@ -26239,6 +26556,20 @@
   "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph",
   "what": "Video by Sourcegraph CEO about AI coding agents and large codebases",
   "why": "Not suitable technical content for engineering leads"
+ },
+ "https://www.youtube.com/watch?v=CTkDi1THc_g": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-23",
+  "score": 0,
+  "snippet": "“I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.” Benefit Street Partners’ Anant Kumar wanted to compare how firms valued the same loans. The information was spread across SEC filings. He built a tool to collect it automatically and turn it into a website with visualizations. The first version took about a day. He calls Codex the…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "How Benefit Street Partners is building financial analysis tools with Codex",
+  "what": "Benefit Street Partners’ presentation on building financial analysis tools with Codex.",
+  "why": "Not a technical guide and offers no actionable content for a builder."
  },
  "https://www.youtube.com/watch?v=D4XTefP3Lsc": {
   "first_seen": "2026-10-05",
@@ -27357,6 +27688,14 @@
   "what": "Video explaining the Model Hardware Standard (MHS) for AI agents to safely operate physical equipment in scientific research and advanced manufacturing.",
   "why": "Provides the design principles and architecture of an open standard that an engineering lead can study to build or integrate agent controls for physical devices in their own projects."
  },
+ "https://www.youtube.com/watch?v=V39_L7uh66M": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "published": "2026-10-23",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "How AT&T is building AI-powered legal workflows with OpenAI"
+ },
  "https://www.youtube.com/watch?v=VE5dsWll06M": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -27760,6 +28099,14 @@
   "what": "Announcement of LangSmith Custom Apps for building custom UIs over agent data",
   "why": "Not a technical how-to or open-source tool to build with"
  },
+ "https://www.youtube.com/watch?v=aNMZjoPGPOg": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "published": "2026-10-26",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Hebbia on Astra: Better research, better presentations | OpenAI"
+ },
  "https://www.youtube.com/watch?v=abw_m-DRi1k": {
   "first_seen": "2026-10-11",
   "kind": "watch",
@@ -27932,6 +28279,20 @@
   "title": "Adopting gRPC for Low Latency, High Bandwidth Scenarios - Christopher Cifra, Emerson",
   "what": "KubeCon talk on using gRPC for low‑latency, high‑bandwidth workloads.",
   "why": "It offers a high‑level overview rather than actionable guidance or code for the reader to implement immediately."
+ },
+ "https://www.youtube.com/watch?v=crEHJon4iD4": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "At Sullivan & Cromwell LLP, John Savva uses Codex to build tools around the firm’s legal expertise. Agreement Analyzer brings together a draft agreement, selected precedents, and playbooks reflecting the firm’s and client’s positions. It identifies potential issues and returns a memo and proposed tracked changes for a lawyer to review. Lawyers can inspect the sources and explanations behind the…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "How Sullivan & Cromwell builds legal tools with Codex | OpenAI",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=d6aNbE-3dxo": {
   "first_seen": "2026-10-05",
@@ -28182,6 +28543,14 @@
   "what": "Workshop on building observability for AI agents using the OpenAI Agents SDK and custom tracers",
   "why": "Readers can apply the tracing, offline evaluation, and scoring techniques to monitor and improve their own production agents this month"
  },
+ "https://www.youtube.com/watch?v=hgX1hgyWD4g": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "published": "2026-10-23",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "How Realpage. builds AI training with ChatGPT Work"
+ },
  "https://www.youtube.com/watch?v=htod7Nv1cBc": {
   "first_seen": "2026-10-11",
   "kind": "watch",
@@ -28278,6 +28647,20 @@
   "title": "Building a Debugging Agent Harness at Uber - Kriti Dangi",
   "what": "A video presentation on Uber's debugging agent harness",
   "why": "Provides a high‑level overview of an internal solution but offers limited actionable detail"
+ },
+ "https://www.youtube.com/watch?v=inrYeej3Big": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps businesses create visuals with readable text and precise infographics, while Codex helps Higgsfield’s…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Higgsfield takes AI video from 1 minute to over 10",
+  "what": "",
+  "why": ""
  },
  "https://www.youtube.com/watch?v=ix1qQK1IvmA": {
   "first_seen": "2026-10-07",
@@ -28483,6 +28866,14 @@
   "title": "Building an Agentic IAM SaaS with kcp and Kubebuilder - Philipp Strube, Auweia",
   "what": "A KubeCon talk on building an Agentic IAM SaaS using kcp and Kubebuilder",
   "why": "It shows how to use open-source kcp and Kubebuilder to architect and implement an IAM service powered by agents, offering practical patterns the reader can apply this month"
+ },
+ "https://www.youtube.com/watch?v=m6MlxaFMmPI": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "published": "2026-10-23",
+  "source": "yt-openai",
+  "status": "dropped:title_rule",
+  "title": "How Shield uses OpenAI’s Astra to support IT teams"
  },
  "https://www.youtube.com/watch?v=m8VkCbkFAKA": {
   "first_seen": "2026-10-05",
@@ -28903,6 +29294,14 @@
   "status": "dropped:keyword",
   "title": "From 15% to 90% GPU Utilization: Fix the Data Pipeline, Not the Model"
  },
+ "https://www.youtube.com/watch?v=tTuk4pGnT0A": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "published": "2026-10-26",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "GPT-6.1 Terra is now in orbit"
+ },
  "https://www.youtube.com/watch?v=tkrTan7FtWo": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -29171,6 +29570,20 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "Research to Reality with Google DeepMind — Paige Bailey, Google DeepMind"
+ },
+ "https://www.youtube.com/watch?v=zUybw-9ejZ4": {
+  "first_seen": "2026-10-27",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-26",
+  "score": 0,
+  "snippet": "Amp is building an AI agent that helps developers turn ideas into working software, from deciding what to build to writing code to onboarding customers. Sign in with ChatGPT gives Amp users access to more tokens for larger tasks, while Amp's conversational assistant, Puck, uses GPT‑Live‑1 to help users launch and manage agents by voice. Internally, the company’s 20-person team uses GPT‑6 Astra to…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Amp puts AI agents to work beyond code with OpenAI models",
+  "what": "Amp presents an AI‑powered assistant for building and managing software projects.",
+  "why": "The video focuses on product features and demos without actionable technical detail, so it offers no useful guidance for engineers looking to build agents."
  },
  "https://www.youtube.com/watch?v=zoohZ1BiHs0": {
   "first_seen": "2026-10-05",
