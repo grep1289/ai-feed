@@ -25,7 +25,7 @@
  },
  {
   "error": null,
-  "fetched": 296,
+  "fetched": 297,
   "id": "claude-blog",
   "name": "Claude Blog",
   "new": 1,
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -84,15 +84,15 @@
   "fetched": 50,
   "id": "kubernetes-blog",
   "name": "Kubernetes Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 890,
+  "fetched": 891,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 0,
+  "new": 4,
   "ok": true
  },
  {
@@ -136,12 +136,12 @@
   "ok": false
  },
  {
-  "error": null,
-  "fetched": 15,
+  "error": "HTTP 404",
+  "fetched": 0,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 15,
-  "ok": true
+  "new": 0,
+  "ok": false
  },
  {
   "error": "HTTP 404",
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 5,
+  "new": 0,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 3,
+  "new": 1,
   "ok": true
  },
  {
@@ -300,7 +300,7 @@
   "fetched": 10,
   "id": "gh-crewaiinc-crewai",
   "name": "crewAIInc/crewAI",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 3,
+  "new": 2,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 0,
+  "new": 5,
   "ok": true
  },
  {
@@ -393,10 +393,10 @@
  },
  {
   "error": null,
-  "fetched": 189,
+  "fetched": 191,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -404,7 +404,7 @@
   "fetched": 203,
   "id": "openai-research",
   "name": "OpenAI Research",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {

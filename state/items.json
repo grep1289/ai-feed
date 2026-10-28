@@ -3957,6 +3957,14 @@
   "status": "dropped:category",
   "title": "How to create Skills: Key steps, limitations, and examples"
  },
+ "https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "published": "2026-10-27",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Manage costs and demonstrate ROI for Claude Code on Google Cloud"
+ },
  "https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4905,6 +4913,20 @@
   "status": "passed",
   "title": "Build zero-trust AI agents that judge intent, not just syntax"
  },
+ "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively…",
+  "source": "google-developers-ai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype",
+  "what": "The article appears to be a publishing guideline rather than a technical deep dive into multi-agent swarms for conversational commerce.",
+  "why": "It does not provide actionable technical content for engineering leads to build or use open-source tools."
+ },
  "https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -4940,6 +4962,20 @@
   "title": "Evaluating AI agents: moving past the vibe check",
   "what": "A practical guide and reference architecture for continuous evaluation of multi-turn AI agents with Google’s Gemini Enterprise Agent Platform and OpenInference.",
   "why": "Engineers can adopt the architecture to build robust evaluation pipelines for their own agents within a month."
+ },
+ "https://developers.googleblog.com/fast-reliable-a2ui": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no…",
+  "source": "google-developers-ai",
+  "status": "rejected",
+  "tags": [],
+  "title": "Fast, reliable A2UI, with swappable inference formats",
+  "what": "Product update announcement for A2UI",
+  "why": "Not sufficient technical detail to build anything"
  },
  "https://developers.googleblog.com/gemini-4-argon-for-robotics": {
   "first_seen": "2026-10-14",
@@ -5216,6 +5252,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-08-19",
+  "shown": "2026-10-28",
   "snippet": "Build Codex into the products and workflows your users already know.",
   "source": "openai-developer",
   "status": "passed",
@@ -5676,6 +5713,15 @@
   "status": "passed",
   "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.18.10": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "Patch Changes Updated dependencies [ 86ab99c ] @arizeai/phoenix-client@7.16.3",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.18.10"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.18.6": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5748,6 +5794,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-client@7.16.2"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.16.3": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "Patch Changes 86ab99c : fix(client): keep description , default and other keywords next to anyOf when converting prompt tool and response-format schemas with toSDK",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-client@7.16.3"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-config%400.5.1": {
   "first_seen": "2026-10-22",
   "kind": "release",
@@ -5765,6 +5820,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-evals@2.7.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-evals%402.7.1": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "Patch Changes 0128562 : fix(phoenix-evals): keep metadata returned by custom evaluator functions wrapped with createEvaluator",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-evals@2.7.1"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-mcp%404.3.14": {
   "first_seen": "2026-10-05",
@@ -5801,6 +5865,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-mcp@4.3.17"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-mcp%404.3.18": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "Patch Changes Updated dependencies [ 86ab99c ] @arizeai/phoenix-client@7.16.3",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-mcp@4.3.18"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-otel%402.3.0": {
   "first_seen": "2026-10-22",
@@ -5846,6 +5919,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix-evals: v3.9.4"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-evals-v3.9.5": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "3.9.5 (2026-10-27) Documentation evals: fix PrecisionRecallFScore docstring examples that call the evaluator directly ( #17039 ) ( e84f16b )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-evals: v3.9.5"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-otel-v0.17.2": {
   "first_seen": "2026-10-05",
@@ -6490,6 +6572,15 @@
   "source": "gh-agentgateway-agentgateway",
   "status": "dropped:prerelease",
   "title": "v1.6.0-rc.1"
+ },
+ "https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "🎉 Welcome to the 1.7.0 release of the agentgateway project! Agentgateway 1.7 knows more about your models and your traffic than ever. The model catalog now knows each model's context window, modalities, and capabilities, and shares them through /v1/models and CEL. Costs reflect the service tier that actually served each request. New analytics break down tokens, cost, cache hit rate, and latency…",
+  "source": "gh-agentgateway-agentgateway",
+  "status": "passed",
+  "title": "v1.7.0"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0-alpha.1": {
   "first_seen": "2026-10-22",
@@ -7343,6 +7434,24 @@
   "source": "gh-crewaiinc-crewai",
   "status": "passed",
   "title": "1.15.30"
+ },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "What's Changed Features Support conversational flow context compaction. Bug Fixes Update vulnerable audit dependencies. Stop sending 'stop' to GPT-6 and newer models. Run the provider listing off the loop in acleanup_provider_files . Emit LLMGuardrailCompletedEvent for a malformed guardrail result. Name the renamed integration token when it is missing. Fix path traversal in output_file via…",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.31"
+ },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.32": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "What's Changed Bug Fixes Fix failing flaky tests Documentation Update snapshot and changelog for v1.15.31 Contributors @lorenzejay",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.32"
  },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
@@ -8424,6 +8533,15 @@
   "status": "passed",
   "title": "langchain-quickjs==0.3.10"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.11": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "Bug Fixes Defer QuickJS runtime initialization until evaluation ( #7301 ). Internal maintainers: Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since langchain-quickjs==0.3.10 This commit history includes changes to this package. Commits are listed newest first. bea2ad5 release(langchain-quickjs): 0.3.11 ( #7315 ) 12b4a78 fix(quickjs): defer runtime initialization until…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-quickjs==0.3.11"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.8": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8783,6 +8901,15 @@
   "status": "passed",
   "title": "v3.225.14"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.225.15": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "What's Changed fix(web): check that an invite's project belongs to the organization (v3 backport of #19404 ) by @Steffen911 in #19408 fix(annotation-queues): validate queue when adding items (v3 backport of #19407 ) by @Steffen911 in #19409 fix(automations): mask and encrypt legacy webhook headers (v3 backport of #19207 ) by @Steffen911 in #19421 fix(security): require secrets again when webhook…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.225.15"
+ },
  "https://github.com/langfuse/langfuse/releases/tag/v4.45.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9061,6 +9188,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.70.1"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.71.0": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "What's Changed Features feat(ai-gateway): record model, key owner, byte and upstream error facts on generations by @hassiebp in #19161 feat(ai-gateway): product analytics for setup, credentials, invites, keys and model access by @wochinge in #19379 feat(ai-gateway): restore empty-state placeholders for providers, models and gateway API keys by @wochinge in #19391 feat(ee)!: add self-hosted…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.71.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -9507,6 +9643,15 @@
   "source": "gh-modelcontextprotocol-registry",
   "status": "passed",
   "title": "v1.8.5"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.6": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "This release improves registry search performance under mixed search, pagination and publishing traffic. Select search page keys through covering indexes before fetching complete records. Plan searches for their actual parameter values to handle broad and rare terms reliably. Optimize namespace suffix searches and require at least three Unicode characters for nonempty search terms (shorter…",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.6"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.3.1": {
   "first_seen": "2026-10-05",
@@ -10183,6 +10328,15 @@
   "status": "dropped:prerelease",
   "title": "0.164.0-alpha.9"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.165.0": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "snippet": "New Features Added a built-in Google Cloud Vertex AI provider, configured with model_provider = \"gcp\" . ( #56265 ) Added GPT-6.1 Terra to the model catalogs. ( #57337 ) Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navigate sessions across linked worktrees. ( #56308 ) Added experimental attached thread forks to the…",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.165.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1": {
   "first_seen": "2026-10-24",
   "kind": "release",
@@ -10230,6 +10384,38 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.166.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.3": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-27",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.3"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.4": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.4"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.5"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -10662,6 +10848,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.62.0 (2026-10-26)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.63.0": {
+  "first_seen": "2026-10-28",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Default CodeMode to dynamic_catalog=True , so a revealed tool is appended instead of rewriting the cached prompt by @DouweM in #11358 Pass the Gemini Live reconnect replay to GoogleRealtimeConnection 's dial as a keyword-only replay argument by @DouweM in #11515 Give Harness LLMReminder a default interval=10 instead of generating on every request by @DouweM…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.63.0 (2026-10-27)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -11344,6 +11539,14 @@
   "status": "dropped:keyword",
   "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark"
  },
+ "https://huggingface.co/blog/LiquidAI/lfm3": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "published": "2026-10-27",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Build specialized multimodal models with LFM3"
+ },
  "https://huggingface.co/blog/LiquidAI/open-d1": {
   "first_seen": "2026-10-08",
   "kind": "read",
@@ -11826,6 +12029,20 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape"
+ },
+ "https://huggingface.co/blog/allenai/novelty-bench": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "Can we trust LLMs to judge whether a research idea is novel?",
+  "what": "Blog post announcing a benchmark for assessing novelty in research ideas using LLMs",
+  "why": "Not technical content for implementation"
  },
  "https://huggingface.co/blog/allenai/olmoearth-embeddings": {
   "first_seen": "2026-10-05",
@@ -16553,6 +16770,22 @@
   "status": "dropped:keyword",
   "title": "Introducing Prodigy-HF: a direct integration with Hugging Face"
  },
+ "https://huggingface.co/blog/project-numina/kimina-prover": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "published": "2025-07-10",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Kimina-Prover: Applying Test-time RL Search on Large Formal Reasoning Models"
+ },
+ "https://huggingface.co/blog/project-numina/kimina-prover-rl": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "published": "2025-08-14",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Kimina-Prover-RL"
+ },
  "https://huggingface.co/blog/protectai": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -18965,6 +19198,14 @@
   "source": "kubernetes-blog",
   "status": "dropped:keyword",
   "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp"
+ },
+ "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "published": "2026-10-27",
+  "source": "kubernetes-blog",
+  "status": "dropped:keyword",
+  "title": "Announcing the Workload Conformance Working Group"
  },
  "https://martinfowler.com/articles/2026-dont-like-llms.html": {
   "first_seen": "2026-10-05",
@@ -21924,6 +22165,23 @@
   "status": "passed",
   "title": "Paving the way for agents in biology"
  },
+ "https://www.anthropic.com/research/agents-judgment-calls": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-10-27",
+  "score": 1,
+  "snippet": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of two defensible options the agent would favor. Analysts mostly went with the agent’s side, and few…",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [
+   "research",
+   "human-agent-interaction"
+  ],
+  "title": "How AI agents shape experts’ judgment calls",
+  "what": "Research article on how AI agents influence experts’ judgment calls",
+  "why": "Provides limited insights into agent influence but offers little actionable guidance for builders"
+ },
  "https://www.anthropic.com/research/ai-expectations-gap": {
   "first_seen": "2026-10-17",
   "kind": "read",
@@ -22560,6 +22818,20 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Donating our open-source alignment tool"
+ },
+ "https://www.anthropic.com/research/early-progress-drug-development": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+  "source": "anthropic-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "Early progress on accelerating drug development with Claude",
+  "what": "Anthropic research announcement on using Claude to accelerate drug development.",
+  "why": "No actionable technical content for engineers."
  },
  "https://www.anthropic.com/research/ecdsa-curve-origins": {
   "first_seen": "2026-10-17",
@@ -24085,6 +24357,14 @@
   "what": "CNCF blog on isolation, security, and scaling for agents",
   "why": "It gives practical patterns and design decisions the reader can apply when building production‑ready agents"
  },
+ "https://www.cncf.io/blog/2026/10/27/over-500-golden-kubestronauts-the-evolving-standard-for-cloud-native-mastery": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "published": "2026-10-27",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Over 500 Golden Kubestronauts: The evolving standard for cloud native mastery"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -24685,6 +24965,25 @@
   "what": "Deep Agents Deploy is a beta platform for deploying model-agnostic, open‑source agents in production.",
   "why": "Readers can adopt the framework to run their own agents, learn deployment patterns, and integrate with existing infra."
  },
+ "https://www.langchain.com/blog/design-agent": {
+  "first_seen": "2026-10-28",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-10-27",
+  "score": 14,
+  "shown": "2026-10-28",
+  "snippet": "How LangChain built Content Studio, an open-source design agent in Slack that makes on-brand videos, graphics and decks, and the harness that powers it.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "agents in production",
+   "platform engineering"
+  ],
+  "title": "How We Built Our Design Agent",
+  "what": "A LangChain blog post detailing how they built and open-sourced the Content Studio design agent in Slack.",
+  "why": "Readers can learn architectural patterns, tooling, and implementation details to build their own open‑source design or content agents."
+ },
  "https://www.langchain.com/blog/eden-ai-x-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25262,20 +25561,36 @@
  "https://www.langchain.com/blog/langsmith-langchain-oss-eu-ai-act": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "The EU AI Act compliance deadline is August 2, 2026. Learn what the EU AI Act requires, and how LangSmith and LangChain OSS products help you meet each requirement.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "How LangSmith and LangChain OSS Help You Meet EU AI Act Requirements"
+  "status": "rejected",
+  "tags": [],
+  "title": "How LangSmith and LangChain OSS Help You Meet EU AI Act Requirements",
+  "what": "Blog post describing how LangSmith and LangChain OSS can help meet EU AI Act requirements",
+  "why": "Not actionable for building agents; mainly a compliance overview"
  },
  "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 11,
   "snippet": "LangSmith LLM Gateway is in public beta: spend caps, rate limits, model fallbacks and PII redaction for production agents, without provider lock-in.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "LangSmith LLM Gateway: Runtime Controls for Agents"
+  "tags": [
+   "runtime-controls",
+   "agents",
+   "open-source",
+   "cost-management",
+   "observability"
+  ],
+  "title": "LangSmith LLM Gateway: Runtime Controls for Agents",
+  "what": "LangSmith LLM Gateway adds runtime controls such as spend caps, rate limits, model fallbacks, and PII redaction for production agents, available in public beta.",
+  "why": "Engineers can integrate these controls into their own agent workflows to manage costs, enforce policies, and reduce vendor lock‑in."
  },
  "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new": {
   "first_seen": "2026-10-05",
@@ -25345,11 +25660,20 @@
  "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 8,
   "published": "2026-08-26",
+  "score": 10,
   "snippet": "Scale retrieval apps to production with LangChain's Airbyte integration. Automate data ingestion with scheduling, text splitting, and 50+ embeddings.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Making Data Ingestion Production Ready: a LangChain-Powered Airbyte Destination"
+  "tags": [
+   "open-source frameworks",
+   "agents for platform engineering",
+   "building and operating agents in production"
+  ],
+  "title": "Making Data Ingestion Production Ready: a LangChain-Powered Airbyte Destination",
+  "what": "A LangChain blog post showing how to use LangChain with Airbyte to create a production‑ready data ingestion destination.",
+  "why": "It teaches how to integrate Airbyte with LangChain, showing scheduling, text splitting and embedding pipelines that the reader can adapt to their own ingestion workflows this month."
  },
  "https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack": {
   "first_seen": "2026-10-08",
