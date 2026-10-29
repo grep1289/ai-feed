@@ -3981,6 +3981,14 @@
   "status": "dropped:category",
   "title": "How Warp builds self-improving agents on Claude"
  },
+ "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "published": "2026-10-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "IDC brings Quanta into Claude and adopts Claude across the company"
+ },
  "https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4028,6 +4036,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Your favorite work tools are now interactive connectors inside Claude"
+ },
+ "https://claude.com/resources/articles/introducing-artifacts-for-legal-work": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "published": "2026-10-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing artifacts for legal work"
  },
  "https://claude.com/resources/articles/introducing-citations-api": {
   "first_seen": "2026-10-07",
@@ -4356,6 +4372,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Skills explained: How Skills compares to prompts, Projects, MCP, and subagents"
+ },
+ "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "published": "2026-10-28",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Smart reports, surveys, and pooled group budgets for Claude Enterprise"
  },
  "https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more": {
   "first_seen": "2026-10-07",
@@ -4993,6 +5017,27 @@
   "status": "dropped:keyword",
   "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2"
  },
+ "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "minutes": 8,
+  "published": "2026-10-28",
+  "score": 13,
+  "shown": "2026-10-29",
+  "snippet": "This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes. Developers will also learn how to integrate nightly scheduled runs with threshold-based alerting to track…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "tags": [
+   "evaluation",
+   "observability",
+   "open‑source",
+   "agent‑quality",
+   "continuous‑testing"
+  ],
+  "title": "Hill-Climbing Agent Quality with Agents CLI Evaluation",
+  "what": "A Google Developers Blog post detailing how to use Agents CLI for systematic evaluation and hill‑climbing of agent quality.",
+  "why": "Engineers can adopt the CLI loop, automate nightly runs, and use thresholds to catch regressions and compare model back‑ends."
+ },
  "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu": {
   "first_seen": "2026-10-21",
   "kind": "read",
@@ -5072,6 +5117,14 @@
   "source": "google-developers-ai",
   "status": "dropped:title_rule",
   "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs"
+ },
+ "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "published": "2026-10-28",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Smaller apps and faster GPU inference with LiteRT in Google Play services"
  },
  "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk": {
   "first_seen": "2026-10-20",
@@ -6262,6 +6315,15 @@
   "status": "passed",
   "title": "v0.3.285"
  },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.286": {
+  "first_seen": "2026-10-29",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "0.3.286 (2026-10-28) Breaking Changes Docker read_file() now uses the container's default execution user instead of Docker's privileged copy API. Callers needing privileged reads must request user=\"root\"; callers acting for a different sandbox user must pass that user. Docker reads require tar with --no-recursion, /bin/sh and /usr/bin/timeout, and no longer retry the former compose-cp…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.286"
+ },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6488,6 +6550,15 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.56.0"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.57.0": {
+  "first_seen": "2026-10-29",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "✨ Features Allowlist: require HTTPS and validate redirects, block on policy failure #12619 Allow callers to supply Goose session IDs #13098 🐛 Bug Fixes Linux window icons restored in desktop app #13120 OpenRouter: resolve variant suffixes like :free and :nitro to the base model #12979 Use catalog_provider_id for vision lookup on custom providers #12993 Desktop: start the agent only once after a…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.57.0"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -7128,6 +7199,15 @@
   "source": "gh-anthropics-skills",
   "status": "passed",
   "title": "Update claude-api skill: auth, cloud providers, Managed Agents fixes,…"
+ },
+ "https://github.com/anthropics/skills/commit/ca45fc496a3436251f191354091d557da31c15b5": {
+  "first_seen": "2026-10-29",
+  "kind": "release",
+  "published": "2026-10-28",
+  "snippet": "Update mcp-builder skill: teach v2 of the MCP TypeScript SDK (#2087) * Update mcp-builder skill: add a TypeScript SDK v2 guide Adds reference/node_mcp_server_v2.md for @modelcontextprotocol/server, tells SKILL.md readers how to choose between v1 and v2, and links each version's docs. The v1 guide is unchanged apart from a note pointing new servers to v2. * Update mcp-builder skill: tell v1 users…",
+  "source": "gh-anthropics-skills",
+  "status": "passed",
+  "title": "Update mcp-builder skill: teach v2 of the MCP TypeScript SDK (#2087)"
  },
  "https://github.com/anthropics/skills/commit/dbd4588f9e1033efb41dad4bef2f7947c8993d44": {
   "first_seen": "2026-10-10",
@@ -10416,6 +10496,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.166.0-alpha.5"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.5.1": {
+  "first_seen": "2026-10-29",
+  "kind": "release",
+  "published": "2026-10-28",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.5.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.6": {
+  "first_seen": "2026-10-29",
+  "kind": "release",
+  "published": "2026-10-29",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.166.0-alpha.6"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -16181,6 +16277,14 @@
   "status": "dropped:keyword",
   "title": "Nemotron-Personas-Japan: ソブリン AI のための合成データセット"
  },
+ "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "published": "2026-10-28",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt"
+ },
  "https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -19550,6 +19654,20 @@
   "title": "Fragments: October 21",
   "what": "Opinion piece on detecting AI-generated content",
   "why": "No actionable technical guidance for building or operating agents"
+ },
+ "https://martinfowler.com/fragments/2026-10-28.html": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 0,
+  "snippet": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing the vertigo of the curve going vertical. And it is all happening at the same time. Many of my…",
+  "source": "martinfowler",
+  "status": "rejected",
+  "tags": [],
+  "title": "Fragments: October 28",
+  "what": "Opinion piece on LLM perception gaps",
+  "why": "Not actionable or technical"
  },
  "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html": {
   "first_seen": "2026-10-05",
@@ -24365,6 +24483,14 @@
   "status": "dropped:keyword",
   "title": "Over 500 Golden Kubestronauts: The evolving standard for cloud native mastery"
  },
+ "https://www.cncf.io/blog/2026/10/28/volcano-v1-16-released-namespacequeue-fairshare-and-a-broader-hypernode-ecosystem": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "published": "2026-10-28",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Volcano v1.16 Released: NamespaceQueue, fairshare, and a broader HyperNode ecosystem"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -24685,6 +24811,26 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "How We Build Agent Environments & Tasks"
+ },
+ "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-28",
+  "score": 13,
+  "shown": "2026-10-29",
+  "snippet": "LangChain used OpenWiki, its open-source wiki compiler, and an evidence graph to build a persistent memory layer that preserves knowledge for agents to reuse across tasks. Learn how.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "agent memory",
+   "graphs",
+   "OpenWiki"
+  ],
+  "title": "How to build evidence-grounded agent memory with OpenWiki and Graphs",
+  "what": "A LangChain blog post detailing how to construct an evidence-grounded memory layer for agents using OpenWiki and graph-based evidence.",
+  "why": "It provides a concrete architecture, code snippets, and design patterns that engineers can adopt to add persistent, verifiable memory to their own agents within a month."
  },
  "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents": {
   "first_seen": "2026-10-14",
@@ -25713,11 +25859,21 @@
  "https://www.langchain.com/blog/meet-connery-an-open-source-plugin-infrastructure-for-opengpts-and-llm-apps": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 15,
   "snippet": "Discover Connery: open-source plugin infrastructure for LLM apps. Secure integrations, personalization, and human-in-the-loop control for AI agents.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Meet Connery: An Open-Source Plugin Infrastructure for OpenGPTs and LLM apps"
+  "tags": [
+   "open-source frameworks",
+   "plugin infrastructure",
+   "agent building",
+   "open standards"
+  ],
+  "title": "Meet Connery: An Open-Source Plugin Infrastructure for OpenGPTs and LLM apps",
+  "what": "An open‑source plugin framework called Connery for building, securing, and personalizing LLM‑powered agents.",
+  "why": "Engineers can adopt the Connery SDK to create plug‑in‑driven agent applications, integrate third‑party services safely, and add human‑in‑the‑loop controls in a few weeks."
  },
  "https://www.langchain.com/blog/multi-modal-rag-template": {
   "first_seen": "2026-10-05",
@@ -25889,6 +26045,25 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "Plan-and-Execute Agents"
+ },
+ "https://www.langchain.com/blog/proactive-agents": {
+  "first_seen": "2026-10-29",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-10-28",
+  "score": 13,
+  "snippet": "Most proactive agents run on a simple cron. Learn what scheduled runs unlock, from memory to smart triage, and how to add them to Managed Deep Agents.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "agent building",
+   "schedules",
+   "open-source SDK",
+   "proactive agents"
+  ],
+  "title": "How to Build Proactive, Always-On Agents with the Schedules SDK in Managed Deep Agents",
+  "what": "A LangChain blog post explaining how to use their Schedules SDK to add proactive, always‑on behavior to Managed Deep Agents.",
+  "why": "Engineers can learn to integrate scheduled runs, memory, and smart triage into their own agent workflows using an open‑source SDK."
  },
  "https://www.langchain.com/blog/proving-the-roi-of-agentic-ai-in-financial-services": {
   "first_seen": "2026-10-05",
@@ -26275,6 +26450,14 @@
   "what": "",
   "why": ""
  },
+ "https://www.youtube.com/watch?v=0qb0FQo3M5c": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-27",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel"
+ },
  "https://www.youtube.com/watch?v=13YZ1EB9hjU": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -26504,6 +26687,42 @@
   "what": "A product‑centric talk on debugging voice agents at Arize AI.",
   "why": "Not suitable for building or learning concrete techniques."
  },
+ "https://www.youtube.com/watch?v=4UtrRVtUN_g": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-26",
+  "score": 13,
+  "snippet": "Daksh Gupta, co-founder of Greptile, which reviews about 1% of all pull requests on GitHub, shares what Greptile tells companies that want to build their own review agent. Starting from a simple sandbox-plus-webhook setup, he explains why it misses bugs, costs $3-25 per PR and floods you with nitpicks, then walks through the fixes: targeted prompts, a dataset of past incident PRs, model inversion…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "building and operating agents in production",
+   "open-source frameworks",
+   "evaluation and observability"
+  ],
+  "title": "How to Build an AI Code Review Agent - Daksh Gupta, Greptile",
+  "what": "A walkthrough of how Greptile built an AI‑powered code review agent",
+  "why": "It gives concrete patterns for building a production‑ready PR review bot you can prototype this month"
+ },
+ "https://www.youtube.com/watch?v=4iYOJ6gyQV4": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 1,
+  "published": "2026-10-26",
+  "score": 2,
+  "snippet": "You can get an LLM to call a tool in an afternoon. Getting an agent to behave predictably over many steps, or across a whole team of agents, is the harder problem, and it's the one LangGraph is built to solve. This one-minute explainer from LangChain Academy shows how LangGraph models an agent as a graph, where nodes do the work and edges decide what happens next. It also covers shared state,…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "agent-architecture",
+   "langgraph",
+   "intro"
+  ],
+  "title": "LangGraph explained in 1 minute",
+  "what": "A one‑minute YouTube explainer on LangGraph’s graph‑based agent architecture",
+  "why": "It gives a high‑level overview but no actionable guidance for engineers"
+ },
  "https://www.youtube.com/watch?v=4swQ0YknTLs": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -26511,6 +26730,34 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "“A Jaw Drop. Literally.” How Cooley Is Reimagining IPOs with OpenAI"
+ },
+ "https://www.youtube.com/watch?v=50EG3AgSVSo": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Welcome + Opening Remarks - Henrik Rexed, Dynatrace & Iris Dyrmishi",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Welcome + Opening Remarks - Henrik Rexed, Dynatrace & Iris Dyrmishi, Miro"
+ },
+ "https://www.youtube.com/watch?v=58ulJViGFgU": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-28",
+  "score": 10,
+  "snippet": "When an agent sends an invoice using your token, who actually made the request? Kamil Potrec of Keycard breaks down how agents get credentials today (personal tokens, static keys, over-privileged service accounts) and what proper agent auth requires: per-agent identity, delegation, short-lived scoped credentials, federation with legacy systems, policy and audit. He compares SDKs and gateways for…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent auth",
+   "credentials",
+   "security",
+   "open-source SDKs"
+  ],
+  "title": "Who Is Making This Request? Agent Auth 101 - Kamil Potrec, Keycard",
+  "what": "A video explaining agent authentication mechanisms and best practices",
+  "why": "It teaches the reader how to design and implement per-agent identity, delegation, short‑lived scoped credentials, and federation for secure agent operation"
  },
  "https://www.youtube.com/watch?v=5On2-C-uORY": {
   "first_seen": "2026-10-22",
@@ -26567,6 +26814,23 @@
   "title": "Who Authorized That Agent to do That?",
   "what": "Event promotion video for AGNTCon + MCPCon 2026",
   "why": "No actionable technical content for engineering leads."
+ },
+ "https://www.youtube.com/watch?v=6ep8Vvm4Bdw": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 0,
+  "snippet": "“If you're an executive, you are the ceiling for AI fluency for your organization.” Merge co-founder and CEO Shensi Ding manages the non-R&D side of the business. She also codes. With Codex, she asked for help redesigning a feature without prescribing the solution. It drew on Merge’s existing design system, proposed different approaches and helped her work through difficult UX decisions. That…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [
+   "testimonial",
+   "product launch"
+  ],
+  "title": "Why Merge CEO Shensi Ding stays hands-on with Codex",
+  "what": "CEO testimonial on using Codex for coding tasks",
+  "why": "Not actionable engineering content for building or deploying agents"
  },
  "https://www.youtube.com/watch?v=6f7ojkd4_Wc": {
   "first_seen": "2026-10-27",
@@ -26740,6 +27004,23 @@
   "what": "A YouTube talk on Perpetual’s finance workflow agent",
   "why": "No actionable technical details or open-source guidance"
  },
+ "https://www.youtube.com/watch?v=8gCam2-iGLc": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-14",
+  "score": 0,
+  "snippet": "Deep Agents is LangChain's open source agent harness built for long-running tasks. It handles planning, context management, and multi-agent orchestration for complex work like research and coding. Learn more about Deep Agents: LangChain Academy → https://academy.langchain.com/courses/foundation-introduction-to-deepagents Docs → https://docs.langchain.com/oss/python/deepagents/overview Intro to…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "product-launch",
+   "video"
+  ],
+  "title": "Deep Agents by LangChain explained in 1 minute",
+  "what": "Video tutorial on LangChain's Deep Agents, a brief overview.",
+  "why": "No actionable or detailed content for a seasoned engineering lead."
+ },
  "https://www.youtube.com/watch?v=8n-SXxRIrm8": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -26825,6 +27106,20 @@
   "what": "A keynote discussing shared learning challenges among agents.",
   "why": "Provides high‑level insights but no actionable code or open‑source guidance."
  },
+ "https://www.youtube.com/watch?v=AnsXWH2_EBU": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 3,
+  "snippet": "Coding agents are opening PRs faster than anyone can review them. Manish Kapur (Sonar) and Addy Osmani (Anthropic) discuss \"light\" vs. \"dark\" software factories, how Anthropic scaled from about 2,500 to 30,000 merged changes a day with Claude doing first-pass review backed by real verification evidence, new data from Sonar's State of Code survey, and why every loop in the factory needs…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "How Anthropic Merges 30,000 Code Changes a Day - Manish Kapur, Sonar & Addy Osmani, Anthropic",
+  "what": "Video discussion of Anthropic’s large‑scale code‑review pipeline",
+  "why": "No actionable details for building agents from the content"
+ },
  "https://www.youtube.com/watch?v=BIhiYL4U9_M": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -26880,6 +27175,40 @@
   "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph",
   "what": "Video by Sourcegraph CEO about AI coding agents and large codebases",
   "why": "Not suitable technical content for engineering leads"
+ },
+ "https://www.youtube.com/watch?v=BgLdvF7Qkh8": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-27",
+  "score": 7,
+  "snippet": "Runlayer is a company of about 60 people running 300+ agents every day. Founding engineer Aiden Sochowski shares what they found once they put a gateway in front of everything and logged every session and tool call: prompt injection through email, PR-review agents getting talked into approvals, over-permissioned bots, one poisoned agent contaminating others, buggy vibe-coded MCP servers burning…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent security",
+   "gateway",
+   "observability",
+   "agent ops",
+   "open standards"
+  ],
+  "title": "300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer",
+  "what": "Runlayer’s internal audit of 300+ AI agents and lessons from a custom gateway and logging system",
+  "why": "Provides concrete agent‑security tactics and observability patterns that an engineer can adopt in their own production environment"
+ },
+ "https://www.youtube.com/watch?v=C2vdw5GSTQo": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "“Not being technical is not a reason to not build.” At Sotira, Amrita Bhasin uses Codex to connect unsold products with people who need them, helping keep millions of pounds of inventory out of landfills. Meet Amrita, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "How Sotira Gives Unsold Inventory a Second Life with Codex",
+  "what": "Video showcasing how Sotira uses OpenAI Codex to repurpose unsold inventory",
+  "why": "No actionable technical guidance or open-source content for the engineer"
  },
  "https://www.youtube.com/watch?v=CTkDi1THc_g": {
   "first_seen": "2026-10-27",
@@ -26960,6 +27289,14 @@
   "title": "Why Bigger Context Windows Won't Save Your Agent — Elizabeth Fuentes Leone, AWS",
   "what": "A video explaining why larger context windows fail for agents and how to handle tool outputs using the open-source Strands Agents framework.",
   "why": "It gives concrete patterns and trade‑offs a lead can apply this month to build more robust agents."
+ },
+ "https://www.youtube.com/watch?v=E-NgloMJP14": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-27",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Seokho Son - Speaker at KubeCon + CloudNativeCon North America"
  },
  "https://www.youtube.com/watch?v=E3KbFLAGD6A": {
   "first_seen": "2026-10-10",
@@ -27181,6 +27518,15 @@
   "what": "A Microsoft product manager explains how VS Code shifted to weekly releases powered by AI agents.",
   "why": "It shows a concrete engineering workflow that can inspire similar release‑engineering practices in other projects."
  },
+ "https://www.youtube.com/watch?v=IHb1oB_NK8o": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io OpenTelemetry Beyond Observability: Security, CI/CD, and Network Management - Antoine…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "OpenTelemetry Beyond Observability: Security, CI/CD, and Network Management - Antoine Toulme, Cisco"
+ },
  "https://www.youtube.com/watch?v=INGOC6-LLv0": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -27257,6 +27603,15 @@
   "source": "yt-cncf",
   "status": "dropped:keyword",
   "title": "Meet Decheng Dai - Speaker at KubeCon + CloudNativeCon North America"
+ },
+ "https://www.youtube.com/watch?v=JSZuGw1jBBE": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Sponsored Keynote | Odigos: Runtime Context: The Missing Foundation for AI in…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Sponsored Keynote | Odigos: Runtime Context: The Missing... - Ari Recht, Odigos Technologies Inc."
  },
  "https://www.youtube.com/watch?v=Ju-JyxDgV7g": {
   "first_seen": "2026-10-11",
@@ -27387,6 +27742,14 @@
   "status": "dropped:keyword",
   "title": "Build Plugins for ChatGPT"
  },
+ "https://www.youtube.com/watch?v=M2Oa42hF67E": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-28",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström"
+ },
  "https://www.youtube.com/watch?v=M9BMTC8o9-w": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -27446,6 +27809,23 @@
   "source": "yt-anthropic",
   "status": "passed",
   "title": "AI on campus"
+ },
+ "https://www.youtube.com/watch?v=NPdrxeju5E0": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Sponsored Keynote | Datadog: Where Did the CPU Go? Building the OpenTelemetry eBPF…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Sponsored Keynote | Datadog: Where Did the CPU Go? Building the... - Nayef Ghattas, Datadog"
+ },
+ "https://www.youtube.com/watch?v=NQRJgER_mVA": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-28",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Weiqi Sun - Speaker at KubeCon + CloudNativeCon North America"
  },
  "https://www.youtube.com/watch?v=NaOkR3VSfR4": {
   "first_seen": "2026-10-09",
@@ -27619,6 +27999,26 @@
   "what": "KubeCon+ CloudNativeCon event promotion",
   "why": "No technical content for implementation"
  },
+ "https://www.youtube.com/watch?v=P_0_Th_ZzIg": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-28",
+  "score": 12,
+  "snippet": "Most teams spin up a new open model with the default vLLM recipe and hope for the best. Runpod forward-deployed engineer Chris Vela shows how to choose configs from data instead, starting with the use case and concurrency, and demos BenchPod, a benchmarking dashboard built on vLLM that tests configs live without restarts. He runs Kimi K3 on a B300, shows how tuning max batch tokens cuts…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "vLLM",
+   "benchmarking",
+   "LLM deployment",
+   "Runpod",
+   "open-source"
+  ],
+  "title": "Stop Guessing Your vLLM Config: Benchmarking LLMs on Runpod - Chris Vela, Runpod",
+  "what": "A Runpod engineer demonstrates how to benchmark and tune vLLM configurations for better LLM performance using an open-source dashboard.",
+  "why": "Engineers can adopt the benchmarking workflow and tune max‑batch tokens to optimize cost and latency for their own LLM deployments."
+ },
  "https://www.youtube.com/watch?v=PeTgUJD6fX0": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -27700,6 +28100,24 @@
   "title": "Claude Managed Agents Q&A: Evals, CI/CD and Multi-Tenancy (Part 4 of 4) — Anthropic",
   "what": "Claude Managed Agents Q&A: Evals, CI/CD and Multi‑Tenancy (Part 4 of 4)",
   "why": "Not enough technical depth or actionable guidance for building your own agents."
+ },
+ "https://www.youtube.com/watch?v=R0ckdFjUF5U": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 10,
+  "published": "2026-10-13",
+  "score": 3,
+  "snippet": "Harness engineering is how we build systems around models to turn them into work engines. A harness is every piece of code, configuration, and execution logic that isn't the model itself. A raw model is not an agent, but can become one when a harness gives it things like state, tool execution, feedback loops, and enforceable constraints. Concretely, a harness includes things like: • System…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "agent-harness",
+   "concept",
+   "LangChain"
+  ],
+  "title": "What is an Agent Harness?",
+  "what": "A LangChain talk explaining the concept of an agent harness and its role in turning raw models into work engines.",
+  "why": "It offers a high‑level overview but lacks actionable code or detailed architecture to apply immediately."
  },
  "https://www.youtube.com/watch?v=RC1AzBS3MLQ": {
   "first_seen": "2026-10-05",
@@ -27852,6 +28270,24 @@
   "status": "dropped:keyword",
   "title": "Meet Kashif Khan - Speaker at KubeCon + CloudNativeCon North America"
  },
+ "https://www.youtube.com/watch?v=StDAmjuQOE4": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-23",
+  "score": 11,
+  "snippet": "Will Brown of Prime Intellect makes the case that continual learning is about to get boring, in a good way: it is the software development life cycle, applied to models. He traces how agent workflows grow from terminal experiments into production software, why evals should capture the vibe check, and which post-training methods he reaches for, from SFT and on-policy and context distillation to…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "tags": [
+   "continual learning",
+   "agent workflows",
+   "model evaluation"
+  ],
+  "title": "The Boring Version of Continual Learning",
+  "what": "Will Brown explains how continual learning can become a routine part of model development and production through standard engineering practices.",
+  "why": "Engineers can adopt Brown’s workflow and evaluation methods to integrate continual learning into their pipelines more systematically."
+ },
  "https://www.youtube.com/watch?v=T3wRyXg_yVg": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -27946,6 +28382,47 @@
   "status": "passed",
   "title": "Introducing Cowork: Claude Code for the rest of your work"
  },
+ "https://www.youtube.com/watch?v=UGuNt2_Oz8s": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-26",
+  "score": 8,
+  "snippet": "In this workshop, Fuad Ali of Arize AI shows how to build a self-improvement loop for AI agents: trace everything, let Signal (an always-on agent) read your traces on a schedule and file deduplicated issues, turn failures into evals and living regression datasets, run experiments to prove a fix works, and keep humans at the highest-leverage points: eval design, dataset curation and reviewing…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "self-improvement loop",
+   "agent observability",
+   "regression datasets",
+   "AI ops"
+  ],
+  "title": "Agents That Self Improve While You Sleep - Fuad Ali, Arize AI",
+  "what": "A workshop on building a self‑improvement loop for AI agents with Arize’s Signal platform.",
+  "why": "Readers can adopt the tracing, issue deduplication, eval‑generation and experiment‑run pipeline to continuously improve their own agents."
+ },
+ "https://www.youtube.com/watch?v=UOfmD1fY-i8": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-28",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Building the future of legal work with AI | Legora CEO Max Junestrand"
+ },
+ "https://www.youtube.com/watch?v=UW8Qkk7MG8A": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 0,
+  "snippet": "Pattern-based SAST catches bad code, but not valid code with flawed intent: broken access control, business logic gaps and authentication holes. Taylor Luttrell-Williams of Sonar introduces the SonarQube Hunter Agent, which maps a repo, runs three specialist agents and adversarially validates every finding, and announces Sonar joining the OpenAI Daybreak cyber partner program. The live demo turns…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "AI That Hunts Logic Bugs Before Attackers Do - Taylor Luttrell-Williams, Sonar",
+  "what": "SonarQube Hunter Agent live demo on YouTube",
+  "why": "No actionable content for building or learning about agents"
+ },
  "https://www.youtube.com/watch?v=U_XD5NxO8KY": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -27955,6 +28432,23 @@
   "source": "yt-aaif",
   "status": "passed",
   "title": "Writing MCP Docs an Agent Can Actually Use"
+ },
+ "https://www.youtube.com/watch?v=Ud5RsBegyfw": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 5,
+  "published": "2026-10-21",
+  "score": 0,
+  "snippet": "The longer an agent runs, the more instructions and tool results pile into its context window, and the worse its reasoning tends to get. That's context rot. This video walks through two context engineering techniques the Deep Agents harness ships out of the box: offloading, which keeps large tool results and long messages out of context while saving them to a virtual file system, and…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "product launch",
+   "no technical depth"
+  ],
+  "title": "What is context engineering? Explained in 5 minutes",
+  "what": "A short video explaining context engineering techniques in LangChain’s Deep Agents.",
+  "why": "Not useful for an engineering lead seeking actionable, open-source code or patterns."
  },
  "https://www.youtube.com/watch?v=Uq08QyRlsDk": {
   "first_seen": "2026-10-05",
@@ -28036,6 +28530,15 @@
   "what": "Video about using Jev in an agent harness",
   "why": "Not useful for actionable learning or open-source use."
  },
+ "https://www.youtube.com/watch?v=VJxgQawRn1c": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Carbon as a First-Class Signal: Designing a Standard for OpenTelemetry - Diana Todea,…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Carbon as a First-Class Signal: Designing a Standard for... - Diana Todea, VictoriaMetrics"
+ },
  "https://www.youtube.com/watch?v=W5QAf2YrVg0": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -28055,6 +28558,24 @@
   "title": "High-Performance gRPC Beyond HTTP/2 - Thiyagarajan Velappan & Ravi Cherukuru, Mastercard",
   "what": "A CNCF conference talk on improving gRPC performance beyond the standard HTTP/2 protocol.",
   "why": "It teaches how to tweak gRPC settings and use advanced features to squeeze out extra latency and throughput for high‑scale services."
+ },
+ "https://www.youtube.com/watch?v=Wb3hQaG_xf0": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-26",
+  "score": 9,
+  "snippet": "Victor Moreira, Product Manager at LangChain, explains what it takes to move a deep agent from a local prototype into production, and how Managed Deep Agents, now in public beta, couples the Deep Agents harness with LangSmith infrastructure so your team can focus on the business logic. Using LangChain's internal GTM agent as the example, he shows how an agent is scaffolded into one project…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "agents in production",
+   "open-source framework",
+   "observability"
+  ],
+  "title": "Inside Managed Deep Agents: mda CLI, Context Hub, and Harbor Evals | Interrupt London",
+  "what": "A video walkthrough of LangChain’s Managed Deep Agents framework and its integration with LangSmith for production deployment.",
+  "why": "Engineers can learn how to scaffold, monitor, and evaluate deep agents in production using LangChain’s open‑source tools."
  },
  "https://www.youtube.com/watch?v=X4w2Pkz5tDY": {
   "first_seen": "2026-10-07",
@@ -28189,6 +28710,26 @@
   "status": "passed",
   "title": "Introducing Claude Fable 5"
  },
+ "https://www.youtube.com/watch?v=YIhvrvHtonk": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-27",
+  "score": 14,
+  "snippet": "Arize's in-product agent Alex went from a 2023 prototype that was \"50% hallucination\" to a single agent with planning, memory and on-demand skills, all built with custom harness code instead of a framework. AI PM Fuad Ali covers each decision: moving the plan into the harness, making \"finish\" an explicit gate, treating large tool results like files, why one 8,000-character memory file per user…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "agent design",
+   "memory management",
+   "planning",
+   "harness",
+   "open-source considerations"
+  ],
+  "title": "We Kept Rebuilding Our AI Agent. Here's What Survived - Fuad Ali, Arize AI",
+  "what": "A detailed walkthrough of Arize AI’s in‑product agent evolution from prototype to production, focusing on planning, memory, and tool‑result handling.",
+  "why": "It teaches concrete techniques—explicit finish gates, file‑based tool outputs, and per‑user memory files—that an engineering lead can adopt this month to build or refine an agent in their own stack."
+ },
  "https://www.youtube.com/watch?v=YNT7Plf9KIg": {
   "first_seen": "2026-10-09",
   "kind": "watch",
@@ -28205,6 +28746,15 @@
   "title": "Your AI Agent Has No Nervous System — Matt Gibiec, Dynatrace",
   "what": "Matt Gibiec explains why AI agents need a \"nervous system\" to observe and act safely in real systems.",
   "why": "It highlights operational pitfalls and the need for environmental context, prompting engineers to design more observable, controlled agents."
+ },
+ "https://www.youtube.com/watch?v=YNqpm7LH3_4": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io The Noisy Neighbour Inside Your GPU: Observing Batched LLM Inference - Sagar Utekar,…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "The Noisy Neighbour Inside Your GPU:... - Sagar Utekar, CrowdStrike & Oshi Gupta, Improving Pune"
  },
  "https://www.youtube.com/watch?v=YXb2Wx1r_Pk": {
   "first_seen": "2026-10-05",
@@ -28242,6 +28792,28 @@
   "title": "Dashboards Are Dead — Sarah Simionescu, Composio",
   "what": "A critique of traditional dashboards and a look at MCP as a future alternative.",
   "why": "Engineers can learn why dashboards are falling out of favor, what MCP offers, and how to start experimenting with AI-driven monitoring."
+ },
+ "https://www.youtube.com/watch?v=YqxpPI7YUjE": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 10,
+  "published": "2026-10-29",
+  "score": 0,
+  "snippet": "Code generation is moving faster than ever, and the bottleneck has moved to review. Cole Gannaway, a solutions engineer at Qodo, shows how a one-line data model change that passes every test can quietly break web, mobile, CLI and MCP clients, and how a software graph of your repos reveals that blast radius. He covers turning tribal knowledge and PR comments into custom rules, bringing review…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Why a One-Line Change Can Break Your Whole Stack - Cole Gannaway, Qodo",
+  "what": "A YouTube talk on the fragility of one-line data model changes and how to detect their blast radius.",
+  "why": "It provides anecdotal insight but no actionable guidance for the reader to build or operate agents or open‑source tools."
+ },
+ "https://www.youtube.com/watch?v=ZSgAZwTwcrQ": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-27",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Daniel Bichuetti - Speaker at KubeCon + CloudNativeCon North America"
  },
  "https://www.youtube.com/watch?v=ZUZVNKFSmTM": {
   "first_seen": "2026-10-06",
@@ -28308,6 +28880,20 @@
   "source": "yt-aaif",
   "status": "dropped:title_rule",
   "title": "AGNTCon + MCPCon Japan 2026 Highlights | Tokyo’s First Production Agentic AI Summit"
+ },
+ "https://www.youtube.com/watch?v=_MsL_RIztVc": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-15",
+  "score": 0,
+  "snippet": "\"I can finally find the data that I want without having to fight my tooling.\" Zheng Tao, Senior AI Engineer at Vanta, is building a capability that helps assess compliance evidence the way an auditor would. With other vendors and Vanta's own in-house tooling, she would spend 10 minutes trying to find a trace and give up. She explains how LangSmith observability lets her look through traces with…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [],
+  "title": "Vanta and LangSmith: Assessing Compliance Evidence Like an Auditor",
+  "what": "Vanta and LangSmith video on compliance evidence auditing",
+  "why": "No actionable technical content for engineering lead"
  },
  "https://www.youtube.com/watch?v=_cRgl3maiT8": {
   "first_seen": "2026-10-12",
@@ -28408,6 +28994,26 @@
   "title": "From Single Player to Multiplayer with Codex | DevDay 2026",
   "what": "",
   "why": ""
+ },
+ "https://www.youtube.com/watch?v=aGIUg8zKI8A": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-27",
+  "score": 10,
+  "snippet": "At Optiver, a change rolled out to traders shows up in P&L within hours, so AI has to move fast and still be measurable. Noyan Tokgozoglu, head of AI Engineering, walks through Optiver's on-prem AI platform: an inference gateway for routing and budgets, same-day adoption of new frontier models benchmarked on internal golden sets, a model- and harness-agnostic \"meta harness\", and how they got AI…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent platform",
+   "inference gateway",
+   "model deployment",
+   "CI/CD",
+   "production AI"
+  ],
+  "title": "How a Trading Firm Ships New AI Models the Same Day - Noyan Tokgozoglu, Optiver",
+  "what": "An on‑prem AI platform at Optiver that routes model inference, budgets, and enables same‑day deployment of new models",
+  "why": "Engineers can learn how to architect a meta‑harness, inference gateway, and deployment pipeline for production AI"
  },
  "https://www.youtube.com/watch?v=aMqBsTRD2XA": {
   "first_seen": "2026-10-05",
@@ -28556,6 +29162,22 @@
   "what": "A Google engineer explains how to integrate post-quantum cryptography with gRPC for secure cloud-native communication.",
   "why": "It offers concrete guidance on implementing PQC in gRPC, enabling engineers to future-proof their services against quantum threats."
  },
+ "https://www.youtube.com/watch?v=cR_ne8yGcLU": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 0,
+  "snippet": "Come to the next event. https://events.linuxfoundation.org/",
+  "source": "yt-aaif",
+  "status": "rejected",
+  "tags": [
+   "event promo"
+  ],
+  "title": "Launching the Hugging Face MCP server",
+  "what": "Event invitation for a Hugging Face MCP server launch",
+  "why": "No technical content to build or learn from"
+ },
  "https://www.youtube.com/watch?v=cSz7aL2nl2U": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -28585,6 +29207,20 @@
   "title": "Every AI Company Is Accidentally Building a Bank — Dor Sasson, Stigg",
   "what": "Video discusses pricing incidents in AI companies, not a technical guide",
   "why": "Not relevant for engineering lead building agents"
+ },
+ "https://www.youtube.com/watch?v=cflbzHRvGvg": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "“If you have an idea, bring a prototype right away.” For Shopify CTO Mikhail Parakhin, Codex is changing what his team brings to the meeting. From delegating tasks to exploring architectural options, he’s using Codex to take on work he couldn’t before. Meet Mikhail, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "From Ideas to Prototypes with Codex | Shopify’s Mikhail Parakhin",
+  "what": "Talk by Shopify CTO on using OpenAI Codex to prototype ideas.",
+  "why": "Not applicable, not useful for a builder seeking open-source tools."
  },
  "https://www.youtube.com/watch?v=cj8yTM6hoXg": {
   "first_seen": "2026-10-05",
@@ -28638,6 +29274,26 @@
   "title": "Middleware for Managed Deep Agents",
   "what": "A LangChain product manager demonstrates how to use and build middleware for Managed Deep Agents, including redaction and custom logging.",
   "why": "Engineers can apply the shown middleware patterns to add policy enforcement, fault tolerance, or rate limiting to their own LLM-based agents."
+ },
+ "https://www.youtube.com/watch?v=dAoOYFx7ZYw": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 20,
+  "published": "2026-10-27",
+  "score": 12,
+  "snippet": "Classic tool-calling agents fill their context with tool catalogs and raw outputs. Code mode gives the agent a sandbox and lets it search for and compose tools in code, returning only what it needs. Mikyo King, head of open source at Arize AI, explains why code mode works, how Arize built it into Phoenix (Bash, a Python sandbox, SQL and even UI control), its hidden costs (secrets, permissions,…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "agent-sandbox",
+   "code-mode",
+   "tool-calling",
+   "Arize-Phoenix",
+   "agent-architecture"
+  ],
+  "title": "Stop Giving Your Agent Tools. Give It a Sandbox - Mikyo King, Arize AI",
+  "what": "A video where Mikyo King of Arize AI explains how to replace traditional tool‑calling agents with a sandboxed \"code mode\" that lets agents search, compose, and use tools in code.",
+  "why": "Engineers can adopt the sandboxed pattern, avoid hidden costs, and build more reliable agents in their own systems."
  },
  "https://www.youtube.com/watch?v=dPn3GBI8lII": {
   "first_seen": "2026-10-05",
@@ -28836,6 +29492,20 @@
   "what": "A video description of how Range uses no-code agents for financial planning.",
   "why": "It offers no technical detail, so it provides no actionable insight for an engineering lead."
  },
+ "https://www.youtube.com/watch?v=h8jgniNJcbQ": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "Nobody would hire a worker with no ID, no manager and shared passwords, yet that's how most companies deploy AI agents. Tim Tyler of Gravitee presents the Agent Accountability framework, which governs agents like a digital workforce in three stages: Assignment (identity, team, a named human sponsor), Alignment (role, mission and least-privilege authority) and Administration (oversight scorecards,…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Why Are We Still Governing AI Agents Like Software? - Tim Tyler, Gravitee",
+  "what": "Tim Tyler discusses governance frameworks for AI agents in a YouTube talk.",
+  "why": "The video does not provide actionable techniques, code, or open-source tools for the reader to implement."
+ },
  "https://www.youtube.com/watch?v=hbH2RbUBZQ0": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -28911,6 +29581,7 @@
   "first_seen": "2026-10-05",
   "kind": "watch",
   "published": "2026-08-10",
+  "shown": "2026-10-29",
   "snippet": "In late 2025, Iceland’s government launched one of the world’s first national AI education pilots, giving teachers who volunteered access to AI tools. We visited Iceland to find out how people are thinking about AI. More information about the pilot: https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
   "source": "yt-anthropic",
   "status": "passed",
@@ -28971,6 +29642,28 @@
   "title": "Building a Debugging Agent Harness at Uber - Kriti Dangi",
   "what": "A video presentation on Uber's debugging agent harness",
   "why": "Provides a high‑level overview of an internal solution but offers limited actionable detail"
+ },
+ "https://www.youtube.com/watch?v=ilG7LPrngkI": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-27",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "AI for Detection and Response | Cloudflare’s Mark Anderson"
+ },
+ "https://www.youtube.com/watch?v=iniryju23Sk": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-27",
+  "score": 0,
+  "snippet": "In 2020, Citibank accidentally sent about $900 million to Revlon’s lenders instead of an $8 million interest payment, even though the procedure, the warning pop-up and three approvers all did what they were supposed to. John Feminella, who works on AI architecture and engineering at Two Sigma, uses that story to show how to give AI agents real autonomy without locking everything down. He walks…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "What a $900M Bank Error Teaches Us About AI Agents - John Feminella, Two Sigma",
+  "what": "Video discussing a bank error and lessons for AI agent autonomy",
+  "why": "N/A"
  },
  "https://www.youtube.com/watch?v=inrYeej3Big": {
   "first_seen": "2026-10-27",
@@ -29095,6 +29788,15 @@
   "what": "Postman staff engineer explains how to scale coding agents across 115 microservices in a real distributed system",
   "why": "Readers can adapt Postman’s distributed‑agent patterns to build scalable, context‑aware agents for their own microservice architectures"
  },
+ "https://www.youtube.com/watch?v=k39c0iV9tnk": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io Beyond Software Estimates: Measured Per-Pod Energy Telemetry for Kubernetes with…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Beyond Software Estimates: Measured Per-Pod... - Jedrzej Wasiukiewicz & Markus Lehtonen, Intel"
+ },
  "https://www.youtube.com/watch?v=k72eLcYpVys": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -29114,6 +29816,26 @@
   "title": "1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Run Code — Kevin Orellana, AWS",
   "what": "A demonstration of 1,000 automated agent tasks that break in a sandboxed environment.",
   "why": "The reader can learn which failure modes to anticipate when running LLM agents in production and how to design robust sandboxes."
+ },
+ "https://www.youtube.com/watch?v=kRJjSOYqW0I": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 18,
+  "published": "2026-10-26",
+  "score": 15,
+  "snippet": "Xander Song, an engineer at Arize AI who works on Phoenix, introduces Harbor, an open source framework for evaluating agents on realistic tasks with real data in isolated sandboxes. He explains tasks, Docker environments, verifiers and rewards, trials and jobs, oracles that validate your setup before you spend tokens, and ATIF trajectories. Then he shows how his team runs Harbor at scale on…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "agent-evaluation",
+   "open-source-framework",
+   "testing",
+   "sandbox",
+   "metrics"
+  ],
+  "title": "How to Test Your Agents on Real Tasks With Harbor - Xander Song, Arize AI",
+  "what": "An engineer explains how to use Harbor, an open‑source framework, to evaluate agents on realistic tasks with real data in isolated sandboxes.",
+  "why": "Readers can immediately adopt Harbor to benchmark and improve their own agents, learning how to set up tasks, verifiers, and metrics for production readiness."
  },
  "https://www.youtube.com/watch?v=kRaJtEXAOxU": {
   "first_seen": "2026-10-05",
@@ -29170,6 +29892,25 @@
   "title": "Build Your Own Open-Source Claude Code With Local LLMs - Daniel Oh, Red Hat",
   "what": "A Red Hat engineer demonstrates how to implement a local, open‑source Claude‑style agent using a locally hosted LLM.",
   "why": "It shows concrete code, architecture, and trade‑offs for running an LLM‑based agent entirely on-prem, enabling readers to prototype similar agents in their own environments."
+ },
+ "https://www.youtube.com/watch?v=lPZQrVFcz3c": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-27",
+  "score": 7,
+  "snippet": "“The whole point is I want to hit the ground running.” HashiCorp co-founder Mitchell Hashimoto wraps up his day by putting Codex agents to work. They research the competition, compare tools and prototype features he’s still working out—giving him a head start on the next day’s work. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [
+   "agent prototyping",
+   "Codex",
+   "product demo",
+   "engineering workflow"
+  ],
+  "title": "Getting a Head Start with Codex | Mitchell Hashimoto",
+  "what": "Mitchell Hashimoto showcases how he uses OpenAI’s Codex to prototype agent‑based workflows during a typical workday.",
+  "why": "Readers can see concrete patterns for quickly building and iterating on Codex agents, learn which tools to experiment with, and replicate similar prototyping in their own projects."
  },
  "https://www.youtube.com/watch?v=lgqKBkN62RQ": {
   "first_seen": "2026-10-22",
@@ -29445,6 +30186,25 @@
   "what": "AssemblyAI’s custom AI support agent Joey, built with the Claude Agent SDK, that lifts ticket resolution from 10% to 80% and runs for $700/month.",
   "why": "It shows a real-world build process, architecture choices, and cost metrics that an engineering lead can adapt to create or improve a support agent in production."
  },
+ "https://www.youtube.com/watch?v=qCdIuOnu8I0": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 45,
+  "published": "2026-10-26",
+  "score": 13,
+  "snippet": "Scott Rigby, Andrew Block, and George Jenkins invite developers to build agentic tooling for the Helm ecosystem, spanning software development, daily workflows and everything between. Explore the Session: https://bit.ly/4in1jXc Register: https://bit.ly/3BDI5XL",
+  "source": "yt-cncf",
+  "status": "passed",
+  "tags": [
+   "agentic tooling",
+   "Helm",
+   "Kubernetes",
+   "open-source"
+  ],
+  "title": "Meet Scott Rigby, Andrew Block, & George Jenkins - Speakers at KubeCon + CloudNativeCon NA",
+  "what": "A KubeCon session where CNCF leaders discuss building agentic tooling for the Helm ecosystem.",
+  "why": "It shows concrete patterns and design choices for integrating agents with Helm, offering actionable ideas for production use."
+ },
  "https://www.youtube.com/watch?v=qJtcEDc_WJU": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -29485,6 +30245,14 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "Stop Fine-Tuning to Fix Retrieval Problems — Anant Srivastava"
+ },
+ "https://www.youtube.com/watch?v=qgfUuvNfDXs": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Rani Chowdary Mandepudi - Speaker at KubeCon + CloudNativeCon North America"
  },
  "https://www.youtube.com/watch?v=rAUyRDOFyHU": {
   "first_seen": "2026-10-13",
@@ -29536,6 +30304,44 @@
   "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
   "what": "Marina Petzel discusses metrics beyond golden signals for generative AI apps.",
   "why": "No actionable buildable content for the engineer."
+ },
+ "https://www.youtube.com/watch?v=rduH9wnXto8": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 10,
+  "published": "2026-10-15",
+  "score": 13,
+  "shown": "2026-10-29",
+  "snippet": "What if everyone had an always-on, production-ready assistant? At Stripe, their answer was a company-wide AI agent called Knowledge AI Platform, also known as Kai. In less than 2 minutes, learn how Stripe built Kai in just 1 week using Deep Agents, LangChain's open-source agent harness. Deep Agents provides the foundation that wires together the tool-calling loop, middleware composition,…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "tags": [
+   "open-source frameworks",
+   "agent harness",
+   "Deep Agents",
+   "LangChain"
+  ],
+  "title": "Stripe's AI Platform Kai Built with LangChain in 1 Week",
+  "what": "A short demonstration of Stripe’s company‑wide AI assistant Kai built with LangChain’s Deep Agents in one week.",
+  "why": "It shows how to assemble tool‑calling, middleware, and orchestrator patterns that an engineer can replicate in their own projects."
+ },
+ "https://www.youtube.com/watch?v=rfhhhmajCKc": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 2,
+  "published": "2026-10-28",
+  "score": 4,
+  "snippet": "On their own, large language models are isolated from your data and your tools. LangChain is the open source framework that connects them to what they need to actually get things done. This two-minute explainer from LangChain Academy shows how building agents has moved from hand-designed workflows to ReAct agents, the simple tool-calling loops behind most agent applications today, and how…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "intro",
+   "high‑level",
+   "framework"
+  ],
+  "title": "What is LangChain?",
+  "what": "An introductory YouTube explainer video on LangChain’s purpose and agent architecture",
+  "why": "It gives a high‑level overview but offers no actionable guidance for building or deploying agents"
  },
  "https://www.youtube.com/watch?v=s-glGHAa1a4": {
   "first_seen": "2026-10-11",
@@ -29595,6 +30401,20 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "Building AIE: Open Q&A and Feedback Session with swyx"
+ },
+ "https://www.youtube.com/watch?v=tJ-hlNVS7AI": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-19",
+  "score": 0,
+  "snippet": "Managed Deep Agents (MDA) is the simplest way to build and deploy production agents. You focus on what your agent does, and MDA runs it. You write the agent’s intelligence: its instructions, the tools it can call, the skills it follows, and you select the model that drives it. MDA provides everything underneath: • The Deep Agents harness: The agent loop that plans, calls tools, manages a…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [],
+  "title": "What is LangChain Managed Deep Agents?",
+  "what": "N/A",
+  "why": "N/A"
  },
  "https://www.youtube.com/watch?v=tMysfz8eF44": {
   "first_seen": "2026-10-22",
@@ -29717,6 +30537,20 @@
   "what": "OpenAI announcement video for new product \"dots\"",
   "why": "No technical guidance or open-source content available"
  },
+ "https://www.youtube.com/watch?v=ujmyzWSj8IU": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 0,
+  "snippet": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, pooled up to $500 per workspace.…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "API credits, now in ChatGPT Pro and Business plans",
+  "what": "Announcement of API credit allocation for ChatGPT Pro and Business users",
+  "why": "No actionable technical content for engineering leads"
+ },
  "https://www.youtube.com/watch?v=usjk-gdMgqM": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -29796,6 +30630,24 @@
   "what": "Video demo of ClawLabs agent workflows for open-source collaboration",
   "why": "Not suitable for deep technical learning"
  },
+ "https://www.youtube.com/watch?v=whnDiwcL4HE": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-16",
+  "score": 6,
+  "snippet": "Charlie O'Neill, Co-Head of Model Training at Baseten, explains why the train step in the own-your-intelligence loop is still unsolved once you update a model continually instead of once. He walks through the trade-offs: SFT can install new knowledge but is off-policy, and repeated SFT causes catastrophic forgetting and degrades general capabilities, while RL forgets less but can only upweight…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "open-source frameworks",
+   "evaluation",
+   "continual learning"
+  ],
+  "title": "Why Nobody Has Solved Continual Learning",
+  "what": "A YouTube talk by Charlie O’Neill on the challenges of continual learning and trade‑offs between SFT and RL.",
+  "why": "Readers can evaluate how to mitigate catastrophic forgetting when iteratively retraining models in their own pipelines."
+ },
  "https://www.youtube.com/watch?v=woIYJYd_etI": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -29868,6 +30720,52 @@
   "what": "A research presentation on improving verifier accuracy for web‑using LLM agents by Miguel González Fernández and Corby Rosset.",
   "why": "Readers can adopt the described verifier techniques to build more reliable agent check‑mechanisms in their own projects."
  },
+ "https://www.youtube.com/watch?v=xZX3pmaB8Hk": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 25,
+  "published": "2026-10-28",
+  "score": 5,
+  "snippet": "Frontier AI has made every attacker a level more dangerous, and on average, exploits now land before the patch. Patrick Smyth of Chainguard covers this year's AI-assisted attacks and supply chain malware waves, why 30-day remediation windows no longer hold up, the four attack surfaces to cover (malware, known CVEs, zero days and \"side doors\" like CI/CD, developer laptops and agent skills), and…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "security",
+   "AI‑assisted attacks",
+   "supply chain"
+  ],
+  "title": "Exploits Now Beat Patches: Open Source Security in the AI Era - Patrick Smyth, Chainguard",
+  "what": "Patrick Smyth discusses AI‑assisted attacks and supply‑chain malware trends",
+  "why": "It raises awareness of new threat vectors but offers limited actionable guidance for engineering leads"
+ },
+ "https://www.youtube.com/watch?v=xrJNo1UlhNs": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-26",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Meet Vinicius Krischke - Speaker at KubeCon + CloudNativeCon North America"
+ },
+ "https://www.youtube.com/watch?v=xy_7SzwsIjM": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": 25,
+  "published": "2026-10-27",
+  "score": 12,
+  "snippet": "Harrison Chase, Co-Founder and CEO of LangChain, splits an agent into three parts, the model, the harness, and the context, and explains how each one can improve over time: the model's weights through supervised fine-tuning with LangSmith Fine-Tuning and its smithtune CLI, or through RL for more complex tasks; the harness through LangSmith Engine, a deep agent that runs over traces, clusters…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "tags": [
+   "langchain",
+   "agent architecture",
+   "fine-tuning",
+   "RLHF",
+   "open-source"
+  ],
+  "title": "How to Build Agents That Improve Over Time: Model, Harness, Context | Interrupt London",
+  "what": "A LangChain founder explains how to decompose an agent into model, harness, and context and improve each over time.",
+  "why": "Engineers can apply the described architecture, fine‑tuning, and harness techniques to build more adaptive agents in their own projects."
+ },
  "https://www.youtube.com/watch?v=y-OVWZD4j6U": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -29886,6 +30784,37 @@
   "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
   "what": "Eric Schwartz discusses five levels of self‑driving production and the challenges of debugging AI‑written code.",
   "why": "Readers can learn a framework for staging agent autonomy and practical root‑cause analysis techniques they can apply in their own pipelines."
+ },
+ "https://www.youtube.com/watch?v=yJxZef1Ylok": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-28",
+  "score": 0,
+  "snippet": "What can lawyers achieve when time is no longer the limit? Discover how Legora uses OpenAI models, ChatGPT and Codex to help legal teams review contracts faster, broaden their analysis and make more room for work that needs human judgment. Part of Intelligence at Work, a series exploring how businesses are putting AI to work. Read the full story:…",
+  "source": "yt-openai",
+  "status": "rejected",
+  "tags": [],
+  "title": "How Legora is transforming legal work with OpenAI",
+  "what": "A marketing video about a legal AI service",
+  "why": "Not useful for engineering lead seeking actionable open‑source tools"
+ },
+ "https://www.youtube.com/watch?v=z-WZMjNsg-k": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-28",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb"
+ },
+ "https://www.youtube.com/watch?v=zJ4gG3jDE_g": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io At Engineering Ingegneria Informatica, we let an AI agent read our traces. Here's what…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "At Engineering Ingegneria Informatica, we... - Clemente Biondo, Engineering Ingegneria Informatica"
  },
  "https://www.youtube.com/watch?v=zQZiHOpkq_s": {
   "first_seen": "2026-10-06",
@@ -29916,5 +30845,14 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "Building the partner ecosystem with Sophos"
+ },
+ "https://www.youtube.com/watch?v=zqafrxktT1U": {
+  "first_seen": "2026-10-29",
+  "kind": "watch",
+  "published": "2026-10-25",
+  "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io From Schema to Shipping Data, Making OpenTelemetry Stable by Default - Christos…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "From Schema to Shipping Data, Making... - Christos Markou, Elastic & Pablo Baeyens, Datadog"
  }
 }

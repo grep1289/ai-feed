@@ -136,6 +136,12 @@
   "2026-10-28": [
    "https://www.langchain.com/blog/design-agent",
    "https://developers.openai.com/blog/codex-as-a-platform"
+  ],
+  "2026-10-29": [
+   "https://www.langchain.com/blog/building-agent-memory-openwiki-graphs",
+   "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation",
+   "https://www.youtube.com/watch?v=rduH9wnXto8",
+   "https://www.youtube.com/watch?v=iF5IWjOWcA4"
   ]
  },
  "rollup": {
@@ -276,10 +282,10 @@
   ]
  },
  "scoring": {
-  "calls": 9,
-  "date": "2026-10-28",
+  "calls": 40,
+  "date": "2026-10-29",
   "error": null,
   "failed": 0,
-  "rejected": 6
+  "rejected": 27
  }
 }
