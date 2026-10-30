@@ -142,6 +142,12 @@
    "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation",
    "https://www.youtube.com/watch?v=rduH9wnXto8",
    "https://www.youtube.com/watch?v=iF5IWjOWcA4"
+  ],
+  "2026-10-30": [
+   "https://www.langchain.com/blog/proactive-agents",
+   "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+   "https://www.youtube.com/watch?v=xy_7SzwsIjM",
+   "https://www.youtube.com/watch?v=kRJjSOYqW0I"
   ]
  },
  "rollup": {
@@ -282,10 +288,10 @@
   ]
  },
  "scoring": {
-  "calls": 40,
-  "date": "2026-10-29",
+  "calls": 25,
+  "date": "2026-10-30",
   "error": null,
   "failed": 0,
-  "rejected": 27
+  "rejected": 22
  }
 }
