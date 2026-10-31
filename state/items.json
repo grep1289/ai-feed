@@ -353,6 +353,22 @@
   "status": "passed",
   "title": "The Official Ruby SDK for MCP Reaches 1.0"
  },
+ "https://blog.modelcontextprotocol.io/posts/ruby-sdk-tier-1": {
+  "first_seen": "2026-10-31",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-09-29",
+  "score": 0,
+  "snippet": "The official Ruby SDK for the Model Context Protocol is now a Tier 1 SDK under the MCP SDK tiering system, with full support for the 2026-07-28 specification revision and a 100% conformance pass rate across both scored spec revisions.",
+  "source": "mcp-blog",
+  "status": "rejected",
+  "tags": [
+   "announcement"
+  ],
+  "title": "The Official Ruby SDK for MCP Reaches Tier 1",
+  "what": "Announcement of the Ruby SDK for the Model Context Protocol reaching Tier 1 status.",
+  "why": "No actionable technical content for engineers to apply or learn from."
+ },
  "https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -7135,6 +7151,15 @@
   "status": "passed",
   "title": "v0.2.175"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.176": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-31",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.316 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.176/ pip install claude-agent-sdk==0.2.176",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.176"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8286,6 +8311,14 @@
   "status": "dropped:prerelease",
   "title": "v1.0.0-alpha9"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-rc1": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-rc1"
+ },
  "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v0.5.3": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8845,6 +8878,15 @@
   "status": "passed",
   "title": "langgraph==1.2.18"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "Changes since 1.2.18 release(langgraph): 1.2.19 ( #9504 ) release(checkpoint-sqlite): 3.1.3 ( #9505 ) fix(langgraph): keep trace_policy from rewriting streamed node payloads ( #9486 ) fix(langgraph): give messages and tools events the namespace of their graph ( #9458 ) chore(deps): bump setuptools from 83.0.0 to 84.1.0 in /libs/langgraph ( #9433 ) fix(langgraph): emit node-output messages from a…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.19"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8916,6 +8958,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-checkpoint-sqlite==3.1.2"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "Changes since checkpointsqlite==3.1.2 release(checkpoint-sqlite): 3.1.3 ( #9505 ) release(checkpoint): 4.3.1 ( #9447 ) fix(checkpoint): reject NUL bytes in namespace labels ( #9383 ) chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/checkpoint-sqlite ( #9368 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint-sqlite==3.1.3"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32": {
   "first_seen": "2026-10-05",
@@ -9023,6 +9074,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.10"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "Changes since sdk==0.4.10 release(langgraph): 1.2.19 ( #9504 ) release(sdk-py): 0.4.11 ( #9503 ) test(sdk-py): check that a reconnect loop resumes after the newest event ( #9483 ) fix(sdk-py): retry runs.wait, join and cancel(wait=True) reconnects with backoff ( #9481 ) fix(sdk-py): warn when a stream reconnects without a Last-Event-ID ( #9482 ) fix(sdk-py): preserve SSE data and cursor state…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.11"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
@@ -9492,6 +9552,15 @@
   "status": "passed",
   "title": "dotnet-1.26.0"
  },
+ "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.27.0": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "[1.27.0] - 2026-10-30 Added skills: Add a .NET consumer skill for building with Agent Framework ( #9651 by westey (@westey-m) ). .NET, CI: Add a script to bump the .NET release version ( #9894 by Vincent Biret (@baywet) ). Changed .NET, AgentServer: [BREAKING] Update AgentServer dependencies ( #9721 by Roger Barreto (@rogerbarreto) ). Migration: In Foundry hosted applications, replace…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "dotnet-1.27.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9563,6 +9632,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "python-1.23.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/python-1.24.0": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "1.24.0 - 2026-10-30 Warning Redis context index migration: The beta RedisContextProvider now preserves exact scope identity and rejects the legacy raw-scope index schema. Delete the old context index and its context hashes, let the provider create a new index, and re-ingest the context data. overwrite_index=True does not migrate incompatible indexes. Important Python support: Python 3.11 or later…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "python-1.24.0"
  },
  "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-10-07": {
   "first_seen": "2026-10-05",
@@ -9874,6 +9952,15 @@
   "source": "gh-modelcontextprotocol-registry",
   "status": "passed",
   "title": "v1.8.6"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.7": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "Adds prepared listing JSON to avoid repeated decoding and rebuilding of server payloads on listing reads. Prepared reads are disabled by default and support bounded backfill and flag rollback. Listing rows release their database connection before JSON processing; pool defaults remain 60/10. Focused response/update/delete/backfill/rollback checks passed. Local encoding benchmarks over saved public…",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.7"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.3.1": {
   "first_seen": "2026-10-05",
@@ -10664,6 +10751,14 @@
   "status": "dropped:prerelease",
   "title": "0.166.0-alpha.6"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.1": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.167.0-alpha.1"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11105,6 +11200,15 @@
   "status": "passed",
   "title": "v2.63.0 (2026-10-27)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.64.0": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Raise an error status a retrying transport gave up on as ModelHTTPError , so fallback moves on by @DouweM in #11934 Send stored response, item, conversation and container IDs back only to the endpoint that created them, via Model.accepts_server_state by @DouweM in #11774 Make json-repair an optional dependency, needed only by Coder and RepairToolArguments by…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.64.0 (2026-10-30)"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11267,6 +11371,15 @@
   "status": "passed",
   "title": "harness-typescript/v0.3.2"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.3.3": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "harness-typescript/v0.3.3 Auto-drafted from commits in harness-typescript/v0.3.2..harness-typescript/v0.3.3 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(models): default Bedrock maxTokens to the model info output limit (Python + TypeScript) ( #5645 ) ( 0a50a80 )…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-typescript/v0.3.3"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/mcp%2Fv0.3.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11366,6 +11479,15 @@
   "status": "passed",
   "title": "python/v1.62.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.63.0": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "python/v1.63.0 Auto-drafted from commits in python/v1.62.0..python/v1.63.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(models): default Bedrock maxTokens to the model info output limit (Python + TypeScript) ( #5645 ) ( 0a50a80 ) feat(models): add Model.model_info with…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.63.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11401,6 +11523,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "typescript/v1.22.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.23.0": {
+  "first_seen": "2026-10-31",
+  "kind": "release",
+  "published": "2026-10-30",
+  "snippet": "typescript/v1.23.0 Auto-drafted from commits in typescript/v1.22.0..typescript/v1.23.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(models): default Bedrock maxTokens to the model info output limit (Python + TypeScript) ( #5645 ) ( 0a50a80 ) feat(models): add…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "typescript/v1.23.0"
  },
  "https://hamel.dev/": {
   "first_seen": "2026-10-05",
@@ -16463,6 +16594,14 @@
   "status": "passed",
   "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents"
  },
+ "https://huggingface.co/blog/nvidia/nemotron-halloween": {
+  "first_seen": "2026-10-31",
+  "kind": "read",
+  "published": "2026-10-30",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "nemotron-halloween"
+ },
  "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026": {
   "first_seen": "2026-10-08",
   "kind": "read",
@@ -20673,6 +20812,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-07-29",
+  "shown": "2026-10-31",
   "snippet": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
   "source": "openai-engineering",
   "status": "passed",
@@ -24682,6 +24822,14 @@
   "what": "An opinion piece on leveraging existing coding agents before buying AI SRE products",
   "why": "It offers high-level guidance but not actionable code or patterns"
  },
+ "https://www.cncf.io/blog/2026/10/21/distributed-tracing-for-ci-pipelines-without-touching-a-single-workflow-file-2": {
+  "first_seen": "2026-10-31",
+  "kind": "read",
+  "published": "2026-10-21",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Distributed tracing for CI pipelines without touching a single workflow file"
+ },
  "https://www.cncf.io/blog/2026/10/22/filtering-and-reducing-ai-agent-telemetry-with-the-opentelemetry-collector": {
   "first_seen": "2026-10-23",
   "kind": "read",
@@ -24727,6 +24875,14 @@
   "title": "Isolation. Security. Scale.",
   "what": "CNCF blog on isolation, security, and scaling for agents",
   "why": "It gives practical patterns and design decisions the reader can apply when building production‑ready agents"
+ },
+ "https://www.cncf.io/blog/2026/10/27/opentelemetry-powered-distributed-tracing-and-kubernetes-events-in-openchoreo": {
+  "first_seen": "2026-10-31",
+  "kind": "read",
+  "published": "2026-10-27",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "OpenTelemetry-powered distributed tracing and Kubernetes events in OpenChoreo"
  },
  "https://www.cncf.io/blog/2026/10/27/over-500-golden-kubestronauts-the-evolving-standard-for-cloud-native-mastery": {
   "first_seen": "2026-10-28",
@@ -25019,6 +25175,7 @@
   "minutes": 10,
   "published": "2026-10-29",
   "score": 12,
+  "shown": "2026-10-31",
   "snippet": "Managed Deep Agents now runs a browser for your agent, with tools tuned for context-efficient browser use and a handoff so you can sign in yourself.",
   "source": "langchain-blog",
   "status": "passed",
@@ -26402,20 +26559,36 @@
  "https://www.langchain.com/blog/proving-the-roi-of-agentic-ai-in-financial-services": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 9,
   "snippet": "How to prove agentic AI ROI in financial services: business KPIs, cost tracking and governance for RFP and AML use cases, using LangSmith and Pay-i together.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Proving Agentic AI ROI in Financial Services | LangChain"
+  "status": "rejected",
+  "tags": [
+   "agentic AI ROI",
+   "financial services",
+   "LangSmith",
+   "Pay‑i",
+   "LangChain"
+  ],
+  "title": "Proving Agentic AI ROI in Financial Services | LangChain",
+  "what": "A LangChain blog post outlining how to demonstrate agentic AI return on investment in financial services, with metrics and governance using LangSmith and Pay‑i.",
+  "why": "It gives an experienced engineering lead a framework for measuring and communicating ROI so they can justify agent deployments in their organization."
  },
  "https://www.langchain.com/blog/pytest-and-vitest-for-langsmith-evals": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Introducing a new way to run evals using LangSmith’s Pytest and Vitest/Jest integrations.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Introducing Pytest and Vitest integrations for LangSmith Evaluations"
+  "status": "rejected",
+  "tags": [],
+  "title": "Introducing Pytest and Vitest integrations for LangSmith Evaluations",
+  "what": "LangChain blog post announcing Pytest and Vitest integrations for LangSmith Evaluations.",
+  "why": "N/A"
  },
  "https://www.langchain.com/blog/qdrant-x-langchain-endgame-performance": {
   "first_seen": "2026-10-05",
@@ -26965,6 +27138,24 @@
   "what": "A talk by Ola Hungerford on the new Skills extension to the Model Context Protocol (MCP) and its spec change process.",
   "why": "Provides a concrete example of extending MCP with agent skills, including design considerations and practical steps for MCP server authors to ship skills in production."
  },
+ "https://www.youtube.com/watch?v=3osCbSufv8g": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-31",
+  "score": 4,
+  "snippet": "Upstart handles thousands of lending calls a day, where one wrong question can become a regulatory problem. Shiv Indap, who leads voice AI at Upstart, and Brooke Hopkins, founder of Coval and former head of evaluation infrastructure at Waymo, walk through automating loan verification calls: the compliance traps, outgrowing a Google Sheet for human review, and raising agreement between the LLM…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "compliance",
+   "voice‑AI",
+   "loan‑verification"
+  ],
+  "title": "Voice AI Where One Wrong Question Breaks the Rules - Shiv Indap, Upstart & Brooke Hopkins, Coval",
+  "what": "A talk on voice‑AI compliance for loan‑verification calls at Upstart.",
+  "why": "It gives an overview of compliance traps and scaling challenges but offers limited actionable design details or open‑source guidance."
+ },
  "https://www.youtube.com/watch?v=3wj6sgbi1YA": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -27387,6 +27578,20 @@
   "title": "Self-Improving Agents - Kemal Elmizan",
   "what": "YouTube event promotion for AGNTCon + MCPCon",
   "why": "Does not provide technical content to build or learn from"
+ },
+ "https://www.youtube.com/watch?v=8vDzncmzxyg": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-30",
+  "score": 0,
+  "snippet": "Every new coding agent session starts like a new hire: it doesn't know your conventions, architecture rules or approved libraries, so it burns time and tokens searching your repo and repeats the issues already in it. Killian Carlsen-Phelan of Sonar introduces Sonar Vortex, a plugin that hands your agent a map of the codebase and your guidelines before it writes, then deterministically checks…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [],
+  "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
+  "what": "Sonar Vortex plugin demo for initializing coding agents",
+  "why": "Not a technical deep dive, mainly a product showcase"
  },
  "https://www.youtube.com/watch?v=950byF7njfw": {
   "first_seen": "2026-10-05",
@@ -28371,6 +28576,14 @@
   "what": "A talk by Peter Werry on Unblocked’s relational context engine that reduces token usage for LLM agents by incorporating relational data such as PRs and Slack threads.",
   "why": "It shows a practical design for embedding relational context into agents, offering concrete architecture and trade‑offs that an engineer can adapt to build more efficient, context‑aware agents in production."
  },
+ "https://www.youtube.com/watch?v=Oi9DHk57KeQ": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "published": "2026-10-30",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI"
+ },
  "https://www.youtube.com/watch?v=Ok6QdZHCcI8": {
   "first_seen": "2026-10-30",
   "kind": "watch",
@@ -28702,6 +28915,7 @@
   "minutes": 15,
   "published": "2026-10-23",
   "score": 11,
+  "shown": "2026-10-31",
   "snippet": "Will Brown of Prime Intellect makes the case that continual learning is about to get boring, in a good way: it is the software development life cycle, applied to models. He traces how agent workflows grow from terminal experiments into production software, why evals should capture the vibe check, and which post-training methods he reaches for, from SFT and on-policy and context distillation to…",
   "source": "yt-langchain",
   "status": "passed",
@@ -29045,6 +29259,26 @@
   "what": "Video lecture on the concept of harness engineering and software factories by Dru Knox of Tessl",
   "why": "Not suitable for actionable engineering guidance"
  },
+ "https://www.youtube.com/watch?v=XOUSuxY074U": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-30",
+  "score": 9,
+  "snippet": "Harrison Chase, Co-Founder and CEO of LangChain, explains what it means to own your intelligence, the specialization a team builds into the model, the harness, and the context, why he thinks agents need to be open, compounding, and governed to get there, and points to monday.com, Harvey, and Orange as examples of companies building the system around the model. He then walks through the LangSmith…",
+  "source": "yt-langchain",
+  "status": "rejected",
+  "tags": [
+   "agents",
+   "open standards",
+   "agent architecture",
+   "strategy",
+   "open-source framework"
+  ],
+  "title": "Why Own Your Intelligence? Harrison Chase Keynote | Interrupt London",
+  "what": "Keynote on owning intelligence and building open, specialized agents by LangChain CEO.",
+  "why": "Gives strategic insights on agent ownership, governance, and ecosystem building that can inform architecture decisions."
+ },
  "https://www.youtube.com/watch?v=XPj3mIKEtI4": {
   "first_seen": "2026-10-09",
   "kind": "watch",
@@ -29147,6 +29381,7 @@
   "minutes": 12,
   "published": "2026-10-27",
   "score": 14,
+  "shown": "2026-10-31",
   "snippet": "Arize's in-product agent Alex went from a 2023 prototype that was \"50% hallucination\" to a single agent with planning, memory and on-demand skills, all built with custom harness code instead of a framework. AI PM Fuad Ali covers each decision: moving the plan into the harness, making \"finish\" an explicit gate, treating large tool results like files, why one 8,000-character memory file per user…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -29191,6 +29426,25 @@
   "title": "The Noisy Neighbour Inside Your GPU:... - Sagar Utekar, CrowdStrike & Oshi Gupta, Improving Pune",
   "what": "Video discussing GPU noise during batched LLM inference at KubeCon",
   "why": "N/A"
+ },
+ "https://www.youtube.com/watch?v=YU1uD_YkpjU": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-30",
+  "score": 8,
+  "snippet": "x402 lets AI agents pay for data and APIs with tiny on-chain payments over HTTP. Ishween Kaur explains how the protocol works, then walks through six of the 20 ways she broke it in a safe test environment: price changes in the payment header, paying twice, getting data for free, one payment unlocking many pages, lookalike sellers, and prompt injection that talks an agent into paying again. For…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "open-standards",
+   "protocol-security",
+   "agent-payments",
+   "x402"
+  ],
+  "title": "Your Agent Just Paid for Nothing: 6 Attacks on x402 Payments - Ishween Kaur, SoFi",
+  "what": "A walkthrough of the x402 payment protocol and six ways it can be abused by AI agents.",
+  "why": "Engineers can learn to audit and harden similar on-chain payment protocols in their own agent systems."
  },
  "https://www.youtube.com/watch?v=YXb2Wx1r_Pk": {
   "first_seen": "2026-10-05",
@@ -29489,6 +29743,20 @@
   "title": "The Lethal Trifecta Is Already on Your Laptops — Michael Patterson, Coder",
   "what": "Video on the risks of coding agents",
   "why": "No actionable guidance for building agents"
+ },
+ "https://www.youtube.com/watch?v=b3WYldenFUM": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-30",
+  "score": 0,
+  "snippet": "Come to the next event: https://events.linuxfoundation.org/ If you run a website or app, AI agents are already trying to use it, and most of them do it the slow way: reading screenshots and guessing at buttons. Frédéric Barthelet, CTO and co-founder of Alpic, and Dominic Farolino, a Google Chrome engineer and one of the authors of WebMCP, show three ways to give agents a proper way in: MCP…",
+  "source": "yt-aaif",
+  "status": "rejected",
+  "tags": [],
+  "title": "WebMCP vs CLI vs MCP",
+  "what": "Video demo of WebMCP vs CLI vs MCP for agent web interaction",
+  "why": "Not suitable for in-depth learning; lacks technical depth"
  },
  "https://www.youtube.com/watch?v=b9UhZkKjX_A": {
   "first_seen": "2026-10-11",
@@ -29894,6 +30162,20 @@
   "title": "How I Learned to Stop Worrying and Love the Sandbox — Matt Brockman, E2B",
   "what": "A YouTube walkthrough of diagnosing and fixing runaway processes in sandboxed environments.",
   "why": "Engineers can apply the debugging patterns to improve sandbox reliability in their own CI/CD pipelines."
+ },
+ "https://www.youtube.com/watch?v=g5QKUvcgqYE": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-10-30",
+  "score": 0,
+  "snippet": "Naoki Oguchi of Fujitsu introduces CoHDI and its approach to memory-aware Kubernetes orchestration across GPU HBM, DRAM and disaggregated CXL memory for LLM inference. Join us November 9-12 in Salt Lake City. Explore the Session: https://bit.ly/4f26VVE Register: https://bit.ly/3BDI5XL",
+  "source": "yt-cncf",
+  "status": "rejected",
+  "tags": [],
+  "title": "Meet Naoki Oguchi - Speaker at KubeCon + CloudNativeCon North America",
+  "what": "Naoki Oguchi’s talk on CoHDI and memory‑aware Kubernetes orchestration",
+  "why": "The talk is a product announcement with no technical detail or actionable guidance."
  },
  "https://www.youtube.com/watch?v=gLbewwQdoSk": {
   "first_seen": "2026-10-09",
@@ -30476,6 +30758,14 @@
   "status": "passed",
   "title": "What is sycophancy in AI models?"
  },
+ "https://www.youtube.com/watch?v=o4D1J1YWjhg": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "published": "2026-10-30",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "There are many futures. Which do you want to build?"
+ },
  "https://www.youtube.com/watch?v=oUZEt4EiPbk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -30709,6 +30999,25 @@
   "source": "yt-cncf",
   "status": "dropped:keyword",
   "title": "Meet Rani Chowdary Mandepudi - Speaker at KubeCon + CloudNativeCon North America"
+ },
+ "https://www.youtube.com/watch?v=qq2Hm4XNRgI": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "minutes": 25,
+  "published": "2026-10-30",
+  "score": 8,
+  "snippet": "RAG gives agents a way to read, but memory gives them a way to write, and that's where your business value lives. Wojciech Pluta, head of technical marketing for Oracle AI Database, explains memory promotion: deciding what's worth keeping, checking it against existing records and admitting, rejecting or escalating it to a human. A mortgage-agent demo remembers an operator's preferences across…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agents",
+   "memory",
+   "agent design",
+   "agent memory"
+  ],
+  "title": "How to Decide What Your AI Agent Should Remember - Wojciech Pluta, Oracle",
+  "what": "Video on managing memory for AI agents by Oracle AI Database engineer",
+  "why": "Learn a practical memory‑management technique to decide what agents should persist and how to integrate it into your own agent workflows"
  },
  "https://www.youtube.com/watch?v=rAUyRDOFyHU": {
   "first_seen": "2026-10-13",
@@ -31263,6 +31572,14 @@
   "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
   "what": "Eric Schwartz discusses five levels of self‑driving production and the challenges of debugging AI‑written code.",
   "why": "Readers can learn a framework for staging agent autonomy and practical root‑cause analysis techniques they can apply in their own pipelines."
+ },
+ "https://www.youtube.com/watch?v=y2dyD6slKxE": {
+  "first_seen": "2026-10-31",
+  "kind": "watch",
+  "published": "2026-10-30",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "Why AI Won't Replace Stock Pickers - Jack Woodruff, Candlestick & Vinoo Ganesh, Kepler"
  },
  "https://www.youtube.com/watch?v=yJxZef1Ylok": {
   "first_seen": "2026-10-29",
