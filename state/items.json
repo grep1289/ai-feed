@@ -6420,6 +6420,15 @@
   "status": "passed",
   "title": "v0.3.286"
  },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.287": {
+  "first_seen": "2026-11-01",
+  "kind": "release",
+  "published": "2026-10-31",
+  "snippet": "0.3.287 (2026-10-31) Features a runtime can hold and rewrite a react() conversation at turn boundaries, and compaction handlers gain reset() ( #6201 ) ( 7340817 ) reserve the range_goal registry type for inspect_ranges goal types ( #6224 ) ( 3dcbf00 ) sentinel: the sentinel host gives the input budget and the token count of a monitor model ( #6132 ) ( f1074f9 ) Bug Fixes an agent limit reached by…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.287"
+ },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -26326,6 +26335,7 @@
   "minutes": 10,
   "published": "2026-08-26",
   "score": 15,
+  "shown": "2026-11-01",
   "snippet": "Discover Connery: open-source plugin infrastructure for LLM apps. Secure integrations, personalization, and human-in-the-loop control for AI agents.",
   "source": "langchain-blog",
   "status": "passed",
@@ -26593,20 +26603,34 @@
  "https://www.langchain.com/blog/qdrant-x-langchain-endgame-performance": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "Qdrant and LangChain deliver production-ready RAG performance with async support, optimized resource usage, and scalable vector search for LLM apps.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Qdrant x LangChain: Endgame Performance"
+  "status": "rejected",
+  "tags": [],
+  "title": "Qdrant x LangChain: Endgame Performance",
+  "what": "Qdrant x LangChain performance announcement",
+  "why": "Not a technical guide for building agents"
  },
  "https://www.langchain.com/blog/rebuilding-chat-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 14,
   "snippet": "Learn how LangChain rebuilt their chatbot using Deep Agents and subgraphs for sub-15-second responses with precise citations—and what you can apply.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Why We Rebuilt LangChain’s Chatbot and What We Learned"
+  "tags": [
+   "open-source frameworks",
+   "building and operating agents in production",
+   "agents for platform engineering"
+  ],
+  "title": "Why We Rebuilt LangChain’s Chatbot and What We Learned",
+  "what": "LangChain’s engineering team explains the redesign of their chatbot with Deep Agents and subgraphs for sub‑15‑second, citation‑rich responses.",
+  "why": "Engineers can adopt the same subgraph pattern and Deep Agent approach to build responsive, verifiable chatbots in their own projects."
  },
  "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases": {
   "first_seen": "2026-10-05",
@@ -26625,11 +26649,22 @@
  "https://www.langchain.com/blog/retrieval": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Build better AI apps with flexible retrieval methods in LangChain. Use any retriever—from semantic to hybrid—to create personalized ChatGPT for your data.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Retrieval"
+  "tags": [
+   "LangChain",
+   "retrieval",
+   "open‑source",
+   "AI apps",
+   "technique"
+  ],
+  "title": "Retrieval",
+  "what": "An in‑depth LangChain blog post explaining how to implement flexible retrieval methods for building personalized AI applications.",
+  "why": "It teaches concrete retriever patterns, shows code and architecture that an engineering lead can adopt immediately."
  },
  "https://www.langchain.com/blog/revamping-skills-in-deep-agents": {
   "first_seen": "2026-10-08",
@@ -26987,6 +27022,25 @@
   "what": "",
   "why": ""
  },
+ "https://www.youtube.com/watch?v=1_lX0m64-aI": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "minutes": 15,
+  "published": "2026-10-31",
+  "score": 7,
+  "snippet": "Richmond Alake was talking about agent memory before most people had heard of it, and now he argues the next layer after the control plane is an intelligence plane: what an agent knows, what it remembers, what it's allowed to see, and how it gets better. Using the WWII codebreakers who worked out that \"AF\" meant Midway, he shows why having the same information as everyone else isn't the same as…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent memory",
+   "intelligence plane",
+   "knowledge management",
+   "agent architecture"
+  ],
+  "title": "Everyone Has the Same AI Models. Here's What Sets Agents Apart - Richmond Alake, Oracle",
+  "what": "A video where Richmond Alake discusses agent memory and the intelligence plane in AI agents.",
+  "why": "The reader can learn about new concepts for agent knowledge management and apply memory patterns to improve agent design this month."
+ },
  "https://www.youtube.com/watch?v=1akSvsjd_oI": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -27218,6 +27272,7 @@
   "minutes": 12,
   "published": "2026-10-26",
   "score": 13,
+  "shown": "2026-11-01",
   "snippet": "Daksh Gupta, co-founder of Greptile, which reviews about 1% of all pull requests on GitHub, shares what Greptile tells companies that want to build their own review agent. Starting from a simple sandbox-plus-webhook setup, he explains why it misses bugs, costs $3-25 per PR and floods you with nitpicks, then walks through the fixes: targeted prompts, a dataset of past incident PRs, model inversion…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -27430,6 +27485,25 @@
   "what": "OpenAI announces Codex Cloud, a new cloud environment for code tasks",
   "why": "No actionable technical details for engineering lead to build or apply"
  },
+ "https://www.youtube.com/watch?v=7WUzHIF32vA": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "minutes": 45,
+  "published": "2026-11-01",
+  "score": 11,
+  "snippet": "Ramakrishnan Lokanathan, an AI safety researcher and former startup founder, lays out how to build evals for high-stakes AI applications. Define the most ambitious version of success, test every step of the workflow and not just the final answer, combine automated checks with human review and adversarial tests, keep testing what used to work so upgrades don't break it, and turn real user failures…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "evaluation",
+   "observability",
+   "agent safety",
+   "workflow testing"
+  ],
+  "title": "If Your AI Scores 100%, Your Eval Is Wrong - Ramakrishnan Lokanathan, eslams.com",
+  "what": "A talk on building robust evaluation pipelines for high‑stakes AI systems",
+  "why": "It offers concrete steps, metrics, and checks that an engineer can implement today to improve agent safety and reliability"
+ },
  "https://www.youtube.com/watch?v=7v2myBde05o": {
   "first_seen": "2026-10-11",
   "kind": "watch",
@@ -27565,6 +27639,25 @@
   "what": "YouTube demo of an AI shopping agent for a fictional retailer",
   "why": "Not suitable for engineering lead seeking actionable, open-source guidance"
  },
+ "https://www.youtube.com/watch?v=8oaqZCIN59E": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-31",
+  "score": 9,
+  "snippet": "Aman Singh of Microsoft demonstrates how an AI agent can behave like a new user, follow documentation inside a sandbox, verify outcomes and report drift automatically. Join us November 9-12 in Salt Lake City. Explore the Session: https://bit.ly/4yTx0xw Register: https://bit.ly/3BDI5XL",
+  "source": "yt-cncf",
+  "status": "rejected",
+  "tags": [
+   "platform engineering",
+   "agents",
+   "CI/CD",
+   "observability"
+  ],
+  "title": "Meet Aman Singh - Speaker at KubeCon + CloudNativeCon North America",
+  "what": "A video demo of an AI agent that mimics a new user to follow docs, verify outcomes, and report drift in a sandbox environment.",
+  "why": "The viewer can learn how to build a similar agent for platform engineering tasks and see practical design patterns and tooling to automate compliance checks."
+ },
  "https://www.youtube.com/watch?v=8quUT1Yn4eg": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -27592,6 +27685,26 @@
   "title": "Your AI Agent Starts Every Session Like a New Hire - Killian Carlsen-Phelan, Sonar",
   "what": "Sonar Vortex plugin demo for initializing coding agents",
   "why": "Not a technical deep dive, mainly a product showcase"
+ },
+ "https://www.youtube.com/watch?v=9-Y_oS9OBLc": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "minutes": 25,
+  "published": "2026-10-31",
+  "score": 12,
+  "snippet": "Steven Latré leads AI at imec, the Belgian semiconductor R&D center, and his team ran thousands of benchmark runs to find out what moving from APIs to your own GPUs really costs for long-running coding agents. Testing open-weight models and three coding harnesses on SWE-Bench Pro, they found that hardware costs jump in steps rather than a smooth curve, that concurrency matters even more than…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "tags": [
+   "open-weight-models",
+   "benchmarking",
+   "hardware-costs",
+   "agentic-ai",
+   "CI/CD"
+  ],
+  "title": "When Running Your Own AI Models Beats Paying for APIs - Steven Latré, imec",
+  "what": "A talk by Steven Latré on the cost trade‑offs of running open‑weight AI models locally versus using vendor APIs, backed by benchmark data from imec’s own GPU clusters.",
+  "why": "It gives concrete hardware‑cost curves, concurrency insights, and a methodology that an engineering lead can replicate to decide whether to self‑host models for production agents."
  },
  "https://www.youtube.com/watch?v=950byF7njfw": {
   "first_seen": "2026-10-05",
@@ -27767,6 +27880,14 @@
   "title": "How Benefit Street Partners is building financial analysis tools with Codex",
   "what": "Benefit Street Partners’ presentation on building financial analysis tools with Codex.",
   "why": "Not a technical guide and offers no actionable content for a builder."
+ },
+ "https://www.youtube.com/watch?v=CvmZtAPmAW4": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "published": "2026-10-31",
+  "source": "yt-ai-engineer",
+  "status": "dropped:keyword",
+  "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble"
  },
  "https://www.youtube.com/watch?v=D4XTefP3Lsc": {
   "first_seen": "2026-10-05",
@@ -28345,6 +28466,26 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "Build Plugins for ChatGPT"
+ },
+ "https://www.youtube.com/watch?v=LnQce-eHm8k": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "minutes": 12,
+  "published": "2026-10-31",
+  "score": 8,
+  "snippet": "Jeff Smith has built database tools at Oracle for 25 years, and he's here to make agents and databases get along safely. He explains why natural language to SQL is powerful but risky, since queries can run cleanly and still return the wrong data, and how Oracle's MCP server makes it safer: offering your team's vetted reports as tools instead of ad hoc SQL, pointing agents at a read-only standby…",
+  "source": "yt-ai-engineer",
+  "status": "rejected",
+  "tags": [
+   "agent security",
+   "natural language SQL",
+   "Oracle MCP",
+   "read‑only standby",
+   "database safety"
+  ],
+  "title": "Your AI Agent Wants Your Data. Here's How to Lock It Down - Jeff Smith, Oracle",
+  "what": "Jeff Smith explains how to safely integrate natural‑language agents with Oracle databases using the MCP server and read‑only standbys.",
+  "why": "Readers can apply Oracle’s MCP approach to sandbox agent queries and enforce read‑only access before promotion to production."
  },
  "https://www.youtube.com/watch?v=M2Oa42hF67E": {
   "first_seen": "2026-10-29",
@@ -29496,6 +29637,25 @@
   "title": "Why a One-Line Change Can Break Your Whole Stack - Cole Gannaway, Qodo",
   "what": "A YouTube talk on the fragility of one-line data model changes and how to detect their blast radius.",
   "why": "It provides anecdotal insight but no actionable guidance for the reader to build or operate agents or open‑source tools."
+ },
+ "https://www.youtube.com/watch?v=ZOja64lxa5Y": {
+  "first_seen": "2026-11-01",
+  "kind": "watch",
+  "minutes": 30,
+  "published": "2026-10-31",
+  "score": 8,
+  "snippet": "Shriya Kamat Tarcar of Nuvama Group explains why peer-to-peer A2A connections become unmanageable at scale and how an A2A-aware gateway can simplify routing, security, reliability and observability. Explore the Session: https://bit.ly/4A5HDhM Register: https://bit.ly/3BDI5XL",
+  "source": "yt-cncf",
+  "status": "rejected",
+  "tags": [
+   "open‑standards",
+   "A2A",
+   "gateway",
+   "observability"
+  ],
+  "title": "Meet Shriya Kamat Tarcar - Speaker at KubeCon + CloudNativeCon North America",
+  "what": "A CNCF conference talk on simplifying peer‑to‑peer A2A connections with an A2A‑aware gateway",
+  "why": "It shows practical design patterns for scaling A2A routing, security, and observability that can be implemented with open‑source tools"
  },
  "https://www.youtube.com/watch?v=ZSgAZwTwcrQ": {
   "first_seen": "2026-10-29",
@@ -30938,6 +31098,7 @@
   "minutes": 45,
   "published": "2026-10-26",
   "score": 13,
+  "shown": "2026-11-01",
   "snippet": "Scott Rigby, Andrew Block, and George Jenkins invite developers to build agentic tooling for the Helm ecosystem, spanning software development, daily workflows and everything between. Explore the Session: https://bit.ly/4in1jXc Register: https://bit.ly/3BDI5XL",
   "source": "yt-cncf",
   "status": "passed",

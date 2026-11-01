@@ -44,7 +44,7 @@
   "fetched": 27,
   "id": "mcp-blog",
   "name": "Model Context Protocol Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 894,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -108,7 +108,7 @@
   "fetched": 15,
   "id": "yt-aaif",
   "name": "Agentic AI Foundation",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -116,7 +116,7 @@
   "fetched": 15,
   "id": "yt-cncf",
   "name": "CNCF",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -132,7 +132,7 @@
   "fetched": 15,
   "id": "yt-langchain",
   "name": "LangChain",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -180,7 +180,7 @@
   "fetched": 10,
   "id": "gh-modelcontextprotocol-registry",
   "name": "modelcontextprotocol/registry",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -276,7 +276,7 @@
   "fetched": 10,
   "id": "gh-microsoft-agent-framework",
   "name": "microsoft/agent-framework",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -284,7 +284,7 @@
   "fetched": 10,
   "id": "gh-strands-agents-sdk-python",
   "name": "strands-agents/sdk-python",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -308,7 +308,7 @@
   "fetched": 10,
   "id": "gh-kagent-dev-kagent",
   "name": "kagent-dev/kagent",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -388,7 +388,7 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
