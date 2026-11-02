@@ -7691,6 +7691,15 @@
   "status": "passed",
   "title": "1.15.33"
  },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34": {
+  "first_seen": "2026-11-02",
+  "kind": "release",
+  "published": "2026-11-01",
+  "snippet": "What's Changed Features Add standalone LiteLLM catalog PR before version bump Record where crewai run stops before kickoff Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python flow Add deploy create --zip and print the commit a zip is built from Document agent planning with planningconfig and migrate reasoning page Bug Fixes Stop offering shut-down Gemini…",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.34"
+ },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10767,6 +10776,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "rust-v0.167.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.2": {
+  "first_seen": "2026-11-02",
+  "kind": "release",
+  "published": "2026-11-01",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.167.0-alpha.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3": {
+  "first_seen": "2026-11-02",
+  "kind": "release",
+  "published": "2026-11-01",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.167.0-alpha.3"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -26533,6 +26558,7 @@
   "minutes": 15,
   "published": "2026-08-26",
   "score": 15,
+  "shown": "2026-11-02",
   "snippet": "Build reliable AI agents with Plan-and-Execute framework. Separate planning from execution for complex tasks with fewer errors.",
   "source": "langchain-blog",
   "status": "passed",
@@ -26745,11 +26771,16 @@
  "https://www.langchain.com/blog/series-b": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": null,
   "published": "2026-08-26",
+  "score": 0,
   "snippet": "We raised $125M at a $1.25B valuation to build the platform for agent engineering.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "LangChain raises $125M to build the platform for agent engineering"
+  "status": "rejected",
+  "tags": [],
+  "title": "LangChain raises $125M to build the platform for agent engineering",
+  "what": "LangChain fundraising announcement",
+  "why": "No actionable technical content"
  },
  "https://www.langchain.com/blog/slack-sdk-managed-deep-agents": {
   "first_seen": "2026-10-10",
@@ -26927,6 +26958,29 @@
   "what": "YouTube short showcasing a legal tool built with Codex at Sullivan & Cromwell.",
   "why": "Insufficient technical detail for a developer to replicate or learn from."
  },
+ "https://www.youtube.com/shorts/djVUCj5i4sw": {
+  "first_seen": "2026-11-02",
+  "kind": "watch",
+  "minutes": 1,
+  "published": "2026-08-27",
+  "score": 0,
+  "snippet": "Scientists spend a significant amount of their time just getting their devices to communicate with one another. Each device tends to have its own programming interface, and so far there has been no standardized way to integrate them, or to allow them to connect to AI. The Model Hardware Standard (MHS) gives AI models one common way to connect to lab and manufacturing equipment and operate it…",
+  "source": "yt-anthropic",
+  "status": "rejected",
+  "tags": [],
+  "title": "We're building a way for AI models to connect to any device and run real experiments.",
+  "what": "Anthropic's announcement of the Model Hardware Standard (MHS) for connecting AI models to lab and manufacturing devices",
+  "why": "Not enough technical detail to guide implementation or buildable use cases"
+ },
+ "https://www.youtube.com/shorts/kYJO0y8fVTA": {
+  "first_seen": "2026-11-02",
+  "kind": "watch",
+  "published": "2026-01-30",
+  "snippet": "On December 8, the Perseverance rover safely trundled across the surface of Mars. This was the first AI-planned drive on another planet. And it was planned by Claude. Engineers at NASA Jet Propulsion Laboratory used Claude to plot out the route for Perseverance to navigate an approximately four-hundred-meter path on the Martian surface. Read the full story: https://www.anthropic.com/mars",
+  "source": "yt-anthropic",
+  "status": "passed",
+  "title": "Claude on Mars"
+ },
  "https://www.youtube.com/shorts/qyGvwLgqmaU": {
   "first_seen": "2026-10-27",
   "kind": "watch",
@@ -26940,6 +26994,20 @@
   "title": "From analyst to builder with Codex | Benefit Street Partners",
   "what": "Short video showing an analyst using Codex to build a SEC filings tool",
   "why": "Not enough technical detail for actionable learning"
+ },
+ "https://www.youtube.com/shorts/uVS88gnaxcg": {
+  "first_seen": "2026-11-02",
+  "kind": "watch",
+  "minutes": null,
+  "published": "2026-09-01",
+  "score": 0,
+  "snippet": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress. It excels at complex, multi-step work, like a long mathematical proof or a contract with hundreds of cross-references. It avoids shortcuts and is smart enough to fix the root…",
+  "source": "yt-anthropic",
+  "status": "rejected",
+  "tags": [],
+  "title": "Meet Claude Fable 5.1",
+  "what": "Short product announcement about Claude Fable 5.1 from Anthropic.",
+  "why": "No actionable or technical details for building or using the model."
  },
  "https://www.youtube.com/shorts/v45XAMqH7pE": {
   "first_seen": "2026-10-22",
@@ -27692,6 +27760,7 @@
   "minutes": 25,
   "published": "2026-10-31",
   "score": 12,
+  "shown": "2026-11-02",
   "snippet": "Steven Latré leads AI at imec, the Belgian semiconductor R&D center, and his team ran thousands of benchmark runs to find out what moving from APIs to your own GPUs really costs for long-running coding agents. Testing open-weight models and three coding harnesses on SWE-Bench Pro, they found that hardware costs jump in steps rather than a smooth curve, that concurrency matters even more than…",
   "source": "yt-ai-engineer",
   "status": "passed",
@@ -28189,6 +28258,7 @@
   "minutes": 30,
   "published": "2026-10-25",
   "score": 13,
+  "shown": "2026-11-02",
   "snippet": "Don't miss out! Join us at our next KubeCon + CloudNativeCon event in Salt Lake City, United States (Nov 9–12, 2026). Connect with our current graduated, incubating, and sandbox projects as the community gathers to further the education and advancement of cloud native computing. Learn more at https://kubecon.io OpenTelemetry Beyond Observability: Security, CI/CD, and Network Management - Antoine…",
   "source": "yt-cncf",
   "status": "passed",
