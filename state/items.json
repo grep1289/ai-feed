@@ -4165,6 +4165,14 @@
   "status": "dropped:category",
   "title": "Introducing the Message Batches API"
  },
+ "https://claude.com/resources/articles/message-threads": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "published": "2026-11-02",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Make long-running agents faster with message threads"
+ },
  "https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -5856,6 +5864,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.19.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.19.1": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-02",
+  "snippet": "Patch Changes Updated dependencies [ ead7dd8 ] @arizeai/phoenix-client@7.18.0",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.19.1"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5909,6 +5926,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-client@7.17.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.18.0": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-02",
+  "snippet": "Minor Changes ead7dd8 : Add typed dataset-label resource and assignment helpers to the existing @arizeai/phoenix-client/datasets scope. Callers can manage reusable global labels, list them with cursor pagination, and assign or replace labels on datasets selected by name or GlobalID.",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-client@7.18.0"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-config%400.5.1": {
   "first_seen": "2026-10-22",
@@ -5990,6 +6016,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-mcp@4.3.19"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-mcp%404.3.20": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-02",
+  "snippet": "Patch Changes Updated dependencies [ ead7dd8 ] @arizeai/phoenix-client@7.18.0",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-mcp@4.3.20"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-otel%402.3.0": {
   "first_seen": "2026-10-22",
@@ -7168,6 +7203,15 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.176"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.177": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "New Features on_failure option for HookMatcher : Control what happens when a hook callback fails. Set on_failure=\"block\" to block the action when a callback raises, returns None , or returns a value the CLI rejects. Defaults to \"continue\" (treat failure as no decision). Requires a CLI version that supports this option; connecting to an older CLI with on_failure=\"block\" raises CLIConnectionError (…",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.177"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -8752,6 +8796,24 @@
   "status": "passed",
   "title": "deepagents-code==0.2.2"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.3": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-02",
+  "snippet": "Features Defer loading MCP tool schemas with provider-native tool search ( #7304 ). Include the official marketplace by default ( #7364 ). Require an explicit or saved model selection ( #7365 ). Apply hook command rewrites before requesting tool approval ( #7384 ). Support DEEPAGENTS_CODE_LANGSMITH_PROJECT_URL and cache rejected project lookups ( #7332 ). Show MCP tool counts in /tools headers (…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.3"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.4": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-02",
+  "snippet": "Features Mark interrupt cancellation messages with lc_source ( #7501 ). Bug Fixes Clarify workspace conflicts, MCP login failures, and disabled Slack MCP access during login ( #7499 , #7498 ). Clarify how /reload refreshes MCP configuration ( #7497 ). Full changelog Internal maintainers: Baihao Wang (@byhow) , Hunter Lovell (@hntrl) , Mason Daugherty (@mdrxy) , Sera (@sera-wi) Released by: Mason…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.4"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10225,6 +10287,14 @@
   "status": "dropped:keyword",
   "title": "v1.44.0"
  },
+ "https://github.com/open-telemetry/semantic-conventions/releases/tag/v1.45.0": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-02",
+  "source": "gh-open-telemetry-semantic-conventions",
+  "status": "dropped:keyword",
+  "title": "v1.45.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.160.1": {
   "first_seen": "2026-10-06",
   "kind": "release",
@@ -10793,6 +10863,14 @@
   "status": "dropped:prerelease",
   "title": "0.167.0-alpha.3"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-03",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.167.0-alpha.4"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11242,6 +11320,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.64.0 (2026-10-30)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.65.0": {
+  "first_seen": "2026-11-03",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Protect the gh-aw canonical session capture from agent tools by @dsfaccini in #10606 Add multimodal notes to AskUserAnswer by @dsfaccini in #11664 Count BrowserUse model calls toward the host run's usage and UsageLimits by @mpfaffenberger in #11860 Name the V2 replacement when code imports a name V2 removed, like OpenAIModel or MCPServerStdio by @DouweM in…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.65.0 (2026-11-02)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -18740,6 +18827,14 @@
   "status": "dropped:keyword",
   "title": "Transformers now runs llama.cpp quants"
  },
+ "https://huggingface.co/blog/transformers-mic": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "published": "2026-11-03",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Transformers Model Integration Contracts"
+ },
  "https://huggingface.co/blog/transformers-model-definition": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21298,6 +21393,20 @@
   "status": "passed",
   "title": "Learning with opponent-learning awareness"
  },
+ "https://openai.com/index/lifeval": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-11-02",
+  "score": 0,
+  "snippet": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+  "source": "openai-research",
+  "status": "rejected",
+  "tags": [],
+  "title": "LifeVal",
+  "what": "LifeVal benchmark by OpenAI for measuring AI assistance on everyday tasks",
+  "why": "No technical details or open-source content to apply"
+ },
  "https://openai.com/index/meta-learning-for-wrestling": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21737,6 +21846,25 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Robust adversarial inputs"
+ },
+ "https://openai.com/index/scaling-git-at-openai": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "minutes": 20,
+  "published": "2026-11-02",
+  "score": 11,
+  "shown": "2026-11-03",
+  "snippet": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+  "source": "openai-engineering",
+  "status": "passed",
+  "tags": [
+   "building and operating agents in production",
+   "open standards and protocols",
+   "open-source frameworks, SDKs and gateways"
+  ],
+  "title": "Scaling Git at OpenAI",
+  "what": "OpenAI’s internal Git-compatible backend Pando for scaling massive development workloads",
+  "why": "The article explains Pando’s architecture, trade-offs, and patterns that can guide engineers building large-scale version control systems for AI projects"
  },
  "https://openai.com/index/scaling-kubernetes-to-2500-nodes": {
   "first_seen": "2026-10-05",
@@ -24171,6 +24299,26 @@
   "status": "passed",
   "title": "Finding bugs across the Python ecosystem with Claude and property-based testing"
  },
+ "https://www.anthropic.com/research/provable-inference": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "minutes": 30,
+  "published": "2026-11-02",
+  "score": 13,
+  "shown": "2026-11-03",
+  "snippet": "Progress on provable inference for large language models",
+  "source": "anthropic-research",
+  "status": "passed",
+  "tags": [
+   "open-source",
+   "AI research",
+   "inference",
+   "LLM"
+  ],
+  "title": "Progress on provable inference for large language models",
+  "what": "A research paper on provable inference techniques for large language models by Anthropic.",
+  "why": "It explains how to design inference algorithms that guarantee correctness, offering patterns readers can experiment with in their own models."
+ },
  "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -24956,6 +25104,14 @@
   "what": "CNCF blog post discussing the boundary problem in agentic AI as a platform issue.",
   "why": "No actionable technical guidance or open‑source details for engineers to build or deploy agents."
  },
+ "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "published": "2026-11-02",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "The Linkerd Story: The People Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25411,6 +25567,20 @@
   "title": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
   "what": "LangChain’s new Connections feature enables Managed Deep Agents to securely store credentials, support per-user OAuth, and act on behalf of individual callers.",
   "why": "Engineers can integrate Connections into their agent workflows to provide fine-grained, identity-aware access without exposing secrets, and can adapt the pattern to other open‑source agent frameworks."
+ },
+ "https://www.langchain.com/blog/context-engineering-challenges-late-2026": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-11-02",
+  "score": 0,
+  "snippet": "LangChain CEO Harrison Chase shares insights into the biggest harness engineering challenges with the emergence of proactive agents.",
+  "source": "langchain-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "New context engineering challenges in late 2026",
+  "what": "LangChain CEO discusses context engineering challenges for proactive agents",
+  "why": "Not technical; no actionable guidance for engineers"
  },
  "https://www.langchain.com/blog/context-engineering-deep-agents-remember": {
   "first_seen": "2026-10-15",
@@ -25928,6 +26098,22 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "Introducing LangSmith Tuned Evaluators"
+ },
+ "https://www.langchain.com/blog/introducing-managed-deep-agents": {
+  "first_seen": "2026-11-03",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-11-02",
+  "score": 0,
+  "snippet": "Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta",
+  "source": "langchain-blog",
+  "status": "rejected",
+  "tags": [
+   "product launch"
+  ],
+  "title": "Managed Deep Agents: the fastest way to ship a production deep agent",
+  "what": "LangChain announces a private‑beta managed deep‑agent platform.",
+  "why": "The article is a product launch with no technical depth, so it is not useful for engineering leads looking for buildable, open, or substantive content."
  },
  "https://www.langchain.com/blog/introducing-rubrics-for-deepagents": {
   "first_seen": "2026-10-05",
@@ -26646,6 +26832,7 @@
   "minutes": 10,
   "published": "2026-08-26",
   "score": 14,
+  "shown": "2026-11-03",
   "snippet": "Learn how LangChain rebuilt their chatbot using Deep Agents and subgraphs for sub-15-second responses with precise citations—and what you can apply.",
   "source": "langchain-blog",
   "status": "passed",
@@ -26829,29 +27016,59 @@
  "https://www.langchain.com/blog/three-years-langchain": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 5,
   "published": "2026-08-26",
+  "score": 3,
   "snippet": "Harrison Chase on LangChain's 3-year journey from open source to $1.25B company, announcing LangChain 1.0, LangSmith expansion, and $125M funding.",
   "source": "langchain-blog",
-  "status": "passed",
-  "title": "Reflections on Three Years of Building LangChain"
+  "status": "rejected",
+  "tags": [
+   "product update",
+   "company milestone"
+  ],
+  "title": "Reflections on Three Years of Building LangChain",
+  "what": "Reflection on LangChain’s evolution and milestones",
+  "why": "Provides a high‑level history but no actionable technical details for building agents"
  },
  "https://www.langchain.com/blog/timescale-vector-x-langchain-making-postgresql-a-better-vector-database-for-ai-applications": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Build faster AI apps with Timescale Vector for LangChain. Get 243% faster similarity search, time-based RAG, and PostgreSQL simplicity. Free 90-day trial.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Timescale Vector x LangChain: Making PostgreSQL A Better Vector Database for AI Applications"
+  "tags": [
+   "open-source frameworks",
+   "vector databases",
+   "LangChain",
+   "Timescale",
+   "AI applications"
+  ],
+  "title": "Timescale Vector x LangChain: Making PostgreSQL A Better Vector Database for AI Applications",
+  "what": "An article explaining how to integrate Timescale Vector with LangChain for faster similarity search and time‑based RAG.",
+  "why": "Engineers can apply the patterns and code snippets to build more efficient vector‑search agents on PostgreSQL in their own projects."
  },
  "https://www.langchain.com/blog/using-langsmith-to-support-fine-tuning-of-open-source-llms": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 20,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Learn how to fine-tune and evaluate LLMs with LangSmith for dataset management. Complete guide covers LLaMA2 and GPT-3.5 fine-tuning with practical examples.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Using LangSmith to Support Fine-tuning"
+  "tags": [
+   "fine-tuning",
+   "LangSmith",
+   "LLaMA2",
+   "GPT‑3.5",
+   "dataset-management"
+  ],
+  "title": "Using LangSmith to Support Fine-tuning",
+  "what": "A detailed guide on using LangSmith to fine‑tune and evaluate LLMs such as LLaMA2 and GPT‑3.5 with practical code snippets.",
+  "why": "It shows concrete steps and code for dataset handling, model training, and evaluation that an engineer can implement this month."
  },
  "https://www.langchain.com/blog/using-skills-with-deep-agents": {
   "first_seen": "2026-10-05",
@@ -28855,6 +29072,7 @@
   "minutes": 12,
   "published": "2026-10-28",
   "score": 12,
+  "shown": "2026-11-03",
   "snippet": "Most teams spin up a new open model with the default vLLM recipe and hope for the best. Runpod forward-deployed engineer Chris Vela shows how to choose configs from data instead, starting with the use case and concurrency, and demos BenchPod, a benchmarking dashboard built on vLLM that tests configs live without restarts. He runs Kimi K3 on a B300, shows how tuning max batch tokens cuts…",
   "source": "yt-ai-engineer",
   "status": "passed",

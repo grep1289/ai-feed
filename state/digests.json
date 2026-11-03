@@ -164,6 +164,12 @@
    "https://www.langchain.com/blog/plan-and-execute-agents",
    "https://www.youtube.com/watch?v=IHb1oB_NK8o",
    "https://www.youtube.com/watch?v=9-Y_oS9OBLc"
+  ],
+  "2026-11-03": [
+   "https://openai.com/index/scaling-git-at-openai",
+   "https://www.langchain.com/blog/rebuilding-chat-langchain",
+   "https://www.anthropic.com/research/provable-inference",
+   "https://www.youtube.com/watch?v=P_0_Th_ZzIg"
   ]
  },
  "rollup": {
@@ -274,10 +280,10 @@
   ]
  },
  "scoring": {
-  "calls": 3,
-  "date": "2026-11-02",
+  "calls": 8,
+  "date": "2026-11-03",
   "error": null,
   "failed": 0,
-  "rejected": 3
+  "rejected": 4
  }
 }
