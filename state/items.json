@@ -293,6 +293,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-07-28",
+  "shown": "2026-11-04",
   "snippet": "The 2026-07-28 Model Context Protocol specification is out, bringing a stateless protocol core, Multi Round-Trip Requests, header-based routing, cacheable list results, authorization hardening, a formal extensions framework, and updated Tier 1 SDKs.",
   "source": "mcp-blog",
   "status": "passed",
@@ -5003,6 +5004,26 @@
   "status": "dropped:keyword",
   "title": "Colab is now part of your Google AI plan"
  },
+ "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "minutes": 7,
+  "published": "2026-11-03",
+  "score": 9,
+  "snippet": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
+  "source": "google-developers-ai",
+  "status": "rejected",
+  "tags": [
+   "agents",
+   "routing",
+   "cost-control",
+   "Gemini",
+   "task-management"
+  ],
+  "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
+  "what": "A Google Engineering post describing how to use lightweight classifiers to route tasks across Gemini models and thinking levels to reduce API costs for autonomous agents.",
+  "why": "Engineers can apply the routing strategy and trade‑off analysis to design cheaper, more efficient agent pipelines in their own deployments."
+ },
  "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -7213,6 +7234,15 @@
   "status": "passed",
   "title": "v0.2.177"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.178": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "Internal/Other Changes Updated bundled Claude CLI to version 2.1.318 PyPI: https://pypi.org/project/claude-agent-sdk/0.2.178/ pip install claude-agent-sdk==0.2.178",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.178"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7744,6 +7774,15 @@
   "status": "passed",
   "title": "1.15.34"
  },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.35": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed Documentation Update litellm model catalog for v1.15.35 Add snapshot and changelog for v1.15.34 Contributors @github-actions[bot], João Moura (@joaomdmoura) , Lorenze Jay (@lorenzejay)",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.35"
+ },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7875,6 +7914,15 @@
   "source": "gh-github-github-mcp-server",
   "status": "passed",
   "title": "GitHub MCP Server 2.0.3"
+ },
+ "https://github.com/github/github-mcp-server/releases/tag/v2.1.0": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed build(deps-dev): bump @types/node from 26.6.4 to 26.6.5 in /ui by @dependabot [bot] in #3516 docs: fix broken MCP SDKs link in host-integration.md by @muba76ma in #3598 build(deps): bump @primer/octicons-react from 19.38.0 to 19.40.0 in /ui by @dependabot [bot] in #3515 build(deps-dev): bump vite-plugin-singlefile from 2.3.3 to 2.3.4 in /ui by @dependabot [bot] in #3551…",
+  "source": "gh-github-github-mcp-server",
+  "status": "passed",
+  "title": "GitHub MCP Server 2.1.0"
  },
  "https://github.com/google/adk-python/releases/tag/v1.39.0": {
   "first_seen": "2026-10-05",
@@ -9164,6 +9212,15 @@
   "status": "passed",
   "title": "langgraph-sdk==0.4.11"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "Changes since sdk==0.4.11 release(sdk-py): 0.4.12 ( #9569 ) feat(sdk-py): remove fairness_weight from PrioritySettings ( #9441 ) fix(sdk-py): rejoin a run stream that closes before the run ends ( #9554 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.12"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9262,6 +9319,24 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v3.225.15"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.226.0": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed feat(admin-api): transfer projects between organizations (v3 backport of #19587 ) by @Steffen911 in #19588 Full Changelog : v3.225.15...v3.226.0",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.226.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.227.0": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed feat(blob-export): add opt-in trace field groups for the legacy traces export (v3 backport of #19244 ) by @niklassemmler in #19563 Full Changelog : v3.226.0...v3.227.0",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.227.0"
  },
  "https://github.com/langfuse/langfuse/releases/tag/v4.45.0": {
   "first_seen": "2026-10-05",
@@ -9559,6 +9634,24 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.72.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.73.0": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed Features feat(ai-gateway): filter gateway analytics by user and API key by @wochinge in #19458 feat(skills): support version automations by @tobi12345 in #19296 feat(rbac): add AI_GATEWAY organization membership role by @marksalpeter in #19262 feat(monitors): add new monitor automation dialog by @marksalpeter in #19448 feat(ai-gateway): add GitHub Copilot CLI and app setup…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.73.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.74.0": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "What's Changed Features feat(ai-gateway): per-organization request and byte rate limits at /resolve by @hassiebp in #19585 feat(audit-logs): always record support access reads and mark them in ClickHouse by @Steffen911 in #19622 feat(admin-api): transfer projects between organizations by @Steffen911 in #19587 feat(topics): combine pending Topics schema migrations by @LysanderKie in #19513 Fixes…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.74.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -10295,6 +10388,15 @@
   "status": "dropped:keyword",
   "title": "v1.45.0"
  },
+ "https://github.com/openai/codex/releases/tag/libcap-v2.75": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "snippet": "Mirror of the unmodified libcap 2.75 source archive used to build Bubblewrap for Codex's Linux musl packages. Upstream archive SHA-256 for libcap-2.75.tar.xz is de4e7e064c9ba451d5234dd46e897d7c71c96a9ebf9a0c445bc04f4742d83632 .",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "libcap 2.75 source archive"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.160.1": {
   "first_seen": "2026-10-06",
   "kind": "release",
@@ -10871,6 +10973,22 @@
   "status": "dropped:prerelease",
   "title": "0.167.0-alpha.4"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-04",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.167.0-alpha.5"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-04",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.168.0-alpha.1"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10969,6 +11087,14 @@
   "source": "gh-openai-openai-agents-python",
   "status": "passed",
   "title": "v0.24.0"
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6": {
+  "first_seen": "2026-11-04",
+  "kind": "release",
+  "published": "2026-11-03",
+  "source": "gh-openai-openai-agents-python",
+  "status": "dropped:prerelease",
+  "title": "Agents SDK v0.24.0-alpha.6"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/0.121.17": {
   "first_seen": "2026-10-05",
@@ -12594,6 +12720,14 @@
   "status": "dropped:keyword",
   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet"
  },
+ "https://huggingface.co/blog/allenai/statebench": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "published": "2026-11-03",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "StateBench: Testing how language models track state changes over long documents"
+ },
  "https://huggingface.co/blog/amazon/foundation-model-building-blocks": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -13384,6 +13518,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "The State of Computer Vision at Hugging Face 🤗"
+ },
+ "https://huggingface.co/blog/cwe-bench": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "published": "2026-11-03",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "CWE-bench v2: More coverage, quality, and transparency"
  },
  "https://huggingface.co/blog/cybersecurity-openness": {
   "first_seen": "2026-10-05",
@@ -15170,6 +15312,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Model Routing Is Simple. Until It Isn’t."
+ },
+ "https://huggingface.co/blog/ibm-research/palette-deck-building": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "published": "2026-11-03",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Palette: teaching a small model to build decks in your design language"
  },
  "https://huggingface.co/blog/ibm-research/scarfbench": {
   "first_seen": "2026-10-05",
@@ -20252,6 +20402,22 @@
   "status": "passed",
   "title": "Measuring AI’s capability to accelerate biological research"
  },
+ "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "minutes": 5,
+  "published": "2026-11-03",
+  "score": 0,
+  "snippet": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+  "source": "openai-research",
+  "status": "rejected",
+  "tags": [
+   "product announcement"
+  ],
+  "title": "Accelerating engineering for the physical world",
+  "what": "Accelerating engineering for the physical world – an OpenAI announcement about using ChatGPT/Codex to aid CAD, PCB design, simulation, etc.",
+  "why": "No actionable guidance or open‑source details; it is a high‑level product pitch."
+ },
  "https://openai.com/index/accelerating-science-gpt-5": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25112,6 +25278,20 @@
   "status": "dropped:keyword",
   "title": "The Linkerd Story: The People Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026"
  },
+ "https://www.cncf.io/blog/2026/11/03/openkruise-agents-v0-6-0-leaping-ahead-in-agent-sandbox-security-and-automation": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "minutes": null,
+  "published": "2026-11-03",
+  "score": 0,
+  "snippet": "About OpenKruise Agents OpenKruise Agents is a sub-project of OpenKruise, the CNCF open-source application automation and workload orchestration project. It provides full lifecycle management for Agent Sandboxes running at scale on Kubernetes, together with a complete...",
+  "source": "cncf-blog",
+  "status": "rejected",
+  "tags": [],
+  "title": "OpenKruise Agents v0.6.0: Leaping ahead in agent Sandbox security and automation",
+  "what": "OpenKruise Agents v0.6.0 release announcement",
+  "why": "No actionable technical content for engineering leads"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25187,11 +25367,21 @@
  "https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-25",
+  "score": 10,
   "snippet": "Multi-agent systems that mirror real engineering teams — not just code faster — can cut debug time by 93% and compress cross-team delivery. Here's the architecture built on LangGraph.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering"
+  "tags": [
+   "open-source frameworks",
+   "agentic engineering",
+   "LangGraph",
+   "multi-agent systems"
+  ],
+  "title": "Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering",
+  "what": "An overview of multi-agent system architecture for software engineering built on LangGraph, claiming reduced debug time and accelerated delivery.",
+  "why": "It offers insights into a production-ready agent architecture that an engineering lead can study and prototype for team workflows."
  },
  "https://www.langchain.com/blog/agents-round": {
   "first_seen": "2026-10-05",
@@ -26036,6 +26226,45 @@
   "what": "A technical walkthrough of LangSmith Engine, an internal tool that analyzes LLM agent traces, surfaces recurring failures, and recommends fixes",
   "why": "Engineers can learn how to build their own trace‑analysis pipeline, identify failure patterns, and automate remediation of LLM agents"
  },
+ "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "minutes": 15,
+  "published": "2026-11-03",
+  "score": 11,
+  "snippet": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "browser-tools",
+   "agent-optimization",
+   "LangChain",
+   "deep-agents",
+   "performance-tuning"
+  ],
+  "title": "How We Optimized Browser Use for Deep Agents",
+  "what": "A LangChain blog post detailing how the team optimized browser usage in Deep Agents by evaluating and tuning Stagehand and other browser toolsets.",
+  "why": "Engineers can learn concrete optimization steps, trade‑offs, and performance metrics to apply similar browser‑based agent enhancements in their own projects."
+ },
+ "https://www.langchain.com/blog/human-insight-strategic-advantage-agents": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "minutes": 10,
+  "published": "2026-11-03",
+  "score": 12,
+  "shown": "2026-11-04",
+  "snippet": "Explore 3 principles for effective human-in-the-loop workflows and how human-review is a strategic imperative for production-ready agents.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "tags": [
+   "human‑in‑the‑loop",
+   "agent design",
+   "open‑source"
+  ],
+  "title": "Why human insight is a strategic advantage for building better agents",
+  "what": "A LangChain blog post outlining three principles for human‑in‑the‑loop workflows in production agents.",
+  "why": "It gives actionable design patterns that an engineering lead can apply this month to improve agent reliability and safety."
+ },
  "https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering": {
   "first_seen": "2026-10-14",
   "kind": "read",
@@ -26292,6 +26521,14 @@
   "title": "LangServe Playground and Configurability",
   "what": "LangServe Playground and Configurability blog post announcing a UI for deploying LangChain apps.",
   "why": "No actionable technical content for engineering leads to build or adopt."
+ },
+ "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure": {
+  "first_seen": "2026-11-04",
+  "kind": "read",
+  "published": "2026-11-04",
+  "source": "langchain-blog",
+  "status": "dropped:title_rule",
+  "title": "LangSmith BYOC is now available on AWS, Azure, and Google Cloud"
  },
  "https://www.langchain.com/blog/langsmith-custom-apps": {
   "first_seen": "2026-10-05",
@@ -27082,11 +27319,22 @@
  "https://www.langchain.com/blog/wiki-memory": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 10,
   "published": "2026-08-26",
+  "score": 13,
   "snippet": "Wiki memory uses an agent to compress raw data into a persistent, file-based knowledge base. How it differs from RAG, real examples, and when to use it.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Wiki Memory: File-Based Memory for AI Agents | LangChain"
+  "tags": [
+   "open-source",
+   "memory",
+   "agents",
+   "knowledge-base",
+   "file‑storage"
+  ],
+  "title": "Wiki Memory: File-Based Memory for AI Agents | LangChain",
+  "what": "A blog post explaining LangChain’s Wiki Memory, a file‑based persistence layer for AI agents that compresses raw data into a knowledge base.",
+  "why": "Engineers can implement a lightweight, open‑source memory backend in their agents, compress data, and improve retrieval without external services."
  },
  "https://www.langchain.com/blog/workspaces-in-langsmith": {
   "first_seen": "2026-10-05",
@@ -27100,11 +27348,22 @@
  "https://www.langchain.com/blog/xata-x-langchain-new-vector-store-and-memory-store-integrations": {
   "first_seen": "2026-10-05",
   "kind": "read",
+  "minutes": 7,
   "published": "2026-08-26",
+  "score": 15,
   "snippet": "Integrate Xata with LangChain for vector and memory storage. Build AI apps with PostgreSQL-powered data, hybrid search, and chat history.",
   "source": "langchain-blog",
   "status": "passed",
-  "title": "Xata x LangChain: new vector store and memory store integrations"
+  "tags": [
+   "open-source",
+   "vector-store",
+   "memory-store",
+   "LangChain",
+   "Xata"
+  ],
+  "title": "Xata x LangChain: new vector store and memory store integrations",
+  "what": "Integration of Xata’s PostgreSQL‑based vector and memory store with LangChain, enabling hybrid search and persistent chat history in LLM apps",
+  "why": "Readers can add a robust, open‑source vector store to their LangChain pipelines and build production‑ready agent memory in a month"
  },
  "https://www.youtube.com/shorts/2lNUGkCg_qc": {
   "first_seen": "2026-10-27",
@@ -30433,6 +30692,7 @@
   "minutes": 20,
   "published": "2026-10-27",
   "score": 12,
+  "shown": "2026-11-04",
   "snippet": "Classic tool-calling agents fill their context with tool catalogs and raw outputs. Code mode gives the agent a sandbox and lets it search for and compose tools in code, returning only what it needs. Mikyo King, head of open source at Arize AI, explains why code mode works, how Arize built it into Phoenix (Bash, a Python sandbox, SQL and even UI control), its hidden costs (secrets, permissions,…",
   "source": "yt-ai-engineer",
   "status": "passed",

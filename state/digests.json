@@ -170,6 +170,11 @@
    "https://www.langchain.com/blog/rebuilding-chat-langchain",
    "https://www.anthropic.com/research/provable-inference",
    "https://www.youtube.com/watch?v=P_0_Th_ZzIg"
+  ],
+  "2026-11-04": [
+   "https://www.langchain.com/blog/human-insight-strategic-advantage-agents",
+   "https://blog.modelcontextprotocol.io/posts/2026-07-28",
+   "https://www.youtube.com/watch?v=dAoOYFx7ZYw"
   ]
  },
  "rollup": {
@@ -281,9 +286,9 @@
  },
  "scoring": {
   "calls": 8,
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "error": null,
   "failed": 0,
-  "rejected": 4
+  "rejected": 3
  }
 }
