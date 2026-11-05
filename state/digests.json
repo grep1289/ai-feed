@@ -175,6 +175,11 @@
    "https://www.langchain.com/blog/human-insight-strategic-advantage-agents",
    "https://blog.modelcontextprotocol.io/posts/2026-07-28",
    "https://www.youtube.com/watch?v=dAoOYFx7ZYw"
+  ],
+  "2026-11-05": [
+   "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+   "https://blog.modelcontextprotocol.io/posts/ruby-sdk-1-0",
+   "https://www.cncf.io/blog/2026/11/04/openshell-on-kubernetes-a-guide-for-platform-engineers"
   ]
  },
  "rollup": {
@@ -285,10 +290,10 @@
   ]
  },
  "scoring": {
-  "calls": 8,
-  "date": "2026-11-04",
-  "error": null,
-  "failed": 0,
-  "rejected": 3
+  "calls": 3,
+  "date": "2026-11-05",
+  "error": "model HTTP 401",
+  "failed": 3,
+  "rejected": 0
  }
 }

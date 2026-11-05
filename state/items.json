@@ -349,6 +349,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-07-27",
+  "shown": "2026-11-05",
   "snippet": "The official Ruby SDK for the Model Context Protocol has reached version 1.0 with a stable public API and a 100% conformance pass rate. The SDK now meets every Tier 2 requirement of the MCP SDK tiering system, and development toward Tier 1 continues.",
   "source": "mcp-blog",
   "status": "passed",
@@ -4190,6 +4191,14 @@
   "status": "dropped:category",
   "title": "Multi-agent coordination patterns: Five approaches and when to use them"
  },
+ "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace": {
+  "first_seen": "2026-11-05",
+  "kind": "read",
+  "published": "2026-11-04",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "New agents and products for security, productivity, and creative work on Claude Marketplace"
+ },
  "https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -5894,6 +5903,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.19.1"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.19.2": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "Patch Changes Updated dependencies [ 6a60c71 ] Updated dependencies [ 491ae7a ] @arizeai/phoenix-client@7.18.1",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.19.2"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -5956,6 +5974,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-client@7.18.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.18.1": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "Patch Changes 6a60c71 : fix(phoenix-client): preserve the error status of failed experiment task spans 491ae7a : fix(phoenix-client): preserve system and developer instructions when converting prompts to Anthropic, omitting empty text blocks from the system array",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-client@7.18.1"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-config%400.5.1": {
   "first_seen": "2026-10-22",
@@ -6064,6 +6091,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix-client: v3.6.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-client-v3.7.0": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "3.7.0 (2026-11-05) Features harbor: record model parameters and agent settings in experiment metadata ( #17457 ) ( 2b2b9fb ) Bug Fixes client: validate required name and annotator_kind columns in annotation dataframes ( #17433 ) ( 3146086 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-client: v3.7.0"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-evals-v3.9.1": {
   "first_seen": "2026-10-08",
@@ -7585,6 +7621,15 @@
   "status": "passed",
   "title": "v0.1.1"
  },
+ "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.1.2": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "What's Changed ci: skip extra tests on PRs, only run in merge queue by @Cali0707 in #1590 fix(helm): serialize TLS settings at TOML root by @samzehnder in #1589 test: support optional browser test extensions by @nader-ziada in #1578 update tests to not assume default values, and to gate tests on appropriate conditions by @grokspawn in #1591 fix(metrics): sanitize invalid UTF-8 request paths by…",
+  "source": "gh-containers-kubernetes-mcp-server",
+  "status": "passed",
+  "title": "v0.1.2"
+ },
  "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8285,6 +8330,15 @@
   "status": "passed",
   "title": "v0.10.4"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v0.10.5": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "What's Changed Bug Fixes fix(deps): resolve CVEs in v0.10.x runtime images by @iplay88keys in #3522 Full Changelog : v0.10.4...v0.10.5",
+  "source": "gh-kagent-dev-kagent",
+  "status": "passed",
+  "title": "v0.10.5"
+ },
  "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8428,6 +8482,14 @@
   "source": "gh-kagent-dev-kagent",
   "status": "dropped:prerelease",
   "title": "v1.0.0-rc1"
+ },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-rc2": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-rc2"
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v0.5.3": {
   "first_seen": "2026-10-05",
@@ -9015,6 +9077,15 @@
   "status": "passed",
   "title": "langgraph==1.2.19"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Changes since 1.2.19 release(langgraph): 1.2.20 ( #9595 ) feat(langgraph): give each interrupt() in a task its own id ( #9589 ) fix(langgraph): point the multiple-interrupts error at the current docs ( #9590 ) feat(langgraph): add a strict resume mode that refuses stale interrupt answers ( #9574 ) chore(deps-dev): bump types-requests from 2.33.0.20260906 to 2.33.0.20261006 in /libs/langgraph (…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.20"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9185,6 +9256,15 @@
   "status": "passed",
   "title": "langgraph-cli==0.4.40"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Changes since cli==0.4.40 release(cli): 0.4.41 ( #9596 ) chore(deps): bump langgraph from 1.2.3 to 1.2.14 in /libs/cli ( #9512 ) chore(deps): bump the minor-and-patch group in /libs/cli/js-examples with 9 updates ( #9528 ) chore(deps): bump the minor-and-patch group in /libs/cli/js-monorepo-example with 8 updates ( #9526 ) chore(deps): bump the uv group across 2 directories with 1 update ( #9513…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.41"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
   "first_seen": "2026-10-15",
   "kind": "release",
@@ -9220,6 +9300,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.12"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Changes since sdk==0.4.12 release(langgraph): 1.2.20 ( #9595 ) release(sdk-py): 0.4.13 ( #9594 ) feat(sdk-py): add cancel_reason to Run ( #9571 ) docs(sdk-py): show the run's status in the stream example's end event ( #9588 ) feat(sdk-py): add select to threads.get_state and get_history ( #9568 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.13"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
@@ -9652,6 +9741,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.74.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.75.0": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "What's Changed Features feat(ai-gateway): raise Pro/Team/Enterprise gateway limits to 10k req/min and 5 GiB/min by @hassiebp in #19630 feat: improve internal error messages by @jordibosch20 in #19635 feat(skills): trace Codex skill resource loads by @tobi12345 in #19586 feat(web): friendly AI Gateway tile for gateway-only members on the organizations overview by @wochinge in #19646…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.75.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -10965,6 +11063,22 @@
   "status": "dropped:prerelease",
   "title": "0.167.0-alpha.3"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.1": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.167.0-alpha.3.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.2": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.167.0-alpha.3.2"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4": {
   "first_seen": "2026-11-03",
   "kind": "release",
@@ -10988,6 +11102,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.168.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.2": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.168.0-alpha.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.3": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.168.0-alpha.3"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -11249,6 +11379,15 @@
   "status": "passed",
   "title": "CLAI2 bleeding"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.10": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "What's Changed 🛡️ Security GHSA-m5vj-8mcw-82qx (high): web_fetch_tool and the WebFetch capability's local fallback re-indented a JSON response on the event loop before applying the returned-content limit, so a deeply nested document within the download size limit could expand to hundreds of times its size, using large amounts of memory and delaying other work in the same process. You are affected…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v1.107.10 (2026-11-04)"
+ },
  "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11456,6 +11595,15 @@
   "status": "passed",
   "title": "v2.65.0 (2026-11-02)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.66.0": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "What's Changed 🛡️ Security GHSA-m5vj-8mcw-82qx (high): web_fetch_tool and the WebFetch capability's local fallback re-indented a JSON response on the event loop before applying the returned-content limit, so a deeply nested document within the download size limit could expand to hundreds of times its size, using large amounts of memory and delaying other work in the same process. You are affected…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.66.0 (2026-11-04)"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11519,6 +11667,15 @@
   "status": "passed",
   "title": "harness-cli/v0.2.3"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.4": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "harness-cli/v0.2.4 Auto-drafted from commits in harness-cli/v0.2.3..harness-cli/v0.2.4 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+ by…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-cli/v0.2.4"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11573,6 +11730,15 @@
   "status": "passed",
   "title": "harness-python/v0.3.3"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.4": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "harness-python/v0.3.4 Auto-drafted from commits in harness-python/v0.3.3..harness-python/v0.3.4 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-python/v0.3.4"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.1.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11626,6 +11792,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "harness-typescript/v0.3.3"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.3.4": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "harness-typescript/v0.3.4 Auto-drafted from commits in harness-typescript/v0.3.3..harness-typescript/v0.3.4 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-typescript/v0.3.4"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/mcp%2Fv0.3.0": {
   "first_seen": "2026-10-05",
@@ -11735,6 +11910,15 @@
   "status": "passed",
   "title": "python/v1.63.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.64.0": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "python/v1.64.0 Auto-drafted from commits in python/v1.63.0..python/v1.64.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+ by default ( #5418 )…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.64.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11779,6 +11963,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "typescript/v1.23.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.24.0": {
+  "first_seen": "2026-11-05",
+  "kind": "release",
+  "published": "2026-11-04",
+  "snippet": "typescript/v1.24.0 Auto-drafted from commits in typescript/v1.23.0..typescript/v1.24.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(docs): add migration guide from strands-agents-tools ( #5730 ) ( f078b5c ) feat(openai): place explicit cache points on GPT-5.6+ by…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "typescript/v1.24.0"
  },
  "https://hamel.dev/": {
   "first_seen": "2026-10-05",
@@ -12030,6 +12223,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Visual Salamandra: Pushing the Boundaries of Multimodal Understanding"
+ },
+ "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": {
+  "first_seen": "2026-11-05",
+  "kind": "read",
+  "published": "2026-11-04",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out"
  },
  "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots": {
   "first_seen": "2026-10-05",
@@ -24136,6 +24337,15 @@
   "what": "Anthropic research paper on detecting and mitigating unintended actions in large language models during evaluation and internal use.",
   "why": "It offers concrete techniques, metrics, and failure cases that an engineering lead can apply to build safer agents and audit their behavior."
  },
+ "https://www.anthropic.com/research/investigating-vault-particles-with-claude": {
+  "first_seen": "2026-11-05",
+  "kind": "read",
+  "published": "2026-11-04",
+  "snippet": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Investigating vault particles with Claude"
+ },
  "https://www.anthropic.com/research/labor-market-impacts": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25292,6 +25502,16 @@
   "what": "OpenKruise Agents v0.6.0 release announcement",
   "why": "No actionable technical content for engineering leads"
  },
+ "https://www.cncf.io/blog/2026/11/04/openshell-on-kubernetes-a-guide-for-platform-engineers": {
+  "first_seen": "2026-11-05",
+  "kind": "read",
+  "published": "2026-11-04",
+  "shown": "2026-11-05",
+  "snippet": "What OpenShell is AI agents do more than call APIs. They run shells, install packages, read files, and open network connections. Often they act on text they pulled from the internet a minute earlier. So every...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "title": "OpenShell on Kubernetes: A guide for platform engineers"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -26232,6 +26452,7 @@
   "minutes": 15,
   "published": "2026-11-03",
   "score": 11,
+  "shown": "2026-11-05",
   "snippet": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned.",
   "source": "langchain-blog",
   "status": "passed",
