@@ -3071,6 +3071,14 @@
   "status": "dropped:category",
   "title": "Inference hooks: inline data loss prevention for Claude Enterprise"
  },
+ "https://claude.com/resources/articles/claude-enterprise-security-updates": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "More visibility and control over Claude Enterprise for security teams"
+ },
  "https://claude.com/resources/articles/claude-excel-powerpoint-updates": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4078,6 +4086,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Introducing dynamic workflows in Claude Code"
+ },
+ "https://claude.com/resources/articles/introducing-personal-finance-in-claude": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing Personal Finance in Claude"
  },
  "https://claude.com/resources/articles/introducing-routines-in-claude-code": {
   "first_seen": "2026-10-07",
@@ -5416,6 +5432,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-07-20",
+  "shown": "2026-11-06",
   "snippet": "Provide more detailed rules for Codex to spot issues and better adhere your conventions during code review.",
   "source": "openai-developer",
   "status": "passed",
@@ -5911,6 +5928,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.19.2"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.20.0": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "Minor Changes 974be43 : Add px prompt-versions list <prompt-identifier> with cursor pagination, optional limits, and pretty, JSON, and raw output. Show creation dates when supported by the server.",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.20.0"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
@@ -7828,6 +7854,15 @@
   "status": "passed",
   "title": "1.15.35"
  },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.36": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "What's Changed Features Add experimental conversational Agent sessions. Ask for a missing API key when crewai run starts. Record the error class when crewai run cannot load a project. Name the apps CrewAI AMP cannot resolve for an agent. Bug Fixes Fix async call execution in the caller's context for sync tools. Resolve issue with empty value precedence in the run's key check. Stop a JSON crew run…",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.36"
+ },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8339,6 +8374,15 @@
   "status": "passed",
   "title": "v0.10.5"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v0.10.6": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "What's Changed Bug Fixes fix: move Python ADK images to Wolfi and disable Substrate on release/v0.10.x by @iplay88keys in #3539 Full Changelog : v0.10.5...v0.10.6",
+  "source": "gh-kagent-dev-kagent",
+  "status": "passed",
+  "title": "v0.10.6"
+ },
  "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8545,6 +8589,15 @@
   "source": "gh-kubernetes-sigs-agent-sandbox",
   "status": "passed",
   "title": "v1.0.1"
+ },
+ "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.10": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Release v1.0.10",
+  "source": "gh-kubernetes-sigs-agent-sandbox",
+  "status": "passed",
+  "title": "v1.0.10"
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.2": {
   "first_seen": "2026-10-05",
@@ -8753,6 +8806,24 @@
   "status": "passed",
   "title": "deepagents==0.7.32"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.33": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Features Raise errors on model refusals by default and report subagent refusals to the parent agent ( #7512 ). Add notification metadata to async subagent notifications ( #7334 ). Record the task call ID on subagent checkpoints ( #7509 ). Bug Fixes Restrict the Python grep fallback to the requested file and clip long result lines to a window around the match ( #7539 , #7526 ). Report failed…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.33"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.34": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Bug Fixes Fixed summarization cutoff handling by anchoring it to the message ID ( #7567 ). Full changelog Internal maintainers: Sera (@sera-wi) Released by: Mason Daugherty (@mdrxy) Git log since deepagents==0.7.33 This commit history includes changes to this package. The most recent commit is at the top; older commits follow below. 9ea3f19 release(deepagents): 0.7.34 ( #7569 ) de0bef7 fix(sdk):…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.34"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -8923,6 +8994,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-code==0.2.4"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.5": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "Bug Fixes Size the compaction input budget to match the selected model. ( #7545 ) Preserve cut-off reply handling when ModelRefusalMiddleware raises an error. ( #7548 ) Defer in-app uv installations on Windows. ( #7518 ) Full changelog Thanks to our community contributors: Roydon Sequeira (@roydonsequeira) Special thanks to everyone who reported the issues addressed in this release: Roydon…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.5"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
@@ -9265,6 +9345,15 @@
   "status": "passed",
   "title": "langgraph-cli==0.4.41"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "Changes since cli==0.4.41 release(cli): 0.4.42 ( #9611 ) feat(cli): add deploy metrics command ( #9479 ) chore(deps): bump filelock and langgraph-api for security fixes ( #9606 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-cli==0.4.42"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1": {
   "first_seen": "2026-10-15",
   "kind": "release",
@@ -9309,6 +9398,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-sdk==0.4.13"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "Changes since sdk==0.4.13 release(sdk-py): 0.4.14 ( #9610 ) feat(sdk-py): add strict_resume to runs.create, stream and wait ( #9599 ) feat(sdk-py): add tools and lifecycle to StreamMode ( #9601 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-sdk==0.4.14"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3": {
   "first_seen": "2026-10-05",
@@ -9750,6 +9848,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.75.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.76.0": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "snippet": "What's Changed Features feat(sessions): Add chronological session list view by @bezbac in #19650 feat(telemetry): report AI gateway key count from self-hosted instances by @wochinge in #19680 feat(topics): add Topics summaries, assignments and rules to the public API, MCP and in-app agent by @LysanderKie in #19308 feat(audit-logs): record read-access events for tRPC trace, session and score reads…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.76.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -11039,6 +11146,15 @@
   "status": "dropped:prerelease",
   "title": "0.166.0-alpha.6"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "New Features Open the agent command center with codex agents --no-daemon . The command center and session picker now mark unread results ( #58238 , #58239 , #58263 , #58264 ). Switch between connected backends from the terminal session picker and keep your drafts when switching ( #58280 , #58457 ). Preview local image attachments while composing on supported terminals, and open viewed local…",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.167.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.1": {
   "first_seen": "2026-10-31",
   "kind": "release",
@@ -11118,6 +11234,46 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.168.0-alpha.3"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.4": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.168.0-alpha.4"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.5": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.168.0-alpha.5"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.168.0-alpha.6"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.7": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-05",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.168.0-alpha.7"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.1": {
+  "first_seen": "2026-11-06",
+  "kind": "release",
+  "published": "2026-11-06",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.169.0-alpha.1"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -16957,6 +17113,14 @@
   "status": "dropped:keyword",
   "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics"
  },
+ "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"
+ },
  "https://huggingface.co/blog/nvidia/cosmos3-h-dreams": {
   "first_seen": "2026-10-21",
   "kind": "read",
@@ -17597,6 +17761,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "A Chatbot on your Laptop: Phi-2 on Intel Meteor Lake"
+ },
+ "https://huggingface.co/blog/phonon-tts": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks."
  },
  "https://huggingface.co/blog/pi0": {
   "first_seen": "2026-10-05",
@@ -20194,6 +20366,15 @@
   "title": "Are Harnesses Worth the Cost?",
   "what": "A Martin Fowler article evaluating the cost-benefit of using a behavioral harness for coding agents, comparing a frontier and a cost-optimized model on API service generation.",
   "why": "It shows a concrete harness pattern you can implement to trade off token usage, runtime, and correctness, and provides metrics that you can adapt to your own agents."
+ },
+ "https://martinfowler.com/articles/data-product-platform-nav.html": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "snippet": "Many organizations adopting data mesh and data products face a common challenge. They may be tasked with building a self-service platform for data products and data mesh from scratch, or they may have an existing platform that suffers from low adoption, preventing their data mesh from scaling. This article provides a platform navigator, based on the CNCF's Platform Engineering Maturity Model, to…",
+  "source": "martinfowler",
+  "status": "passed",
+  "title": "The Data Product Platform Navigator"
  },
  "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html": {
   "first_seen": "2026-10-05",
@@ -23079,6 +23260,15 @@
   "status": "dropped:title_rule",
   "title": "Partnering with Mozilla to improve Firefox’s security"
  },
+ "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-10-22",
+  "snippet": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Open call for guest investigators in the life sciences"
+ },
  "https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -24227,6 +24417,15 @@
   "source": "anthropic-research",
   "status": "dropped:title_rule",
   "title": "How Canada uses Claude: Findings from the Anthropic Economic Index"
+ },
+ "https://www.anthropic.com/research/how-researchers-use-claude": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "snippet": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "AI for scientific discovery: How researchers use Claude"
  },
  "https://www.anthropic.com/research/how-we-contain-claude": {
   "first_seen": "2026-10-21",
@@ -25512,6 +25711,14 @@
   "status": "passed",
   "title": "OpenShell on Kubernetes: A guide for platform engineers"
  },
+ "https://www.cncf.io/blog/2026/11/05/kpt-v1-0-0-is-released": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "kpt v1.0.0 is released"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25602,6 +25809,16 @@
   "title": "Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering",
   "what": "An overview of multi-agent system architecture for software engineering built on LangGraph, claiming reduced debug time and accelerated delivery.",
   "why": "It offers insights into a production-ready agent architecture that an engineering lead can study and prototype for team workflows."
+ },
+ "https://www.langchain.com/blog/agents-are-going-async": {
+  "first_seen": "2026-11-06",
+  "kind": "read",
+  "published": "2026-11-05",
+  "shown": "2026-11-06",
+  "snippet": "Async subagents let an agent stay responsive while background workers run long tasks. How the orchestrator, notifications and approvals work in Deep Agents.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Agents Are Going Async"
  },
  "https://www.langchain.com/blog/agents-round": {
   "first_seen": "2026-10-05",

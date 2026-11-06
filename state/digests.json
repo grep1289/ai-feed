@@ -180,6 +180,10 @@
    "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
    "https://blog.modelcontextprotocol.io/posts/ruby-sdk-1-0",
    "https://www.cncf.io/blog/2026/11/04/openshell-on-kubernetes-a-guide-for-platform-engineers"
+  ],
+  "2026-11-06": [
+   "https://www.langchain.com/blog/agents-are-going-async",
+   "https://developers.openai.com/blog/custom-code-review-rules-for-codex"
   ]
  },
  "rollup": {
@@ -291,7 +295,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
