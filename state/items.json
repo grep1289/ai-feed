@@ -4905,6 +4905,16 @@
   "status": "passed",
   "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform"
  },
+ "https://developers.googleblog.com/agent-distraction": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "shown": "2026-11-07",
+  "snippet": "Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens, and 105% more wait time per session—split between chasing closed tickets (41%) and unauthorized…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Agent Distraction"
+ },
  "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5707,6 +5717,15 @@
   "status": "passed",
   "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot"
  },
+ "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "snippet": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+  "source": "github-blog-ai",
+  "status": "passed",
+  "title": "Beyond code generation: A developer’s guide to agentic engineering"
+ },
  "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5938,6 +5957,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.20.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.20.1": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-07",
+  "snippet": "Patch Changes Updated dependencies [ 6e6e101 ] @arizeai/phoenix-client@7.18.2",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.20.1"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6009,6 +6037,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-client@7.18.1"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.18.2": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-07",
+  "snippet": "Patch Changes 6e6e101 : fix(phoenix-client): preserve literal dollar sequences in prompt variables",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-client@7.18.2"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-config%400.5.1": {
   "first_seen": "2026-10-22",
@@ -6180,6 +6217,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix-otel: v0.17.2"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-otel-v0.17.3": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "0.17.3 (2026-11-06) Bug Fixes otel, client, config: parse .env.phoenix the same way in Python and TypeScript ( #17075 ) ( 67cc379 ), closes #17048 otel: pick the OTLP protocol once ( #17531 ) ( 0f5024c ) otel: show the header name in the URL-encoding warning ( #16428 ) ( 30949b8 ) Documentation fix dead Read the Docs links ( #16967 ) ( 0fed1f4 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-otel: v0.17.3"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-sqlean-v0.2.0": {
   "first_seen": "2026-10-13",
@@ -6546,6 +6592,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "v0.3.287"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.288": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-07",
+  "snippet": "0.3.288 (2026-11-06) Breaking Changes environments with google-genai 2.x fail the validate_google_client version check. Install google-genai>=3.0.0 . Evaluations using the automatically generated Docker sandbox must provide an explicit image if they need the nonroot account, pipx , or Playwright browser dependencies. Replace calls to web_browser() or its web_browser_tools() alias with…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.288"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -7305,6 +7360,15 @@
   "status": "passed",
   "title": "v0.2.178"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.179": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.179/ pip install claude-agent-sdk==0.2.179",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.179"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7331,6 +7395,15 @@
   "source": "gh-anthropics-skills",
   "status": "passed",
   "title": "Update frontend-design skill (#1293)"
+ },
+ "https://github.com/anthropics/skills/commit/2c5958ecac7cee2b583967a2c4981d0f4a75c579": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "Move Office skills to the Apache 2.0 license (#2146) docx, pdf, pptx and xlsx now use the same Apache 2.0 license as most other skills here, and the README is updated to match.",
+  "source": "gh-anthropics-skills",
+  "status": "passed",
+  "title": "Move Office skills to the Apache 2.0 license (#2146)"
  },
  "https://github.com/anthropics/skills/commit/33375500bcea98d610eb30ce10ac4e59b89c390d": {
   "first_seen": "2026-10-05",
@@ -7863,6 +7936,15 @@
   "status": "passed",
   "title": "1.15.36"
  },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.37": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-07",
+  "snippet": "What's Changed Features Add functionality to read spreadsheets for agents in crewai-files. Scaffold and load standalone agent projects. Documentation Update RagTool description for better parsing by Mintlify. Contributors Vidit Ostwal (@Vidit-Ostwal) , João Moura (@joaomdmoura) , Lorenze Jay (@lorenzejay)",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.37"
+ },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8057,6 +8139,15 @@
   "source": "gh-google-adk-python",
   "status": "passed",
   "title": "v2.13.0"
+ },
+ "https://github.com/google/adk-python/releases/tag/v2.14.0": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-07",
+  "snippet": "2.14.0 (2026-11-04) Highlights This release graduates execution environments, A2A, evaluation, and core runtime modules from experimental, adds multi-run evaluation and semantic tool argument matching, adds Microsoft Teams and OpenAI Decisions integrations, and makes long multi-turn workflows faster. Execution environments and sandboxes : BaseEnvironment , LocalEnvironment , EnvironmentToolset ,…",
+  "source": "gh-google-adk-python",
+  "status": "passed",
+  "title": "v2.14.0"
  },
  "https://github.com/google/adk-python/releases/tag/v2.7.0": {
   "first_seen": "2026-10-05",
@@ -8534,6 +8625,14 @@
   "source": "gh-kagent-dev-kagent",
   "status": "dropped:prerelease",
   "title": "v1.0.0-rc2"
+ },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-rc3": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-rc3"
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v0.5.3": {
   "first_seen": "2026-10-05",
@@ -9057,6 +9156,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "langchain-quickjs==0.3.11"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.12": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-07",
+  "snippet": "Features Added support for disabling the per-call timeout ( #6958 ). Bug Fixes Fixed interpreter shutdown blocking in CodeInterpreterMiddleware.__del__ ( #7460 ). Fixed resolution of nested schema $ref s in PTC signatures ( #7441 ). Full changelog Special thanks to everyone who reported the issues addressed in this release: Radu Mocanu (@radu-mocanu) ( #6397 ), AdamBurchett ( #6459 ), David Hyde…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-quickjs==0.3.12"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.8": {
   "first_seen": "2026-10-05",
@@ -9939,6 +10047,15 @@
   "status": "passed",
   "title": "dotnet-1.27.0"
  },
+ "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.28.0": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "Changes: 924a6e5 .NET: chore: bumps release version for dotnet ( #10157 ) c79d6ee Fix spelling in WorkflowBuilder XML comment ( #10154 ) 07d07c8 Fix initializer spelling in Cosmos test comment ( #10153 ) 7bca1df Python: Prepare 1.25.0 release ( #10151 ) [ #10147 , #9617 ] 25ecd67 Python: Allow concurrent MCP calls with request-owned headers ( #10147 ) 82f03c8 .NET: fix(dotnet): parse declarative…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "dotnet-1.28.0"
+ },
  "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10019,6 +10136,15 @@
   "source": "gh-microsoft-agent-framework",
   "status": "passed",
   "title": "python-1.24.0"
+ },
+ "https://github.com/microsoft/agent-framework/releases/tag/python-1.25.0": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "Bump Python package versions for 1.25.0 release Release all 44 publishing workspace distributions with shipping changes since python-1.24.0, including the Python 3.10 removal. Use the approved minor bumps for Core/root, AG-UI, and Declarative, patch bumps for other changed stable integrations, and 261106 stamps for changed alpha/beta packages; no optional cohort-only bump. Update the Core…",
+  "source": "gh-microsoft-agent-framework",
+  "status": "passed",
+  "title": "python-1.25.0: Python: Prepare 1.25.0 release (#10151)"
  },
  "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-10-07": {
   "first_seen": "2026-10-05",
@@ -10339,6 +10465,15 @@
   "source": "gh-modelcontextprotocol-registry",
   "status": "passed",
   "title": "v1.8.7"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.8": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "snippet": "This release uses the source commit validated in staging. Different server names may now share a remote URL; consumers should key listings by server name and version rather than assuming URL uniqueness. No database migration is required. What's Changed Stage v1.8.7 in production with prepared reads disabled by @rdimitrov in #1769 Enable prepared listing JSON after production backfill by…",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.8"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.3.1": {
   "first_seen": "2026-10-05",
@@ -11274,6 +11409,14 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "rust-v0.169.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2": {
+  "first_seen": "2026-11-07",
+  "kind": "release",
+  "published": "2026-11-06",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.169.0-alpha.2"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -13084,6 +13227,15 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "StateBench: Testing how language models track state changes over long documents"
+ },
+ "https://huggingface.co/blog/allenai/toyblocks": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "passed",
+  "title": "ToyBlocks: A controlled world for robot learning and evaluation"
  },
  "https://huggingface.co/blog/amazon/foundation-model-building-blocks": {
   "first_seen": "2026-10-05",
@@ -17357,6 +17509,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "The Open ASR Leaderboard Adds Its First Global South Language"
+ },
+ "https://huggingface.co/blog/open-asr-leaderboard-liva": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Egyptian and Nigerian English join the Open ASR Leaderboard"
  },
  "https://huggingface.co/blog/open-asr-leaderboard-private-data": {
   "first_seen": "2026-10-05",
@@ -23845,6 +24005,16 @@
   "status": "passed",
   "title": "Collective Constitutional AI: Aligning a language model with public input"
  },
+ "https://www.anthropic.com/research/components-of-agent-memory": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "shown": "2026-11-07",
+  "snippet": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "The components of agent memory"
+ },
  "https://www.anthropic.com/research/confidential-inference-trusted-vms": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25093,6 +25263,15 @@
   "status": "passed",
   "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet"
  },
+ "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "snippet": "In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Teaching AI to build scientific models"
+ },
  "https://www.anthropic.com/research/teaching-claude-why": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25718,6 +25897,15 @@
   "source": "cncf-blog",
   "status": "dropped:keyword",
   "title": "kpt v1.0.0 is released"
+ },
+ "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know": {
+  "first_seen": "2026-11-07",
+  "kind": "read",
+  "published": "2026-11-06",
+  "snippet": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights, initialize GPU resources, compile kernels, capture...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "title": "Faster LLM inference startup: What you need to know"
  },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
@@ -27789,6 +27977,7 @@
   "minutes": 7,
   "published": "2026-08-26",
   "score": 15,
+  "shown": "2026-11-07",
   "snippet": "Integrate Xata with LangChain for vector and memory storage. Build AI apps with PostgreSQL-powered data, hybrid search, and chat history.",
   "source": "langchain-blog",
   "status": "passed",

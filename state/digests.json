@@ -184,6 +184,11 @@
   "2026-11-06": [
    "https://www.langchain.com/blog/agents-are-going-async",
    "https://developers.openai.com/blog/custom-code-review-rules-for-codex"
+  ],
+  "2026-11-07": [
+   "https://www.anthropic.com/research/components-of-agent-memory",
+   "https://www.langchain.com/blog/xata-x-langchain-new-vector-store-and-memory-store-integrations",
+   "https://developers.googleblog.com/agent-distraction"
   ]
  },
  "rollup": {
@@ -295,7 +300,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
