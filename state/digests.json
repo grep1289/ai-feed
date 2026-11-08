@@ -189,6 +189,11 @@
    "https://www.anthropic.com/research/components-of-agent-memory",
    "https://www.langchain.com/blog/xata-x-langchain-new-vector-store-and-memory-store-integrations",
    "https://developers.googleblog.com/agent-distraction"
+  ],
+  "2026-11-08": [
+   "https://www.langchain.com/blog/agent-observability-needs-feedback-to-power-learning",
+   "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+   "https://huggingface.co/blog/allenai/toyblocks"
   ]
  },
  "rollup": {
@@ -300,7 +305,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0

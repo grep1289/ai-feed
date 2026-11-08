@@ -5721,6 +5721,7 @@
   "first_seen": "2026-11-07",
   "kind": "read",
   "published": "2026-11-06",
+  "shown": "2026-11-08",
   "snippet": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
   "source": "github-blog-ai",
   "status": "passed",
@@ -11418,6 +11419,14 @@
   "status": "dropped:prerelease",
   "title": "0.169.0-alpha.2"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3": {
+  "first_seen": "2026-11-08",
+  "kind": "release",
+  "published": "2026-11-07",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.169.0-alpha.3"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -11524,6 +11533,14 @@
   "source": "gh-openai-openai-agents-python",
   "status": "dropped:prerelease",
   "title": "Agents SDK v0.24.0-alpha.6"
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.7": {
+  "first_seen": "2026-11-08",
+  "kind": "release",
+  "published": "2026-11-08",
+  "source": "gh-openai-openai-agents-python",
+  "status": "dropped:prerelease",
+  "title": "Agents SDK v0.24.0-alpha.7"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/0.121.17": {
   "first_seen": "2026-10-05",
@@ -13232,6 +13249,7 @@
   "first_seen": "2026-11-07",
   "kind": "read",
   "published": "2026-11-06",
+  "shown": "2026-11-08",
   "snippet": "",
   "source": "huggingface-blog",
   "status": "passed",
@@ -25907,6 +25925,14 @@
   "status": "passed",
   "title": "Faster LLM inference startup: What you need to know"
  },
+ "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1": {
+  "first_seen": "2026-11-08",
+  "kind": "read",
+  "published": "2026-11-07",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "We organized Sustainability Month. Here’s what we learned. 🌱"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -25951,6 +25977,7 @@
   "minutes": 5,
   "published": "2026-08-26",
   "score": 13,
+  "shown": "2026-11-08",
   "snippet": "Traces show what an agent did; feedback shows what it meant. How explicit, implicit, LLM-as-judge and rule-based feedback turn observability into learning.",
   "source": "langchain-blog",
   "status": "passed",
