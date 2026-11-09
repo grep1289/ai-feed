@@ -194,118 +194,130 @@
    "https://www.langchain.com/blog/agent-observability-needs-feedback-to-power-learning",
    "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
    "https://huggingface.co/blog/allenai/toyblocks"
+  ],
+  "2026-11-09": [
+   "https://www.langchain.com/blog/agents-round",
+   "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know",
+   "https://www.youtube.com/watch?v=ty8i2zl9q2c",
+   "https://www.youtube.com/watch?v=tVAJc_nUgf0"
   ]
  },
  "rollup": {
-  "date": "2026-11-02",
+  "date": "2026-11-09",
   "items": [
    {
-    "count": 1,
-    "name": "aaif-goose/goose",
-    "title": "v1.57.0",
-    "url": "https://github.com/aaif-goose/goose/releases/tag/v1.57.0"
-   },
-   {
-    "count": 1,
-    "name": "agentgateway/agentgateway",
-    "title": "v1.7.0",
-    "url": "https://github.com/agentgateway/agentgateway/releases/tag/v1.7.0"
-   },
-   {
-    "count": 2,
+    "count": 3,
     "name": "anthropics/claude-agent-sdk-python",
-    "title": "v0.2.176",
-    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.176"
+    "title": "v0.2.179",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.179"
    },
    {
     "count": 1,
     "name": "anthropics/skills",
-    "title": "Update mcp-builder skill: teach v2 of the MCP TypeScript SDK (#2087)",
-    "url": "https://github.com/anthropics/skills/commit/ca45fc496a3436251f191354091d557da31c15b5"
+    "title": "Move Office skills to the Apache 2.0 license (#2146)",
+    "url": "https://github.com/anthropics/skills/commit/2c5958ecac7cee2b583967a2c4981d0f4a75c579"
    },
    {
     "count": 10,
     "name": "Arize-ai/phoenix",
-    "title": "arize-phoenix-client: v3.6.0",
-    "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-client-v3.6.0"
+    "title": "@arizeai/phoenix-client@7.18.2",
+    "url": "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.18.2"
+   },
+   {
+    "count": 1,
+    "name": "containers/kubernetes-mcp-server",
+    "title": "v0.1.2",
+    "url": "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.1.2"
+   },
+   {
+    "count": 5,
+    "name": "crewAIInc/crewAI",
+    "title": "1.15.39",
+    "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.39"
+   },
+   {
+    "count": 1,
+    "name": "github/github-mcp-server",
+    "title": "GitHub MCP Server 2.1.0",
+    "url": "https://github.com/github/github-mcp-server/releases/tag/v2.1.0"
+   },
+   {
+    "count": 1,
+    "name": "google/adk-python",
+    "title": "v2.14.0",
+    "url": "https://github.com/google/adk-python/releases/tag/v2.14.0"
    },
    {
     "count": 2,
-    "name": "containers/kubernetes-mcp-server",
-    "title": "v0.1.1",
-    "url": "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.1.1"
-   },
-   {
-    "count": 4,
-    "name": "crewAIInc/crewAI",
-    "title": "1.15.34",
-    "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34"
+    "name": "kagent-dev/kagent",
+    "title": "v0.10.6",
+    "url": "https://github.com/kagent-dev/kagent/releases/tag/v0.10.6"
    },
    {
     "count": 1,
     "name": "kubernetes-sigs/agent-sandbox",
-    "title": "v1.0.9",
-    "url": "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.9"
+    "title": "v1.0.10",
+    "url": "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v1.0.10"
    },
    {
-    "count": 4,
+    "count": 6,
     "name": "langchain-ai/deepagents",
-    "title": "langchain-quickjs==0.3.11",
-    "url": "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.11"
+    "title": "langchain-quickjs==0.3.12",
+    "url": "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.12"
    },
    {
-    "count": 8,
+    "count": 6,
     "name": "langchain-ai/langgraph",
-    "title": "langgraph-sdk==0.4.11",
-    "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11"
+    "title": "langgraph-sdk==0.4.14",
+    "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14"
    },
    {
     "count": 6,
     "name": "langfuse/langfuse",
-    "title": "v4.72.0",
-    "url": "https://github.com/langfuse/langfuse/releases/tag/v4.72.0"
+    "title": "v4.76.0",
+    "url": "https://github.com/langfuse/langfuse/releases/tag/v4.76.0"
    },
    {
     "count": 2,
     "name": "microsoft/agent-framework",
-    "title": "python-1.24.0",
-    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.24.0"
+    "title": "python-1.25.0: Python: Prepare 1.25.0 release (#10151)",
+    "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.25.0"
    },
    {
-    "count": 3,
+    "count": 1,
     "name": "modelcontextprotocol/registry",
-    "title": "v1.8.7",
-    "url": "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.7"
+    "title": "v1.8.8",
+    "url": "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.8"
    },
    {
     "count": 2,
     "name": "openai/codex",
-    "title": "0.166.0",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0"
+    "title": "0.167.0",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
    },
    {
     "count": 3,
     "name": "pydantic/pydantic-ai",
-    "title": "v2.64.0 (2026-10-30)",
-    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.64.0"
+    "title": "v2.66.0 (2026-11-04)",
+    "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.66.0"
    },
    {
-    "count": 6,
+    "count": 5,
     "name": "strands-agents/sdk-python",
-    "title": "typescript/v1.23.0",
-    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.23.0"
+    "title": "typescript/v1.24.0",
+    "url": "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.24.0"
    },
    {
-    "count": 2,
+    "count": 1,
     "name": "UKGovernmentBEIS/inspect_ai",
-    "title": "v0.3.287",
-    "url": "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.287"
+    "title": "v0.3.288",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.288"
    }
   ]
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
