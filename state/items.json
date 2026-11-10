@@ -4119,6 +4119,14 @@
   "status": "dropped:category",
   "title": "Introduction to agentic coding"
  },
+ "https://claude.com/resources/articles/jpmorganchase-expands-claude-code": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "JPMorganChase expands Claude Code to more employees across the firm"
+ },
  "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4831,6 +4839,14 @@
   "status": "dropped:category",
   "title": "Lessons from building Claude Code: Prompt caching is everything"
  },
+ "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Safely scaling multi-agent teams with Claude Fable 5.2"
+ },
  "https://claude.dev/blog/seeing-like-an-agent": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4878,6 +4894,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "What a task costs on Opus 5.5"
+ },
+ "https://claude.dev/blog/which-claude-model-should-you-build-with": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Which Claude model should you build with?"
  },
  "https://code.claude.com/docs/en/changelog": {
   "first_seen": "2026-10-05",
@@ -4931,6 +4955,15 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens"
+ },
+ "https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "snippet": "Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and memory bottlenecks without materializing full key-value sequences in high-bandwidth memory. Developers can…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Announcing Long-Context Training on TPUs with MaxText Context Parallelism"
  },
  "https://developers.googleblog.com/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster": {
   "first_seen": "2026-10-15",
@@ -5100,6 +5133,14 @@
   "title": "Fast, reliable A2UI, with swappable inference formats",
   "what": "Product update announcement for A2UI",
   "why": "Not sufficient technical detail to build anything"
+ },
+ "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "From prompt to app: Build with Google Maps in AI Studio"
  },
  "https://developers.googleblog.com/gemini-4-argon-for-robotics": {
   "first_seen": "2026-10-14",
@@ -5320,6 +5361,14 @@
   "status": "dropped:keyword",
   "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon"
  },
+ "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "What is Pathways? Single-controller training for large models"
+ },
  "https://developers.googleblog.com/why-client-sdk-generation-belongs-in-the-open": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5381,6 +5430,16 @@
   "title": "Bringing my LED display to life with GPT-Live-1 and Codex",
   "what": "A hobbyist project that uses Codex, GPT‑Live‑1, and a Raspberry Pi to create a voice‑controlled LED display.",
   "why": "Engineers can learn how to wire up Raspberry Pi peripherals, use OpenAI APIs, and prototype a voice‑controlled agent for hardware projects."
+ },
+ "https://developers.openai.com/blog/build-a-game-with-modretro-chromatic": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "shown": "2026-11-10",
+  "snippet": "Using the ModRetro Chromatic plugin for Codex, you can build any game you can imagine and play it on a ModRetro Chromatic.",
+  "source": "openai-developer",
+  "status": "passed",
+  "title": "Build a retro handheld game with Codex and ModRetro Chromatic"
  },
  "https://developers.openai.com/blog/build-week-winners": {
   "first_seen": "2026-10-05",
@@ -5967,6 +6026,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.20.1"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.21.0": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "Minor Changes 1e47750 : Add px dataset-versions list <dataset-identifier> with cursor pagination, optional limits, and pretty, JSON, and raw output.",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.21.0"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6165,6 +6233,15 @@
   "status": "passed",
   "title": "arize-phoenix-client: v3.7.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-evals-v3.10.0": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "3.10.0 (2026-11-10) Features decision-models: support OpenAI Decisions API in Python classification evaluators ( #17514 ) ( f6dc888 ) evals: support TypeSafe Jev decision models in Python classification evaluators ( #16953 ) ( 9089efc ) evals: use Anthropic native structured output in AnthropicAdapter ( #17476 ) ( 2fffecb ) Bug Fixes evals: ask for the Anthropic tool call instead of forcing…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-evals: v3.10.0"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-evals-v3.9.1": {
   "first_seen": "2026-10-08",
   "kind": "release",
@@ -6245,6 +6322,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix-sqlean: v0.2.1"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-sqlean-v0.2.2": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "snippet": "0.2.2 (2026-11-09) Bug Fixes phoenix-sqlean: bump bundled sqlean to 0.29.0 ( #17798 ) ( a0a8b49 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix-sqlean: v0.2.2"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.17.0": {
   "first_seen": "2026-10-05",
@@ -6847,6 +6933,24 @@
   "status": "passed",
   "title": "v1.57.0"
  },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.58.0": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "snippet": "✨ Features Opt-in context relevance operation #12589 Context window report and viewer #10462 AIHubMix declarative provider #12997 RouterPlex declarative provider #13068 Lemonade provider #12920 Collapse thinking by default with a setting to control it (desktop) #12660 🐛 Bug Fixes Replace retired Spark X2 with Spark X2.5 in iflytek_astron #12772 Show current session ID in /status #12607 Keep…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.58.0"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.58.1": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "🐛 Bug Fixes Reword compaction prompt that Opus 5.5 refuses as distillation #13340 Refresh Databricks OAuth tokens before they expire #13328",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.58.1"
+ },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7369,6 +7473,15 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.179"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.180": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.180/ pip install claude-agent-sdk==0.2.180",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.180"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -8493,6 +8606,17 @@
   "status": "passed",
   "title": "v0.10.6"
  },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "promote": true,
+  "published": "2026-11-09",
+  "shown": "2026-11-10",
+  "snippet": "What's Changed Features feat(streaming): configurable nginx, controller, and UI inactivity ti… by @yanivmn in #1973 feat(helm): add controller service annotations by @anthonyhaussman in #2088 feat: enable sharing of chat sessions by @onematchfox in #1935 feat: substrate support for BYO and python runtimes for SandboxAgent CR by @jmhbh in #2043 feat(substrate): bump agent substrate to 0.0.7 by…",
+  "source": "gh-kagent-dev-kagent",
+  "status": "passed",
+  "title": "v1.0.0"
+ },
  "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-alpha1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8652,6 +8776,14 @@
   "source": "gh-kagent-dev-kagent",
   "status": "dropped:prerelease",
   "title": "v1.0.0-rc3"
+ },
+ "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0-rc4": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "source": "gh-kagent-dev-kagent",
+  "status": "dropped:prerelease",
+  "title": "v1.0.0-rc4"
  },
  "https://github.com/kubernetes-sigs/agent-sandbox/releases/tag/v0.5.3": {
   "first_seen": "2026-10-05",
@@ -8942,6 +9074,15 @@
   "status": "passed",
   "title": "deepagents==0.7.34"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.35": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "snippet": "Bug Fixes Keep forked subagents on their parent's prompt-cache prefix ( #7628 ). Preserve symlink names in virtual filesystem results ( #7618 ). Correctly mark read_file media and Nemotron nudges as harness notifications ( #7589 ). Full changelog Special thanks to everyone who reported the issues addressed in this release: Kit Nguyen (@phn-code) ( #7593 ) Internal maintainers: ccurme (@ccurme) ,…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.35"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -9121,6 +9262,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-code==0.2.5"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.6": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "Features Make idle compaction settings filterable in traces ( #7624 ). Tag offload traces with their triggers ( #7630 ). Bug Fixes Fix dcode startup on Windows by disabling server log colors ( #7591 ). Bypass proxies for local server traffic ( #7613 ). Offer recovery options when server startup times out ( #7610 ). Leave piped standard input available to subcommands ( #7601 ). Resolve the…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.6"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
@@ -9984,6 +10134,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.76.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.77.0": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "snippet": "⚠️⚠️⚠️ This release removes automatic tokenization, as we believe no one should be relying on it. Read our change log to learn more. ⚠️⚠️⚠️ What's Changed Features feat(topics): proper cost tracking for executions by @nimarb in #19432 feat(external-media-storage): make external media storage an enterprise feature by @wochinge in #19778 feat(web): use Langfuse by ClickHouse logo in the app shell…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.77.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -11357,6 +11516,14 @@
   "status": "dropped:prerelease",
   "title": "0.167.0-alpha.4"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.1": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.167.0-alpha.4.1"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5": {
   "first_seen": "2026-11-04",
   "kind": "release",
@@ -11460,6 +11627,30 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "rust-v0.169.0-alpha.5"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.6": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.169.0-alpha.6"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.7": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.169.0-alpha.7"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.8": {
+  "first_seen": "2026-11-10",
+  "kind": "release",
+  "published": "2026-11-09",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "rust-v0.169.0-alpha.8"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -13296,6 +13487,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Building Blocks for Foundation Model Training and Inference on AWS"
+ },
+ "https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together"
  },
  "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio": {
   "first_seen": "2026-10-05",
@@ -17449,6 +17648,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO"
+ },
+ "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context"
  },
  "https://huggingface.co/blog/nvidia/nemotron-personas-india": {
   "first_seen": "2026-10-05",
@@ -23114,6 +23321,14 @@
   "status": "passed",
   "title": "Why we no longer evaluate SWE-bench Verified"
  },
+ "https://www.anthropic.com/claude-fable-and-mythos-5-2": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude Fable 5.2 and Mythos 5.2"
+ },
  "https://www.anthropic.com/claude-haiku-5-5": {
   "first_seen": "2026-10-08",
   "kind": "read",
@@ -23943,6 +24158,14 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+ },
+ "https://www.anthropic.com/research/claude-electronics-design": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Claude can design electronic prototypes from start to finish"
  },
  "https://www.anthropic.com/research/claude-personal-guidance": {
   "first_seen": "2026-10-05",
@@ -25976,6 +26199,23 @@
   "status": "dropped:keyword",
   "title": "Lima v2.3: Native on Windows, VMnet on Linux, and menu TUI"
  },
+ "https://www.cncf.io/blog/2026/11/09/new-research-virtual-machines-remain-central-to-cloud-native-infrastructure-as-ai-workloads-evolve": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "New research: Virtual machines remain central to cloud native infrastructure as AI workloads evolve"
+ },
+ "https://www.cncf.io/blog/2026/11/09/run-linux-applications-in-hypervisor-isolated-micro-vms-with-hyperlight": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "snippet": "More and more cloud native systems run code nobody on the team wrote: the Python an AI agent generated a second ago, or a plugin a customer just uploaded. Each of them needs a boundary between...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "title": "Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -26833,6 +27073,16 @@
   "what": "A case study of turning an internal support chatbot into a customer-facing AI feature using LangChain technologies.",
   "why": "Shows how to leverage LangChain, LangGraph, and LangSmith to build and deploy a production agent, providing insights into architecture, training data, and integration patterns."
  },
+ "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "shown": "2026-11-10",
+  "snippet": "Learn how Stripe built Kai, a company-wide AI agent on LangChain, LangGraph, and Deep Agents, reaching 5,000 users in roughly 4 weeks.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "How Stripe Built Kai on Deep Agents in 1 Week"
+ },
  "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -27050,6 +27300,15 @@
   "status": "passed",
   "title": "Introducing Rubrics: Build Agents that Evaluate and Correct Their Work"
  },
+ "https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "snippet": "Dosu uses evaluation driven development and LangSmith to build reliable LLM products at scale, monitor production performance, and iterate with confidence.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Iterating Towards LLM Reliability with Evaluation Driven Development"
+ },
  "https://www.langchain.com/blog/january-2026-langchain-newsletter": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -27226,6 +27485,15 @@
   "source": "langchain-blog",
   "status": "dropped:title_rule",
   "title": "LangSmith BYOC is now available on AWS, Azure, and Google Cloud"
+ },
+ "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "snippet": "LangSmith Bring Your Own Cloud is now generally available on AWS, giving Enterprise teams managed observability, evaluation, and deployment inside their own VPC.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "LangSmith BYOC on AWS is generally available"
  },
  "https://www.langchain.com/blog/langsmith-custom-apps": {
   "first_seen": "2026-10-05",
@@ -27712,6 +27980,15 @@
   "what": "A LangChain blog post explaining how to use their Schedules SDK to add proactive, always‑on behavior to Managed Deep Agents.",
   "why": "Engineers can learn to integrate scheduled runs, memory, and smart triage into their own agent workflows using an open‑source SDK."
  },
+ "https://www.langchain.com/blog/promptim": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "snippet": "Automate prompt engineering with Promptim's optimization library. Save time, improve AI performance, and switch models faster.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Promptim: an experimental library for prompt optimization"
+ },
  "https://www.langchain.com/blog/proving-the-roi-of-agentic-ai-in-financial-services": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -28012,6 +28289,15 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "Using skills with Deep Agents"
+ },
+ "https://www.langchain.com/blog/what-is-eval-driven-development": {
+  "first_seen": "2026-11-10",
+  "kind": "read",
+  "published": "2026-11-09",
+  "snippet": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "What Is Eval-Driven Development? How to Improve AI Agents"
  },
  "https://www.langchain.com/blog/wiki-memory": {
   "first_seen": "2026-10-05",
@@ -28806,6 +29092,14 @@
   "status": "dropped:keyword",
   "title": "GPT-6 Astra in practice: Turning ideas into projects"
  },
+ "https://www.youtube.com/watch?v=6yfCtlIfBRU": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "The Hardest Part of Adopting Backstage Has Nothing... - Juan Pablo Garcia Ripa & Alejandro Quisbert"
+ },
  "https://www.youtube.com/watch?v=7Bv68f5szSU": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -28963,6 +29257,15 @@
   "what": "Video tutorial on LangChain's Deep Agents, a brief overview.",
   "why": "No actionable or detailed content for a seasoned engineering lead."
  },
+ "https://www.youtube.com/watch?v=8leMTRY_k1E": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io Your Backstage Portal Just Became an AI App Store - Evan Shortiss, Red Hat Agents, MCPs, and AI skills are proliferating — but how do developers actually find, evaluate, and securely adopt them? We built an AI Catalog inside Backstage that turns your developer portal into a one-stop shop for AI assets. In this…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Your Backstage Portal Just Became an AI App Store - Evan Shortiss, Red Hat"
+ },
  "https://www.youtube.com/watch?v=8n-SXxRIrm8": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -29111,6 +29414,15 @@
   "what": "A keynote discussing shared learning challenges among agents.",
   "why": "Provides high‑level insights but no actionable code or open‑source guidance."
  },
+ "https://www.youtube.com/watch?v=ATMcd9tkhhc": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-09",
+  "snippet": "Fast answers are easy to get. Answers you can trust with your money are harder. Francesco Galletta and Felippe Felisola Caso build a financial-analyst agent harness live, using one real problem: paying for a wedding. They show the five design principles they use for AI you can trust: shared domain, consistency, evidence, accountability and verification. They also explain why calculations belong…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo"
+ },
  "https://www.youtube.com/watch?v=Amm9ySSET4c": {
   "first_seen": "2026-11-09",
   "kind": "watch",
@@ -29184,6 +29496,15 @@
   "what": "MCP Developers Summit Live Stream",
   "why": "Event recap with no technical guidance"
  },
+ "https://www.youtube.com/watch?v=BTtyguoPvBU": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-09",
+  "snippet": "Ryan Carson, founder and CEO of Untangle and a four-time founder, shows how his team runs software development with agents in the cloud. One \"engineering manager\" agent, which he mostly talks to by voice, manages up to 20 builder agents through a ticket board, with an automation that checks every builder every 15 minutes, capped review loops, QA agents and a merge queue manager. The human step he…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle"
+ },
  "https://www.youtube.com/watch?v=Bdrs3uAX0_M": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -29231,6 +29552,14 @@
   "title": "How Sotira Gives Unsold Inventory a Second Life with Codex",
   "what": "Video showcasing how Sotira uses OpenAI Codex to repurpose unsold inventory",
   "why": "No actionable technical guidance or open-source content for the engineer"
+ },
+ "https://www.youtube.com/watch?v=CDhk7srbFUo": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Keeping Backstage Plugins Current with Official Codemods - Paul Schultz, Red Hat & Alex Bit, Codemod"
  },
  "https://www.youtube.com/watch?v=CTkDi1THc_g": {
   "first_seen": "2026-10-27",
@@ -29423,6 +29752,15 @@
   "status": "dropped:keyword",
   "title": "Introducing the Decisions API"
  },
+ "https://www.youtube.com/watch?v=FBx3Hsn-cik": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io The Guardrail Paradox: Why Secure Software Templates Actually Speed Up Your Day 1 Code - Sakshi Nasha, Cohesity & Zameer Fouzan, New Relic When software engineers hear the words \"compliance checks\" or \"security gating,\" they immediately envision delayed releases and broken deployment pipelines. This…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "The Guardrail Paradox: Why Secure Software Templates Actually... - Sakshi Nasha & Zameer Fouzan"
+ },
  "https://www.youtube.com/watch?v=FGftGOzfohc": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -29439,6 +29777,22 @@
   "title": "Build a Research Agent with Claude Managed Agents (Part 2 of 4) — Anthropic",
   "what": "Video demo of building a research agent using Anthropic's Claude Managed Agents.",
   "why": "Not suitable for technical learning as it lacks open-source detail or actionable guidance."
+ },
+ "https://www.youtube.com/watch?v=FGr2bR_ePe0": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Yes, It Is Possible to Create Stunning User Interfaces for... - Olivier Liechti & Ana Marques"
+ },
+ "https://www.youtube.com/watch?v=FNTz0CdqL6g": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Kuken Industries searches 70 years of drawings in minutes"
  },
  "https://www.youtube.com/watch?v=Fa3hQVIKShw": {
   "first_seen": "2026-10-13",
@@ -29501,6 +29855,15 @@
   "title": "Introducing LangSmith Engine v2: Detect and ship fixes to agents faster",
   "what": "A LangChain video announcing and outlining the new LangSmith Engine v2 for agent debugging",
   "why": "It gives a high‑level view of the tool but offers little actionable detail for a developer to replicate or use outside the product"
+ },
+ "https://www.youtube.com/watch?v=Gs4Ho0ub3a4": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-09",
+  "snippet": "Ksenia Se of Turing Post and swyx close out three days of AI Engineer NYC 2026, from building agents to changing how financial institutions work. They thank the speakers, sponsors and crew, and share what's next: AIE CODE, AI Engineer Europe in London in February, and the World's Fair in San Francisco next summer. Ksenia Se https://www.turingpost.com swyx Join us in SF for the second annual AIE…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "AI Engineer NYC 2026 Closing Remarks - Ksenia Se, Turing Post & swyx, AI Engineer"
  },
  "https://www.youtube.com/watch?v=GyO8Ao7yKJc": {
   "first_seen": "2026-10-22",
@@ -29927,6 +30290,15 @@
   "what": "A Lyft ML engineer explains how the company rebuilt its customer‑support agent stack with LangGraph and LangSmith, achieving a 16 % increase in agent resolution rate.",
   "why": "Readers can learn how to adopt a meta‑agent architecture that lets product managers deploy new agents by only changing prompts and configs, cutting build time from months to weeks."
  },
+ "https://www.youtube.com/watch?v=MQiojLnK-E0": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Coding agents made data pipeline PRs cheap, and human review couldn't keep up. Chetas Joshi shows the hybrid reviewer agent Robinhood built for its data platform: deterministic checks run first, the model judges what scripts can't, and anything risky still goes to a person. Today about 60% of those PRs merge with no human review, saving roughly 132 engineering hours a month. He covers where they…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "60% of Our Data PRs Now Merge With No Human Review - Chetas Joshi, Robinhood"
+ },
  "https://www.youtube.com/watch?v=MUHjyljBPHI": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -29995,6 +30367,16 @@
   "source": "yt-cncf",
   "status": "dropped:keyword",
   "title": "Meet Weiqi Sun - Speaker at KubeCon + CloudNativeCon North America"
+ },
+ "https://www.youtube.com/watch?v=NUgaWmws0XQ": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-09",
+  "shown": "2026-11-10",
+  "snippet": "Pedro Rodriguez, Director of Engineering, ML at Airbnb, shares what his team learned building AI agents for trust, where a wrong decision affects a real guest or host and someone may later ask why it was made. He walks through the patterns they use: structured outputs with an abstain option that sends uncertain cases to a human, small subagents behind a plain rules layer, LangGraph interrupts for…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "How Airbnb builds Trust for Guests and Hosts using AI Agents with LangGraph"
  },
  "https://www.youtube.com/watch?v=NaOkR3VSfR4": {
   "first_seen": "2026-10-09",
@@ -30296,6 +30678,15 @@
   "status": "dropped:keyword",
   "title": "“It Blew Me Away” | Box’s First Look at GPT-6 Astra"
  },
+ "https://www.youtube.com/watch?v=QJ-C_CBU2cQ": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io Your Agent Shouldn't Log in as You: Identity for MCP in Backstage - Shivay Lamba, Qualcomm & Hrittik Roy, vCluster Backstage 1.43 recently shipped scoped, short-lived MCP tokens. But a lot of teams still ignore them, wire the actions backend to a static admin token. The agent can now do anything you can, which is…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Your Agent Shouldn't Log in as You: Identity for MCP in Backstage - Shivay Lamba & Hrittik Roy"
+ },
  "https://www.youtube.com/watch?v=QSeaZ6qHyXs": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -30309,6 +30700,14 @@
   "title": "Claude Managed Agents Q&A: Evals, CI/CD and Multi-Tenancy (Part 4 of 4) — Anthropic",
   "what": "Claude Managed Agents Q&A: Evals, CI/CD and Multi‑Tenancy (Part 4 of 4)",
   "why": "Not enough technical depth or actionable guidance for building your own agents."
+ },
+ "https://www.youtube.com/watch?v=QZyBac-246Q": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Closing Remarks - André Wanlin & Michael Spiegel, Program Committee Co-Chairs"
  },
  "https://www.youtube.com/watch?v=R0ckdFjUF5U": {
   "first_seen": "2026-10-29",
@@ -30617,6 +31016,15 @@
   "title": "Small Models, Big Results: Training a Finance Agent for Under $500 — Charles Dickens, Snorkel AI",
   "what": "A talk by Charles Dickens showing how a 4‑billion‑parameter finance agent trained with RL cost under $500 and outperformed a 235‑billion‑parameter sibling.",
   "why": "It reveals practical RL, dataset curation, and infrastructure tricks that an engineering lead can replicate with open‑source tools this month."
+ },
+ "https://www.youtube.com/watch?v=U6yxleV704c": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io Can Your Agent Execute Anything? Authorization for Backstage MCP Actions - Masato Kozuka, Hitachi, Ltd. Backstage exposes its actions registry over MCP to AI agents and IDEs. Because MCP clients can invoke any exposed action, access control must be enforced by Backstage itself, not by the client. Identifying the…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Can Your Agent Execute Anything? Authorization for Backstage MCP Actions - Masato Kozuka"
  },
  "https://www.youtube.com/watch?v=UAmKyyZ-b9E": {
   "first_seen": "2026-10-05",
@@ -31854,6 +32262,15 @@
   "what": "The dots demo, take two | OpenAI DevDay 2026",
   "why": "Not suitable for in‑depth learning—no technical depth or open‑source material."
  },
+ "https://www.youtube.com/watch?v=fwypmxVg96U": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io Context Is the New Code: How Spotify Runs Agentic Engineering at Scale - Joe Combopiano, Spotify Spotify built Backstage to tame the complexity of thousands of engineers and services, and AI agents bring that same complexity back at a whole new scale. Portal is the control plane for agentic engineering: it gives…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Context Is the New Code: How Spotify Runs Agentic Engineering at Scale - Joe Combopiano, Spotify"
+ },
  "https://www.youtube.com/watch?v=fz6-NS7qpZc": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -31906,6 +32323,14 @@
   "title": "Meet Andy Anderson - Speaker at KubeCon + CloudNativeCon North America",
   "what": "A talk by IBM Research’s Andy Anderson on how autonomous agents merged thousands of pull requests in the KubeStellar Console project.",
   "why": "Engineers can learn practical lessons on scaling agent-driven PR automation, including success patterns, pitfalls, and operational considerations for their own Kubernetes-based open‑source projects."
+ },
+ "https://www.youtube.com/watch?v=g_827p1pqrY": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Who Owns This? Automating Backstage Catalog Ownership at Scale - Mateusz Wiszniewski & Katarzyna Rak"
  },
  "https://www.youtube.com/watch?v=gpmze-6ueGU": {
   "first_seen": "2026-10-13",
@@ -32202,6 +32627,14 @@
   "what": "Reducto engineer explains why they rebuilt their MCP server and shares lessons on building agent-first software.",
   "why": "The reader can apply the three approach frameworks and design choices to better structure agent interactions and cost responsibilities in their own projects."
  },
+ "https://www.youtube.com/watch?v=jXwp-hzn2tk": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "How Ericsson Combines Human Judgment to Enhance AI-Powered... - Damien O'Toole & Kieran Egan"
+ },
  "https://www.youtube.com/watch?v=jc3kbZkuHTo": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -32279,6 +32712,7 @@
   "first_seen": "2026-11-09",
   "kind": "watch",
   "published": "2026-11-02",
+  "shown": "2026-11-10",
   "snippet": "https://events.linuxfoundation.org/ If you run AI agents, you are probably keeping a machine on for weeks or months to get a few minutes of real work done. Clare Liguori, Senior Principal Engineer at AWS working on the Kiro coding assistant and a core maintainer of the Model Context Protocol (MCP), shows how reactive agents fix that: they only run when there is work to do, so idle time costs…",
   "source": "yt-aaif",
   "status": "passed",
@@ -32326,6 +32760,15 @@
   "what": "A LangChain engineer explains how Wonder uses LangSmith traces, evaluators, and LLM-as-Judge to monitor and improve their meal-planning agent, including prompt management techniques.",
   "why": "The reader can learn practical observability patterns, evaluation workflows, and prompt tuning strategies to apply to their own agent-based production systems."
  },
+ "https://www.youtube.com/watch?v=kfqmqnnf85g": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io IDPs Are Dead: Platform Engineering in the Age of AI Agents - Tiago Reichert & Lucas Duarte, AWS Internal developer platforms were built around portals, service catalogs, and self-service UIs. Today, developers increasingly interact with platform capabilities through AI coding agents that can generate…",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "IDPs Are Dead: Platform Engineering in the Age of AI Agents - Tiago Reichert & Lucas Duarte, AWS"
+ },
  "https://www.youtube.com/watch?v=kic8ijrzxLI": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -32339,6 +32782,15 @@
   "title": "Coding Agents That Improve Their Own Harness",
   "what": "Video advertising an upcoming conference",
   "why": "No technical content to apply"
+ },
+ "https://www.youtube.com/watch?v=ktbAVYsAxpk": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "After 10,000 agent-written pull requests at Harvey, the agents weren't the problem. Everything around them was. Joey Wang tells three stories from Spectre, Harvey's internal cloud agent platform: letting engineers pick their own agent while one platform owns what happens after, making every action callable so agents can drive other agents, and what broke once they did. Expect an alert storm that…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "The Agents Were Fine. Everything Around Them Broke. - Joey Wang, Harvey"
  },
  "https://www.youtube.com/watch?v=kwKVe27xnw4": {
   "first_seen": "2026-10-22",
@@ -32399,6 +32851,14 @@
   "title": "Building an Agentic IAM SaaS with kcp and Kubebuilder - Philipp Strube, Auweia",
   "what": "A KubeCon talk on building an Agentic IAM SaaS using kcp and Kubebuilder",
   "why": "It shows how to use open-source kcp and Kubebuilder to architect and implement an IAM service powered by agents, offering practical patterns the reader can apply this month"
+ },
+ "https://www.youtube.com/watch?v=luQugrv4NUI": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Welcome + Opening Remarks - Balaji Sivasubramanian & André Wanlin, Program Committee Co-Chairs"
  },
  "https://www.youtube.com/watch?v=m6MlxaFMmPI": {
   "first_seen": "2026-10-27",
@@ -32501,6 +32961,15 @@
   "title": "Auth for Agents: Let AI Sign Up for Your Product with auth.md — Michael Grinich, WorkOS",
   "what": "Video discussing WorkOS’s authentication approach for AI agents",
   "why": "No actionable guidance or technical detail for building agents"
+ },
+ "https://www.youtube.com/watch?v=ntVpbyDTYaQ": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-09",
+  "snippet": "Coding agents fan out, retry and burst, and if they hit an LLM you host yourself, your inference layer will happily accept every request and bury the ones you needed first. Harshul Jain and Parv Khatri make the case for admission control: deciding what to refuse before it reaches the GPU. Drawing on a review of 55 systems papers and eight real production incidents, they share five questions to…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "Your Self-Hosted LLM Needs to Say No - Harshul Jain & Parv Khatri, Audible & SAP"
  },
  "https://www.youtube.com/watch?v=nvbq39yVYRk": {
   "first_seen": "2026-10-05",
@@ -32946,6 +33415,14 @@
   "status": "dropped:keyword",
   "title": "Building AIE: Open Q&A and Feedback Session with swyx"
  },
+ "https://www.youtube.com/watch?v=tASRQLWzhJk": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Instrument Backstage with OpenTelemetry: From Zero Visibility to Full Traces... - Mithun Banerjee"
+ },
  "https://www.youtube.com/watch?v=tJ-hlNVS7AI": {
   "first_seen": "2026-10-29",
   "kind": "watch",
@@ -33265,6 +33742,14 @@
   "status": "dropped:keyword",
   "title": "From Raw Documents to AI-Ready Data — Leo Platzer & Jeff Koss"
  },
+ "https://www.youtube.com/watch?v=x6pAupyoZGQ": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Treating Backstage Like a Product: Observability with OpenTelemetry - Ekansh Gupta"
+ },
  "https://www.youtube.com/watch?v=xIEzjwReF2s": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -33389,6 +33874,15 @@
   "source": "yt-openai",
   "status": "passed",
   "title": "Qodo brings company context into Codex code review"
+ },
+ "https://www.youtube.com/watch?v=yH7_SIIgI-Y": {
+  "first_seen": "2026-11-10",
+  "kind": "watch",
+  "published": "2026-11-10",
+  "snippet": "At LinkedIn, AI agents pull together profiles, preferences, career goals and activity into an evolving picture of each member's career. Saloni Gandhi and Ziwei Guo show the closed loop that keeps that agent improving: it evaluates its own outputs, finds failure patterns, reflects on root causes, and proposes targeted fixes, using GEPA to refine its instructions. They also share where they're…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "An Agent That Fixes Its Own Mistakes - Saloni Gandhi & Ziwei Guo, LinkedIn"
  },
  "https://www.youtube.com/watch?v=yJxZef1Ylok": {
   "first_seen": "2026-10-29",

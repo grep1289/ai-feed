@@ -9,10 +9,10 @@
  },
  {
   "error": null,
-  "fetched": 32,
+  "fetched": 33,
   "id": "openai-developer",
   "name": "OpenAI Developer Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -25,10 +25,10 @@
  },
  {
   "error": null,
-  "fetched": 304,
+  "fetched": 310,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 0,
+  "new": 5,
   "ok": true
  },
  {
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 0,
+  "new": 5,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -89,10 +89,10 @@
  },
  {
   "error": null,
-  "fetched": 899,
+  "fetched": 900,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -108,7 +108,7 @@
   "fetched": 15,
   "id": "yt-aaif",
   "name": "Agentic AI Foundation",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -132,7 +132,7 @@
   "fetched": 15,
   "id": "yt-langchain",
   "name": "LangChain",
-  "new": 3,
+  "new": 1,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 10,
+  "new": 1,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 15,
+  "new": 7,
   "ok": true
  },
  {
@@ -212,7 +212,7 @@
   "fetched": 10,
   "id": "gh-aaif-goose-goose",
   "name": "aaif-goose/goose",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -220,16 +220,16 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
-  "error": "HTTP 504",
-  "fetched": 0,
+  "error": null,
+  "fetched": 20,
   "id": "gh-anthropics-skills",
   "name": "anthropics/skills",
   "new": 0,
-  "ok": false
+  "ok": true
  },
  {
   "error": null,
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 2,
+  "new": 4,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -300,7 +300,7 @@
   "fetched": 10,
   "id": "gh-crewaiinc-crewai",
   "name": "crewAIInc/crewAI",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -308,7 +308,7 @@
   "fetched": 10,
   "id": "gh-kagent-dev-kagent",
   "name": "kagent-dev/kagent",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -393,7 +393,7 @@
  },
  {
   "error": null,
-  "fetched": 197,
+  "fetched": 198,
   "id": "anthropic-research",
   "name": "Anthropic Research",
   "new": 0,

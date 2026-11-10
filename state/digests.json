@@ -200,6 +200,13 @@
    "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know",
    "https://www.youtube.com/watch?v=ty8i2zl9q2c",
    "https://www.youtube.com/watch?v=tVAJc_nUgf0"
+  ],
+  "2026-11-10": [
+   "https://developers.openai.com/blog/build-a-game-with-modretro-chromatic",
+   "https://github.com/kagent-dev/kagent/releases/tag/v1.0.0",
+   "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+   "https://www.youtube.com/watch?v=NUgaWmws0XQ",
+   "https://www.youtube.com/watch?v=kGbCNx4siEk"
   ]
  },
  "rollup": {
@@ -317,7 +324,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
