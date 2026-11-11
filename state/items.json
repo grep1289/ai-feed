@@ -3879,6 +3879,14 @@
   "status": "dropped:category",
   "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK"
  },
+ "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How Curative is building a national provider network with agents on Claude"
+ },
  "https://claude.com/resources/articles/how-datadog-built-a-universal-machine-tool-for-claude-code": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4055,6 +4063,14 @@
   "status": "dropped:category",
   "title": "Claude can now connect to your world"
  },
+ "https://claude.com/resources/articles/interactive-connectors-full-tool": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Your apps can now open in Claude, and Claude can work in them"
+ },
  "https://claude.com/resources/articles/interactive-tools-in-claude": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -4206,6 +4222,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Millennium and Anthropic are building a digital risk analyst with Claude"
+ },
+ "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors"
  },
  "https://claude.com/resources/articles/multi-agent-coordination-patterns": {
   "first_seen": "2026-10-07",
@@ -4414,6 +4438,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions"
+ },
+ "https://claude.com/resources/articles/sheets-whiteboards-data": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data"
  },
  "https://claude.com/resources/articles/skills": {
   "first_seen": "2026-10-07",
@@ -5212,6 +5244,14 @@
   "status": "dropped:keyword",
   "title": "Native Model Authoring for Edge with LiteRT Tensor API"
  },
+ "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery"
+ },
  "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon": {
   "first_seen": "2026-10-14",
   "kind": "read",
@@ -5616,6 +5656,16 @@
   "source": "openai-developer",
   "status": "passed",
   "title": "OpenAI for Developers in 2025"
+ },
+ "https://developers.openai.com/blog/pushing-voice-agents-further": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "shown": "2026-11-11",
+  "snippet": "A startup showcase on how teams delegate work, prompt for voice, and evaluate what happens in real conversations.",
+  "source": "openai-developer",
+  "status": "passed",
+  "title": "Pushing voice agents further: inside four GPT-Live builds"
  },
  "https://developers.openai.com/blog/realtime-api": {
   "first_seen": "2026-10-05",
@@ -6035,6 +6085,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.21.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.22.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-11",
+  "snippet": "Minor Changes 80bac51 : Move @arizeai/phoenix-otel to OpenTelemetry JS 3 ( @opentelemetry/sdk-trace 3.x, @opentelemetry/api 1.10) so spans created by apps on OpenTelemetry JS 3 are recorded after register() . register() now returns the @opentelemetry/sdk-trace TracerProvider (still exported as the NodeTracerProvider type), which no longer has a register() method. Custom spanProcessors must come…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.22.0"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6115,6 +6174,17 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-client@7.18.2"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%408.0.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "promote": true,
+  "published": "2026-11-11",
+  "shown": "2026-11-11",
+  "snippet": "Major Changes 80bac51 : Move @arizeai/phoenix-otel to OpenTelemetry JS 3 ( @opentelemetry/sdk-trace 3.x, @opentelemetry/api 1.10) so spans created by apps on OpenTelemetry JS 3 are recorded after register() . register() now returns the @opentelemetry/sdk-trace TracerProvider (still exported as the NodeTracerProvider type), which no longer has a register() method. Custom spanProcessors must come…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-client@8.0.0"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-config%400.5.1": {
   "first_seen": "2026-10-22",
@@ -6214,6 +6284,16 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-otel@2.3.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-otel%403.0.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "promote": true,
+  "published": "2026-11-11",
+  "snippet": "Major Changes 80bac51 : Move @arizeai/phoenix-otel to OpenTelemetry JS 3 ( @opentelemetry/sdk-trace 3.x, @opentelemetry/api 1.10) so spans created by apps on OpenTelemetry JS 3 are recorded after register() . register() now returns the @opentelemetry/sdk-trace TracerProvider (still exported as the NodeTracerProvider type), which no longer has a register() method. Custom spanProcessors must come…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-otel@3.0.0"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-client-v3.6.0": {
   "first_seen": "2026-10-30",
@@ -6689,6 +6769,15 @@
   "status": "passed",
   "title": "v0.3.288"
  },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.289": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "0.3.289 (2026-11-10) Features anthropic: support Claude Fable 5.2 ( #6443 ) ( cd2d730 ) sentinel: act on a sentinel sidecar's decisions when model calls go through a proxy ( #6303 ) ( a0ce5ab ) Bug Fixes ACP code no longer imports acp.helpers, which agent-client-protocol 1.0 removed ( #6422 ) ( 73db901 ) anthropic: estimate tokens locally for Bedrock models ( #6175 ) ( a5639be ) bedrock: include…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.289"
+ },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6950,6 +7039,15 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.58.1"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.59.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "✨ Features Minimal deferred MCP tools in ToolExecutionOperation #13378 Configurable and per-start voice instructions for live-voice #13375 Configurable GPT-Live endpoint, model and key #13360 Filter session/list by client tags (ACP) #13173 Stop, approval, and tool hook operations for goose-agent (GDK) #13169 Resume completed delegates with a follow-up (subagent) #13106 🐛 Bug Fixes Honor HTTP(S)…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.59.0"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -9272,6 +9370,15 @@
   "status": "passed",
   "title": "deepagents-code==0.2.6"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.7": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "Features Added shell completion scripts via dcode completion ( #7264 ). Bug Fixes Fixed detection of editor launchers such as code.cmd on Windows ( #7642 ). Improved dcode completion output and setup steps, and fixed Bash completion for --flag=value arguments ( #7658 , #7656 ). Preserved compaction feedback and offload usage when summaries do not stream ( #7644 ). Performance Improvements Reduced…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.7"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9802,6 +9909,15 @@
   "status": "passed",
   "title": "v3.227.0"
  },
+ "https://github.com/langfuse/langfuse/releases/tag/v3.227.1": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "What's Changed fix(web-callouts): require header values again when the endpoint URL changes (v3 backport of #19565 ) by @Steffen911 in #19816 fix(blob-export): stop gzip exports from stalling when the uploader reads late (v3 backport of #19717 ) by @Steffen911 in #19867 fix(security): require storage secrets again when the bucket or endpoint changes (v3 backport of #19566 ) by @Steffen911 in…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v3.227.1"
+ },
  "https://github.com/langfuse/langfuse/releases/tag/v4.45.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10143,6 +10259,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.77.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.78.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "What's Changed Features feat(web): EmptyState with illustrated drawings by @AbdallahAHO in #19864 feat(web): LangfuseIllustration with lazy product scenes by @AbdallahAHO in #19865 feat(topics): filter traces in the Topics setup flow by @LysanderKie in #19947 feat(rbac): mirror memberships into role assignments by @marksalpeter in #19263 feat(rbac): add USER api key scope evaluated against user…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.78.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -10652,6 +10777,15 @@
   "source": "gh-modelcontextprotocol-registry",
   "status": "passed",
   "title": "v1.8.8"
+ },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.9": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "Optimize incremental-sync pagination by selecting indexed page keys before fetching payloads, while retaining prepared statement reuse. Includes staged production autoscaling configuration and deployment guardrails. See #1840 for validation and rollout details.",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.9"
  },
  "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/%40modelcontextprotocol%2Fclient%402.3.1": {
   "first_seen": "2026-10-05",
@@ -11524,6 +11658,14 @@
   "status": "dropped:prerelease",
   "title": "0.167.0-alpha.4.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.2": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-11",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.167.0-alpha.4.2"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5": {
   "first_seen": "2026-11-04",
   "kind": "release",
@@ -11531,6 +11673,15 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "rust-v0.167.0-alpha.5"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.167.1": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "Changelog Full Changelog: rust-v0.167.0...rust-v0.167.1",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.167.1"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1": {
   "first_seen": "2026-11-04",
@@ -11596,6 +11747,14 @@
   "status": "dropped:prerelease",
   "title": "rust-v0.169.0-alpha.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.10": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-11",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.169.0-alpha.10"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2": {
   "first_seen": "2026-11-07",
   "kind": "release",
@@ -11651,6 +11810,14 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "rust-v0.169.0-alpha.8"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.9": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.169.0-alpha.9"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -12145,6 +12312,15 @@
   "status": "passed",
   "title": "v2.66.0 (2026-11-04)"
  },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.67.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-10",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Support SubAgents(dynamic_agents=...) under durable execution by @mpfaffenberger in #12418 Strip every default-ignorable character before ArtifactScanner phrase matching and flag hidden variation selectors by @mpfaffenberger in #11475 Load one instruction file per directory and nested files by default in RepoContext , add walk_up , and have Coder build on…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.67.0 (2026-11-10)"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -12216,6 +12392,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "harness-cli/v0.2.4"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.3.0": {
+  "first_seen": "2026-11-11",
+  "kind": "release",
+  "published": "2026-11-11",
+  "snippet": "harness-cli/v0.3.0 🐸 Spread the word, the latest version of Strands CLI is here! 🐸 This release brings in a number of improvements and bug fixes, covering the following areas: Chat and background work File attachment: drag and drop images, supported documents, and text files into the TUI, run /file to open the native file explorer, or run /file <filepath> to upload directly. Message Queueing…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "harness-cli/v0.3.0"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -14369,6 +14554,14 @@
   "status": "passed",
   "title": "Letting Large Models Debate: The First Multilingual LLM Debate Competition"
  },
+ "https://huggingface.co/blog/decision": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Decision Models in Hugging Face"
+ },
  "https://huggingface.co/blog/decision-transformers": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -15768,6 +15961,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "DuckDB: analyze 50,000+ datasets stored on the Hugging Face Hub"
+ },
+ "https://huggingface.co/blog/hub-gcp-marketplace": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Pay for Hugging Face Hub with your Google Cloud Account"
  },
  "https://huggingface.co/blog/hugging-face-endpoints-on-azure": {
   "first_seen": "2026-10-05",
@@ -18391,6 +18592,15 @@
   "status": "dropped:keyword",
   "title": "Quanto: a PyTorch quantization backend for Optimum"
  },
+ "https://huggingface.co/blog/qvac/botpsy": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-11",
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "passed",
+  "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
+ },
  "https://huggingface.co/blog/qwen-3-chat-template-deep-dive": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -20795,6 +21005,15 @@
   "status": "passed",
   "title": "The Data Product Platform Navigator"
  },
+ "https://martinfowler.com/articles/durable-execution-agents.html": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "snippet": "Long-horizon agents can automate complex tasks that take days or weeks to complete and involve multiple exchanges with people and external systems. Many things can go wrong during this time, including process crashes, network failures, and unanticipated real-world behavior. Kiran Prakash explains durable execution: an emerging pattern that helps agents recover from these failures and move towards…",
+  "source": "martinfowler",
+  "status": "passed",
+  "title": "Long-horizon agents and durable execution"
+ },
  "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21122,6 +21341,15 @@
   "title": "Fragments: October 28",
   "what": "Opinion piece on LLM perception gaps",
   "why": "Not actionable or technical"
+ },
+ "https://martinfowler.com/fragments/2026-11-10.html": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "snippet": "It’s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled together a summary of what’s popped up in the last six months. It’s been a busy half-year, one that again has been dominated by AI, and that’s reflected in the many AI blips on the radar. The mass of blips…",
+  "source": "martinfowler",
+  "status": "passed",
+  "title": "Fragments: November 10"
  },
  "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html": {
   "first_seen": "2026-10-05",
@@ -25759,6 +25987,72 @@
   "status": "dropped:keyword",
   "title": "CNCF Welcomes OVHcloud, One of Europe’s Largest Independent Cloud Providers, as a Platinum Member"
  },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-and-slashdata-report-finds-cloud-native-developers-are-more-ai-ready-global-population-surpasses-21-million": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "CNCF and SlashData Report Finds Cloud Native Developers Are More AI-Ready, Global Population Surpasses 21 Million"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-and-slashdata-report-finds-platform-engineering-strategies-are-shaping-ai-infrastructure-adoption": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "CNCF and SlashData Report Finds Platform Engineering Strategies Are Shaping AI Infrastructure Adoption"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-hits-major-milestones-with-global-community-growth-record-industry-investment-and-a-new-generation-of-projects-to-build-ai-systems-in-production": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "snippet": "New Sandbox projects, including Agent Substrate and OpenShell, expand CNCF’s portfolio to 231 projects as the community adds over 5.5 million cloud native developers in 12 months, welcomes eight Platinum memberships and brings together 82,000 attendees...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "title": "CNCF Hits Major Milestones with Global Community Growth, Record Industry Investment and a New Generation of Projects to Build AI Systems in Production"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-launches-certified-kubernetes-network-engineer-certification-ckne-to-advance-production-ready-networking-skills-for-ai-era": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "snippet": "New certification validates specialized expertise in Kubernetes networking, security and troubleshooting as demand for cloud native skills grows Key Highlights SALT LAKE CITY – KubeCon + CloudNativeCon North America – November 10, 2026 – The Cloud...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "title": "CNCF Launches Certified Kubernetes Network Engineer Certification (CKNE) to Advance Production Ready Networking Skills for AI Era"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-coreweave-as-a-platinum-member-to-further-open-source-ai-infrastructure": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "CNCF Welcomes CoreWeave as a Platinum Member to Further Open Source AI Infrastructure"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-qualcomm-upgrade-to-gold-membership-to-advance-ai-infrastructure-across-the-edge-to-cloud-continuum": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "CNCF Welcomes Qualcomm Upgrade to Gold Membership to Advance AI Infrastructure Across the Edge-to-Cloud Continuum"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-twelve-new-members-as-organizations-look-to-run-ai-agents-on-open-sovereign-infrastructure": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:title_rule",
+  "title": "CNCF Welcomes Twelve New Members as Organizations Look to Run AI Agents on Open, Sovereign Infrastructure"
+ },
+ "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-vultr-as-a-platinum-member-to-advance-open-and-sovereign-cloud-infrastructure-for-ai": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "CNCF Welcomes Vultr as a Platinum Member to Advance Open and Sovereign Cloud Infrastructure for AI"
+ },
  "https://www.cncf.io/blog/2026/09/25/security-slam-2026-fall-edition": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -26215,6 +26509,22 @@
   "source": "cncf-blog",
   "status": "passed",
   "title": "Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight"
+ },
+ "https://www.cncf.io/blog/2026/11/10/donating-kuberay-to-cncf": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Donating KubeRay to CNCF"
+ },
+ "https://www.cncf.io/blog/2026/11/10/open-cluster-management-ocm-becomes-a-cncf-incubating-project": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Open Cluster Management (OCM) becomes a CNCF Incubating Project"
  },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
@@ -27193,6 +27503,14 @@
   "what": "A LangChain blog post detailing how the team optimized browser usage in Deep Agents by evaluating and tuning Stagehand and other browser toolsets.",
   "why": "Engineers can learn concrete optimization steps, trade‑offs, and performance metrics to apply similar browser‑based agent enhancements in their own projects."
  },
+ "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith": {
+  "first_seen": "2026-11-11",
+  "kind": "read",
+  "published": "2026-11-10",
+  "source": "langchain-blog",
+  "status": "dropped:title_rule",
+  "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith"
+ },
  "https://www.langchain.com/blog/human-insight-strategic-advantage-agents": {
   "first_seen": "2026-11-04",
   "kind": "read",
@@ -27304,6 +27622,7 @@
   "first_seen": "2026-11-10",
   "kind": "read",
   "published": "2026-11-09",
+  "shown": "2026-11-11",
   "snippet": "Dosu uses evaluation driven development and LangSmith to build reliable LLM products at scale, monitor production performance, and iterate with confidence.",
   "source": "langchain-blog",
   "status": "passed",
@@ -33254,6 +33573,7 @@
   "first_seen": "2026-11-09",
   "kind": "watch",
   "published": "2026-11-04",
+  "shown": "2026-11-11",
   "snippet": "A lot of the work you'd want an agent to do happens on sites with no API. Agents can now use a browser to do all of the interactive things that a human could, like filling out forms, shopping, and more! Managed Deep Agents makes it easy to give your agent a browser in 2 lines of code, with optimized browser use tools under the hood. Chapters: 0:00 Why give your agent a browser 0:44 Booking a…",
   "source": "yt-langchain",
   "status": "passed",
@@ -33283,6 +33603,7 @@
   "first_seen": "2026-10-05",
   "kind": "watch",
   "published": "2026-07-06",
+  "shown": "2026-11-11",
   "snippet": "Out of everything happening in your brain right now, only a tiny fraction is consciously accessible — thoughts you can describe, hold in mind, and reason with. We found a strikingly similar divide inside our AI model, Claude. Our experiments were inspired by a leading theory in neuroscience: the global workspace theory. It holds that a thought becomes consciously accessible when it enters a…",
   "source": "yt-anthropic",
   "status": "passed",

@@ -207,6 +207,13 @@
    "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
    "https://www.youtube.com/watch?v=NUgaWmws0XQ",
    "https://www.youtube.com/watch?v=kGbCNx4siEk"
+  ],
+  "2026-11-11": [
+   "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%408.0.0",
+   "https://developers.openai.com/blog/pushing-voice-agents-further",
+   "https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development",
+   "https://www.youtube.com/watch?v=r1iJzoxFBtg",
+   "https://www.youtube.com/watch?v=rKV5JcALQoQ"
   ]
  },
  "rollup": {
@@ -324,7 +331,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
