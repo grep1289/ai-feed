@@ -214,6 +214,13 @@
    "https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development",
    "https://www.youtube.com/watch?v=r1iJzoxFBtg",
    "https://www.youtube.com/watch?v=rKV5JcALQoQ"
+  ],
+  "2026-11-12": [
+   "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+   "https://blog.modelcontextprotocol.io/posts/mcp-release-cycle",
+   "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-otel%403.0.0",
+   "https://www.youtube.com/watch?v=LDMzI0jGDb0",
+   "https://www.youtube.com/watch?v=xM_BhmEyKAY"
   ]
  },
  "rollup": {
@@ -331,7 +338,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
