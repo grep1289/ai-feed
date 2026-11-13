@@ -221,6 +221,13 @@
    "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-otel%403.0.0",
    "https://www.youtube.com/watch?v=LDMzI0jGDb0",
    "https://www.youtube.com/watch?v=xM_BhmEyKAY"
+  ],
+  "2026-11-13": [
+   "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai",
+   "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp",
+   "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
+   "https://www.youtube.com/watch?v=1M8vagUOdJM",
+   "https://www.youtube.com/watch?v=dECG1NNfK80"
   ]
  },
  "rollup": {
@@ -338,7 +345,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0

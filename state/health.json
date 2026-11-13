@@ -9,10 +9,10 @@
  },
  {
   "error": null,
-  "fetched": 34,
+  "fetched": 35,
   "id": "openai-developer",
   "name": "OpenAI Developer Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -25,10 +25,10 @@
  },
  {
   "error": null,
-  "fetched": 314,
+  "fetched": 320,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 0,
+  "new": 6,
   "ok": true
  },
  {
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -44,7 +44,7 @@
   "fetched": 29,
   "id": "mcp-blog",
   "name": "Model Context Protocol Blog",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 5,
+  "new": 2,
   "ok": true
  },
  {
@@ -89,10 +89,10 @@
  },
  {
   "error": null,
-  "fetched": 904,
+  "fetched": 906,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -100,7 +100,7 @@
   "fetched": 10,
   "id": "github-blog-ai",
   "name": "GitHub Blog (AI and ML)",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -132,7 +132,7 @@
   "fetched": 15,
   "id": "yt-langchain",
   "name": "LangChain",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 15,
+  "new": 2,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 15,
+  "new": 0,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 6,
+  "new": 7,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -268,7 +268,7 @@
   "fetched": 10,
   "id": "gh-google-adk-python",
   "name": "google/adk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -276,7 +276,7 @@
   "fetched": 10,
   "id": "gh-microsoft-agent-framework",
   "name": "microsoft/agent-framework",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -284,7 +284,7 @@
   "fetched": 10,
   "id": "gh-strands-agents-sdk-python",
   "name": "strands-agents/sdk-python",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -308,7 +308,7 @@
   "fetched": 10,
   "id": "gh-kagent-dev-kagent",
   "name": "kagent-dev/kagent",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -316,7 +316,7 @@
   "fetched": 10,
   "id": "gh-kubernetes-sigs-agent-sandbox",
   "name": "kubernetes-sigs/agent-sandbox",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
