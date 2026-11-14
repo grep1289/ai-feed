@@ -228,6 +228,13 @@
    "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
    "https://www.youtube.com/watch?v=1M8vagUOdJM",
    "https://www.youtube.com/watch?v=dECG1NNfK80"
+  ],
+  "2026-11-14": [
+   "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "https://www.langchain.com/blog/promptim",
+   "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write",
+   "https://www.youtube.com/watch?v=tqgthjS7Ym4",
+   "https://www.youtube.com/watch?v=0cBJ4X1LS1A"
   ]
  },
  "rollup": {
@@ -345,7 +352,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0

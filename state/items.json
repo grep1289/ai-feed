@@ -2891,6 +2891,14 @@
   "status": "dropped:category",
   "title": "Building AI agents for healthcare and life sciences"
  },
+ "https://claude.com/resources/articles/building-always-on-agents": {
+  "first_seen": "2026-11-14",
+  "kind": "read",
+  "published": "2026-11-13",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Building always-on agents"
+ },
  "https://claude.com/resources/articles/building-an-ai-native-revenue-organization": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -5300,6 +5308,7 @@
   "first_seen": "2026-11-13",
   "kind": "read",
   "published": "2026-11-12",
+  "shown": "2026-11-14",
   "snippet": "Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency. Developers can integrate AAD alongside semantic governance and strict tool…",
   "source": "google-developers-ai",
   "status": "passed",
@@ -7172,6 +7181,15 @@
   "status": "passed",
   "title": "v1.59.0"
  },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.59.1": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "macOS desktop builds and full release notes coming soon.",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.59.1"
+ },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7713,6 +7731,15 @@
   "status": "passed",
   "title": "v0.2.181"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.182": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.182/ pip install claude-agent-sdk==0.2.182",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.182"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8072,6 +8099,15 @@
   "source": "gh-containers-kubernetes-mcp-server",
   "status": "passed",
   "title": "v0.1.2"
+ },
+ "https://github.com/containers/kubernetes-mcp-server/releases/tag/v0.1.3": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "What's Changed feat(config): add opt_in_tools config by @Cali0707 in #1597 feat: Add namespace support to resources_create_or_update as in kubectl apply -n namespace by @ash-thakur-rh in #1135 Use macos-15-arm64 runner by @2uasimojo in #1627 explicit kiali test params by @grokspawn in #1628 docs(config): explain which values belong in Secrets, not ConfigMaps by @RyoKusnadi in #1611 [Enhancement]…",
+  "source": "gh-containers-kubernetes-mcp-server",
+  "status": "passed",
+  "title": "v0.1.3"
  },
  "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14": {
   "first_seen": "2026-10-05",
@@ -9376,6 +9412,15 @@
   "status": "passed",
   "title": "deepagents==0.7.37"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.38": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "Bug Fixes Exclude results from ls , grep , and glob when a symlink resolves outside the approved search scope. ( #7706 ) Full changelog Internal maintainers: ccurme (@ccurme) Released by: ccurme (@ccurme) Git log since deepagents==0.7.37 This commit history includes changes to this package. The most recent commit is at the top; older commits follow below. c858b36 release(deepagents): 0.7.38 (…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.38"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -9574,6 +9619,15 @@
   "status": "passed",
   "title": "deepagents-code==0.2.7"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.8": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "Features Set DEEPAGENTS_CODE=1 in the local shell environment. ( #7701 ) Bug Fixes Replace unencodable characters in redirected output. ( #7717 ) Full changelog Thanks to our community contributors: Roydon Sequeira (@roydonsequeira) , Matthew Saltz (@saltzm) Special thanks to everyone who reported the issues addressed in this release: Roydon Sequeira (@roydonsequeira) ( #7692 ), Matthew Saltz…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.8"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9609,6 +9663,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "langchain-modal==0.0.7"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/langchain-modal%3D%3D0.0.8": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "Bug Fixes Updated ModalSandbox file I/O to use the Sandbox.filesystem API ( #7664 ). Full changelog Thanks to our community contributors: Matthew Saltz (@saltzm) Special thanks to everyone who reported the issues addressed in this release: Matthew Saltz (@saltzm) ( #7626 ) Internal maintainers: ccurme (@ccurme) , Mason Daugherty (@mdrxy) , Thushanth Bengre (@thushanth-bengre-langchain) Released…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "langchain-modal==0.0.8"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.3.10": {
   "first_seen": "2026-10-27",
@@ -9754,6 +9817,15 @@
   "status": "passed",
   "title": "langgraph==1.2.21"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.22": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "Changes since 1.2.21 release(langgraph): 1.2.22 ( #9702 ) release(checkpoint-postgres): 3.2.1 ( #9700 ) release(prebuilt): 1.1.2 ( #9701 ) release(checkpoint): 4.3.2 ( #9699 ) fix(langgraph): stream a child graph on its own thread to a caller streaming subgraphs ( #9698 ) perf(langgraph): skip message conversion in add_messages for plain messages ( #9631 ) perf(langgraph): filter pending writes…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.22"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9781,6 +9853,15 @@
   "status": "passed",
   "title": "langgraph-checkpoint==4.3.1"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.2": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "Changes since checkpoint==4.3.1 release(checkpoint): 4.3.2 ( #9699 ) perf(checkpoint): stop InMemoryStore search at the requested page ( #9633 ) perf(checkpoint): dedupe batched store reads with a dict ( #9636 ) chore(deps): bump the minor-and-patch group in /libs/checkpoint with 6 updates ( #9529 ) chore(deps-dev): bump pycryptodome from 3.23.0 to 4.2.0 in /libs/checkpoint in the major group (…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint==4.3.2"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9807,6 +9888,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-checkpoint-postgres==3.2.0"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.1": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "Changes since checkpointpostgres==3.2.0 release(checkpoint-postgres): 3.2.1 ( #9700 ) release(checkpoint): 4.3.2 ( #9699 ) perf(checkpoint-postgres): run a lone store read outside a pipeline ( #9635 ) perf(checkpoint-postgres): skip the async saver's lock for connection pools ( #9638 ) perf(checkpoint-postgres): load no pending writes without a thread hop ( #9639 ) release(checkpoint): 4.3.1 (…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-checkpoint-postgres==3.2.1"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1": {
   "first_seen": "2026-10-05",
@@ -9959,6 +10049,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-prebuilt==1.1.1"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.2": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "Changes since prebuilt==1.1.1 release(langgraph): 1.2.22 ( #9702 ) release(checkpoint-postgres): 3.2.1 ( #9700 ) release(prebuilt): 1.1.2 ( #9701 ) release(checkpoint): 4.3.2 ( #9699 ) perf(prebuilt): only format the call_model error message when raising ( #9628 ) release(langgraph): 1.2.21 ( #9683 ) chore(deps): bump the minor-and-patch group across 1 directory with 9 updates ( #9530 )…",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-prebuilt==1.1.2"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10": {
   "first_seen": "2026-10-27",
@@ -10490,6 +10589,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.79.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.80.0": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "What's Changed Features feat(clickhouse): send query parameters in the request body by default by @Steffen911 in #20049 feat(ai-gateway): add Google AI Studio as a gateway provider by @wochinge in #20086 feat(ai-gateway): rename to Connections & Models and hide Models tab without connections by @wochinge in #20112 feat(in-app-agent): add \"Copy session link\" to Halo's session menu and hide session…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.80.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -12157,6 +12265,22 @@
   "status": "dropped:prerelease",
   "title": "rust-v0.171.0-alpha.3"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.4": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.4"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.5": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-14",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.5"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -13019,6 +13143,15 @@
   "status": "passed",
   "title": "python/v1.64.0"
  },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.65.0": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "python/v1.65.0 Auto-drafted from commits in python/v1.64.0..python/v1.65.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(multiagent): async agent builders; report content-filtered and refused children as tool errors ( #6093 ) ( 3d741b4 ) feat(site): add /frogs page (…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "python/v1.65.0"
+ },
  "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.19.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -13072,6 +13205,15 @@
   "source": "gh-strands-agents-sdk-python",
   "status": "passed",
   "title": "typescript/v1.24.0"
+ },
+ "https://github.com/strands-agents/harness-sdk/releases/tag/typescript%2Fv1.25.0": {
+  "first_seen": "2026-11-14",
+  "kind": "release",
+  "published": "2026-11-13",
+  "snippet": "typescript/v1.25.0 Auto-drafted from commits in typescript/v1.24.0..typescript/v1.25.0 , grouped by conventional-commit type. Edit on the release page after publish if you want a polished writeup; the canonical release notes live on the website. 🚀 Features feat(context)!: offload conditions decide granularity (typescript) ( #5325 ) ( 50a391e ) feat(mcp): add find_integrations tool backed by the…",
+  "source": "gh-strands-agents-sdk-python",
+  "status": "passed",
+  "title": "typescript/v1.25.0"
  },
  "https://hamel.dev/": {
   "first_seen": "2026-10-05",
@@ -14046,6 +14188,14 @@
   "source": "huggingface-blog",
   "status": "passed",
   "title": "ToyBlocks: A controlled world for robot learning and evaluation"
+ },
+ "https://huggingface.co/blog/allenai/xybench": {
+  "first_seen": "2026-11-14",
+  "kind": "read",
+  "published": "2026-11-13",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "XYBench: Helping with the problem behind the question"
  },
  "https://huggingface.co/blog/amazon/foundation-model-building-blocks": {
   "first_seen": "2026-10-05",
@@ -15934,6 +16084,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "GGML and llama.cpp join HF to ensure the long-term progress of Local AI"
+ },
+ "https://huggingface.co/blog/ggml-org/llama-cpp-v1": {
+  "first_seen": "2026-11-14",
+  "kind": "read",
+  "published": "2026-11-13",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
  },
  "https://huggingface.co/blog/ggml-org/model-management-in-llamacpp": {
   "first_seen": "2026-10-05",
@@ -18296,6 +18454,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline"
+ },
+ "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place": {
+  "first_seen": "2026-11-14",
+  "kind": "read",
+  "published": "2026-11-13",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
  },
  "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms": {
   "first_seen": "2026-10-05",
@@ -24687,6 +24853,16 @@
   "status": "passed",
   "title": "Building effective agents"
  },
+ "https://www.anthropic.com/research/building-strong-safety-evaluations": {
+  "first_seen": "2026-11-14",
+  "kind": "read",
+  "published": "2026-11-13",
+  "shown": "2026-11-14",
+  "snippet": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+  "source": "anthropic-engineering",
+  "status": "passed",
+  "title": "Building strong safety evaluations"
+ },
  "https://www.anthropic.com/research/circuits-updates-april-2024": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -28788,6 +28964,7 @@
   "first_seen": "2026-11-10",
   "kind": "read",
   "published": "2026-11-09",
+  "shown": "2026-11-14",
   "snippet": "Automate prompt engineering with Promptim's optimization library. Save time, improve AI performance, and switch models faster.",
   "source": "langchain-blog",
   "status": "passed",
@@ -28983,6 +29160,14 @@
   "title": "LangChain raises $125M to build the platform for agent engineering",
   "what": "LangChain fundraising announcement",
   "why": "No actionable technical content"
+ },
+ "https://www.langchain.com/blog/series-c": {
+  "first_seen": "2026-11-14",
+  "kind": "read",
+  "published": "2026-11-13",
+  "source": "langchain-blog",
+  "status": "dropped:title_rule",
+  "title": "LangChain Raises $300M Series C at $3B Valuation"
  },
  "https://www.langchain.com/blog/slack-sdk-managed-deep-agents": {
   "first_seen": "2026-10-10",
@@ -29355,6 +29540,7 @@
   "first_seen": "2026-11-13",
   "kind": "watch",
   "published": "2026-10-25",
+  "shown": "2026-11-14",
   "snippet": "Agents look impressive in a demo, then quietly get worse after a small change to a prompt, tool, or skill. In this talk, Kurtis Van Gent and Haoyu Wang of Google Cloud Databases explain how to test an AI agent on real user journeys so you catch breaks before your users do. They share lessons from building EvalBench, an open-source evaluation framework that grew from NL2SQL testing into complex…",
   "source": "yt-aaif",
   "status": "passed",
@@ -34855,6 +35041,7 @@
   "first_seen": "2026-11-13",
   "kind": "watch",
   "published": "2026-11-12",
+  "shown": "2026-11-14",
   "snippet": "Getting an agent working on your laptop takes hours, but putting it in front of real users can take weeks of infrastructure work around the agent itself. This new LangChain Academy course shows you how to close that gap with LangSmith Managed Agents, where you define the agent and the context it needs and deploy it with one command. You'll start with how an agent is put together, then run it on…",
   "source": "yt-langchain",
   "status": "passed",
