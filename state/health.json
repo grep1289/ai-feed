@@ -4,7 +4,7 @@
   "fetched": 29,
   "id": "anthropic-engineering",
   "name": "Anthropic Engineering",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -28,7 +28,7 @@
   "fetched": 321,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 907,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -212,7 +212,7 @@
   "fetched": 10,
   "id": "gh-aaif-goose-goose",
   "name": "aaif-goose/goose",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -228,7 +228,7 @@
   "fetched": 20,
   "id": "gh-anthropics-skills",
   "name": "anthropics/skills",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -252,7 +252,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-langgraph",
   "name": "langchain-ai/langgraph",
-  "new": 4,
+  "new": 0,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 3,
+  "new": 0,
   "ok": true
  },
  {
@@ -284,7 +284,7 @@
   "fetched": 10,
   "id": "gh-strands-agents-sdk-python",
   "name": "strands-agents/sdk-python",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -324,7 +324,7 @@
   "fetched": 10,
   "id": "gh-containers-kubernetes-mcp-server",
   "name": "containers/kubernetes-mcp-server",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -388,7 +388,7 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {

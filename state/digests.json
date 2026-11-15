@@ -235,6 +235,13 @@
    "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write",
    "https://www.youtube.com/watch?v=tqgthjS7Ym4",
    "https://www.youtube.com/watch?v=0cBJ4X1LS1A"
+  ],
+  "2026-11-15": [
+   "https://www.langchain.com/blog/goal-engineering",
+   "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+   "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "https://www.youtube.com/watch?v=SPOGTliV48s",
+   "https://www.youtube.com/watch?v=TZMu0LhTG6k"
   ]
  },
  "rollup": {
@@ -352,7 +359,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0

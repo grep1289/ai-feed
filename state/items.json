@@ -5953,6 +5953,7 @@
   "first_seen": "2026-11-13",
   "kind": "read",
   "published": "2026-11-12",
+  "shown": "2026-11-15",
   "snippet": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
   "source": "github-blog-ai",
   "status": "passed",
@@ -6910,6 +6911,15 @@
   "status": "passed",
   "title": "v0.3.289"
  },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.290": {
+  "first_seen": "2026-11-15",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "0.3.290 (2026-11-13) Features active_model_event_id() returns the in-flight model call attempt's event id ( #6529 ) ( c060c20 ) each message keeps one id through the agent bridge and the log, and tool events record the message that proposed them ( #6143 ) ( 187d19f ) excluded epochs are left out of epoch reduction, and score reasons gain excluded and zeroed ( #6528 ) ( b4aa05b ) google: support…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.290"
+ },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7748,6 +7758,15 @@
   "source": "gh-anthropics-skills",
   "status": "passed",
   "title": "Rename claude-academy-guide skill to academy-guide and shorten its de…"
+ },
+ "https://github.com/anthropics/skills/commit/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064": {
+  "first_seen": "2026-11-15",
+  "kind": "release",
+  "published": "2026-11-14",
+  "snippet": "Update docx, pptx, xlsx, and pdf skills (#2217)",
+  "source": "gh-anthropics-skills",
+  "status": "passed",
+  "title": "Update docx, pptx, xlsx, and pdf skills (#2217)"
  },
  "https://github.com/anthropics/skills/commit/1f630fdf9259cec4a14913127dfd7c3b69ef72eb": {
   "first_seen": "2026-10-05",
@@ -16732,6 +16751,7 @@
   "first_seen": "2026-11-13",
   "kind": "read",
   "published": "2026-11-12",
+  "shown": "2026-11-15",
   "snippet": "",
   "source": "huggingface-blog",
   "status": "passed",
@@ -27924,6 +27944,16 @@
   "what": "A LangChain Deep Agents demo that analyzes EU macroeconomic data and generates a cited briefing.",
   "why": "It shows how to build an agent that queries multiple sources, processes data, and produces structured reports, offering patterns for similar analytics projects."
  },
+ "https://www.langchain.com/blog/goal-engineering": {
+  "first_seen": "2026-11-15",
+  "kind": "read",
+  "published": "2026-11-14",
+  "shown": "2026-11-15",
+  "snippet": "The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Goal Engineering"
+ },
  "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts": {
   "first_seen": "2026-11-12",
   "kind": "read",
@@ -32117,6 +32147,7 @@
   "first_seen": "2026-11-09",
   "kind": "watch",
   "published": "2026-11-03",
+  "shown": "2026-11-15",
   "snippet": "LangChain started in October 2022 as an open-source project for chaining prompts and PDFs, and is now a platform for the whole agent development lifecycle. This video walks through that ecosystem in three minutes. It starts with the frameworks you build with (LangGraph, LangChain, and Deep Agents), then follows an agent into production with LangSmith: experiments and evals for testing, LangSmith…",
   "source": "yt-langchain",
   "status": "passed",
@@ -32218,6 +32249,7 @@
   "first_seen": "2026-11-13",
   "kind": "watch",
   "published": "2026-10-25",
+  "shown": "2026-11-15",
   "snippet": "**Harald Kirschner from Microsoft explains why an AI agent's work gets trapped in the chat window where it started, and how the open Agent Host Protocol (AHP) lets one running session be watched, reviewed, and steered from a laptop, a remote dev box, or a phone. If you have ever waited on an agent that needed your approval while you were away from your computer, this talk shows the fix.** Topics…",
   "source": "yt-aaif",
   "status": "passed",
