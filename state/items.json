@@ -5024,6 +5024,7 @@
   "first_seen": "2026-11-12",
   "kind": "read",
   "published": "2026-11-11",
+  "shown": "2026-11-16",
   "snippet": "A2UI 1.0 is an open protocol for generative UI that enables AI agents to render interactive, native screens across web, mobile, and desktop applications. Developers can leverage open-source renderer SDKs—including React, Angular, Lit, Flutter, SwiftUI, and Jetpack Compose—alongside agent SDKs for Python, TypeScript, and Dart. The release introduces bidirectional function calls, swappable…",
   "source": "google-developers-ai",
   "status": "passed",
@@ -7199,6 +7200,15 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.59.1"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.59.2": {
+  "first_seen": "2026-11-16",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "🐛 Bug Fixes Databricks provider: drop thinking blocks bound to a different prefix #13551",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.59.2"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -12300,6 +12310,22 @@
   "status": "dropped:prerelease",
   "title": "0.171.0-alpha.5"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6": {
+  "first_seen": "2026-11-16",
+  "kind": "release",
+  "published": "2026-11-15",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.6"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.7": {
+  "first_seen": "2026-11-16",
+  "kind": "release",
+  "published": "2026-11-15",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.7"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -12414,6 +12440,14 @@
   "source": "gh-openai-openai-agents-python",
   "status": "dropped:prerelease",
   "title": "Agents SDK v0.24.0-alpha.7"
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.8": {
+  "first_seen": "2026-11-16",
+  "kind": "release",
+  "published": "2026-11-16",
+  "source": "gh-openai-openai-agents-python",
+  "status": "dropped:prerelease",
+  "title": "Agents SDK v0.24.0-alpha.8"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/0.121.17": {
   "first_seen": "2026-10-05",
@@ -19173,6 +19207,7 @@
   "first_seen": "2026-11-11",
   "kind": "read",
   "published": "2026-11-11",
+  "shown": "2026-11-16",
   "snippet": "",
   "source": "huggingface-blog",
   "status": "passed",
@@ -29313,6 +29348,7 @@
   "first_seen": "2026-11-10",
   "kind": "read",
   "published": "2026-11-09",
+  "shown": "2026-11-16",
   "snippet": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.",
   "source": "langchain-blog",
   "status": "passed",
@@ -30698,6 +30734,15 @@
   "status": "dropped:keyword",
   "title": "78% Wanted This AI Feature. Almost Nobody Used It - Supriya Subudhi, Bumble"
  },
+ "https://www.youtube.com/watch?v=Cyt3LU8TyNc": {
+  "first_seen": "2026-11-16",
+  "kind": "watch",
+  "published": "2026-11-15",
+  "snippet": "Being Einstein 95% of the time and Mr. Bean 5% is Diogo Almeida's analogy for unreliable LLM automation. At CODE Summit 2026, the TypeSafe AI cofounder argues that RLHF optimizes models for human assistance and makes the case for machine native AI with Jev. Reliable agents, KV cache limits, shared memory, semantic types and real time security point toward what software engineers could build…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "I love you so jevving much — Diogo Almeida, TypeSafe AI"
+ },
  "https://www.youtube.com/watch?v=D4XTefP3Lsc": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -31660,6 +31705,16 @@
   "what": "A deep dive into building an LLM judge for evaluating agent responses, including live demos, dataset creation, and analysis of failure modes.",
   "why": "It provides concrete patterns for creating evaluation pipelines, measuring agent performance, and iterating on test cases, which the reader can apply to their own agentic systems."
  },
+ "https://www.youtube.com/watch?v=NeV6MSN6zEE": {
+  "first_seen": "2026-11-16",
+  "kind": "watch",
+  "published": "2026-11-13",
+  "shown": "2026-11-16",
+  "snippet": "LangChain has raised $300 million in a Series C at a $3 billion valuation, and we're launching the new LangSmith, which puts what we've learned from millions of developers building agents into one platform. LangSmith processes billions of traces a month for more than 7,000 customers. The agents that change how a business runs get better because their teams keep iterating on them, and that work is…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "LangSmith: The platform to run, improve, and govern agents"
+ },
  "https://www.youtube.com/watch?v=O3jCAZbrRHM": {
   "first_seen": "2026-10-30",
   "kind": "watch",
@@ -31761,6 +31816,15 @@
   "what": "A talk by Peter Werry on Unblocked’s relational context engine that reduces token usage for LLM agents by incorporating relational data such as PRs and Slack threads.",
   "why": "It shows a practical design for embedding relational context into agents, offering concrete architecture and trade‑offs that an engineer can adapt to build more efficient, context‑aware agents in production."
  },
+ "https://www.youtube.com/watch?v=O_zcc6Xl12g": {
+  "first_seen": "2026-11-16",
+  "kind": "watch",
+  "published": "2026-11-14",
+  "snippet": "11,000 pull requests in one month, with a revert rate around 0.5%. Lauren Tan (poteto) shares how the Grok Bot team at SpaceXSI scales AI coding agents through software architecture, lint rules, automated testing, runtime verification and formal verification with TLA+ and Lean. See how Cursor agents and pstack turn these software engineering foundations into reliable software factories. Speaker…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI"
+ },
  "https://www.youtube.com/watch?v=Oi9DHk57KeQ": {
   "first_seen": "2026-10-31",
   "kind": "watch",
@@ -31860,6 +31924,14 @@
   "source": "yt-cncf",
   "status": "dropped:keyword",
   "title": "Meet Antonio Jimenez Martinez - Speaker at KubeCon + CloudNativeCon North America"
+ },
+ "https://www.youtube.com/watch?v=PkAmyub12K8": {
+  "first_seen": "2026-11-16",
+  "kind": "watch",
+  "published": "2026-11-13",
+  "source": "yt-openai",
+  "status": "dropped:title_rule",
+  "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities"
  },
  "https://www.youtube.com/watch?v=PmsvVjXow4M": {
   "first_seen": "2026-10-05",
@@ -33677,6 +33749,7 @@
   "first_seen": "2026-11-12",
   "kind": "watch",
   "published": "2026-10-25",
+  "shown": "2026-11-16",
   "snippet": "Engineering teams now have agents writing code faster than people can review it. When an AI reviewer posts too many wrong findings, people stop reading what it says. In this talk, Joah Gerstenberg of Block, Inc. explains how Block rebuilt its AI code reviewer to favor precision, so the comments that reach developers are ones worth acting on. Topics covered: - Verification as the bottleneck: once…",
   "source": "yt-aaif",
   "status": "passed",
@@ -34981,6 +35054,14 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "Building AIE: Open Q&A and Feedback Session with swyx"
+ },
+ "https://www.youtube.com/watch?v=soNLXvgUqNY": {
+  "first_seen": "2026-11-16",
+  "kind": "watch",
+  "published": "2026-11-16",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "La Cousinade"
  },
  "https://www.youtube.com/watch?v=tASRQLWzhJk": {
   "first_seen": "2026-11-10",
