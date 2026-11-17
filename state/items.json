@@ -5057,6 +5057,16 @@
   "status": "passed",
   "title": "Agent Distraction"
  },
+ "https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "shown": "2026-11-17",
+  "snippet": "AI agent sessions remain active and idle for most of the workday, making traditional one-Pod-per-session allocations inefficient for cluster resources. By using open-source tools like Agent Substrate and AX on GKE, developers can park idle sessions in object storage to release compute resources while maintaining session state. This approach optimizes resource utilization and reduces Kubernetes…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Agents are sessions, not requests: size GKE node pools for AI agent sessions"
+ },
  "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5403,6 +5413,15 @@
   "status": "dropped:title_rule",
   "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs"
  },
+ "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and configure proactive alerts using Cloud Monitoring and Security Command Center.",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Securing Your Agents: A Hands-On Guide to Agent Anomaly Detection"
+ },
  "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services": {
   "first_seen": "2026-10-29",
   "kind": "read",
@@ -5488,6 +5507,15 @@
   "what": "An overview of the Google ADK Recipes repository, showing its three-layer structure and how to integrate modular vertical skills into AI agents.",
   "why": "Engineers can immediately apply the provided patterns and plugin examples to build and deploy production-ready agents using the open-source ADK framework."
  },
+ "https://developers.googleblog.com/tpu-model-design-considerations-and-optimization-guide": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include aligning reduction and output dimensions to 256 for systolic arrays, adopting LatentMoE to compress routed token traffic, and mapping parallel axes directly onto physical links.",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "TPU Model Design Considerations and Optimization Guide"
+ },
  "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5504,6 +5532,15 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon"
+ },
+ "https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "How we eliminated floating-point train–inference logprob drift for on-policy LLM reinforcement learning across 64 Cloud TPU v5p chips using a generalizable four-part JAX and Pallas recipe in Tunix.",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch"
  },
  "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models": {
   "first_seen": "2026-11-10",
@@ -6218,6 +6255,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.22.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.22.1": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "Patch Changes @arizeai/phoenix-client@8.0.1",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.22.1"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6309,6 +6355,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-client@8.0.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%408.0.1": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "Patch Changes Updated dependencies [ f35755b ] @arizeai/phoenix-otel@3.1.0",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-client@8.0.1"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-config%400.5.1": {
   "first_seen": "2026-10-22",
@@ -6419,6 +6474,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "@arizeai/phoenix-otel@3.0.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-otel%403.1.0": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "Minor Changes f35755b : register() accepts sampler and spanLimits , and AlwaysOnSampler , AlwaysOffSampler , ParentBasedSampler , and TraceIdRatioBasedSampler are re-exported. When OTEL_TRACES_SAMPLER , OTEL_TRACES_SAMPLER_ARG , OTEL_SPAN_* , OTEL_ATTRIBUTE_* , or OTEL_BSP_* is set and the matching setting is not configured in code, register() (or, for OTEL_BSP_* with custom processors, the…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-otel@3.1.0"
  },
  "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-client-v3.6.0": {
   "first_seen": "2026-10-30",
@@ -7058,6 +7122,14 @@
   "source": "gh-aaif-goose-goose",
   "status": "dropped:prerelease",
   "title": "gdk-v0.1.0-alpha.13: chore(GDK): release v0.1.0-alpha.13 (#12876)"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.14": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "source": "gh-aaif-goose-goose",
+  "status": "dropped:prerelease",
+  "title": "gdk-v0.1.0-alpha.14: chore(GDK): release v0.1.0-alpha.14 (#13468)"
  },
  "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.8": {
   "first_seen": "2026-10-05",
@@ -7760,6 +7832,15 @@
   "status": "passed",
   "title": "v0.2.182"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.183": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.183/ pip install claude-agent-sdk==0.2.183",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.183"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -7957,6 +8038,15 @@
   "source": "gh-anthropics-skills",
   "status": "passed",
   "title": "Update claude-api skill: dynamic workflows and the four workflow quic…"
+ },
+ "https://github.com/anthropics/skills/commit/e4bb5d960d87126ff3b3a8af1a104b7db67560ba": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "Update docx, pptx and xlsx skills: zipfile unpack, zip -y, validate.py and soffice.py fixes (#2221)",
+  "source": "gh-anthropics-skills",
+  "status": "passed",
+  "title": "Update docx, pptx and xlsx skills: zipfile unpack, zip -y, validate.p…"
  },
  "https://github.com/anthropics/skills/commit/f17010c9bb483898c1d9c9f42dde2b3a98889434": {
   "first_seen": "2026-10-05",
@@ -8530,6 +8620,15 @@
   "source": "gh-github-github-mcp-server",
   "status": "passed",
   "title": "GitHub MCP Server 2.1.0"
+ },
+ "https://github.com/github/github-mcp-server/releases/tag/v2.2.0": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "2.2.0 \"The one with Skills\" What's Changed fix: return non-nil empty completion results by @omgitsads in #3665 Avoid overflow in validation error capacity by @omgitsads in #3772 feat(skills): replace server instructions with filtered MCP skills by @SamMorrowDrums in #3685 add optional secret hiding to secret scanning alert tools by @AshwinMohan86 in #3838 Add public agent automation tools by…",
+  "source": "gh-github-github-mcp-server",
+  "status": "passed",
+  "title": "GitHub MCP Server 2.2.0"
  },
  "https://github.com/google/adk-python/releases/tag/v1.39.0": {
   "first_seen": "2026-10-05",
@@ -9450,6 +9549,15 @@
   "status": "passed",
   "title": "deepagents==0.7.38"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.39": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "Bug Fixes Fixed streaming of asynchronous subagent runs to apps that join them ( #7722 ). Fixed uploads containing NUL bytes by storing them as base64 in StoreBackend ( #7710 ). Performance Improvements Limited editable-install scans to deepagents records ( #7752 ). Full changelog Special thanks to everyone who reported the issues addressed in this release: Lucas Sampaio de Góis (@LucasGois1) (…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.39"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -9656,6 +9764,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-code==0.2.8"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.9": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "Features Updated stable model recommendations ( #7734 ). Performance Improvements Limited editable-SDK scanning to deepagents records ( #7756 ). Full changelog Internal maintainers: Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since deepagents-code==0.2.8 This commit history includes changes to this package. The most recent commit is at the top; older commits follow…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.9"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.0.9": {
   "first_seen": "2026-10-05",
@@ -10627,6 +10744,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.80.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.81.0": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "snippet": "What's Changed Features feat(datasets): filter dataset items by status by @marliessophie in #20186 feat(ai-gateway): add Google Vertex AI as a gateway provider by @wochinge in #20079 feat(trace): show topics transcript on trace via three dots (internal) by @nimarb in #20183 feat(native): apply model pricing and enrichment to owned OTEL events by @sumerman in #19959 feat(evals): support Gemini…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.81.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -12270,6 +12396,14 @@
   "status": "dropped:prerelease",
   "title": "0.170.0-alpha.4"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.1": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-17",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.170.0-alpha.4.1"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.1": {
   "first_seen": "2026-11-13",
   "kind": "release",
@@ -12277,6 +12411,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.171.0-alpha.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.10": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.10"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.11": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-17",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.11"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.2": {
   "first_seen": "2026-11-13",
@@ -12325,6 +12475,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.171.0-alpha.7"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.8": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.8"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.9": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-16",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.9"
  },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
@@ -12844,6 +13010,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.68.0 (2026-11-11)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0": {
+  "first_seen": "2026-11-17",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Fold RequestInput into HandleDeferredToolCalls , whose handler can take a resume token by @DouweM in #13285 Support Gemini 4 Hydrogen ( gemini-4-hydrogen ) on GoogleModel by @dsfaccini in #13299 Generalize response-scoped tool call IDs into the tool_call_ids_are_response_scoped profile flag by @DouweM in #13128 Add service_tier support to GroqModel by…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.69.0 (2026-11-16)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -18750,6 +18925,14 @@
   "status": "passed",
   "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments"
  },
+ "https://huggingface.co/blog/openrouter": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run"
+ },
  "https://huggingface.co/blog/openvino": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -21569,6 +21752,14 @@
   "status": "dropped:keyword",
   "title": "From Working Group to SIG Architecture: spotlight on AI Conformance"
  },
+ "https://kubernetes.io/blog/2026/11/16/ipvs-removal": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "source": "kubernetes-blog",
+  "status": "dropped:keyword",
+  "title": "Scheduling the removal of the kube-proxy IPVS backend"
+ },
  "https://martinfowler.com/articles/2026-dont-like-llms.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -22334,6 +22525,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-06-30",
+  "shown": "2026-11-17",
   "snippet": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
   "source": "openai-engineering",
   "status": "passed",
@@ -22563,6 +22755,15 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Evolved Policy Gradients"
+ },
+ "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+  "source": "openai-research",
+  "status": "passed",
+  "title": "Broadening access to AI for scientists"
  },
  "https://openai.com/index/exploration": {
   "first_seen": "2026-10-05",
@@ -23785,6 +23986,15 @@
   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
   "what": "An OpenAI engineering post detailing how they scaled Habitat with multi‑tenancy and global caching to serve 1 billion ChatGPT users.",
   "why": "Engineers can adopt similar caching, tenancy, and Cosmos DB patterns to boost read performance in their own large‑scale services."
+ },
+ "https://openai.com/index/science-at-the-frontier": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+  "source": "openai-research",
+  "status": "passed",
+  "title": "Science at the Frontier: How scientists use ChatGPT"
  },
  "https://openai.com/index/separating-signal-from-noise-coding-evaluations": {
   "first_seen": "2026-10-05",
@@ -25192,6 +25402,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Constitutional Classifiers: Defending against universal jailbreaks"
+ },
+ "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Updating our coordinated vulnerability disclosure policy timelines"
  },
  "https://www.anthropic.com/research/critical-infrastructure-defense": {
   "first_seen": "2026-10-05",
@@ -27979,6 +28198,16 @@
   "what": "A LangChain Deep Agents demo that analyzes EU macroeconomic data and generates a cited briefing.",
   "why": "It shows how to build an agent that queries multiple sources, processes data, and produces structured reports, offering patterns for similar analytics projects."
  },
+ "https://www.langchain.com/blog/from-tasks-to-goals": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "shown": "2026-11-17",
+  "snippet": "LangChain CEO and Co-founder Harrison Chase shares how we're moving from task-specific agents to goal-focused agents. Learn more.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "From tasks to goals"
+ },
  "https://www.langchain.com/blog/goal-engineering": {
   "first_seen": "2026-11-15",
   "kind": "read",
@@ -29343,6 +29572,15 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "Using skills with Deep Agents"
+ },
+ "https://www.langchain.com/blog/we-rebuilt-langsmith-around-the-agent": {
+  "first_seen": "2026-11-17",
+  "kind": "read",
+  "published": "2026-11-16",
+  "snippet": "We reorganized LangSmith around a single agent record. Build, run, improve, and govern every agent from one place, on any framework or runtime.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Why we rebuilt LangSmith around the agent"
  },
  "https://www.langchain.com/blog/what-is-eval-driven-development": {
   "first_seen": "2026-11-10",
@@ -32405,6 +32643,15 @@
   "status": "passed",
   "title": "Introducing Cowork: Claude Code for the rest of your work"
  },
+ "https://www.youtube.com/watch?v=UCL4K36SHp0": {
+  "first_seen": "2026-11-17",
+  "kind": "watch",
+  "published": "2026-11-16",
+  "snippet": "ArtCraft’s first Photoshop approximation took about 24 hours to build, Brandon Thomas says. At CODE Summit 2026, he explains how Rust and AI coding agents power open source alternatives to Adobe’s creative tools, Microsoft Office and Figma. MCP and CLI automation, Linux support, reusable UI components and CI bottlenecks lead into Autocraft, a forthcoming software factory for issue triage, agentic…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "Let's Open Source the World — Brandon Thomas, ArtCraft"
+ },
  "https://www.youtube.com/watch?v=UDDRhFgAE9Y": {
   "first_seen": "2026-11-12",
   "kind": "watch",
@@ -32591,6 +32838,16 @@
   "title": "Carbon as a First-Class Signal: Designing a Standard for... - Diana Todea, VictoriaMetrics",
   "what": "CNCF talk on designing a carbon signal standard for OpenTelemetry",
   "why": "Not enough technical detail for implementation"
+ },
+ "https://www.youtube.com/watch?v=VpHYPfvfy0o": {
+  "first_seen": "2026-11-17",
+  "kind": "watch",
+  "published": "2026-11-16",
+  "shown": "2026-11-17",
+  "snippet": "David Odomirok, Tony Wu, and Jane Xue of JPMorgan Chase explain Jarvis, which they describe not as a single agent but as an agent-building assembly line, and how, in David's words, the one agent the team took months to build last year now takes minutes. Tony walks through the composable, replaceable skills that make up the line across the software development, agentic development, and production…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Building Jarvis: JPMC’s Agent Building Assembly Line"
  },
  "https://www.youtube.com/watch?v=W5QAf2YrVg0": {
   "first_seen": "2026-10-05",
@@ -33281,6 +33538,16 @@
   "title": "The Lethal Trifecta Is Already on Your Laptops — Michael Patterson, Coder",
   "what": "Video on the risks of coding agents",
   "why": "No actionable guidance for building agents"
+ },
+ "https://www.youtube.com/watch?v=b0v2zCLOdcM": {
+  "first_seen": "2026-11-17",
+  "kind": "watch",
+  "published": "2026-11-16",
+  "shown": "2026-11-17",
+  "snippet": "Den Delimarsky of Anthropic explains how to keep AI agents and the tools they connect to secure, based on two years of running the Model Context Protocol (MCP) in production. If you build MCP servers or clients, or run AI agents that touch your email, sales data, or other accounts, this talk shows which security decisions matter most and why. The talk follows three parts of MCP security: the…",
+  "source": "yt-aaif",
+  "status": "passed",
+  "title": "MCP Security, Two Years In - Den Delimarsky, Anthropic"
  },
  "https://www.youtube.com/watch?v=b3WYldenFUM": {
   "first_seen": "2026-10-31",
@@ -35267,6 +35534,14 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "AI Writes More PRs. Who Validates Them? — Ali-Reza Adl-Tabatabai, Sonar"
+ },
+ "https://www.youtube.com/watch?v=vVVdxMwPBuA": {
+  "first_seen": "2026-11-17",
+  "kind": "watch",
+  "published": "2026-11-16",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity"
  },
  "https://www.youtube.com/watch?v=vYYmZtEZQFg": {
   "first_seen": "2026-10-10",

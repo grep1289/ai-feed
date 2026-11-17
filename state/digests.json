@@ -249,6 +249,13 @@
    "https://huggingface.co/blog/qvac/botpsy",
    "https://www.youtube.com/watch?v=NeV6MSN6zEE",
    "https://www.youtube.com/watch?v=f6OVURAlYXI"
+  ],
+  "2026-11-17": [
+   "https://www.langchain.com/blog/from-tasks-to-goals",
+   "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+   "https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions",
+   "https://www.youtube.com/watch?v=VpHYPfvfy0o",
+   "https://www.youtube.com/watch?v=b0v2zCLOdcM"
   ]
  },
  "rollup": {
@@ -366,7 +373,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0

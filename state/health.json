@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 0,
+  "new": 4,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -84,15 +84,15 @@
   "fetched": 50,
   "id": "kubernetes-blog",
   "name": "Kubernetes Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 907,
+  "fetched": 908,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -108,7 +108,7 @@
   "fetched": 15,
   "id": "yt-aaif",
   "name": "Agentic AI Foundation",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 2,
+  "new": 1,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 2,
+  "new": 1,
   "ok": true
  },
  {
@@ -220,7 +220,7 @@
   "fetched": 10,
   "id": "gh-anthropics-claude-agent-sdk-python",
   "name": "anthropics/claude-agent-sdk-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -228,7 +228,7 @@
   "fetched": 20,
   "id": "gh-anthropics-skills",
   "name": "anthropics/skills",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -236,7 +236,7 @@
   "fetched": 10,
   "id": "gh-openai-openai-agents-python",
   "name": "openai/openai-agents-python",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -244,7 +244,7 @@
   "fetched": 10,
   "id": "gh-openai-codex",
   "name": "openai/codex",
-  "new": 2,
+  "new": 5,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
@@ -292,7 +292,7 @@
   "fetched": 10,
   "id": "gh-pydantic-pydantic-ai",
   "name": "pydantic/pydantic-ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -332,7 +332,7 @@
   "fetched": 10,
   "id": "gh-github-github-mcp-server",
   "name": "github/github-mcp-server",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -364,7 +364,7 @@
   "fetched": 10,
   "id": "gh-langfuse-langfuse",
   "name": "langfuse/langfuse",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 0,
+  "new": 3,
   "ok": true
  },
  {
@@ -393,18 +393,18 @@
  },
  {
   "error": null,
-  "fetched": 199,
+  "fetched": 200,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
   "error": null,
-  "fetched": 205,
+  "fetched": 207,
   "id": "openai-research",
   "name": "OpenAI Research",
-  "new": 0,
+  "new": 2,
   "ok": true
  },
  {
