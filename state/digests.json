@@ -256,6 +256,13 @@
    "https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions",
    "https://www.youtube.com/watch?v=VpHYPfvfy0o",
    "https://www.youtube.com/watch?v=b0v2zCLOdcM"
+  ],
+  "2026-11-18": [
+   "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+   "https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28",
+   "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection",
+   "https://www.youtube.com/watch?v=1kP4dQtUT50",
+   "https://www.youtube.com/watch?v=9tB7ARhlDPQ"
   ]
  },
  "rollup": {
@@ -373,7 +380,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0

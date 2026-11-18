@@ -25,10 +25,10 @@
  },
  {
   "error": null,
-  "fetched": 321,
+  "fetched": 322,
   "id": "claude-blog",
   "name": "Claude Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -36,7 +36,7 @@
   "fetched": 10,
   "id": "google-developers-ai",
   "name": "Google Developers Blog (AI)",
-  "new": 4,
+  "new": 3,
   "ok": true
  },
  {
@@ -60,7 +60,7 @@
   "fetched": 99,
   "id": "langchain-blog",
   "name": "LangChain Blog",
-  "new": 2,
+  "new": 3,
   "ok": true
  },
  {
@@ -76,7 +76,7 @@
   "fetched": 10,
   "id": "cncf-blog",
   "name": "CNCF Blog",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -84,7 +84,7 @@
   "fetched": 50,
   "id": "kubernetes-blog",
   "name": "Kubernetes Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -92,7 +92,7 @@
   "fetched": 908,
   "id": "huggingface-blog",
   "name": "Hugging Face Blog",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -132,7 +132,7 @@
   "fetched": 15,
   "id": "yt-langchain",
   "name": "LangChain",
-  "new": 1,
+  "new": 13,
   "ok": true
  },
  {
@@ -140,7 +140,7 @@
   "fetched": 15,
   "id": "yt-openai",
   "name": "OpenAI",
-  "new": 1,
+  "new": 8,
   "ok": true
  },
  {
@@ -148,7 +148,7 @@
   "fetched": 15,
   "id": "yt-ai-engineer",
   "name": "AI Engineer",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -212,7 +212,7 @@
   "fetched": 10,
   "id": "gh-aaif-goose-goose",
   "name": "aaif-goose/goose",
-  "new": 1,
+  "new": 2,
   "ok": true
  },
  {
@@ -228,7 +228,7 @@
   "fetched": 20,
   "id": "gh-anthropics-skills",
   "name": "anthropics/skills",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -236,7 +236,7 @@
   "fetched": 10,
   "id": "gh-openai-openai-agents-python",
   "name": "openai/openai-agents-python",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -260,7 +260,7 @@
   "fetched": 10,
   "id": "gh-langchain-ai-deepagents",
   "name": "langchain-ai/deepagents",
-  "new": 2,
+  "new": 1,
   "ok": true
  },
  {
@@ -272,12 +272,12 @@
   "ok": true
  },
  {
-  "error": null,
-  "fetched": 10,
+  "error": "HTTP 404",
+  "fetched": 0,
   "id": "gh-microsoft-agent-framework",
   "name": "microsoft/agent-framework",
   "new": 0,
-  "ok": true
+  "ok": false
  },
  {
   "error": null,
@@ -332,7 +332,7 @@
   "fetched": 10,
   "id": "gh-github-github-mcp-server",
   "name": "github/github-mcp-server",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -372,7 +372,7 @@
   "fetched": 10,
   "id": "gh-arize-ai-phoenix",
   "name": "Arize-ai/phoenix",
-  "new": 3,
+  "new": 2,
   "ok": true
  },
  {
@@ -388,7 +388,7 @@
   "fetched": 10,
   "id": "gh-ukgovernmentbeis-inspect_ai",
   "name": "UKGovernmentBEIS/inspect_ai",
-  "new": 0,
+  "new": 1,
   "ok": true
  },
  {
@@ -396,7 +396,7 @@
   "fetched": 200,
   "id": "anthropic-research",
   "name": "Anthropic Research",
-  "new": 1,
+  "new": 0,
   "ok": true
  },
  {
@@ -404,7 +404,7 @@
   "fetched": 207,
   "id": "openai-research",
   "name": "OpenAI Research",
-  "new": 2,
+  "new": 0,
   "ok": true
  },
  {
@@ -420,7 +420,7 @@
   "fetched": 30,
   "id": "martinfowler",
   "name": "martinfowler.com",
-  "new": 0,
+  "new": 1,
   "ok": true
  }
 ]

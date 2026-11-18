@@ -395,6 +395,7 @@
   "first_seen": "2026-10-05",
   "kind": "read",
   "published": "2026-06-29",
+  "shown": "2026-11-18",
   "snippet": "Beta releases of the Python, TypeScript, Go, and C# SDKs are now available with support for the 2026-07-28 MCP specification release candidate. Here is what changes for your server, how to migrate, and how to test before the spec goes final on July 28.",
   "source": "mcp-blog",
   "status": "passed",
@@ -4211,6 +4212,14 @@
   "status": "dropped:category",
   "title": "What are the key benefits of transitioning to agentic coding for software development?"
  },
+ "https://claude.com/resources/articles/linked-billing-on-claude-platform": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Linked billing on the Claude Platform"
+ },
  "https://claude.com/resources/articles/making-claude-a-better-electrical-engineer": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -5030,6 +5039,14 @@
   "status": "passed",
   "title": "A2UI 1.0: Build delightful, fast, reliable, agentic experiences"
  },
+ "https://developers.googleblog.com/accelerating-development-for-massive-git-repositories": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Accelerating development for massive Git repositories"
+ },
  "https://developers.googleblog.com/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -5148,6 +5165,14 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer"
+ },
+ "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Build full-stack Android apps with Gemini in Google AI Studio"
  },
  "https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents": {
   "first_seen": "2026-10-30",
@@ -5286,6 +5311,14 @@
   "status": "dropped:keyword",
   "title": "Gemini 4 Argon for Robotics"
  },
+ "https://developers.googleblog.com/gemini-hydrogen-for-robotics": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "google-developers-ai",
+  "status": "dropped:keyword",
+  "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics"
+ },
  "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2": {
   "first_seen": "2026-10-07",
   "kind": "read",
@@ -5417,6 +5450,7 @@
   "first_seen": "2026-11-17",
   "kind": "read",
   "published": "2026-11-16",
+  "shown": "2026-11-18",
   "snippet": "This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and configure proactive alerts using Cloud Monitoring and Security Command Center.",
   "source": "google-developers-ai",
   "status": "passed",
@@ -6264,6 +6298,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-cli@1.22.1"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-cli%401.23.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "Minor Changes 5160fd5 : Add px prompt tag <prompt-version-id> --tag <name> [--description <text>] to create a prompt version tag or move an existing one. Omitting --description clears the tag's existing description.",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-cli@1.23.0"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-client%407.15.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6769,6 +6812,15 @@
   "status": "passed",
   "title": "arize-phoenix: v21.1.0"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v21.2.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "21.2.0 (2026-11-18) Features cli: add prompt tag command ( #17759 ) ( 5160fd5 ) Bug Fixes evaluators: run LLM evaluators on Anthropic prompts with extended thinking ( #17734 ) ( 593a776 ) factory: pin commits and screen inputs before agent sessions ( #17811 ) ( 7d3a245 ) factory: send a user agent Railway accepts from the preview deploy script ( #18007 ) ( a94d129 ) factory: stop mentioning the…",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v21.2.0"
+ },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6984,6 +7036,15 @@
   "source": "gh-ukgovernmentbeis-inspect_ai",
   "status": "passed",
   "title": "v0.3.290"
+ },
+ "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.291": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "0.3.291 (2026-11-17) Features count samples of a finished log as failures with an empty-attempt run and inspect log zero ( #6579 ) ( 7e056a2 ) eval-set selection workers can run their tasks with empty_attempt() for zero_samples() ( #6605 ) ( 2dada81 ) exclude samples of a finished log from its metrics, from Python or inspect log exclude ( #6543 ) ( dcb464f ) hf: option to ignore a model…",
+  "source": "gh-ukgovernmentbeis-inspect_ai",
+  "status": "passed",
+  "title": "v0.3.291"
  },
  "https://github.com/a2aproject/A2A/releases/tag/v0.2.1": {
   "first_seen": "2026-10-05",
@@ -7281,6 +7342,24 @@
   "source": "gh-aaif-goose-goose",
   "status": "passed",
   "title": "v1.59.2"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.60.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "✨ Features SkillOperation and drop the Skills extension #13574 Executable commands and SlashCommandOperation in oi-kit #13533 Bang command operation in oi-kit #13535 Steering operation in oi-kit #13502 Dutch (nl) translation #13240 Cortecs declarative provider #12617 Onysoft declarative provider #13582 Reusable turn limits in GDK #13194 🐛 Bug Fixes Restore AGENT and GOOSE_TERMINAL in developer…",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.60.0"
+ },
+ "https://github.com/aaif-goose/goose/releases/tag/v1.60.1": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "🐛 Bug Fixes Compaction: drop the <analysis> scratchpad that Claude models refuse #13572",
+  "source": "gh-aaif-goose-goose",
+  "status": "passed",
+  "title": "v1.60.1"
  },
  "https://github.com/agentgateway/agentgateway/releases/tag/v1.4.0": {
   "first_seen": "2026-10-05",
@@ -7840,6 +7919,15 @@
   "source": "gh-anthropics-claude-agent-sdk-python",
   "status": "passed",
   "title": "v0.2.183"
+ },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.184": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.184/ pip install claude-agent-sdk==0.2.184",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.184"
  },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
@@ -9702,6 +9790,15 @@
   "status": "passed",
   "title": "deepagents-code==0.2.1"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.10": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "Features Report agent status to terminals using OSC 7501 ( #7772 ). Bug Fixes Load MCP trust lists without blocking the server event loop ( #7798 ). Show a working upgrade command in the ACP import error message ( #7780 ). Full changelog Internal maintainers: Dariel Dato-on (@darieldatoon) , Hunter Lovell (@hntrl) , Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.10"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.2": {
   "first_seen": "2026-10-27",
   "kind": "release",
@@ -10753,6 +10850,15 @@
   "source": "gh-langfuse-langfuse",
   "status": "passed",
   "title": "v4.81.0"
+ },
+ "https://github.com/langfuse/langfuse/releases/tag/v4.82.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "What's Changed Features feat(cloud): gate legacy v3 surfaces behind cutoff switches by @maxdeichmann in #20054 feat(api-keys): add Developer preset and rename Ingestion to Application by @marksalpeter in #20201 feat(native): normalize provider usage and supplied costs by @sumerman in #19962 feat(web): split the v4 banner into brownout and extended-deadline copy by @maxdeichmann in #20320…",
+  "source": "gh-langfuse-langfuse",
+  "status": "passed",
+  "title": "v4.82.0"
  },
  "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0": {
   "first_seen": "2026-10-05",
@@ -12364,6 +12470,24 @@
   "status": "dropped:prerelease",
   "title": "0.169.0-alpha.9"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.169.1": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "snippet": "Chores No verified release highlights available. Changelog Full Changelog: rust-v0.169.0...rust-v0.169.1",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.169.1"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.170.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "New Features Added WebRTC negotiation for realtime voice calls in the TUI. ( #61172 ) Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. ( #61028 ) Added experimental support for using identically named MCP servers across environments. ( #60905 ) Bug Fixes Oversized WebSocket requests now fall back to HTTP without unnecessary retries. ( #60840 , #60841 ) Fixed…",
+  "source": "gh-openai-codex",
+  "status": "passed",
+  "title": "0.170.0"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1": {
   "first_seen": "2026-11-12",
   "kind": "release",
@@ -12404,6 +12528,14 @@
   "status": "dropped:prerelease",
   "title": "0.170.0-alpha.4.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.2": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.170.0-alpha.4.2"
+ },
  "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.1": {
   "first_seen": "2026-11-13",
   "kind": "release",
@@ -12427,6 +12559,22 @@
   "source": "gh-openai-codex",
   "status": "dropped:prerelease",
   "title": "0.171.0-alpha.11"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-17",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.12"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.171.0-alpha.13"
  },
  "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.2": {
   "first_seen": "2026-11-13",
@@ -12614,6 +12762,15 @@
   "source": "gh-openai-openai-agents-python",
   "status": "dropped:prerelease",
   "title": "Agents SDK v0.24.0-alpha.8"
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v0.25.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "0.25.0 (2026-11-17) Features expose utilities for third-party session adapters ( #5428 ) ( 16fdb20 ) sandbox: remove Runloop provider ( #5369 ) ( 12ce34d ) Bug Fixes avoid loading workspace startup files during internal sandbox operations ( #5406 ) ( 841dfdd ) preserve nested ToolContext approval decisions across resume ( #5633 ) ( c200ae8 ) avoid repeatedly fingerprinting completed tool calls (…",
+  "source": "gh-openai-openai-agents-python",
+  "status": "passed",
+  "title": "v0.25.0"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/0.121.17": {
   "first_seen": "2026-10-05",
@@ -13019,6 +13176,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.69.0 (2026-11-16)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0": {
+  "first_seen": "2026-11-18",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "What's Changed 🛡️ Security GHSA-m4cr-m4qc-9hh3 (high): With strip_ansi=True , Pydantic AI Harness's ToolOutputLimits capability removed ANSI escape sequences with a pattern that took time quadratic in the length of a line, so a tool result of a few hundred kilobytes with many unterminated escape sequences could occupy the event loop for tens of seconds to minutes. You are affected if you set…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.70.0 (2026-11-17)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -21816,6 +21982,15 @@
   "status": "passed",
   "title": "The Data Product Platform Navigator"
  },
+ "https://martinfowler.com/articles/deterministic-simulation-testing.html": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "snippet": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop. This allows simulating both hard failures…",
+  "source": "martinfowler",
+  "status": "passed",
+  "title": "Deterministic Simulation Testing"
+ },
  "https://martinfowler.com/articles/durable-execution-agents.html": {
   "first_seen": "2026-11-11",
   "kind": "read",
@@ -27450,6 +27625,14 @@
   "status": "dropped:keyword",
   "title": "Gang scheduling and topology-aware placement for AI training in Kubernetes"
  },
+ "https://www.cncf.io/blog/2026/11/17/is-your-opentelemetry-pipeline-becoming-a-performance-bottleneck": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Is your OpenTelemetry pipeline becoming a performance bottleneck?"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -28368,6 +28551,16 @@
   "what": "A LangChain blog post showing how to implement a model routing layer in the Harness platform to cut coding task costs by 64%",
   "why": "It gives a concrete, open‑source guided implementation that engineers can adapt to reduce costs and improve routing in their own agent workflows"
  },
+ "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-18",
+  "shown": "2026-11-18",
+  "snippet": "Learn how to choose a secure sandbox for AI agents, with guidance on filesystem isolation, network access, resource limits, and microVMs.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "How to Choose the Right Sandbox for AI Agents"
+ },
  "https://www.langchain.com/blog/how-to-design-an-agent-for-production": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -29264,6 +29457,15 @@
   "status": "passed",
   "title": "Promptim: an experimental library for prompt optimization"
  },
+ "https://www.langchain.com/blog/protect-sensitive-data-in-your-traces-new-controls-in-langsmith": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "snippet": "New controls are now in LangSmith to help teams manage access to sensitive trace data. Learn more.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Protect sensitive data in your traces: new controls in LangSmith"
+ },
  "https://www.langchain.com/blog/proving-the-roi-of-agentic-ai-in-financial-services": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -29592,6 +29794,15 @@
   "status": "passed",
   "title": "What Is Eval-Driven Development? How to Improve AI Agents"
  },
+ "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents": {
+  "first_seen": "2026-11-18",
+  "kind": "read",
+  "published": "2026-11-17",
+  "snippet": "Proactive agents work toward goals in the background and check in when they need you. What we've learned about memory and UX from building GTM Agent and Robin.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "What We’ve Learned Building Proactive Agents"
+ },
  "https://www.langchain.com/blog/wiki-memory": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -29769,6 +29980,15 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "You need a better headshot."
+ },
+ "https://www.youtube.com/watch?v=-O0tMcyH4Wo": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
+  "source": "yt-openai",
+  "status": "passed",
+  "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol"
  },
  "https://www.youtube.com/watch?v=-mWWsvv19jE": {
   "first_seen": "2026-10-05",
@@ -29951,6 +30171,16 @@
   "title": "Introducing LangSmith Trajectories: A readable view of every agent session",
   "what": "Launch announcement of LangSmith Trajectories feature",
   "why": "This is a product feature introduction with no actionable technical content for immediate implementation."
+ },
+ "https://www.youtube.com/watch?v=1kP4dQtUT50": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "shown": "2026-11-18",
+  "snippet": "**Most AI agents ship on a hunch: someone runs a few prompts, decides the answers look fine, and releases it. Laurie Voss, Head of Developer Relations at Arize AI and co-founder of NPM Inc., shows how to replace that guesswork with agent evals: repeatable tests that return real numbers on whether your agent got better or worse, and whether a new model is worth switching to.** What this talk…",
+  "source": "yt-aaif",
+  "status": "passed",
+  "title": "Stop Vibe-Testing: Run Real Agent Evals - Laurie Voss, Arize AI"
  },
  "https://www.youtube.com/watch?v=1p53CW8ZoZU": {
   "first_seen": "2026-11-13",
@@ -30743,6 +30973,15 @@
   "status": "dropped:keyword",
   "title": "Get Stuff Done with ChatGPT Voice"
  },
+ "https://www.youtube.com/watch?v=9RKrSF9d2SE": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "Simon Willison used AI coding agents to locate a beeping detector buried in 40 boxes. At CODE Summit 2026, the Datasette creator traces three LLM inflection points: reliable coding agents, persistent problem solving and vibe coded game development. Pelican benchmarks, prompt injection and rogue agents frame a broader question about developer productivity: why does software engineering still feel…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "2026 in LLMs — Simon Willison, Datasette"
+ },
  "https://www.youtube.com/watch?v=9WiBJRO84yY": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -30786,6 +31025,16 @@
   "title": "Agent Memory Is Solved. Agent Learning Isn't. — Karthik Ranganathan, Yugabyte",
   "what": "A keynote discussing shared learning challenges among agents.",
   "why": "Provides high‑level insights but no actionable code or open‑source guidance."
+ },
+ "https://www.youtube.com/watch?v=9tB7ARhlDPQ": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "shown": "2026-11-18",
+  "snippet": "An experiment runs your agent over every example in a dataset and scores the results with your evaluators. In this lesson we run a baseline experiment on the LangSlice pizza agent with the LangSmith SDK and read the evaluator's comments on the orders that let out-of-stock toppings through. Then we add a stock check to add_pizza_to_order and run the experiment again. The comparison view lines the…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Experiments | Introduction to LangSmith (5/12)"
  },
  "https://www.youtube.com/watch?v=ATMcd9tkhhc": {
   "first_seen": "2026-11-10",
@@ -30911,6 +31160,14 @@
   "title": "300 Agents, 60 People: How We Secured Our Own AI Agents - Aiden Sochowski, Runlayer",
   "what": "Runlayer’s internal audit of 300+ AI agents and lessons from a custom gateway and logging system",
   "why": "Provides concrete agent‑security tactics and observability patterns that an engineer can adopt in their own production environment"
+ },
+ "https://www.youtube.com/watch?v=C1zYX5jwqq4": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world"
  },
  "https://www.youtube.com/watch?v=C2vdw5GSTQo": {
   "first_seen": "2026-10-29",
@@ -31297,6 +31554,15 @@
   "what": "A LangChain video announcing and outlining the new LangSmith Engine v2 for agent debugging",
   "why": "It gives a high‑level view of the tool but offers little actionable detail for a developer to replicate or use outside the product"
  },
+ "https://www.youtube.com/watch?v=GPf7f8ZgYjs": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "A trace records a run that already happened, so it can't tell you what the agent would have done if a tool had behaved correctly. LangGraph Studio can. In this lesson we reproduce the LangSlice out-of-stock bug, edit the add_pizza_to_order result at its checkpoint to the rejection it should have returned, and fork the run from there. With that one value changed, the agent tells the customer…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Debugging with Studio | Introduction to LangSmith (3/12)"
+ },
  "https://www.youtube.com/watch?v=Gs4Ho0ub3a4": {
   "first_seen": "2026-11-10",
   "kind": "watch",
@@ -31350,6 +31616,15 @@
   "source": "yt-ai-engineer",
   "status": "dropped:keyword",
   "title": "Let Anyone at Your Company Ship Internal Apps with AI — Garrett Galow, WorkOS"
+ },
+ "https://www.youtube.com/watch?v=HVXydoGAWsQ": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "An evaluator answers a question you can write down as a score. Insights is for questions about categories you don't know yet, such as what customers talk about when they're upset. In this lesson we run an Insights report on the LangSlice traces with the auto flow and ask how customers engage with the agent. The report groups conversations into categories, each with the share of traces it covers.…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Insights | Introduction to LangSmith (9/12)"
  },
  "https://www.youtube.com/watch?v=I2LL_wd89-A": {
   "first_seen": "2026-10-05",
@@ -31425,6 +31700,15 @@
   "title": "Agent-to-Agent Systems",
   "what": "Promotional video for an upcoming AGNTCon + MCPCon event",
   "why": "No actionable technical content for building or operating agents"
+ },
+ "https://www.youtube.com/watch?v=IPh9YsWvDQk": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "An internal video app lets Codex edit footage in DaVinci Resolve and return a cut for review. OpenAI’s Dominik Kundel and Charlie Guo demonstrate connected agent workflows at CODE Summit 2026, from context gathering with plugins, Appshots and ChatGPT Space to fast UI iteration, Codex Cloud and ChatGPT Sites. Voice, Dots, code review and parallel agents show how the pieces fit into everyday work.…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "New Ways of Working with Codex — Dominik Kundel & Charlie Guo, OpenAI"
  },
  "https://www.youtube.com/watch?v=IYLQQl2enkc": {
   "first_seen": "2026-11-13",
@@ -31727,6 +32011,15 @@
   "source": "yt-cncf",
   "status": "dropped:keyword",
   "title": "Pods in the Wild: Reinforcement Learning... Sunil Arora, Google & Ravin Kumar, Google Deepmind (ASL)"
+ },
+ "https://www.youtube.com/watch?v=LfdGwdUhGW4": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "An LLM judge that has never been checked against human labels can be confidently wrong at scale. In this lesson we label the LangSlice threads in an annotation queue by hand and compare our labels with the sentiment evaluator's. Two customers stayed polite while leaving without what they came for, and the judge scored both as positive. Adding an outcome section to the rubric fixes it. The same…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Annotation Queues | Introduction to LangSmith (8/12)"
  },
  "https://www.youtube.com/watch?v=LfsbC9CayA8": {
   "first_seen": "2026-10-05",
@@ -32397,6 +32690,14 @@
   "what": "A CNCF talk where Netflix engineers explain how they use gRPC to achieve resilience at scale.",
   "why": "Readers can apply Netflix’s gRPC‑based resilience patterns to build more robust, cloud‑native services."
  },
+ "https://www.youtube.com/watch?v=R_sl8zEp9ng": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "source": "yt-openai",
+  "status": "dropped:title_rule",
+  "title": "How one engineer built a code review service with Codex | Revolut’s Dmitry Pitik"
+ },
  "https://www.youtube.com/watch?v=RmvmYqeQWwg": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -32615,6 +32916,15 @@
   "title": "Small Models, Big Results: Training a Finance Agent for Under $500 — Charles Dickens, Snorkel AI",
   "what": "A talk by Charles Dickens showing how a 4‑billion‑parameter finance agent trained with RL cost under $500 and outperformed a 235‑billion‑parameter sibling.",
   "why": "It reveals practical RL, dataset curation, and infrastructure tricks that an engineering lead can replicate with open‑source tools this month."
+ },
+ "https://www.youtube.com/watch?v=TyxwaLr89V4": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "Forking one run in Studio showed how the out-of-stock bug works, but one run can't tell you how often it happens across all the ways customers ask for a pizza. This lesson starts the Test stage by turning LangSlice traces into a LangSmith dataset and writing an evaluator that checks every topping on an order against the ingredient catalog. You'll use a tree filter to pull every trace that added a…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Datasets and Offline Evaluations | Introduction to LangSmith (4/12)"
  },
  "https://www.youtube.com/watch?v=U1IVZy9FhVQ": {
   "first_seen": "2026-11-12",
@@ -33067,6 +33377,24 @@
   "status": "passed",
   "title": "What Your Coding Agent Can't See in the Code - Tom Moor, Linear"
  },
+ "https://www.youtube.com/watch?v=Y6Gi_gYnOAo": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "In the Test stage, we only learned customers were upset because the LangSlice staff told us. This lesson starts the Monitor stage by scoring sentiment directly from what customers write, as each conversation comes in. We build an LLM-as-judge evaluator that scores whole threads from their human-AI message pairs, so the judge reads the conversation without the tool calls. An automation then routes…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Online Evals and Automations | Introduction to LangSmith (7/12)"
+ },
+ "https://www.youtube.com/watch?v=Y8fW5LLvw10": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "A traditional program fails with a stack trace pointing at the line that broke. An agent can return a reasonable answer after choosing the wrong tools along the way, and nothing in the reply shows it. This first lesson of LangSmith Essentials explains why agents need a process that keeps improving them after they ship, the Agent Development Lifecycle (ADLC), and how the course maps each stage…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "LangSmith Overview | Introduction to LangSmith (1/12)"
+ },
  "https://www.youtube.com/watch?v=Y9Wz2PV404E": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -33224,6 +33552,15 @@
   "what": "A YouTube talk on the fragility of one-line data model changes and how to detect their blast radius.",
   "why": "It provides anecdotal insight but no actionable guidance for the reader to build or operate agents or open‑source tools."
  },
+ "https://www.youtube.com/watch?v=Z12YkD3lZc0": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "Production traces show engineers how an agent behaved, but their inputs and outputs often hold sensitive customer data such as health or payment details. LangSmith's new access controls let admins restrict who can see trace inputs and outputs, so engineers can keep debugging from the run tree and performance stats without seeing that data. Admins can also give user groups their own access…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Control Who Sees Sensitive Trace Data in LangSmith"
+ },
  "https://www.youtube.com/watch?v=Z9k5oI3Paoc": {
   "first_seen": "2026-11-12",
   "kind": "watch",
@@ -33231,6 +33568,15 @@
   "source": "yt-openai",
   "status": "dropped:keyword",
   "title": "Introducing Businesses in ChatGPT in beta"
+ },
+ "https://www.youtube.com/watch?v=ZIpm-0RczCk": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer.…",
+  "source": "yt-openai",
+  "status": "passed",
+  "title": "How Revolut’s lean teams take on bigger challenges with OpenAI"
  },
  "https://www.youtube.com/watch?v=ZOja64lxa5Y": {
   "first_seen": "2026-11-01",
@@ -33332,6 +33678,15 @@
   "source": "yt-aaif",
   "status": "dropped:title_rule",
   "title": "AGNTCon + MCPCon Japan 2026 Highlights | Tokyo’s First Production Agentic AI Summit"
+ },
+ "https://www.youtube.com/watch?v=_5ZDkWP8K0c": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "Every step of the loop so far was done by hand, and that gets slower as tens of traces become thousands. LangSmith Engine automates the ADLC. It clusters your traces into a short list of agent issues and drafts fixes as pull requests against your codebase. For each issue it also writes dataset examples, with assertions about the agent's behavior as reference outputs. Run on the LangSlice project,…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Automating the ADLC with Engine | Introduction to LangSmith (12/12)"
  },
  "https://www.youtube.com/watch?v=_7P580m4kPY": {
   "first_seen": "2026-11-12",
@@ -33936,6 +34291,15 @@
   "what": "Live conference session featuring industry talks on agentic AI and the Model Context Protocol",
   "why": "It provides no actionable guidance or technical details for immediate implementation"
  },
+ "https://www.youtube.com/watch?v=eOGuaxHR2sI": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "An agent's reply shows what it said and hides the tool calls behind it. This lesson turns on LangSmith tracing for the LangSlice pizza agent, loads a batch of recorded customer conversations, and uses the trace views to find a bug the output never shows. The add_pizza_to_order tool sees that pineapple is out of stock and adds it to the order anyway, with no error raised. For agents built on…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "What is Tracing? | Introduction to LangSmith (2/12)"
+ },
  "https://www.youtube.com/watch?v=eXA2tjRZIbY": {
   "first_seen": "2026-10-07",
   "kind": "watch",
@@ -33952,6 +34316,15 @@
   "title": "The 6 Pillars of an Agentic Harness for Production — Varun Krovvidi, Resolve AI",
   "what": "A marketing video about the challenges of deploying AI code in production.",
   "why": "It offers no actionable technical guidance or open-source tools for the reader to apply."
+ },
+ "https://www.youtube.com/watch?v=eg5O6q9H84I": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "In the Monitor stage, five LangSmith features worked together to surface the LangSlice agent's second bug. The confirm_order tool checks the delivery minimum against the sides and ignores the pizzas. This short lesson lays out how that chain fit together and what fixing the bug looks like. Fixing it sends us back to the Test stage. The confirmed threads in the annotation queue and the delivery…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Closing the Loop | Introduction to LangSmith (11/12)"
  },
  "https://www.youtube.com/watch?v=enPbh_A5F7E": {
   "first_seen": "2026-10-10",
@@ -34167,6 +34540,15 @@
   "title": "Why Are We Still Governing AI Agents Like Software? - Tim Tyler, Gravitee",
   "what": "Tim Tyler discusses governance frameworks for AI agents in a YouTube talk.",
   "why": "The video does not provide actionable techniques, code, or open-source tools for the reader to implement."
+ },
+ "https://www.youtube.com/watch?v=hAASMPKkaXA": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/",
+  "source": "yt-openai",
+  "status": "passed",
+  "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov"
  },
  "https://www.youtube.com/watch?v=hFNbPmzzcEs": {
   "first_seen": "2026-11-12",
@@ -34488,6 +34870,15 @@
   "status": "dropped:keyword",
   "title": "How Ericsson Combines Human Judgment to Enhance AI-Powered... - Damien O'Toole & Kieran Egan"
  },
+ "https://www.youtube.com/watch?v=jZLy4WjTNII": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "The dev server we've used so far keeps state in memory and ties each run to the request that started it, which breaks once real customers arrive. A LangSmith deployment stores checkpoints in Postgres and puts runs on a queue, so a run survives a dropped connection. We compare langgraph dev with langgraph up, which runs the full Agent Server locally in Docker, and langgraph deploy, which hands it…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Deployments | Introduction to LangSmith (6/12)"
+ },
  "https://www.youtube.com/watch?v=jc3kbZkuHTo": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -34621,6 +35012,15 @@
   "title": "Evaluating Agents in Production: Traces, LLM-as-Judge, and Prompt Management at Wonder",
   "what": "A LangChain engineer explains how Wonder uses LangSmith traces, evaluators, and LLM-as-Judge to monitor and improve their meal-planning agent, including prompt management techniques.",
   "why": "The reader can learn practical observability patterns, evaluation workflows, and prompt tuning strategies to apply to their own agent-based production systems."
+ },
+ "https://www.youtube.com/watch?v=keMWUys2BMs": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "Everything we found in the Monitor stage so far came from going looking for it. Dashboards chart how the agent behaves over time, and alerts tell you when a metric crosses a line you set. This lesson starts with the dashboard every LangSmith tracing project comes with, then builds a custom chart of average sentiment from the online evaluator. We finish with an alert that fires when average…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Dashboards and Alerts | Introduction to LangSmith (10/12)"
  },
  "https://www.youtube.com/watch?v=kfqmqnnf85g": {
   "first_seen": "2026-11-10",
@@ -35039,6 +35439,14 @@
   "what": "LangChain introduces a CLI tool that converts LangSmith agent traces into fine-tuned models via a single workflow.",
   "why": "Engineers can quickly build and evaluate custom models from agent logs, integrating the process into their own pipelines."
  },
+ "https://www.youtube.com/watch?v=pmOJIq7Ah00": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Introducing ChatGPT for Sales"
+ },
  "https://www.youtube.com/watch?v=pyvRID_CZZU": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -35351,6 +35759,15 @@
   "title": "What is LangChain Managed Deep Agents?",
   "what": "N/A",
   "why": "N/A"
+ },
+ "https://www.youtube.com/watch?v=tKoDPOrLMX0": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "snippet": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
+  "source": "yt-openai",
+  "status": "passed",
+  "title": "Building 3D video sets with GPT-6.2 Astra"
  },
  "https://www.youtube.com/watch?v=tMysfz8eF44": {
   "first_seen": "2026-10-22",
@@ -35795,6 +36212,14 @@
   "title": "Exploits Now Beat Patches: Open Source Security in the AI Era - Patrick Smyth, Chainguard",
   "what": "Patrick Smyth discusses AI‑assisted attacks and supply‑chain malware trends",
   "why": "It raises awareness of new threat vectors but offers limited actionable guidance for engineering leads"
+ },
+ "https://www.youtube.com/watch?v=xkeXefmxArU": {
+  "first_seen": "2026-11-18",
+  "kind": "watch",
+  "published": "2026-11-17",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Making marketing feel local across 40 markets | Revolut’s Kim Maniovich"
  },
  "https://www.youtube.com/watch?v=xrJNo1UlhNs": {
   "first_seen": "2026-10-29",
