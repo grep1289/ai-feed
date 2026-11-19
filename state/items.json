@@ -4908,6 +4908,14 @@
   "status": "dropped:category",
   "title": "Building with Claude Sonnet 5.5"
  },
+ "https://claude.dev/blog/chaos-loop-claude-docs-launch": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "Using a \"chaos loop\" to harden the Claude Docs launch: 60 server errors across billions of requests"
+ },
  "https://claude.dev/blog/claude-code-in-the-cloud": {
   "first_seen": "2026-10-08",
   "kind": "read",
@@ -4931,6 +4939,14 @@
   "source": "claude-blog",
   "status": "dropped:category",
   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code"
+ },
+ "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-16",
+  "source": "claude-blog",
+  "status": "dropped:category",
+  "title": "How the Claude Code team thinks about verification"
  },
  "https://claude.dev/blog/how-we-made-claude-ai-faster": {
   "first_seen": "2026-10-07",
@@ -6435,6 +6451,15 @@
   "status": "passed",
   "title": "@arizeai/phoenix-evals@2.7.1"
  },
+ "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-evals%402.8.0": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "Minor Changes d03cfdc : Support the Gemini Decisions API ( gemini-decision-1 ) in classification evaluators. Pass google.decisionModel(\"gemini-decision-1\") as the model to createClassificationEvaluator or any built-in. Requires @ai-sdk/google >= 4.0.118.",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "@arizeai/phoenix-evals@2.8.0"
+ },
  "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai%2Fphoenix-mcp%404.3.14": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -6820,6 +6845,15 @@
   "source": "gh-arize-ai-phoenix",
   "status": "passed",
   "title": "arize-phoenix: v21.2.0"
+ },
+ "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v21.2.1": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "21.2.1 (2026-11-19) Documentation add Phoenix release notes ( #18036 ) ( ed6f1d7 ) skills: teach phoenix-harbor to build Harbor tasks and verifiers you can trust ( #17821 ) ( 77fe4b4 )",
+  "source": "gh-arize-ai-phoenix",
+  "status": "passed",
+  "title": "arize-phoenix: v21.2.1"
  },
  "https://github.com/UKGovernmentBEIS/inspect_ai/releases/tag/0.3.266": {
   "first_seen": "2026-10-05",
@@ -7929,6 +7963,15 @@
   "status": "passed",
   "title": "v0.2.184"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.185": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.185/ pip install claude-agent-sdk==0.2.185",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.185"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -8567,6 +8610,24 @@
   "source": "gh-crewaiinc-crewai",
   "status": "passed",
   "title": "1.15.41"
+ },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.42": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "What's Changed Features Make ChromaDB an optional extra Default Knowledge to local Qdrant and decouple storage from ChromaDB Pick tools for standalone agents and add them later Bug Fixes Store output_json values as JSON to prevent date issues in .json and output_file Give each Flow its own ID from an initial_state instance Honor max_execution_time without waiting for the worker Save task outputs…",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.42"
+ },
+ "https://github.com/crewAIInc/crewAI/releases/tag/1.15.43": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "What's Changed Bug Fixes Fix detection of multimodal support for Claude 5. Documentation Update snapshot and changelog for v1.15.42. Contributors Vidit Ostwal (@Vidit-Ostwal) , Anubhav Lal (@anubhavlal07) , João Moura (@joaomdmoura)",
+  "source": "gh-crewaiinc-crewai",
+  "status": "passed",
+  "title": "1.15.43"
  },
  "https://github.com/github/github-mcp-server/releases/tag/latest-release": {
   "first_seen": "2026-10-05",
@@ -9646,6 +9707,15 @@
   "status": "passed",
   "title": "deepagents==0.7.39"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.40": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "Bug Fixes Preserve output from timed-out shell commands. ( #6349 ) Clean up cancelled shell commands. ( #5907 ) Avoid warning-filter race conditions in warn_deprecated . ( #7749 ) Performance Improvements Discover profile plugins in a single entry-point scan. ( #7755 ) Full changelog Internal maintainers: Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents==0.7.40"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.0.13": {
   "first_seen": "2026-10-13",
   "kind": "release",
@@ -9798,6 +9868,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-code==0.2.10"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.11": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "Bug Fixes Honor MCP hook approval policies ( #7766 ). Wait for background worker cleanup to complete during shutdown ( #7810 ). Full changelog Internal maintainers: Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since deepagents-code==0.2.10 This commit history includes changes to this package. The most recent commit is at the top; older commits follow below. d61bf11…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.11"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.2": {
   "first_seen": "2026-10-27",
@@ -10069,6 +10148,15 @@
   "status": "passed",
   "title": "langgraph==1.2.22"
  },
+ "https://github.com/langchain-ai/langgraph/releases/tag/1.2.23": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "Changes since 1.2.22 release(langgraph): 1.2.23 ( #9742 ) release(prebuilt): 1.1.3 ( #9741 ) fix(langgraph,prebuilt): give Send-dispatched tool calls the same state as an edge ( #9728 ) chore(deps): bump opentelemetry-api from 1.45.1 to 1.45.2 in /libs/langgraph ( #9696 ) fix(langgraph): avoid warning races in dynamic schemas ( #9716 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph==1.2.23"
+ },
  "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10301,6 +10389,15 @@
   "source": "gh-langchain-ai-langgraph",
   "status": "passed",
   "title": "langgraph-prebuilt==1.1.2"
+ },
+ "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "Changes since prebuilt==1.1.2 release(prebuilt): 1.1.3 ( #9741 ) fix(langgraph,prebuilt): give Send-dispatched tool calls the same state as an edge ( #9728 ) fix(prebuilt): make wrap_tool_call state overrides reach the tool ( #9730 )",
+  "source": "gh-langchain-ai-langgraph",
+  "status": "passed",
+  "title": "langgraph-prebuilt==1.1.3"
  },
  "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10": {
   "first_seen": "2026-10-27",
@@ -12640,6 +12737,14 @@
   "status": "dropped:prerelease",
   "title": "0.171.0-alpha.9"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.1": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-18",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.172.0-alpha.1"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -12889,6 +12994,15 @@
   "status": "passed",
   "title": "0.125.1"
  },
+ "https://github.com/promptfoo/promptfoo/releases/tag/0.126.0": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "0.126.0 (2026-11-18) Before upgrading Derived metrics. Check string formulas in derivedMetrics . Arithmetic, comparisons, ternaries and score names such as __count still work. Function calls, property access, assignments and formulas longer than 1,024 characters now stop the evaluation before any test cases run. For example, replace max(a, b) with a > b ? a : b . For more complex logic, use a…",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "0.126.0"
+ },
  "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.0": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -12915,6 +13029,15 @@
   "source": "gh-promptfoo-promptfoo",
   "status": "passed",
   "title": "code-scan-action: 0.2.2"
+ },
+ "https://github.com/promptfoo/promptfoo/releases/tag/code-scan-action-0.2.3": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-18",
+  "snippet": "0.2.3 (2026-11-18) Changes Full-repository scans use the patched filesystem MCP server 2.3.0 and can share eligible committed text files from the compared revision with the hosted scanner. Working-tree changes and untracked files stay outside that snapshot. Set diffsOnly: true in the scan configuration to share only the Git diff. The action runs the scanner with its bundled Node.js 24 runtime.…",
+  "source": "gh-promptfoo-promptfoo",
+  "status": "passed",
+  "title": "code-scan-action: 0.2.3"
  },
  "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding": {
   "first_seen": "2026-10-06",
@@ -13185,6 +13308,15 @@
   "source": "gh-pydantic-pydantic-ai",
   "status": "passed",
   "title": "v2.70.0 (2026-11-17)"
+ },
+ "https://github.com/pydantic/pydantic-ai/releases/tag/v2.71.0": {
+  "first_seen": "2026-11-19",
+  "kind": "release",
+  "published": "2026-11-19",
+  "snippet": "What's Changed ⚠️ Compatibility Notes Let Peers(network) join an InMemoryPeerNetwork under the agent's name , and rename PeerNetwork to PeerConnection by @dsfaccini in #13777 Add StavProvider for the Stav European inference gateway by @bwentzel in #12750 Add Otari as an OpenAI-compatible gateway provider by @tbille in #13584 Add auth to StackOne , deprecating api_key , to match the other hosted…",
+  "source": "gh-pydantic-pydantic-ai",
+  "status": "passed",
+  "title": "v2.71.0 (2026-11-18)"
  },
  "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.1.2": {
   "first_seen": "2026-10-05",
@@ -13908,6 +14040,14 @@
   "status": "dropped:keyword",
   "title": "Newer Models, Same Advantage"
  },
+ "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Why your fine-tuning job takes longer than the FLOPs say"
+ },
  "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization": {
   "first_seen": "2026-10-22",
   "kind": "read",
@@ -14170,6 +14310,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "PRX Part 4: Our Data Strategy"
+ },
+ "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency"
  },
  "https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai": {
   "first_seen": "2026-10-05",
@@ -17235,6 +17383,14 @@
   "status": "passed",
   "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration"
  },
+ "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases"
+ },
  "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -18506,6 +18662,14 @@
   "status": "dropped:keyword",
   "title": "Mixture of Experts Explained"
  },
+ "https://huggingface.co/blog/moe-expert-streaming": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers"
+ },
  "https://huggingface.co/blog/moe-transformers": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -19722,6 +19886,14 @@
   "source": "huggingface-blog",
   "status": "passed",
   "title": "Introducing RTEB: A New Standard for Retrieval Evaluation"
+ },
+ "https://huggingface.co/blog/rumble-2-flash": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages"
  },
  "https://huggingface.co/blog/run-comfyui-workflows-on-spaces": {
   "first_seen": "2026-10-05",
@@ -21973,6 +22145,15 @@
   "what": "A Martin Fowler article evaluating the cost-benefit of using a behavioral harness for coding agents, comparing a frontier and a cost-optimized model on API service generation.",
   "why": "It shows a concrete harness pattern you can implement to trade off token usage, runtime, and correctness, and provides metrics that you can adapt to your own agents."
  },
+ "https://martinfowler.com/articles/data-contracts.html": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "snippet": "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to data by treating them as data-providing services - such as data products - whose interfaces we want to define as clearly as possible. This approach significantly increases the robustness of…",
+  "source": "martinfowler",
+  "status": "passed",
+  "title": "Data Contracts"
+ },
  "https://martinfowler.com/articles/data-product-platform-nav.html": {
   "first_seen": "2026-11-06",
   "kind": "read",
@@ -22459,6 +22640,15 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Early experiments in accelerating science with GPT-5"
+ },
+ "https://openai.com/index/advancing-chip-design-with-our-models": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "snippet": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+  "source": "openai-research",
+  "status": "passed",
+  "title": "Advancing chip design with OpenAI models"
  },
  "https://openai.com/index/advancing-red-teaming-with-people-and-ai": {
   "first_seen": "2026-10-05",
@@ -23344,6 +23534,16 @@
   "status": "passed",
   "title": "Inside OpenAI’s in-house data agent"
  },
+ "https://openai.com/index/inside-the-codex-sandbox": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "shown": "2026-11-19",
+  "snippet": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+  "source": "openai-engineering",
+  "status": "passed",
+  "title": "Inside the Codex sandbox"
+ },
  "https://openai.com/index/instruction-hierarchy-challenge": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -23992,6 +24192,15 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Requests for Research 2.0"
+ },
+ "https://openai.com/index/research-acceleration-jagged-frontier": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "snippet": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+  "source": "openai-research",
+  "status": "passed",
+  "title": "Research acceleration: The jagged frontier"
  },
  "https://openai.com/index/research-acceleration-view-inside-openai": {
   "first_seen": "2026-10-05",
@@ -25365,6 +25574,15 @@
   "source": "anthropic-research",
   "status": "passed",
   "title": "Detailed cyber evaluations of Claude 4"
+ },
+ "https://www.anthropic.com/research/claude-black-hole-physics": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-17",
+  "snippet": "Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+  "source": "anthropic-research",
+  "status": "passed",
+  "title": "Claude solves two open problems in the physics of black holes"
  },
  "https://www.anthropic.com/research/claude-character": {
   "first_seen": "2026-10-05",
@@ -27633,6 +27851,16 @@
   "status": "dropped:keyword",
   "title": "Is your OpenTelemetry pipeline becoming a performance bottleneck?"
  },
+ "https://www.cncf.io/blog/2026/11/18/optimizing-kubernetes-admission-control-where-kyvernos-cel-admission-cost-actually-goes": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "shown": "2026-11-19",
+  "snippet": "Kyverno’s CEL (Common Expression Language)-based engines exist to evaluate policy expressions. So when we profiled the admission path, we expected to find the bulk of the cost in CEL evaluation. It was not there. About 86%...",
+  "source": "cncf-blog",
+  "status": "passed",
+  "title": "Optimizing Kubernetes admission control: Where Kyverno’s CEL admission cost actually goes"
+ },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -27795,6 +28023,16 @@
   "title": "Aligning LLM-as-a-Judge with Human Preferences",
   "what": "A blog post explaining how LangSmith’s LLM-as-a-Judge self-improves through few-shot learning and human preference alignment.",
   "why": "Readers can adapt the alignment pipeline to build their own evaluation agents and incorporate preference feedback into production workflows."
+ },
+ "https://www.langchain.com/blog/announcing-data-annotation-queue": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "shown": "2026-11-19",
+  "snippet": "Review logs, annotate data, and build datasets with LangSmith's Data Annotation Queues. Improve LLM app performance from prototype to production.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Announcing Data Annotation Queues"
  },
  "https://www.langchain.com/blog/announcing-our-10m-seed-round-led-by-benchmark": {
   "first_seen": "2026-10-05",
@@ -28381,6 +28619,15 @@
   "what": "A LangChain Deep Agents demo that analyzes EU macroeconomic data and generates a cited briefing.",
   "why": "It shows how to build an agent that queries multiple sources, processes data, and produces structured reports, offering patterns for similar analytics projects."
  },
+ "https://www.langchain.com/blog/fix-your-coding-agent-bill": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "snippet": "Learn why coding agent bills spiral out of control — and how to trace, compare, and govern spend across Claude Code, Cursor, Copilot, and more in one place.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Your coding agent bill doubled. Here’s how to fix it."
+ },
  "https://www.langchain.com/blog/from-tasks-to-goals": {
   "first_seen": "2026-11-17",
   "kind": "read",
@@ -28944,6 +29191,15 @@
   "what": "LangServe Playground and Configurability blog post announcing a UI for deploying LangChain apps.",
   "why": "No actionable technical content for engineering leads to build or adopt."
  },
+ "https://www.langchain.com/blog/langsmith-alerts": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "snippet": "Set up real‑time notifications on error rates, run latency & feedback scores to spot failures before your customers do.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "Catch production failures early with LangSmith Alerts"
+ },
  "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure": {
   "first_seen": "2026-11-04",
   "kind": "read",
@@ -28961,6 +29217,15 @@
   "source": "langchain-blog",
   "status": "passed",
   "title": "LangSmith BYOC on AWS is generally available"
+ },
+ "https://www.langchain.com/blog/langsmith-coding-agents-roi": {
+  "first_seen": "2026-11-19",
+  "kind": "read",
+  "published": "2026-11-18",
+  "snippet": "LangSmith now offers reporting built for coding agents, along with new capabilities that tie their spend to the pull requests they produce.",
+  "source": "langchain-blog",
+  "status": "passed",
+  "title": "LangSmith for Coding Agents: Now track spend by outcome"
  },
  "https://www.langchain.com/blog/langsmith-custom-apps": {
   "first_seen": "2026-10-05",
@@ -30627,6 +30892,16 @@
   "status": "passed",
   "title": "I Let Agents Refactor My Codebase for 3 Weeks. Then I Read the Code. — Keiji Kanazawa, Microsoft"
  },
+ "https://www.youtube.com/watch?v=6UJPFP09lro": {
+  "first_seen": "2026-11-19",
+  "kind": "watch",
+  "published": "2026-11-18",
+  "shown": "2026-11-19",
+  "snippet": "Alex Atallah, CEO and Co-Founder of OpenRouter, the model marketplace and AI gateway, explains how teams choose among models and providers: why companies tend to add model families over time, how he sorts work into low, medium, and high entropy tasks to decide when you need a frontier model, and why a different model family should check an agent's output. He also walks through OpenRouter's…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "Fireside Chat With Alex Atallah, OpenRouter"
+ },
  "https://www.youtube.com/watch?v=6ep8Vvm4Bdw": {
   "first_seen": "2026-10-29",
   "kind": "watch",
@@ -31045,6 +31320,14 @@
   "status": "passed",
   "title": "Stop Chatting With Spreadsheets — Francesco Galletta & Felippe Felisola Caso, Monzo"
  },
+ "https://www.youtube.com/watch?v=AhmCKHNqhB8": {
+  "first_seen": "2026-11-19",
+  "kind": "watch",
+  "published": "2026-11-18",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "Introducing ChatGPT for Accounting"
+ },
  "https://www.youtube.com/watch?v=Amm9ySSET4c": {
   "first_seen": "2026-11-09",
   "kind": "watch",
@@ -31291,6 +31574,15 @@
   "title": "Inside Anthropic's molecular biology lab",
   "what": "Anthropic’s announcement of a new molecular biology research group using Claude to aid protein discovery.",
   "why": "No actionable technical content for engineering leads."
+ },
+ "https://www.youtube.com/watch?v=Dg2Z6IRbDVI": {
+  "first_seen": "2026-11-19",
+  "kind": "watch",
+  "published": "2026-11-18",
+  "snippet": "Coding is the largest category of enterprise AI application spend, reaching $34B in 2026, but most engineering leaders still can't give an exact answer to what it's buying. LangSmith for Coding Agents ties coding agent spend to the pull requests it produces. A new concept called outcomes links GitHub pull requests or GitLab merge requests to threads, so you can see what a merged PR cost and how…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "LangSmith for Coding Agents: Track Spend by Outcome"
  },
  "https://www.youtube.com/watch?v=DqME_zHb67Q": {
   "first_seen": "2026-11-13",
@@ -32944,6 +33236,15 @@
   "status": "passed",
   "title": "Can Your Agent Execute Anything? Authorization for Backstage MCP Actions - Masato Kozuka"
  },
+ "https://www.youtube.com/watch?v=U92J5mCDLMc": {
+  "first_seen": "2026-11-19",
+  "kind": "watch",
+  "published": "2026-11-18",
+  "snippet": "Cognition's merged PRs grew 40x in a year while its engineering team grew 2.7x. Walden Yan explains what changed: self-driving PRs by default, small pods that own everything from bug reports to QA, and a workflow run almost entirely from Slack. He covers running every service locally so agents can test, VMs rebuilt every hour, and agents that optimize the factory itself. Then he shows the next…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "40x More Merged PRs With 2.7x the Engineers — Walden Yan, Cognition"
+ },
  "https://www.youtube.com/watch?v=UAmKyyZ-b9E": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -34408,6 +34709,15 @@
   "title": "The dots demo, take two | OpenAI DevDay 2026",
   "what": "The dots demo, take two | OpenAI DevDay 2026",
   "why": "Not suitable for in‑depth learning—no technical depth or open‑source material."
+ },
+ "https://www.youtube.com/watch?v=fTHByDwTxGM": {
+  "first_seen": "2026-11-19",
+  "kind": "watch",
+  "published": "2026-11-18",
+  "snippet": "Passing the tests does not mean a coding agent solved the problem. At CODE Summit 2026, Google DeepMind's Melvin Johnson explains Gemini 4 post training for real engineering work, from harder tasks and rubric based grading to isolated evaluation environments. He connects reinforcement learning, reward hacking, honest model behavior and feedback from Google's engineers to faster releases,…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "Post-Training Gemini 4 for Real Engineering Work — Melvin Johnson, Google DeepMind"
  },
  "https://www.youtube.com/watch?v=fTUinMqA1XQ": {
   "first_seen": "2026-11-12",
@@ -36031,6 +36341,7 @@
   "first_seen": "2026-11-12",
   "kind": "watch",
   "published": "2026-10-25",
+  "shown": "2026-11-19",
   "snippet": "Justin Schroeder of Standard Agents argues that AI work should be split into small, domain-specific agents, each built for one business process, instead of one giant model handed every task. He explains why integration, trust, and efficacy push businesses this way, and what has to exist before it works at scale. Topics covered: - Why one giant model with skills and MCP looks like an old factory -…",
   "source": "yt-aaif",
   "status": "passed",

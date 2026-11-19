@@ -263,6 +263,13 @@
    "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection",
    "https://www.youtube.com/watch?v=1kP4dQtUT50",
    "https://www.youtube.com/watch?v=9tB7ARhlDPQ"
+  ],
+  "2026-11-19": [
+   "https://openai.com/index/inside-the-codex-sandbox",
+   "https://www.langchain.com/blog/announcing-data-annotation-queue",
+   "https://www.cncf.io/blog/2026/11/18/optimizing-kubernetes-admission-control-where-kyvernos-cel-admission-cost-actually-goes",
+   "https://www.youtube.com/watch?v=6UJPFP09lro",
+   "https://www.youtube.com/watch?v=wIPr9GmLRaQ"
   ]
  },
  "rollup": {
@@ -380,7 +387,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
