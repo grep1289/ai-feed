@@ -270,6 +270,13 @@
    "https://www.cncf.io/blog/2026/11/18/optimizing-kubernetes-admission-control-where-kyvernos-cel-admission-cost-actually-goes",
    "https://www.youtube.com/watch?v=6UJPFP09lro",
    "https://www.youtube.com/watch?v=wIPr9GmLRaQ"
+  ],
+  "2026-11-20": [
+   "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v22.0.0",
+   "https://www.langchain.com/blog/agent-governance-observability",
+   "https://developers.openai.com/blog/prompting-multilingual-voice-agents",
+   "https://www.youtube.com/watch?v=JDsFHmq9hlA",
+   "https://www.youtube.com/watch?v=OOXETYR3MWU"
   ]
  },
  "rollup": {
@@ -387,7 +394,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
