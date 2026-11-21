@@ -5080,6 +5080,15 @@
   "status": "passed",
   "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform"
  },
+ "https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-across-other-clouds": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "snippet": "Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing access to the agent's underlying runtime. This enables security teams to detect risks like rogue…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Agent Anomaly Detection: Safeguarding agents across other clouds"
+ },
  "https://developers.googleblog.com/agent-distraction": {
   "first_seen": "2026-11-07",
   "kind": "read",
@@ -5240,6 +5249,15 @@
   "source": "google-developers-ai",
   "status": "dropped:keyword",
   "title": "Catch Go bugs that fuzzing misses with Gemini and a constraint solver"
+ },
+ "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "snippet": "Semantic governance policies enable developers to govern AI agents by evaluating every proposed tool call inline before execution. Operating via Agent Gateway, the policy engine checks each action against user intent and plain-language rules to prevent unauthorized data sharing and prompt injection attacks. Developers can easily attach natural-language constraints to their agents and monitor…",
+  "source": "google-developers-ai",
+  "status": "passed",
+  "title": "Check what your AI agents do before they do it, with Semantic governance policies"
  },
  "https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan": {
   "first_seen": "2026-10-05",
@@ -5793,6 +5811,16 @@
   "status": "passed",
   "title": "Testing Agent Skills Systematically with Evals"
  },
+ "https://developers.openai.com/blog/how-i-stay-in-the-flow-with-ultrafast": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "shown": "2026-11-21",
+  "snippet": "How I use Ultrafast in Codex to try small UI changes, give feedback, and stay in the zone, and where I’d try it in the API.",
+  "source": "openai-developer",
+  "status": "passed",
+  "title": "How I stay in the flow with Ultrafast"
+ },
  "https://developers.openai.com/blog/how-to-build-games-with-astra": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -6013,6 +6041,15 @@
   "source": "openai-developer",
   "status": "passed",
   "title": "Supercharging Codex with JetBrains MCP at Skyscanner"
+ },
+ "https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "snippet": "How to build agents that consider time constraints and keep working while waiting for user input",
+  "source": "openai-developer",
+  "status": "passed",
+  "title": "Time awareness and async input for personal agents"
  },
  "https://developers.openai.com/blog/updates-audio-models": {
   "first_seen": "2026-10-05",
@@ -8091,6 +8128,15 @@
   "status": "passed",
   "title": "v0.2.186"
  },
+ "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.187": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "snippet": "PyPI: https://pypi.org/project/claude-agent-sdk/0.2.187/ pip install claude-agent-sdk==0.2.187",
+  "source": "gh-anthropics-claude-agent-sdk-python",
+  "status": "passed",
+  "title": "v0.2.187"
+ },
  "https://github.com/anthropics/skills/commit/0a64e398ec6bb34a494f0c347e8ccae53a862f8e": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -9880,6 +9926,15 @@
   "status": "passed",
   "title": "deepagents-acp==0.0.13"
  },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.1.0": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "snippet": "⚠ BREAKING CHANGES Requires agent-client-protocol>=1.0.0,<2.0.0 . ( #7781 ) Bug Fixes Fixed a crash when running dcode --acp with agent-client-protocol 1.0. ( #7779 ) Full changelog Special thanks to everyone who reported the issues addressed in this release: recris ( #7617 ) Internal maintainers: ccurme (@ccurme) , Dariel Dato-on (@darieldatoon) , Hunter Lovell (@hntrl) , Mason Daugherty…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-acp==0.1.0"
+ },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.1.76": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -10041,6 +10096,15 @@
   "source": "gh-langchain-ai-deepagents",
   "status": "passed",
   "title": "deepagents-code==0.2.12"
+ },
+ "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.13": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "snippet": "Bug Fixes Correctly report unapproved MCP servers disabled via F2 as disabled, and report project MCP servers skipped due to missing approval ( #7908 , #7904 ). Show the source file in the project MCP trust prompt ( #7903 ). Full changelog Internal maintainers: Dariel Dato-on (@darieldatoon) , Mason Daugherty (@mdrxy) Released by: Mason Daugherty (@mdrxy) Git log since deepagents-code==0.2.12…",
+  "source": "gh-langchain-ai-deepagents",
+  "status": "passed",
+  "title": "deepagents-code==0.2.13"
  },
  "https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.2": {
   "first_seen": "2026-10-27",
@@ -11612,6 +11676,15 @@
   "status": "passed",
   "title": "v1.8.1"
  },
+ "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.10": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "snippet": "Improve incremental server listing query selection and planning, including sparse windows and deep pagination ( #1865 ). Database operators should prebuild both replacement indexes concurrently and validate their definitions before deploying to a busy database; see deploy/README.md. Existing indexes are retained for a separate post-rollout cleanup. API ordering and filtering remain unchanged.…",
+  "source": "gh-modelcontextprotocol-registry",
+  "status": "passed",
+  "title": "v1.8.10"
+ },
  "https://github.com/modelcontextprotocol/registry/releases/tag/v1.8.2": {
   "first_seen": "2026-10-24",
   "kind": "release",
@@ -12978,6 +13051,30 @@
   "status": "dropped:prerelease",
   "title": "0.173.0-alpha.1"
  },
+ "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.2": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.173.0-alpha.2"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.3": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.173.0-alpha.3"
+ },
+ "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.4": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-21",
+  "source": "gh-openai-codex",
+  "status": "dropped:prerelease",
+  "title": "0.173.0-alpha.4"
+ },
  "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4": {
   "first_seen": "2026-10-05",
   "kind": "release",
@@ -13109,6 +13206,14 @@
   "source": "gh-openai-openai-agents-python",
   "status": "passed",
   "title": "v0.25.0"
+ },
+ "https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.1": {
+  "first_seen": "2026-11-21",
+  "kind": "release",
+  "published": "2026-11-20",
+  "source": "gh-openai-openai-agents-python",
+  "status": "dropped:prerelease",
+  "title": "Agents SDK v1.0.0-alpha.1"
  },
  "https://github.com/promptfoo/promptfoo/releases/tag/0.121.17": {
   "first_seen": "2026-10-05",
@@ -17181,6 +17286,15 @@
   "status": "dropped:keyword",
   "title": "Introducing Optimum: The Optimization Toolkit for Transformers at Scale"
  },
+ "https://huggingface.co/blog/harness-adapters-at-scale": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "snippet": "",
+  "source": "huggingface-blog",
+  "status": "passed",
+  "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost"
+ },
  "https://huggingface.co/blog/hello-hf-kernels": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -17892,6 +18006,14 @@
   "source": "huggingface-blog",
   "status": "dropped:keyword",
   "title": "Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure"
+ },
+ "https://huggingface.co/blog/inkling2mini": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "source": "huggingface-blog",
+  "status": "dropped:keyword",
+  "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup"
  },
  "https://huggingface.co/blog/instruction-tuning-sd": {
   "first_seen": "2026-10-05",
@@ -22796,6 +22918,15 @@
   "status": "passed",
   "title": "Fragments: November 10"
  },
+ "https://martinfowler.com/fragments/2026-11-20.html": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "snippet": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review . Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%. The measures of health come from CodeScene. The experiment looked at three LLMs, 465 pull requests on 246 open source repositories. Each pull request was put through a review and…",
+  "source": "martinfowler",
+  "status": "passed",
+  "title": "Fragments: November 20"
+ },
  "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html": {
   "first_seen": "2026-10-05",
   "kind": "read",
@@ -23699,6 +23830,7 @@
   "first_seen": "2026-11-20",
   "kind": "read",
   "published": "2026-11-19",
+  "shown": "2026-11-21",
   "snippet": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
   "source": "openai-engineering",
   "status": "passed",
@@ -23893,6 +24025,15 @@
   "source": "openai-research",
   "status": "passed",
   "title": "Introducing LifeSciBench"
+ },
+ "https://openai.com/index/introducing-medchembench": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "snippet": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+  "source": "openai-research",
+  "status": "passed",
+  "title": "Can AI help scientists identify promising drug candidates?"
  },
  "https://openai.com/index/introducing-openai-privacy-filter": {
   "first_seen": "2026-10-05",
@@ -28112,6 +28253,14 @@
   "status": "dropped:keyword",
   "title": "Gang scheduling and topology-aware placement for AI training in Kubernetes"
  },
+ "https://www.cncf.io/blog/2026/11/16/your-runtime-security-tool-is-not-your-baseline-silos-dressed-as-autonomy-in-cloud-native-teams": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-17",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "Your runtime security tool is not your baseline: Silos dressed as autonomy in cloud native teams"
+ },
  "https://www.cncf.io/blog/2026/11/17/is-your-opentelemetry-pipeline-becoming-a-performance-bottleneck": {
   "first_seen": "2026-11-18",
   "kind": "read",
@@ -28129,6 +28278,22 @@
   "source": "cncf-blog",
   "status": "passed",
   "title": "Optimizing Kubernetes admission control: Where Kyverno’s CEL admission cost actually goes"
+ },
+ "https://www.cncf.io/blog/2026/11/19/how-to-support-your-app-on-kubernetes-environments-you-dont-control": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-19",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "How to support your app on Kubernetes environments you don’t control"
+ },
+ "https://www.cncf.io/blog/2026/11/20/when-a-sync-window-closes-how-argo-cd-self-heal-skipped-the-migration-hook": {
+  "first_seen": "2026-11-21",
+  "kind": "read",
+  "published": "2026-11-20",
+  "source": "cncf-blog",
+  "status": "dropped:keyword",
+  "title": "When a sync window closes: How Argo CD self-heal skipped the migration hook"
  },
  "https://www.langchain.com/blog/access-control-updates-for-langsmith": {
   "first_seen": "2026-10-05",
@@ -29653,6 +29818,7 @@
   "first_seen": "2026-11-20",
   "kind": "read",
   "published": "2026-11-19",
+  "shown": "2026-11-21",
   "snippet": "LangSmith Tool Gateway, now in Public Beta, handles credentials, identity, and access for every agent tool call, with policies, approvals, and traces.",
   "source": "langchain-blog",
   "status": "passed",
@@ -30564,6 +30730,14 @@
   "what": "A tutorial video by LangChain showing how to schedule a Managed Deep Agent with cron jobs and Slack delivery",
   "why": "It teaches a concrete technique for automating agent tasks and integrating with Slack that you can implement this month"
  },
+ "https://www.youtube.com/watch?v=-qTOqQrBe94": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Architecture Without Gatekeepers: Decoupling for Neutrality - Kate Obiidykhata, Percona"
+ },
  "https://www.youtube.com/watch?v=-rtcL6IlVbk": {
   "first_seen": "2026-11-09",
   "kind": "watch",
@@ -30613,6 +30787,15 @@
   "status": "passed",
   "title": "Your Spec Has Bugs. Catch Them Before Your Agent Codes. - Rajath Mahendrappa Kotyal, AWS"
  },
+ "https://www.youtube.com/watch?v=0LeT996Hz3E": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "snippet": "Most developers still run coding agents locally and prompt them one at a time, which caps throughput and makes cost, security and governance hard to manage. Zach Lloyd, founder and CEO of Warp and former Google Docs engineering lead, defines a software factory as a code-defined, closed-loop system for continuously measuring and improving cloud coding agents. He walks through the stack: factories…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp"
+ },
  "https://www.youtube.com/watch?v=0cBJ4X1LS1A": {
   "first_seen": "2026-11-13",
   "kind": "watch",
@@ -30631,6 +30814,14 @@
   "status": "dropped:keyword",
   "title": "The Cloud Native Feedback Loop... Marlow Warnicke, Brandt Keller, Alolita Sharma & Daniel Moch (ASL)"
  },
+ "https://www.youtube.com/watch?v=0gBCA7fSm7k": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Project Lightning Talk Closing - Robert Sirchia"
+ },
  "https://www.youtube.com/watch?v=0inJjgIBBus": {
   "first_seen": "2026-11-09",
   "kind": "watch",
@@ -30639,6 +30830,15 @@
   "source": "yt-cncf",
   "status": "passed",
   "title": "Pushing the Limits: Scaling Prometheus for High-Performance AI & GPU Workloads - Sagar Utekar"
+ },
+ "https://www.youtube.com/watch?v=0o93aKBvuYQ": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-10-31",
+  "snippet": "Data agents need more than file access. Dmitry Petrov, creator of the open source tool DVC and founder of DataChain, explains how to build the semantic layer that lets an AI agent understand what is inside the files in an S3 bucket. Without that layer, an agent rebuilds the same understanding from zero on every question, and every follow-up repeats the full compute cost. This talk shows how to…",
+  "source": "yt-aaif",
+  "status": "passed",
+  "title": "Data Agents over S3: Build the Missing Semantic Layer for Files - Dmitry Petrov, DataChain"
  },
  "https://www.youtube.com/watch?v=0qb0FQo3M5c": {
   "first_seen": "2026-10-29",
@@ -31766,6 +31966,14 @@
   "what": "Runlayer’s internal audit of 300+ AI agents and lessons from a custom gateway and logging system",
   "why": "Provides concrete agent‑security tactics and observability patterns that an engineer can adopt in their own production environment"
  },
+ "https://www.youtube.com/watch?v=BtRGurkmCHg": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Velero: Faster Backups, Consistent Snapshots, Incremental... Shubham Dilip Pampattiwar, Red Hat"
+ },
  "https://www.youtube.com/watch?v=C1zYX5jwqq4": {
   "first_seen": "2026-11-18",
   "kind": "watch",
@@ -32122,6 +32330,14 @@
   "status": "dropped:keyword",
   "title": "Kuken Industries searches 70 years of drawings in minutes"
  },
+ "https://www.youtube.com/watch?v=FQZ7EeNiMAU": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Cedar Authorization with Incomplete Information - John Kastner, AWS"
+ },
  "https://www.youtube.com/watch?v=Fa3hQVIKShw": {
   "first_seen": "2026-10-13",
   "kind": "watch",
@@ -32156,6 +32372,15 @@
   "status": "dropped:keyword",
   "title": "Cooking with Codex — Charlie Guo & Gabriel Chua, OpenAI"
  },
+ "https://www.youtube.com/watch?v=G-4VnMltDlc": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "snippet": "A year ago most teams had one or two agents in production. Now many have dozens, built by different teams on different frameworks, and Jess Weng, Education Engineer at LangChain, walks through four LangSmith updates for keeping track of them. LangSmith is now organized around agents, so each agent is managed in one place across its full lifecycle. Agents also get views tailored to their type, and…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "New in LangSmith: 4 Updates for Managing Agents in Production"
+ },
  "https://www.youtube.com/watch?v=GBOZIRK1ujw": {
   "first_seen": "2026-10-22",
   "kind": "watch",
@@ -32183,6 +32408,15 @@
   "status": "passed",
   "title": "Detonation and Isolation: Hardening Kubernetes... - Syeda Anjum, Kaslin Fields & Kavitha Rajendran"
  },
+ "https://www.youtube.com/watch?v=GKSQYbELDzw": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-21",
+  "snippet": "A capable local model still needs the right hardware, inference engine and tools. At CODE Summit 2026, Osmantic founder Ahmad Osman explains how to choose that stack for real workloads, covering quantization, memory bandwidth, batching and specialized models. He connects local AI performance to agent harnesses, evaluation traces and the economics of owning GPUs, then makes the case for continual…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "What Runs Where? Local AI in Production — Ahmad Osman, Osmantic"
+ },
  "https://www.youtube.com/watch?v=GNO9XFE4PKM": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -32209,6 +32443,16 @@
   "source": "yt-langchain",
   "status": "passed",
   "title": "Debugging with Studio | Introduction to LangSmith (3/12)"
+ },
+ "https://www.youtube.com/watch?v=GojQtxCT3dg": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-21",
+  "shown": "2026-11-21",
+  "snippet": "Organizations are in a very different phase of agent development than they were a year ago. So what does the next chapter look like in 2027? New challenges are emerging in agent development and context engineering. How can teams better understand the impact and value of their agents? How is the rise of proactive, always-on agents surfacing new obstacles? How can developers manage growing…",
+  "source": "yt-langchain",
+  "status": "passed",
+  "title": "The Future of Agents with Harrison Chase"
  },
  "https://www.youtube.com/watch?v=Gs4Ho0ub3a4": {
   "first_seen": "2026-11-10",
@@ -32694,6 +32938,14 @@
   "status": "dropped:keyword",
   "title": "Pods in the Wild: Reinforcement Learning... Sunil Arora, Google & Ravin Kumar, Google Deepmind (ASL)"
  },
+ "https://www.youtube.com/watch?v=Le8Mjf4jYOI": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "KAI Scheduler: What's New & What's Next in AI Workload Orchestration - Omri Cohen, NVIDIA"
+ },
  "https://www.youtube.com/watch?v=LfdGwdUhGW4": {
   "first_seen": "2026-11-18",
   "kind": "watch",
@@ -32773,6 +33025,15 @@
   "title": "How Lyft Increased Its Agent Resolution Rate by 16% with LangSmith and LangGraph",
   "what": "A Lyft ML engineer explains how the company rebuilt its customer‑support agent stack with LangGraph and LangSmith, achieving a 16 % increase in agent resolution rate.",
   "why": "Readers can learn how to adopt a meta‑agent architecture that lets product managers deploy new agents by only changing prompts and configs, cutting build time from months to weeks."
+ },
+ "https://www.youtube.com/watch?v=MDI81OaZAD4": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "snippet": "Zach Bruggeman says Inspect now writes and ships around 75% of Ramp’s code. At CODE Summit 2026, he explains the engineering culture behind that adoption: shared agent tooling, open internal sessions and visible verification. A telemetry bug and the Review Buddy code review agent show how multiplayer AI coding can break information silos, build trust and help teams think bigger together. Speaker…",
+  "source": "yt-ai-engineer",
+  "status": "passed",
+  "title": "How to build an agent that builds the culture — Zach Bruggeman, Ramp"
  },
  "https://www.youtube.com/watch?v=MI4yt4U7PRk": {
   "first_seen": "2026-11-20",
@@ -33289,6 +33550,14 @@
   "status": "passed",
   "title": "The Identity Crisis: Who is the AI Agent in Your Cluster? - Abdel Sghiouar, Google Cloud (ASL)"
  },
+ "https://www.youtube.com/watch?v=Qz-EkMd0z4k": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Your Routes, My Rules: Making Gateway API Work at Enterprise Scale - David Jumani, Solo.io"
+ },
  "https://www.youtube.com/watch?v=R0ckdFjUF5U": {
   "first_seen": "2026-10-29",
   "kind": "watch",
@@ -33612,6 +33881,14 @@
   "status": "passed",
   "title": "Merge Is the Bottleneck - Prasanna Sankar, Vorflux"
  },
+ "https://www.youtube.com/watch?v=ToIUPGZgJwo": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Longhorn: The 2026 Wrap-up Edition - Divya Mohan, SUSE"
+ },
  "https://www.youtube.com/watch?v=TyPpSRXGhbc": {
   "first_seen": "2026-10-10",
   "kind": "watch",
@@ -33763,6 +34040,14 @@
   "what": "A short video explaining context engineering techniques in LangChain’s Deep Agents.",
   "why": "Not useful for an engineering lead seeking actionable, open-source code or patterns."
  },
+ "https://www.youtube.com/watch?v=Umt31vntQPE": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Project Lightning Talk - Project Overview - Jorge Castro, CNCF & Katherine Druckman, JetBrains"
+ },
  "https://www.youtube.com/watch?v=Uq08QyRlsDk": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -33903,6 +34188,14 @@
   "title": "High-Performance gRPC Beyond HTTP/2 - Thiyagarajan Velappan & Ravi Cherukuru, Mastercard",
   "what": "A CNCF conference talk on improving gRPC performance beyond the standard HTTP/2 protocol.",
   "why": "It teaches how to tweak gRPC settings and use advanced features to squeeze out extra latency and throughput for high‑scale services."
+ },
+ "https://www.youtube.com/watch?v=WGvsk0LIveU": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "3 ChatGPT Tips to Save Money"
  },
  "https://www.youtube.com/watch?v=WWIFiQi9U4w": {
   "first_seen": "2026-11-09",
@@ -34781,6 +35074,14 @@
   "status": "dropped:keyword",
   "title": "Closing Remarks (ASL)"
  },
+ "https://www.youtube.com/watch?v=cFkXVLFuMGc": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Atlantis: What's New in IaC Orchestration - PePe Amengual, Zetron"
+ },
  "https://www.youtube.com/watch?v=cLMAqEqW3U4": {
   "first_seen": "2026-10-05",
   "kind": "watch",
@@ -35434,6 +35735,15 @@
   "status": "passed",
   "title": "How Icelanders are thinking about AI"
  },
+ "https://www.youtube.com/watch?v=iFcjmAT9oQs": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io Kagent 1.0 with Agent Substrate - Peter Jausovec, Solo.io Kagent 1.0 rebuilds agents on Kubernetes from the ground up with agent substrate and one sandboxed, suspendable Actor per conversation, and a cleaner Harness / AgentTemplate / Agent API.",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "Kagent 1.0 with Agent Substrate - Peter Jausovec, Solo.io"
+ },
  "https://www.youtube.com/watch?v=iH_wV8BbS24": {
   "first_seen": "2026-10-12",
   "kind": "watch",
@@ -35602,6 +35912,14 @@
   "what": "A LiveKit engineer explains how to build human‑like voice agents by measuring and optimizing pipeline latency.",
   "why": "Engineers can apply LiveKit’s latency‑budget framework to improve user experience in their own voice‑AI systems."
  },
+ "https://www.youtube.com/watch?v=jCYMvuQErmY": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Metal3 Project Update! Whats New and Exciting? - Kashif Khan, Ericsson"
+ },
  "https://www.youtube.com/watch?v=jDxKzlGLCas": {
   "first_seen": "2026-11-12",
   "kind": "watch",
@@ -35737,6 +36055,15 @@
   "title": "1,000 Agent Tasks in a Sandbox: What Breaks When LLMs Run Code — Kevin Orellana, AWS",
   "what": "A demonstration of 1,000 automated agent tasks that break in a sandboxed environment.",
   "why": "The reader can learn which failure modes to anticipate when running LLM agents in production and how to design robust sandboxes."
+ },
+ "https://www.youtube.com/watch?v=kD0sRAhlOcw": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "snippet": "Connect with the cloud native community and explore CNCF events: https://kubecon.io k0s - CNCF Sandbox Distro Updates - Prithvi Raj, Mirantis Join us for a lightning‐fast tour of k0s, the CNCF Sandbox distro that turns Kubernetes complexity into “one-click” magic. We'll give a quick intro to k0s, the current state of things, latest highlight and plans for the near future.",
+  "source": "yt-cncf",
+  "status": "passed",
+  "title": "k0s - CNCF Sandbox Distro Updates - Prithvi Raj, Mirantis"
  },
  "https://www.youtube.com/watch?v=kGbCNx4siEk": {
   "first_seen": "2026-11-09",
@@ -35899,6 +36226,14 @@
   "status": "dropped:keyword",
   "title": "Welcome + Opening Remarks - Balaji Sivasubramanian & André Wanlin, Program Committee Co-Chairs"
  },
+ "https://www.youtube.com/watch?v=lzcrf1lmz0I": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "ORAS Go v3: Batteries-Included Registry SDK - Terry Howe, NVIDIA"
+ },
  "https://www.youtube.com/watch?v=m6MlxaFMmPI": {
   "first_seen": "2026-10-27",
   "kind": "watch",
@@ -35977,6 +36312,14 @@
   "title": "Why Building an Eval Platform Is Harder Than It Looks — Braintrust",
   "what": "A Braintrust engineer discusses challenges in building an evaluation platform for agents.",
   "why": "It highlights pitfalls to avoid when designing agent evaluation pipelines."
+ },
+ "https://www.youtube.com/watch?v=mX7wHNnsghs": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-openai",
+  "status": "dropped:keyword",
+  "title": "How to claim your business in ChatGPT with Shopify"
  },
  "https://www.youtube.com/watch?v=mit5xE4EBgc": {
   "first_seen": "2026-11-12",
@@ -36496,6 +36839,14 @@
   "what": "Remy Guercio from Tailscale discusses how to escape AI lock‑in and build an open‑source AI gateway with Aperture and MCP.",
   "why": "It gives engineers a concrete, modular design for an AI deployment that can be built and tuned in their own infrastructure."
  },
+ "https://www.youtube.com/watch?v=s03DB_4Jnpo": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "Stop Templating YAML: Build Configuration Supply Chains with kpt and Porch - Liam Fallon"
+ },
  "https://www.youtube.com/watch?v=s0hFne6EeOI": {
   "first_seen": "2026-10-06",
   "kind": "watch",
@@ -36554,6 +36905,7 @@
   "first_seen": "2026-11-20",
   "kind": "watch",
   "published": "2026-11-19",
+  "shown": "2026-11-21",
   "snippet": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah.",
   "source": "yt-anthropic",
   "status": "passed",
@@ -36566,6 +36918,14 @@
   "source": "yt-cncf",
   "status": "dropped:keyword",
   "title": "Instrument Backstage with OpenTelemetry: From Zero Visibility to Full Traces... - Mithun Banerjee"
+ },
+ "https://www.youtube.com/watch?v=tFHXtTd7gBY": {
+  "first_seen": "2026-11-21",
+  "kind": "watch",
+  "published": "2026-11-20",
+  "source": "yt-cncf",
+  "status": "dropped:keyword",
+  "title": "What's New in OVN-Kubernetes? - Surya Seetharaman, Red Hat"
  },
  "https://www.youtube.com/watch?v=tJ-hlNVS7AI": {
   "first_seen": "2026-10-29",

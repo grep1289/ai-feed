@@ -277,6 +277,13 @@
    "https://developers.openai.com/blog/prompting-multilingual-voice-agents",
    "https://www.youtube.com/watch?v=JDsFHmq9hlA",
    "https://www.youtube.com/watch?v=OOXETYR3MWU"
+  ],
+  "2026-11-21": [
+   "https://developers.openai.com/blog/how-i-stay-in-the-flow-with-ultrafast",
+   "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "https://www.langchain.com/blog/langsmith-tool-gateway",
+   "https://www.youtube.com/watch?v=GojQtxCT3dg",
+   "https://www.youtube.com/watch?v=sof3vW4mHTs"
   ]
  },
  "rollup": {
@@ -394,7 +401,7 @@
  },
  "scoring": {
   "calls": 3,
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "error": "model HTTP 401",
   "failed": 3,
   "rejected": 0
